@@ -272,3 +272,31 @@ mittel", aber die eigene Tabelle summiert die Erdalkalien zu 1,39 mmol/l,
 und Calcium 41,3 plus Magnesium 8,6 ergeben exakt diese 1,39. Die
 gemessene Tabelle gewinnt gegen die Prosa; damit sind beide Leverkusener
 Zonen weich, wie es die EVL an anderer Stelle auch selbst sagt.
+
+## Senior-Durchgang vom 3. September 2026
+
+Ein letzter Konsistenz-Durchgang über alle 173 Zeilen mit verschärfter
+Toleranz. Ergebnis:
+
+- **15 französische Calcium/Magnesium-Paare nachgeschärft**: Ein tieferer
+  Hubeau-Durchgang (zwölf statt sechs Proben je Parameter) fand Paare, die
+  die Zeilenhärte besser reproduzieren; die mittlere Abweichung der
+  betroffenen Städte fiel von 5-10 auf unter 3 Prozent, elf davon unter
+  1,5 Prozent.
+- **Wiener Neustadt verliert sein Calcium/Magnesium-Paar**: Das Blatt der
+  Stadt ist zonengegliedert, und das Paar reproduzierte die Kennzahl nur
+  auf 6,9 Prozent; im Einklang mit der früheren Entscheidung, aus diesem
+  Blatt keine Einzelwerte zu übernehmen, ist das Paar entfernt.
+- **Rueil-Malmaison verliert seine Karbonathärte**: 208,5 mg/L lag über
+  der Gesamthärte von 185,5, was physikalisch nicht zusammenpasst; die
+  beiden Hubeau-Proben stammten von verschiedenen Terminen.
+- **Sieben dokumentierte Restabweichungen bleiben** (Salzburg, Baden,
+  Göttingen, Cannes, Châteauroux, Le Havre, Rouen, je 5-8 Prozent): dort
+  widersprechen sich die veröffentlichten Zahlen der Quelle selbst in
+  dieser Größenordnung (gerundete Kennzahl, Mehrnetz-Gemeinde, gemischte
+  Probentermine). Sie stehen als Ausnahmen mit Obergrenze in
+  tools_consistency.py; wächst eine davon, schlägt der Lauf fehl.
+
+Die Konsistenzprüfung (Ca+Mg-Arithmetik, Karbonat kleiner Gesamthärte,
+Band-Grenzen, Spannen-Logik, Wertebereiche, Quellenpflicht) läuft seither
+als eigener Schritt vor jedem Frische-Check.

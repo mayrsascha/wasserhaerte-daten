@@ -15,7 +15,7 @@ Steyr,AT,285.6,16.0,,,,,,,,,groundwater,very hard,2026,Stadtbetriebe Steyr,https
 Vienna,AT,,,6.0,20.0,,,,,,,spring;groundwater,varies by supply zone,2026,Wiener Wasser (MA 31),https://www.wien.gv.at/umwelt/trinkwasser-wasserhaerte
 Villach,AT,176.7,9.9,9.4,16.0,,,,,,,spring,hard,2026,Stadt Villach - Wasserwerk,https://villach.at/stadt-service/wasser/wasserqualitaet-wasserhaerte
 Wels,AT,207.0,11.6,10.3,11.6,,,,,,,,very hard,2024,eww ag (Österreichische Trinkwasserdatenbank),https://www.trinkwasserinfo.at/datenbank?tx_abatrinkwdb_pi1_anlagenid=03011000
-Wiener Neustadt,AT,291.8,16.3,15.2,19.9,78.3,18.5,,,,,,very hard,2024,"Stadt Wiener Neustadt, Wasserwerk",https://www.wiener-neustadt.at/files/drive/wrn/content/service/umwelt-abfall/Wasserwerk/a4_wasserwerte_hp_2024_2.pdf
+Wiener Neustadt,AT,291.8,16.3,15.2,19.9,,,,,,,,very hard,2024,"Stadt Wiener Neustadt, Wasserwerk",https://www.wiener-neustadt.at/files/drive/wrn/content/service/umwelt-abfall/Wasserwerk/a4_wasserwerte_hp_2024_2.pdf
 Baden,CH,335.0,18.8,17.9,19.7,95.0,19.0,16.0,,,,spring;groundwater,very hard,2024,Wasserversorgung Baden (SVGW trinkwasser.ch),https://trinkwasser.ch/de/versorger/1520/wasserversorgung-baden/2550/default
 Basel,CH,177.0,9.9,9.7,10.1,,,,,7.7,,river_bank;groundwater,hard,2025,IWB,https://www.iwb.ch/klimadreh/ratgeber/sauberes-trinkwasser/fakten-zum-trinkwasser
 Bern,CH,250.0,14.0,11.2,16.8,,,4.3,3.4,,,groundwater,very hard,2026,Energie Wasser Bern (ewb),https://www.ewb.ch/angebot/aues-fuer-baern/wasserversorgung/wasserqualitaet.php
@@ -111,12 +111,12 @@ Angers,FR,166.0,9.3,,,,,13.0,,7.6,119.0,,hard,2026,"Hubeau, Ministère de la San
 Annecy,FR,296.0,16.6,,,113.0,3.5,12.0,3.1,7.4,276.0,,very hard,2026,"Hubeau, Ministère de la Santé (contrôle sanitaire)",https://hubeau.eaufrance.fr/page/api-qualite-eau-potable
 Antibes,FR,402.3,22.5,,,105.1,33.9,14.2,15.2,7.18,314.0,,very hard,2026,"Hubeau, Ministère de la Santé (contrôle sanitaire)",https://hubeau.eaufrance.fr/page/api-qualite-eau-potable
 Antony,FR,253.6,14.2,,,95.2,3.8,22.6,,7.4,188.0,,very hard,2026,"Hubeau, Ministère de la Santé (contrôle sanitaire)",https://hubeau.eaufrance.fr/page/api-qualite-eau-potable
-Avignon,FR,291.0,16.3,,,88.9,13.1,5.3,11.4,7.56,240.5,,very hard,2026,"Hubeau, Ministère de la Santé (contrôle sanitaire)",https://hubeau.eaufrance.fr/page/api-qualite-eau-potable
-Besancon,FR,244.0,13.7,,,101.0,3.6,4.4,3.1,7.6,228.0,,very hard,2026,"Hubeau, Ministère de la Santé (contrôle sanitaire)",https://hubeau.eaufrance.fr/page/api-qualite-eau-potable
+Avignon,FR,291.0,16.3,,,92.6,13.6,5.3,11.4,7.56,240.5,,very hard,2026,"Hubeau, Ministère de la Santé (contrôle sanitaire)",https://hubeau.eaufrance.fr/page/api-qualite-eau-potable
+Besancon,FR,244.0,13.7,,,92.6,3.3,4.4,3.1,7.6,228.0,,very hard,2026,"Hubeau, Ministère de la Santé (contrôle sanitaire)",https://hubeau.eaufrance.fr/page/api-qualite-eau-potable
 Biarritz,FR,119.0,6.7,,,,,2.9,9.6,8.2,110.0,,moderately hard,2026,"Hubeau, Ministère de la Santé (contrôle sanitaire)",https://hubeau.eaufrance.fr/page/api-qualite-eau-potable
-Bordeaux,FR,188.0,10.5,,,74.0,5.1,2.0,24.0,7.5,188.0,,very hard,2026,"Hubeau, Ministère de la Santé (contrôle sanitaire)",https://hubeau.eaufrance.fr/page/api-qualite-eau-potable
-Brest,FR,130.0,7.3,,,37.6,7.1,25.0,26.5,7.7,63.0,,hard,2026,"Hubeau, Ministère de la Santé (contrôle sanitaire)",https://hubeau.eaufrance.fr/page/api-qualite-eau-potable
-Caen,FR,241.0,13.5,,,94.1,5.5,33.7,19.4,7.3,173.0,,very hard,2026,"Hubeau, Ministère de la Santé (contrôle sanitaire)",https://hubeau.eaufrance.fr/page/api-qualite-eau-potable
+Bordeaux,FR,188.0,10.5,,,66.0,5.1,2.0,24.0,7.5,188.0,,very hard,2026,"Hubeau, Ministère de la Santé (contrôle sanitaire)",https://hubeau.eaufrance.fr/page/api-qualite-eau-potable
+Brest,FR,130.0,7.3,,,44.4,4.7,25.0,26.5,7.7,63.0,,hard,2026,"Hubeau, Ministère de la Santé (contrôle sanitaire)",https://hubeau.eaufrance.fr/page/api-qualite-eau-potable
+Caen,FR,241.0,13.5,,,87.5,5.5,33.7,19.4,7.3,173.0,,very hard,2026,"Hubeau, Ministère de la Santé (contrôle sanitaire)",https://hubeau.eaufrance.fr/page/api-qualite-eau-potable
 Cannes,FR,310.2,17.4,,,93.5,14.3,5.4,10.3,7.78,212.0,,very hard,2026,"Hubeau, Ministère de la Santé (contrôle sanitaire)",https://hubeau.eaufrance.fr/page/api-qualite-eau-potable
 Castres,FR,117.0,6.6,,,39.4,4.5,4.9,4.8,8.0,116.0,,moderately hard,2026,"Hubeau, Ministère de la Santé (contrôle sanitaire)",https://hubeau.eaufrance.fr/page/api-qualite-eau-potable
 Cergy,FR,293.8,16.5,,,,,24.2,17.0,7.4,223.0,,very hard,2026,"Hubeau, Ministère de la Santé (contrôle sanitaire)",https://hubeau.eaufrance.fr/page/api-qualite-eau-potable
@@ -125,17 +125,17 @@ Chateauroux,FR,231.0,12.9,,,93.4,4.1,49.0,20.0,7.3,235.0,,very hard,2026,"Hubeau
 Chatou,FR,195.7,11.0,,,67.1,6.8,13.6,,7.76,202.0,,very hard,2026,"Hubeau, Ministère de la Santé (contrôle sanitaire)",https://hubeau.eaufrance.fr/page/api-qualite-eau-potable
 Cherbourg,FR,132.0,7.4,,,40.4,6.4,21.3,16.9,8.1,102.0,,hard,2026,"Hubeau, Ministère de la Santé (contrôle sanitaire)",https://hubeau.eaufrance.fr/page/api-qualite-eau-potable
 Clermont-Ferrand,FR,65.5,3.7,,,14.0,7.4,12.8,15.3,7.5,69.0,,moderately hard,2026,"Hubeau, Ministère de la Santé (contrôle sanitaire)",https://hubeau.eaufrance.fr/page/api-qualite-eau-potable
-Dijon,FR,267.0,15.0,,,108.7,2.6,11.0,2.6,7.6,269.2,,very hard,2026,"Hubeau, Ministère de la Santé (contrôle sanitaire)",https://hubeau.eaufrance.fr/page/api-qualite-eau-potable
+Dijon,FR,267.0,15.0,,,96.6,5.2,11.0,2.6,7.6,269.2,,very hard,2026,"Hubeau, Ministère de la Santé (contrôle sanitaire)",https://hubeau.eaufrance.fr/page/api-qualite-eau-potable
 Dreux,FR,283.4,15.9,,,98.1,7.2,38.2,12.9,7.1,230.5,,very hard,2026,"Hubeau, Ministère de la Santé (contrôle sanitaire)",https://hubeau.eaufrance.fr/page/api-qualite-eau-potable
 Fontainebleau,FR,244.7,13.7,,,91.8,3.7,19.6,8.9,7.1,214.5,,very hard,2026,"Hubeau, Ministère de la Santé (contrôle sanitaire)",https://hubeau.eaufrance.fr/page/api-qualite-eau-potable
-Grenoble,FR,205.1,11.5,,,63.1,8.1,5.2,5.3,7.7,192.5,,very hard,2026,"Hubeau, Ministère de la Santé (contrôle sanitaire)",https://hubeau.eaufrance.fr/page/api-qualite-eau-potable
+Grenoble,FR,205.1,11.5,,,66.9,8.9,5.2,5.3,7.7,192.5,,very hard,2026,"Hubeau, Ministère de la Santé (contrôle sanitaire)",https://hubeau.eaufrance.fr/page/api-qualite-eau-potable
 La Garenne-Colombes,FR,168.7,9.5,,,57.6,6.0,25.8,,7.76,163.5,,hard,2026,"Hubeau, Ministère de la Santé (contrôle sanitaire)",https://hubeau.eaufrance.fr/page/api-qualite-eau-potable
 La Rochelle,FR,277.0,15.5,,,,,29.0,16.0,7.2,247.0,,very hard,2026,"Hubeau, Ministère de la Santé (contrôle sanitaire)",https://hubeau.eaufrance.fr/page/api-qualite-eau-potable
-Le Havre,FR,236.0,13.2,,,96.0,4.0,34.2,14.2,7.3,213.0,,very hard,2026,"Hubeau, Ministère de la Santé (contrôle sanitaire)",https://hubeau.eaufrance.fr/page/api-qualite-eau-potable
+Le Havre,FR,236.0,13.2,,,96.0,3.3,34.2,14.2,7.3,213.0,,very hard,2026,"Hubeau, Ministère de la Santé (contrôle sanitaire)",https://hubeau.eaufrance.fr/page/api-qualite-eau-potable
 Le Mans,FR,298.0,16.7,,,108.0,3.9,17.0,16.1,7.7,226.0,,very hard,2026,"Hubeau, Ministère de la Santé (contrôle sanitaire)",https://hubeau.eaufrance.fr/page/api-qualite-eau-potable
-Lille,FR,345.1,19.3,,,136.0,7.5,25.3,24.4,7.3,271.5,,very hard,2026,"Hubeau, Ministère de la Santé (contrôle sanitaire)",https://hubeau.eaufrance.fr/page/api-qualite-eau-potable
-Limoges,FR,100.0,5.6,,,40.0,1.3,3.4,12.0,8.1,87.0,,moderately hard,2026,"Hubeau, Ministère de la Santé (contrôle sanitaire)",https://hubeau.eaufrance.fr/page/api-qualite-eau-potable
-Lorient,FR,132.0,7.4,,,41.7,4.0,23.0,17.7,8.2,91.0,,hard,2026,"Hubeau, Ministère de la Santé (contrôle sanitaire)",https://hubeau.eaufrance.fr/page/api-qualite-eau-potable
+Lille,FR,345.1,19.3,,,136.0,3.6,25.3,24.4,7.3,271.5,,very hard,2026,"Hubeau, Ministère de la Santé (contrôle sanitaire)",https://hubeau.eaufrance.fr/page/api-qualite-eau-potable
+Limoges,FR,100.0,5.6,,,39.0,0.6,3.4,12.0,8.1,87.0,,moderately hard,2026,"Hubeau, Ministère de la Santé (contrôle sanitaire)",https://hubeau.eaufrance.fr/page/api-qualite-eau-potable
+Lorient,FR,132.0,7.4,,,43.3,4.9,23.0,17.7,8.2,91.0,,hard,2026,"Hubeau, Ministère de la Santé (contrôle sanitaire)",https://hubeau.eaufrance.fr/page/api-qualite-eau-potable
 Lyon,FR,186.7,10.5,,,65.8,5.4,4.6,6.6,7.6,167.5,,very hard,2026,"Hubeau, Ministère de la Santé (contrôle sanitaire)",https://hubeau.eaufrance.fr/page/api-qualite-eau-potable
 Marseille,FR,222.6,12.5,,,68.1,14.0,1.4,11.5,7.87,112.5,,very hard,2026,"Hubeau, Ministère de la Santé (contrôle sanitaire)",https://hubeau.eaufrance.fr/page/api-qualite-eau-potable
 Metz,FR,192.0,10.8,,,66.0,6.4,8.4,,7.8,156.0,,very hard,2026,"Hubeau, Ministère de la Santé (contrôle sanitaire)",https://hubeau.eaufrance.fr/page/api-qualite-eau-potable
@@ -153,15 +153,15 @@ Perpignan,FR,131.0,7.3,,,42.0,6.3,12.4,8.8,8.0,94.2,,hard,2026,"Hubeau, Ministè
 Poitiers,FR,251.0,14.1,,,86.0,8.7,44.0,13.0,7.6,217.0,,very hard,2026,"Hubeau, Ministère de la Santé (contrôle sanitaire)",https://hubeau.eaufrance.fr/page/api-qualite-eau-potable
 Reims,FR,271.0,15.2,,,102.0,4.0,23.2,11.0,7.4,236.0,,very hard,2026,"Hubeau, Ministère de la Santé (contrôle sanitaire)",https://hubeau.eaufrance.fr/page/api-qualite-eau-potable
 Rennes,FR,155.0,8.7,,,52.5,5.0,15.7,18.0,8.1,97.0,,hard,2026,"Hubeau, Ministère de la Santé (contrôle sanitaire)",https://hubeau.eaufrance.fr/page/api-qualite-eau-potable
-Rouen,FR,278.0,15.6,,,115.0,4.3,23.6,9.3,7.4,262.0,,very hard,2026,"Hubeau, Ministère de la Santé (contrôle sanitaire)",https://hubeau.eaufrance.fr/page/api-qualite-eau-potable
-Rueil-Malmaison,FR,185.5,10.4,,,59.7,8.8,15.2,,7.6,208.5,,very hard,2026,"Hubeau, Ministère de la Santé (contrôle sanitaire)",https://hubeau.eaufrance.fr/page/api-qualite-eau-potable
+Rouen,FR,278.0,15.6,,,112.0,3.3,23.6,9.3,7.4,262.0,,very hard,2026,"Hubeau, Ministère de la Santé (contrôle sanitaire)",https://hubeau.eaufrance.fr/page/api-qualite-eau-potable
+Rueil-Malmaison,FR,185.5,10.4,,,59.7,8.8,15.2,,7.6,,,very hard,2026,"Hubeau, Ministère de la Santé (contrôle sanitaire)",https://hubeau.eaufrance.fr/page/api-qualite-eau-potable
 Saint-Etienne,FR,338.0,18.9,,,118.0,8.1,32.8,17.7,7.1,257.0,,very hard,2026,"Hubeau, Ministère de la Santé (contrôle sanitaire)",https://hubeau.eaufrance.fr/page/api-qualite-eau-potable
 Strasbourg,FR,248.0,13.9,,,81.0,11.0,11.0,23.0,7.2,205.0,,very hard,2026,"Hubeau, Ministère de la Santé (contrôle sanitaire)",https://hubeau.eaufrance.fr/page/api-qualite-eau-potable
-Toulon,FR,350.8,19.7,,,108.7,23.6,4.5,8.4,7.76,254.5,,very hard,2026,"Hubeau, Ministère de la Santé (contrôle sanitaire)",https://hubeau.eaufrance.fr/page/api-qualite-eau-potable
+Toulon,FR,350.8,19.7,,,115.0,15.5,4.5,8.4,7.76,254.5,,very hard,2026,"Hubeau, Ministère de la Santé (contrôle sanitaire)",https://hubeau.eaufrance.fr/page/api-qualite-eau-potable
 Toulouse,FR,91.0,5.1,,,32.0,2.7,3.0,5.2,8.0,85.0,,moderately hard,2026,"Hubeau, Ministère de la Santé (contrôle sanitaire)",https://hubeau.eaufrance.fr/page/api-qualite-eau-potable
-Tours,FR,143.0,8.0,,,44.6,4.8,11.0,12.2,7.5,137.0,,hard,2026,"Hubeau, Ministère de la Santé (contrôle sanitaire)",https://hubeau.eaufrance.fr/page/api-qualite-eau-potable
+Tours,FR,143.0,8.0,,,46.8,6.1,11.0,12.2,7.5,137.0,,hard,2026,"Hubeau, Ministère de la Santé (contrôle sanitaire)",https://hubeau.eaufrance.fr/page/api-qualite-eau-potable
 Troyes,FR,239.0,13.4,,,90.0,3.3,16.0,3.3,7.4,210.0,,very hard,2026,"Hubeau, Ministère de la Santé (contrôle sanitaire)",https://hubeau.eaufrance.fr/page/api-qualite-eau-potable
-Valence,FR,300.6,16.8,,,94.2,11.5,34.3,8.8,7.4,295.5,,very hard,2026,"Hubeau, Ministère de la Santé (contrôle sanitaire)",https://hubeau.eaufrance.fr/page/api-qualite-eau-potable
+Valence,FR,300.6,16.8,,,100.2,12.2,34.3,8.8,7.4,295.5,,very hard,2026,"Hubeau, Ministère de la Santé (contrôle sanitaire)",https://hubeau.eaufrance.fr/page/api-qualite-eau-potable
 Aberdeen,GB,26.7,1.5,1.1,1.5,,,,,,,,soft,2024,Scottish Water,https://www.scottishwater.co.uk/-/media/scottishwater/document-hub/key-publications/water-quality/130225waterhardnessdata24.pdf
 Belfast,GB,157.7,8.8,2.4,8.9,,,,,,,,hard,2025,NI Water,https://www.niwater.com/about-your-water/drinking-water/water-quality-results
 Bristol,GB,212.0,11.9,11.5,11.9,,,,,,,,very hard,2025,Bristol Water,https://www.bristolwater.co.uk/home/account-and-services/water-quality-checker

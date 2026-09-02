@@ -19,6 +19,8 @@ jobs:
           sudo apt-get update -q
           sudo apt-get install -y -q poppler-utils
           pip install --quiet requests
+      - name: Interne Konsistenz prüfen
+        run: python3 tools_consistency.py
       - name: Alle Quellen gegenprüfen
         run: python3 tools_verify.py | tee frische-report.txt
       - name: Report anhängen
