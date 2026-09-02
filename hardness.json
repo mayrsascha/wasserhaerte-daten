@@ -16,7 +16,11 @@
       "calcium_mg_l": 65.0,
       "magnesium_mg_l": 8.8,
       "carbonate_dh": 11.1,
-      "ph": 7.6
+      "ph": 7.6,
+      "origin": [
+        "spring",
+        "groundwater"
+      ]
     },
     "AT/Dornbirn": {
       "mg_l": 163.3,
@@ -44,7 +48,11 @@
         303.4
       ],
       "lat": 47.2365,
-      "lon": 9.5973
+      "lon": 9.5973,
+      "origin": [
+        "spring",
+        "groundwater"
+      ]
     },
     "AT/Graz": {
       "mg_l": 285.6,
@@ -67,7 +75,10 @@
       "measured_on": "2025",
       "note": "the main city zone; outlying zones run from 1.5 dH at Amras to 21.2 dH in Oberes Hötting West",
       "lat": 47.2627,
-      "lon": 11.3945
+      "lon": 11.3945,
+      "origin": [
+        "spring"
+      ]
     },
     "AT/Kapfenberg": {
       "mg_l": 267.7,
@@ -110,7 +121,10 @@
       "lon": 12.1667,
       "carbonate_dh": 5.7,
       "nitrate_mg_l": 3.3,
-      "ph": 7.8
+      "ph": 7.8,
+      "origin": [
+        "spring"
+      ]
     },
     "AT/Leoben": {
       "mg_l": 224.9,
@@ -160,7 +174,10 @@
         321.3
       ],
       "lat": 47.7994,
-      "lon": 13.044
+      "lon": 13.044,
+      "origin": [
+        "spring"
+      ]
     },
     "AT/Steyr": {
       "mg_l": 285.6,
@@ -169,7 +186,10 @@
       "source_url": "https://www.stadtbetriebe.at/Wasser/FAQ",
       "note": "wells in the Dietach and Tinsting groundwater fields",
       "lat": 48.0427,
-      "lon": 14.4213
+      "lon": 14.4213,
+      "origin": [
+        "groundwater"
+      ]
     },
     "AT/Vienna": {
       "mg_l": null,
@@ -183,7 +203,11 @@
         357.0
       ],
       "lat": 48.2085,
-      "lon": 16.3721
+      "lon": 16.3721,
+      "origin": [
+        "spring",
+        "groundwater"
+      ]
     },
     "AT/Villach": {
       "mg_l": 176.7,
@@ -197,7 +221,10 @@
         285.6
       ],
       "lat": 46.6103,
-      "lon": 13.8558
+      "lon": 13.8558,
+      "origin": [
+        "spring"
+      ]
     },
     "AT/Wels": {
       "mg_l": 207.0,
@@ -240,7 +267,10 @@
         352.0
       ],
       "lat": 47.4733,
-      "lon": 8.3059
+      "lon": 8.3059,
+      "calcium_mg_l": 95.0,
+      "magnesium_mg_l": 19.0,
+      "nitrate_mg_l": 16.0
     },
     "CH/Basel": {
       "mg_l": 175.0,
@@ -284,7 +314,12 @@
         175.0
       ],
       "lat": 47.1371,
-      "lon": 7.2461
+      "lon": 7.2461,
+      "calcium_mg_l": 40.7,
+      "magnesium_mg_l": 4.51,
+      "nitrate_mg_l": 4.5,
+      "sodium_mg_l": 5.33,
+      "ph": 7.65
     },
     "CH/Fribourg": {
       "mg_l": 280.0,
@@ -298,7 +333,11 @@
         300.0
       ],
       "lat": 46.8024,
-      "lon": 7.1513
+      "lon": 7.1513,
+      "calcium_mg_l": 85.0,
+      "magnesium_mg_l": 18.0,
+      "nitrate_mg_l": 9.0,
+      "sodium_mg_l": 7.0
     },
     "CH/Geneva": {
       "mg_l": 134.0,
@@ -312,7 +351,10 @@
         212.0
       ],
       "lat": 46.2022,
-      "lon": 6.1457
+      "lon": 6.1457,
+      "origin": [
+        "lake"
+      ]
     },
     "CH/Lausanne": {
       "mg_l": null,
@@ -326,7 +368,11 @@
         280.0
       ],
       "lat": 46.516,
-      "lon": 6.6328
+      "lon": 6.6328,
+      "origin": [
+        "lake",
+        "spring"
+      ]
     },
     "CH/Lucerne": {
       "mg_l": null,
@@ -340,7 +386,12 @@
         280.0
       ],
       "lat": 47.0505,
-      "lon": 8.3064
+      "lon": 8.3064,
+      "origin": [
+        "lake",
+        "spring",
+        "groundwater"
+      ]
     },
     "CH/Lugano": {
       "mg_l": 130.0,
@@ -354,7 +405,12 @@
         290.0
       ],
       "lat": 46.0101,
-      "lon": 8.96
+      "lon": 8.96,
+      "calcium_mg_l": 33.7,
+      "magnesium_mg_l": 11.1,
+      "nitrate_mg_l": 4.8,
+      "sodium_mg_l": 4.2,
+      "ph": 7.9
     },
     "CH/Neuchatel": {
       "mg_l": 186.0,
@@ -368,7 +424,12 @@
         404.0
       ],
       "lat": 46.9918,
-      "lon": 6.931
+      "lon": 6.931,
+      "calcium_mg_l": 61.3,
+      "magnesium_mg_l": 6.7,
+      "nitrate_mg_l": 5.9,
+      "sodium_mg_l": 3.3,
+      "ph": 7.8
     },
     "CH/Riehen": {
       "mg_l": 189.0,
@@ -377,7 +438,10 @@
       "source_url": "https://www.riehen.ch/verwaltung/dienstleistungen/47_trinkwasser,-brunnen-und-quellen",
       "note": "supplied through the cantonal IWB network at 18.9 f; the village also keeps its own small spring network from the Au and Moostal valleys",
       "lat": 47.5788,
-      "lon": 7.6468
+      "lon": 7.6468,
+      "origin": [
+        "spring"
+      ]
     },
     "CH/Sion": {
       "mg_l": 239.0,
@@ -391,7 +455,12 @@
         293.0
       ],
       "lat": 46.2274,
-      "lon": 7.3556
+      "lon": 7.3556,
+      "calcium_mg_l": 70.0,
+      "magnesium_mg_l": 16.6,
+      "nitrate_mg_l": 3.85,
+      "sodium_mg_l": 8.6,
+      "ph": 7.9
     },
     "CH/St. Gallen": {
       "mg_l": 162.0,
@@ -405,7 +474,15 @@
         164.0
       ],
       "lat": 47.4239,
-      "lon": 9.3748
+      "lon": 9.3748,
+      "calcium_mg_l": 51.0,
+      "magnesium_mg_l": 8.0,
+      "nitrate_mg_l": 4.0,
+      "sodium_mg_l": 6.0,
+      "ph": 8.02,
+      "origin": [
+        "lake"
+      ]
     },
     "CH/Thal": {
       "mg_l": 166.5,
@@ -418,7 +495,11 @@
         168.0
       ],
       "lat": 47.4667,
-      "lon": 9.5667
+      "lon": 9.5667,
+      "calcium_mg_l": 52.5,
+      "magnesium_mg_l": 9.0,
+      "nitrate_mg_l": 4.0,
+      "ph": 8.03
     },
     "CH/Winterthur": {
       "mg_l": 271.0,
@@ -434,7 +515,14 @@
       "lat": 47.5056,
       "lon": 8.7241,
       "calcium_mg_l": 75.8,
-      "magnesium_mg_l": 19.8
+      "magnesium_mg_l": 19.8,
+      "nitrate_mg_l": 6.4,
+      "sodium_mg_l": 5.8,
+      "ph": 7.5,
+      "origin": [
+        "groundwater",
+        "spring"
+      ]
     },
     "CH/Zug": {
       "mg_l": 248.0,
@@ -448,7 +536,12 @@
         271.0
       ],
       "lat": 47.1724,
-      "lon": 8.5175
+      "lon": 8.5175,
+      "calcium_mg_l": 76.5,
+      "magnesium_mg_l": 14.1,
+      "nitrate_mg_l": 8.3,
+      "sodium_mg_l": 10.1,
+      "ph": 7.48
     },
     "CH/Zurich": {
       "mg_l": 150.0,
@@ -457,7 +550,12 @@
       "source_url": "https://trinkwasser.ch/de/versorger/834/stadt-zurich-wasserversorgung/268/default",
       "measured_on": "2022",
       "lat": 47.3667,
-      "lon": 8.55
+      "lon": 8.55,
+      "origin": [
+        "lake",
+        "spring",
+        "groundwater"
+      ]
     },
     "DE/Aachen": {
       "mg_l": null,
@@ -549,7 +647,11 @@
       "measured_on": "2026",
       "note": "exactly on the soft/medium boundary; the supply mix changed in February 2024, when Harz reservoir water was joined by groundwater from Börßum",
       "lat": 52.2659,
-      "lon": 10.5267
+      "lon": 10.5267,
+      "origin": [
+        "reservoir",
+        "groundwater"
+      ]
     },
     "DE/Bremen": {
       "mg_l": 112.5,
@@ -573,7 +675,10 @@
         203.5
       ],
       "lat": 53.5536,
-      "lon": 8.5755
+      "lon": 8.5755,
+      "origin": [
+        "groundwater"
+      ]
     },
     "DE/Chemnitz": {
       "mg_l": 76.7,
@@ -613,7 +718,10 @@
       "lat": 51.7577,
       "lon": 14.3289,
       "calcium_mg_l": 87.5,
-      "magnesium_mg_l": 11.5
+      "magnesium_mg_l": 11.5,
+      "origin": [
+        "groundwater"
+      ]
     },
     "DE/Darmstadt": {
       "mg_l": 339.1,
@@ -653,7 +761,12 @@
         219.5
       ],
       "lat": 51.0509,
-      "lon": 13.7383
+      "lon": 13.7383,
+      "origin": [
+        "reservoir",
+        "river_bank",
+        "groundwater"
+      ]
     },
     "DE/Duisburg": {
       "mg_l": 258.8,
@@ -691,7 +804,11 @@
         249.9
       ],
       "lat": 50.9773,
-      "lon": 11.0354
+      "lon": 11.0354,
+      "origin": [
+        "long_distance",
+        "groundwater"
+      ]
     },
     "DE/Erlangen": {
       "mg_l": null,
@@ -822,7 +939,10 @@
         376.6
       ],
       "lat": 49.4077,
-      "lon": 8.6908
+      "lon": 8.6908,
+      "origin": [
+        "groundwater"
+      ]
     },
     "DE/Heilbronn": {
       "mg_l": null,
@@ -845,7 +965,10 @@
       "source_url": "https://www.evi-hildesheim.de/evi/Produkte-fuer-Privatkunden/Wasser/Trinkwasseranalyse/",
       "note": "Harz reservoir water; the softest city figure in this collection",
       "lat": 52.1508,
-      "lon": 9.9511
+      "lon": 9.9511,
+      "origin": [
+        "reservoir"
+      ]
     },
     "DE/Ingolstadt": {
       "mg_l": 371.2,
@@ -869,7 +992,10 @@
         330.2
       ],
       "lat": 50.9288,
-      "lon": 11.5899
+      "lon": 11.5899,
+      "origin": [
+        "long_distance"
+      ]
     },
     "DE/Kaiserslautern": {
       "mg_l": null,
@@ -883,7 +1009,10 @@
         91.0
       ],
       "lat": 49.443,
-      "lon": 7.7716
+      "lon": 7.7716,
+      "origin": [
+        "groundwater"
+      ]
     },
     "DE/Karlsruhe": {
       "mg_l": 321.3,
@@ -940,7 +1069,10 @@
       "source_url": "https://www.swk.de/privatkunden/de/dienstleistungen/wasser",
       "note": "the raw groundwater is centrally softened to 13 dH before distribution",
       "lat": 51.3365,
-      "lon": 6.5538
+      "lon": 6.5538,
+      "origin": [
+        "groundwater"
+      ]
     },
     "DE/Leipzig": {
       "mg_l": null,
@@ -954,7 +1086,11 @@
       ],
       "lat": 51.3396,
       "lon": 12.3713,
-      "measured_on": "2025"
+      "measured_on": "2025",
+      "origin": [
+        "reservoir",
+        "long_distance"
+      ]
     },
     "DE/Leverkusen": {
       "mg_l": null,
@@ -965,7 +1101,11 @@
       "measured_on": "2026",
       "note": "Dhünn reservoir water and Rheindorf groundwater; EVL classes both supply areas weich and publishes no citywide figure",
       "lat": 51.0303,
-      "lon": 6.9843
+      "lon": 6.9843,
+      "origin": [
+        "reservoir",
+        "groundwater"
+      ]
     },
     "DE/Ludwigshafen am Rhein": {
       "mg_l": null,
@@ -1006,7 +1146,10 @@
       "lon": 11.6319,
       "calcium_mg_l": 91.5,
       "magnesium_mg_l": 6.6,
-      "nitrate_mg_l": 2.7
+      "nitrate_mg_l": 2.7,
+      "origin": [
+        "groundwater"
+      ]
     },
     "DE/Mainz": {
       "mg_l": null,
@@ -1062,6 +1205,9 @@
       "range_mg_l": [
         196.3,
         301.6
+      ],
+      "origin": [
+        "groundwater"
       ]
     },
     "DE/Mönchengladbach": {
@@ -1089,7 +1235,10 @@
         191.0
       ],
       "lat": 51.4322,
-      "lon": 6.8797
+      "lon": 6.8797,
+      "origin": [
+        "river_bank"
+      ]
     },
     "DE/Nuremberg": {
       "mg_l": 206.2,
@@ -1120,7 +1269,10 @@
         251.7
       ],
       "lat": 51.4781,
-      "lon": 6.8625
+      "lon": 6.8625,
+      "origin": [
+        "river_bank"
+      ]
     },
     "DE/Offenbach": {
       "mg_l": null,
@@ -1160,7 +1312,10 @@
         232.0
       ],
       "lat": 52.2726,
-      "lon": 8.0498
+      "lon": 8.0498,
+      "origin": [
+        "groundwater"
+      ]
     },
     "DE/Pforzheim": {
       "mg_l": null,
@@ -1218,7 +1373,11 @@
         287.4
       ],
       "lat": 48.4914,
-      "lon": 9.2043
+      "lon": 9.2043,
+      "origin": [
+        "lake",
+        "spring"
+      ]
     },
     "DE/Rostock": {
       "mg_l": 253.4,
@@ -1254,7 +1413,10 @@
       "source_url": "https://www.svb-siegen.de/netze/trinkwasseranalyse",
       "note": "ninety percent reservoir water from the Obernau and Breitenbach dams",
       "lat": 50.8748,
-      "lon": 8.0243
+      "lon": 8.0243,
+      "origin": [
+        "reservoir"
+      ]
     },
     "DE/Solingen": {
       "mg_l": 99.9,
@@ -1267,7 +1429,10 @@
         108.9
       ],
       "lat": 51.1734,
-      "lon": 7.0845
+      "lon": 7.0845,
+      "origin": [
+        "reservoir"
+      ]
     },
     "DE/Stuttgart": {
       "mg_l": null,
@@ -1281,7 +1446,11 @@
         232.1
       ],
       "lat": 48.7823,
-      "lon": 9.177
+      "lon": 9.177,
+      "origin": [
+        "lake",
+        "long_distance"
+      ]
     },
     "DE/Trier": {
       "mg_l": null,
@@ -1295,7 +1464,10 @@
         166.0
       ],
       "lat": 49.7557,
-      "lon": 6.6394
+      "lon": 6.6394,
+      "origin": [
+        "reservoir"
+      ]
     },
     "DE/Ulm": {
       "mg_l": null,
@@ -1322,7 +1494,12 @@
         342.7
       ],
       "lat": 50.0825,
-      "lon": 8.24
+      "lon": 8.24,
+      "origin": [
+        "spring",
+        "groundwater",
+        "river_bank"
+      ]
     },
     "DE/Wolfsburg": {
       "mg_l": 141.0,
@@ -1331,7 +1508,11 @@
       "source_url": "https://www.lsw.de/fileadmin/user_upload/Pr%C3%BCfbericht_Wolfsburg.pdf",
       "note": "Harz reservoir water blended with groundwater from the Westerbeck and Rühen works",
       "lat": 52.4245,
-      "lon": 10.7815
+      "lon": 10.7815,
+      "origin": [
+        "reservoir",
+        "groundwater"
+      ]
     },
     "DE/Wuppertal": {
       "mg_l": 146.4,

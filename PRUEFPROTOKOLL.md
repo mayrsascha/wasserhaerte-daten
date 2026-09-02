@@ -61,7 +61,7 @@ eine der Zahlen falsch ist.
 
 ## Nitrat, Natrium, pH und Karbonathärte
 
-Sechzehn Städte tragen weitere Werte aus derselben Analyse wie ihr
+24 Städte tragen weitere Werte aus derselben Analyse wie ihr
 Härtewert. Übernommen wird ein Wert nur, wenn die Stadt eine
 Einzelzonen-Zeile ist (bei Zonen-Städten variieren diese Werte je Werk wie
 die Härte selbst), die Quelle ein Einzeldokument ist und der Wert innerhalb
@@ -69,3 +69,11 @@ der Plausibilitätsgrenzen liegt; die gesetzlichen Grenzwerte selbst werden
 als Treffer ausgeschlossen. Verworfen wurden unter anderem alle
 trinkwasser.ch-Zeilen, weil der Parser dort die Anzahl der Messungen statt
 des Messwerts griff.
+
+## Herkunft
+
+39 Städte tragen die Herkunft des Wassers als strukturiertes Feld
+(Talsperre, See, Quelle, Grundwasser, Uferfiltrat, Fernwasser), abgeleitet
+aus den Versorgerangaben und von Hand geprüft. Der Stichwort-Durchgang
+allein hätte Speicherbehälter zu Talsperren gemacht; solche Treffer wurden
+korrigiert oder verworfen.
