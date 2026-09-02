@@ -61,7 +61,7 @@ eine der Zahlen falsch ist.
 
 ## Nitrat, Natrium, pH und Karbonathärte
 
-24 Städte tragen weitere Werte aus derselben Analyse wie ihr
+83 Städte tragen weitere Werte aus derselben Analyse wie ihr
 Härtewert. Übernommen wird ein Wert nur, wenn die Stadt eine
 Einzelzonen-Zeile ist (bei Zonen-Städten variieren diese Werte je Werk wie
 die Härte selbst), die Quelle ein Einzeldokument ist und der Wert innerhalb
@@ -77,3 +77,12 @@ des Messwerts griff.
 aus den Versorgerangaben und von Hand geprüft. Der Stichwort-Durchgang
 allein hätte Speicherbehälter zu Talsperren gemacht; solche Treffer wurden
 korrigiert oder verworfen.
+
+## Frankreich: alle Werte aus der Hubeau-API
+
+Für die französischen Städte liefert Hubeau auch Calcium, Magnesium, Nitrat,
+Natrium, pH und den Titre alcalimétrique complet (Karbonathärte). Ein
+Calcium-Magnesium-Paar wird nur gespeichert, wenn es die Gesamthärte der
+Zeile reproduziert; Nizza zum Beispiel scheiterte an dieser Prüfung und
+trägt darum bewusst kein Paar. Die Karbonathärte ist kanonisch in mg/L
+CaCO₃ abgelegt und wird je Land in dessen Einheit angezeigt.
