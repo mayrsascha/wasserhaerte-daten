@@ -24,9 +24,10 @@ Primärquelle geprüft; dieses Protokoll dokumentiert wie.
 - **14 Zeilen per Browser-Sicherheitsschranke oder Archiv**: Graz und Leipzig
   liefern Inhalte nur an echte Browser aus (Bot-Schutz); die Werte wurden im
   Browser gegengeprüft. Leipzig wurde inzwischen direkt aus der
-  Jahresdurchschnittsanalyse 2025 der KWL belegt; Graz bleibt die einzige
-  Zeile, deren Quelle nur im Browser prüfbar ist (die Werte decken sich mit
-  der AGES-Trinkwasserdatenbank). Wiesbaden ist offline; die Werte stammen aus den
+  Jahresdurchschnittsanalyse 2025 der KWL belegt, Graz über die archivierte
+  Kopie der Versorgerseite (Internet Archive, Stand 17.06.2024), die den
+  Bereich „15 °dH bis 17 °dH" wörtlich nennt. Damit ist jede Zeile des
+  Datensatzes gegen ihre Primärquelle geprüft. Wiesbaden ist offline; die Werte stammen aus den
   archivierten Zonen-Analysen der WLW (Mai 2024), der Quelllink zeigt auf die
   Archivkopie.
 - **8 dokumentierte Handfälle**:
