@@ -154,3 +154,40 @@ ein Scan ohne Textebene; seine übrigen Werte fehlen darum weiter.
   65 und Magnesium 8,6 ergeben nur 11,1 °dH; zugleich sagt die
   Wasserhärte-Seite "etwa 14,0". Ein in sich widersprüchliches Blatt
   spendet keine Werte.
+
+## Präzisions-Runde vom 2. September 2026
+
+Ein Durchgang über die schwächsten Zeilen des Datensatzes, von unten:
+
+- **Essen** stand auf "etwa 6,6 °dH" von der FAQ-Seite der Stadtwerke.
+  Die Jahresanalyse 2025 des Verbundwasserwerks Essen sagt 7,7 °dH, und
+  Calcium 42 plus Magnesium 7,9 reproduzieren genau diesen Wert; die
+  Live-Analysedaten von Gelsenwasser (dieselbe Quelle, eigene API)
+  bestätigen alle Werte unabhängig. Die Zeile trägt jetzt die Analyse:
+  7,7 °dH, Ca, Mg, Karbonathärte 6,2 °dH, Natrium 41, Nitrat 9,2, pH 7,9.
+- **Recklinghausen** trinkt komplett Halterner Wasser; die Jahresmediane
+  des Werks aus den Gelsenwasser-Livedaten (Ca 73, Mg 4,8 reproduzieren
+  die 11,3 °dH auf 0,2 Prozent) füllen die Zeile vollständig.
+- **Gelsenkirchen** übernimmt dieselben Halterner Werte, weil die
+  Kennzahl der Zeile das Halterner Wasser ist; die Ortsteile mit
+  Essener Wasser stehen in der Notiz.
+- **Dortmund** stand auf "etwa 7,7 °dH". Die vier Ruhrtal-Werke, die
+  DEW21 beliefern, laufen als Jahresmediane 7,3 bis 8,2 °dH; die Zeile
+  trägt jetzt diese Spanne um die 7,7. Einzelwerte bleiben leer, weil
+  die Werke sich real unterscheiden.
+- **Mödling** nennt auf der Gemeindeseite 19 °dH und Nitrat 15 mg/l;
+  beides ist jetzt erfasst und die Zeile hat eine Notiz.
+- **Zürich** hat jetzt eine Notiz, die erklärt, warum kein Einzelwert
+  ehrlich wäre (Werksausgänge 141 bis 174 mg/l, wechselnde Mischung).
+- **Koblenz** bleibt ohne Zahl: die Härtebekanntmachung 2023 der VWM
+  nennt nur Härtebereiche je Zone. Die evm bietet eine individuelle
+  Analyse auf Anfrage binnen zwei Arbeitstagen an.
+- **Hull und York** bleiben ohne Zahl: Yorkshire Water veröffentlicht
+  elementares Calcium ohne Magnesium, daraus lässt sich keine
+  Gesamthärte errechnen, und das Postleitzahl-Tool ließ sich nicht
+  maschinell bedienen.
+
+Methodischer Neuzugang: Die Trinkwasseranalyse-Widgets von Gelsenwasser
+und Wasserwerke Westfalen laden ihre Daten von einer offenen JSON-API
+(twa-gelsenwasser), die pro Ort und Wasserwerk Jahresmediane aller
+Parameter liefert. Das ist die sauberste deutsche Quelle nach Hubeau.

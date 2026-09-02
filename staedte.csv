@@ -9,7 +9,7 @@ Klagenfurt,AT,330.2,18.5,17.0,20.0,,,,,,,,very hard,2026,Stadtwerke Klagenfurt,h
 Kufstein,AT,142.8,8.0,7.0,9.0,,,3.3,,7.8,101.7,spring,hard,2026,Stadtwerke Kufstein,https://www.stwk.at/wasser/
 Leoben,AT,224.9,12.6,9.0,14.0,,,,,,,,very hard,2025,Stadtwerke Leoben,https://www.stadtwerke-leoben.at/wasserversorgung/
 Linz,AT,348.0,19.5,16.2,21.3,,,,,,,,very hard,2025,LINZ AG,https://www.linzag.at/media/dokumente/wasser_2/trinkwasseruntersuchungen/wasserguete-juli-august-2025.pdf
-Mödling,AT,339.1,19.0,,,,,,,,,,very hard,2026,Stadtgemeinde Moedling,https://www.moedling.at/Wasserqualitaet_und_Wasserpreis
+Mödling,AT,339.1,19.0,,,,,15.0,,,,,very hard,2026,Stadtgemeinde Moedling,https://www.moedling.at/Wasserqualitaet_und_Wasserpreis
 Salzburg,AT,178.5,10.0,9.0,18.0,53.6,13.3,,,,,spring,hard,2026,Salzburg AG,https://www.salzburg-ag.at/waerme-wasser/privat/wasser/trinkwasser.html
 Steyr,AT,285.6,16.0,,,,,,,,,groundwater,very hard,2026,Stadtbetriebe Steyr,https://www.stadtbetriebe.at/Wasser/FAQ
 Vienna,AT,,,6.0,20.0,,,,,,,spring;groundwater,varies by supply zone,2026,Wiener Wasser (MA 31),https://www.wien.gv.at/umwelt/trinkwasser-wasserhaerte
@@ -46,16 +46,16 @@ Chemnitz,DE,76.7,4.3,,,,,,,8.1,,,moderately hard,2024,eins energie in sachsen,ht
 Cologne,DE,,,15.6,18.1,,,22.0,35.0,,230.2,,varies by supply zone,2025,RheinEnergie,https://web.cdn.rheinenergie.com/cms/media/documents/trinkwasseranalyse/Trinkwasseranalyse_Linksrheinisch.pdf
 Cottbus,DE,285.6,16.0,14.0,17.0,93.5,11.9,1.5,14.0,7.54,,groundwater,very hard,2025,LWG Lausitzer Wasser (Prüfbericht AQS),https://lausitzer-wasser.de/visioncontent/mediendatenbank/5_cottbus-sachsendorf_2026_geschwaerzt.pdf
 Darmstadt,DE,339.1,19.0,18.4,19.6,101.8,17.6,,,,,,very hard,2026,ENTEGA / Hessenwasser,https://www.entega.ag/fileadmin/downloads/wasser/Trinkwasser_Darmstadt_InfoMW.pdf
-Dortmund,DE,137.4,7.7,,,,,,,7.9,,,hard,2026,DEW21,https://www.dew21.de/ueber-uns/unser-wasser
+Dortmund,DE,137.4,7.7,7.3,8.2,,,,,7.9,,,hard,2026,DEW21,https://www.dew21.de/ueber-uns/unser-wasser
 Dresden,DE,,,5.6,12.3,,,,,,,reservoir;river_bank;groundwater,varies by supply zone,2026,SachsenEnergie,https://www.sachsenenergie.de/wps/portal/energie/cms/menu_main/privatkunden/wasser/gut-zu-wissen/trinkwasserqualitaet
 Duisburg,DE,258.8,14.5,11.0,18.0,,,,,,,,very hard,2025,Stadtwerke Duisburg,https://www.stadtwerke-duisburg.de/privatkunden/themen/trinkwasser-fuer-duisburg
 Dusseldorf,DE,249.9,14.0,,,,,,,,,,very hard,2026,Stadtwerke Düsseldorf,https://www.swd-ag.de/pk/strom-gas-wasser/wasser/wasserhaerte/
 Erfurt,DE,,,3.1,14.0,,,,,,,long_distance;groundwater,varies by supply zone,2025,SWE Stadtwerke Erfurt (ThüWa),https://www.swe-energie.de/energie/home/themenwelt/erfurter-wasser
 Erlangen,DE,,,9.8,15.3,,,,,,,,varies by supply zone,2026,Erlanger Stadtwerke (ESTW),https://www.estw.de/de/Energie-Wasser/Wasser/Trinkwasserqualitaet/Wasserhaerte-in-Grenzen/Wasserhaerte-in-Grenzen.html
-Essen,DE,117.8,6.6,,,,,,,,,,moderately hard,2026,Stadtwerke Essen,https://www.stadtwerke-essen.de/netze/wassernetz/trinkwasser/wasserhaerte
+Essen,DE,137.4,7.7,,,42.0,7.9,9.2,41.0,7.9,110.7,,hard,2025,Stadtwerke Essen,https://www.stadtwerke-essen.de/fileadmin/user_upload/pdf/netz/2025_00-0350_SWE.pdf
 Frankfurt am Main,DE,,,4.0,20.0,,,,,,,,varies by supply zone,2026,Mainova / Hessenwasser,https://www.mainova.de/de/wissenswertes/ratgeber/wasserqualitaet-und-wasserhaerte-mainova-trinkwasser
 Freiburg im Breisgau,DE,,,2.3,12.7,,,,,,,,varies by supply zone,2026,badenova,https://www.badenova.de/privatkunden/wasser/wasserversorgung-in-freiburg
-Gelsenkirchen,DE,201.7,11.3,7.7,11.3,,,,,,,,very hard,2026,Gelsenwasser,https://www.gelsenwasser.de/wasser/wasserhaerte/gelsenkirchen
+Gelsenkirchen,DE,201.7,11.3,7.7,11.3,73.0,4.8,11.6,19.0,7.55,149.9,,very hard,2025,Gelsenwasser,https://www.gelsenwasser.de/wasser/wasserhaerte/gelsenkirchen
 Göttingen,DE,124.0,6.9,6.6,7.3,34.9,7.4,9.3,6.2,7.6,,,hard,2026,Stadtwerke Göttingen,https://www.stadtwerke-goettingen.de/produkte/trinkwasser/trinkwasserqualitaet/
 Halle (Saale),DE,75.5,4.2,,,24.22,3.28,8.78,7.67,8.41,46.2,,moderately hard,2026,Hallesche Wasser und Stadtwirtschaft (HWS),https://hws-halle.de/produkte-dienstleistungen/trink-abwasser/trinkwasser/qualitaet
 Hamburg,DE,,,5.1,18.3,,,,,,,,varies by supply zone,2025,HAMBURG WASSER,https://www.hamburgwasser.de/fileadmin/Redakteur/Downloads/Labor/Informationen-ueber-die-Beschaffenheit-des-Trinkwassers.pdf
@@ -89,7 +89,7 @@ Oldenburg,DE,,,6.6,12.0,,,,,,,,varies by supply zone,2026,EWE NETZ,https://www.e
 Osnabrück,DE,,,7.3,13.0,,,,,,,groundwater,varies by supply zone,2026,Stadtwerke Osnabrück,https://www.stadtwerke-osnabrueck.de/trinkwasser/wasserhaerte
 Pforzheim,DE,,,6.0,9.0,,,,,,,,varies by supply zone,2026,Stadtwerke Pforzheim (SWP),https://www.stadtwerke-pforzheim.de/trinkwasser/trinkwasserqualitaet-und-preise/
 Potsdam,DE,,,10.0,21.0,,,,,,,,varies by supply zone,2026,Energie und Wasser Potsdam (EWP),https://www.swp-potsdam.de/de/wasser/wasserh%C3%A4rtegrad/
-Recklinghausen,DE,201.7,11.3,,,,,,,,,,very hard,2026,Gelsenwasser,https://www.gelsenwasser.de/wasser/wasserhaerte/recklinghausen
+Recklinghausen,DE,201.7,11.3,,,73.0,4.8,11.6,19.0,7.55,149.9,,very hard,2025,Gelsenwasser,https://www.gelsenwasser.de/wasser/wasserhaerte/recklinghausen
 Regensburg,DE,301.7,16.9,,,96.0,15.0,30.0,11.0,7.4,,,very hard,2025,REWAG,https://www.rewag.de/produkte-dienstleistungen/wasser/herkunft-qualitaet
 Reutlingen,DE,,,9.1,16.1,,,,,,,lake;spring,varies by supply zone,2026,FairEnergie,https://www.fairenergie.de/wasser/trinkwasser.html
 Rostock,DE,253.4,14.2,,,83.6,11.0,2.06,43.1,7.7,,,very hard,2026,Nordwasser,https://www.nordwasser.de/trinkwasser/versorgung/trinkwasseranalyse-ww-rostock-1

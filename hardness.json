@@ -160,7 +160,9 @@
       "source": "Stadtgemeinde Moedling",
       "source_url": "https://www.moedling.at/Wasserqualitaet_und_Wasserpreis",
       "lat": 48.0861,
-      "lon": 16.2892
+      "lon": 16.2892,
+      "nitrate_mg_l": 15.0,
+      "note": "the municipality states 19 dH and a nitrate level of 15 mg/l for the town's well water"
     },
     "AT/Salzburg": {
       "mg_l": 178.5,
@@ -565,7 +567,8 @@
         "lake",
         "spring",
         "groundwater"
-      ]
+      ],
+      "note": "the network blends the Lengg and Moos lake works, the Hardhof groundwater works and spring water; the works' 2025 outlet hardness runs from 141 to 174 mg/L, so the tap value depends on the mix"
     },
     "DE/Aachen": {
       "mg_l": null,
@@ -765,10 +768,14 @@
       "source": "DEW21",
       "source_url": "https://www.dew21.de/ueber-uns/unser-wasser",
       "measured_on": "2026",
-      "note": "converted from about 7.7 dH",
+      "note": "DEW21 states 7.7 dH for the city; the four Ruhr valley works that feed the network run 7.3-8.2 dH as yearly medians, so the exact figure depends on the district and the day",
       "lat": 51.5149,
       "lon": 7.466,
-      "ph": 7.9
+      "ph": 7.9,
+      "range_mg_l": [
+        130.3,
+        146.4
+      ]
     },
     "DE/Dresden": {
       "mg_l": null,
@@ -846,14 +853,20 @@
       "lon": 11.0078
     },
     "DE/Essen": {
-      "mg_l": 117.8,
-      "band": "moderately hard",
+      "mg_l": 137.4,
+      "band": "hard",
       "source": "Stadtwerke Essen",
-      "source_url": "https://www.stadtwerke-essen.de/netze/wassernetz/trinkwasser/wasserhaerte",
-      "measured_on": "2026",
-      "note": "converted from about 6.6 dH",
+      "source_url": "https://www.stadtwerke-essen.de/fileadmin/user_upload/pdf/netz/2025_00-0350_SWE.pdf",
+      "measured_on": "2025",
+      "note": "the 2025 annual analysis of the Verbundwasserwerk Essen, which feeds the Stadtwerke network; calcium and magnesium reproduce the stated 7.7 dH exactly, and Gelsenwasser's live data confirms the same figures",
       "lat": 51.4566,
-      "lon": 7.0123
+      "lon": 7.0123,
+      "calcium_mg_l": 42.0,
+      "magnesium_mg_l": 7.9,
+      "carbonate_mg_l": 110.7,
+      "sodium_mg_l": 41.0,
+      "nitrate_mg_l": 9.2,
+      "ph": 7.9
     },
     "DE/Frankfurt am Main": {
       "mg_l": null,
@@ -893,7 +906,14 @@
         201.7
       ],
       "lat": 51.5051,
-      "lon": 7.0965
+      "lon": 7.0965,
+      "measured_on": "2025",
+      "calcium_mg_l": 73.0,
+      "magnesium_mg_l": 4.8,
+      "carbonate_mg_l": 149.9,
+      "sodium_mg_l": 19.0,
+      "nitrate_mg_l": 11.6,
+      "ph": 7.55
     },
     "DE/Göttingen": {
       "mg_l": 124.0,
@@ -1384,9 +1404,16 @@
       "band": "very hard",
       "source": "Gelsenwasser",
       "source_url": "https://www.gelsenwasser.de/wasser/wasserhaerte/recklinghausen",
-      "note": "the Haltern works, 2.02 mmol/L",
+      "note": "the Haltern works, 2.02 mmol/L; the whole city drinks Haltern water, and the values here are the works' yearly medians from Gelsenwasser's live analysis data",
       "lat": 51.6138,
-      "lon": 7.1974
+      "lon": 7.1974,
+      "measured_on": "2025",
+      "calcium_mg_l": 73.0,
+      "magnesium_mg_l": 4.8,
+      "carbonate_mg_l": 149.9,
+      "sodium_mg_l": 19.0,
+      "nitrate_mg_l": 11.6,
+      "ph": 7.55
     },
     "DE/Regensburg": {
       "mg_l": 301.7,
