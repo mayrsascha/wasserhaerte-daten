@@ -23,7 +23,10 @@ Primärquelle geprüft; dieses Protokoll dokumentiert wie.
   jüngste Messung je Commune); die API ist selbst die Primärquelle.
 - **14 Zeilen per Browser-Sicherheitsschranke oder Archiv**: Graz und Leipzig
   liefern Inhalte nur an echte Browser aus (Bot-Schutz); die Werte wurden im
-  Browser gegengeprüft. Wiesbaden ist offline; die Werte stammen aus den
+  Browser gegengeprüft. Leipzig wurde inzwischen direkt aus der
+  Jahresdurchschnittsanalyse 2025 der KWL belegt; Graz bleibt die einzige
+  Zeile, deren Quelle nur im Browser prüfbar ist (die Werte decken sich mit
+  der AGES-Trinkwasserdatenbank). Wiesbaden ist offline; die Werte stammen aus den
   archivierten Zonen-Analysen der WLW (Mai 2024), der Quelllink zeigt auf die
   Archivkopie.
 - **8 dokumentierte Handfälle**:

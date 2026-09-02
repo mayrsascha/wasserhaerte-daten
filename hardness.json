@@ -907,14 +907,15 @@
       "mg_l": null,
       "band": "varies by supply zone",
       "source": "Leipziger Wasserwerke",
-      "source_url": "https://www.l.de/wasserwerke/leipziger-wasser/wasserhaerte/",
-      "note": "two thirds of the city drinks hard water from the Naunhof, Canitz and Thallwitz works at up to 18.5 dH; the remaining third arrives at medium hardness from the Elbaue-Ostharz long-distance supply",
+      "source_url": "https://www.l.de/wasserwerke/leipziger-wasser/inhaltsstoffe/",
+      "note": "the 2025 annual means per delivery point: Thallwitz 8.0 dH, Canitz 11.9, Elbaue-Ostharz long-distance water 12.9, Probstheida 15.3, Naunhof 16.7-17.0, Belgershain 17.5; which one reaches a district decides the figure",
       "range_mg_l": [
-        153.5,
-        330.2
+        142.8,
+        312.3
       ],
       "lat": 51.3396,
-      "lon": 12.3713
+      "lon": 12.3713,
+      "measured_on": "2025"
     },
     "DE/Leverkusen": {
       "mg_l": null,
