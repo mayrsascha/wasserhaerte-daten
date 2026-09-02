@@ -1,0 +1,30 @@
+name: Frische-Check
+
+# Prüft einmal pro Quartal jede Härtezahl gegen ihre lebende Quelle.
+# Schlägt der Lauf fehl, hat sich entweder eine Quelle geändert (DRIFT,
+# der eigentliche Zweck) oder zu viele Quellen sind unerreichbar geworden.
+on:
+  schedule:
+    - cron: "17 6 2 1,4,7,10 *"
+  workflow_dispatch:
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+      - name: Werkzeuge installieren
+        run: |
+          sudo apt-get update -q
+          sudo apt-get install -y -q poppler-utils
+          pip install --quiet requests
+      - name: Alle Quellen gegenprüfen
+        run: python3 tools_verify.py | tee frische-report.txt
+      - name: Report anhängen
+        if: always()
+        run: |
+          echo '## Frische-Check' >> "$GITHUB_STEP_SUMMARY"
+          echo '```' >> "$GITHUB_STEP_SUMMARY"
+          tail -n 60 frische-report.txt >> "$GITHUB_STEP_SUMMARY"
+          echo '```' >> "$GITHUB_STEP_SUMMARY"

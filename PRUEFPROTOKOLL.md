@@ -224,3 +224,40 @@ ist korrigiert:
   unter der veröffentlichten Spanne 17-20. Die Notiz sagt das jetzt;
   Einzelwerte bleiben leer, weil alle Parameter zwischen den vier
   Netzpunkten variieren.
+
+## Vollständigkeits- und Frische-Runde vom 3. September 2026
+
+**Der Frische-Check** (tools_verify.py, läuft quartalsweise als GitHub
+Action "Frische-Check") prüft jede Zahl gegen ihre lebende Quelle:
+statische Seiten und PDFs per Token-Abgleich in der Landeseinheit (auch
+mmol/l und Härte-als-Calcium), die französischen Städte gegen die
+Hubeau-API, die Gelsenwasser-Städte gegen die TWA-API. Schon der erste
+Testlauf fand zwei echte Abweichungen:
+
+- **Bochum** veröffentlicht nicht mehr 7,45 °dH stadtweit, sondern zwei
+  Zonen: 7,3 (übriges Stadtgebiet) und 7,6 (Langendreer und Werne, direkt
+  aus dem Wasserwerk Witten). Die Zeile trägt jetzt 7,3 mit Spanne und
+  den kompletten Quartalsmitteln der größeren Zone (Calcium 41,
+  Magnesium 6,9 reproduzieren die Härte auf 0,4 Prozent).
+- **Aachen**: Das Analyseblatt 2024 der STAWAG nennt inzwischen 3,0-8,4
+  und 6,0-14,0 °dH für die beiden Versorgungsbereiche; die alte Spanne
+  3,4-10,9 war überholt.
+
+**Hull und York sind jetzt maschinell verifiziert und komplett**: Das
+Postleitzahl-Tool von Yorkshire Water lässt sich mit einem echten
+Browser (Playwright) bedienen und liefert unter dem Härtewert eine
+vollständige Stofftabelle. Der Beweis für die Calcium-Konvention steht
+in den Zahlen selbst: York meldet "hardness average 98,8 mg/l calcium",
+und Calcium 86,6 plus Magnesium 7,4 mal 1,649 ergibt exakt 98,8. Beide
+Städte tragen jetzt Calcium, Magnesium, Nitrat, Natrium und pH; Hulls
+Nitrat von 41,3 mg/l liegt bemerkenswert nah am Grenzwert 50.
+
+**Weitere Vervollständigungen**: Braunschweig und Wolfsburg von Hand aus
+den akkreditierten Prüfberichten gelesen (die Stationscodes hatten den
+Parser zweimal getäuscht), beide validieren auf unter 0,5 Prozent.
+Karlsruhe korrigiert: die zuvor übernommenen Werte stammten vom
+Höhenstadtteile-Blatt; die Zeile trägt jetzt die Jahresmittelwerte 2025
+"aus den Karlsruher Wasserwerken" (18,3 °dH, kompletter Satz, Ca/Mg aus
+mmol/l umgerechnet). Herkunft von 40 auf 65 Städte erweitert, nur aus
+expliziten Versorgerangaben. 27 undatierte Zeilen tragen als Stand das
+Abrufjahr 2026 der lebenden Quellseite.
