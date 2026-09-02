@@ -28,6 +28,20 @@
       "lat": 47.4143,
       "lon": 9.742
     },
+    "AT/Feldkirch": {
+      "mg_l": null,
+      "band": "varies by supply zone",
+      "source": "Stadtwerke Feldkirch",
+      "source_url": "https://www.stadtwerke-feldkirch.at/unsere-bereiche/wasser/informationen-zur-wasserqualitaet-und-haerte",
+      "measured_on": "2025",
+      "note": "spring water at 7-9 dH, Frastanzerried groundwater at 15-17; the blend at a tap depends on the day's mix",
+      "range_mg_l": [
+        124.9,
+        303.4
+      ],
+      "lat": 47.2365,
+      "lon": 9.5973
+    },
     "AT/Graz": {
       "mg_l": 285.6,
       "band": "very hard",
@@ -51,6 +65,19 @@
       "lat": 47.2627,
       "lon": 11.3945
     },
+    "AT/Kapfenberg": {
+      "mg_l": 267.7,
+      "band": "very hard",
+      "source": "Stadtwerke Kapfenberg",
+      "source_url": "https://www.stadtwerke-kapfenberg.at/wasser.html",
+      "note": "midpoint of the published 14-16 dH",
+      "range_mg_l": [
+        249.9,
+        285.6
+      ],
+      "lat": 47.4444,
+      "lon": 15.2931
+    },
     "AT/Klagenfurt": {
       "mg_l": 330.2,
       "band": "very hard",
@@ -63,6 +90,34 @@
       ],
       "lat": 46.6247,
       "lon": 14.3053
+    },
+    "AT/Kufstein": {
+      "mg_l": 142.8,
+      "band": "hard",
+      "source": "Stadtwerke Kufstein",
+      "source_url": "https://www.stwk.at/produkte-leistungen/wasser/",
+      "measured_on": "2026",
+      "note": "Hofinger spring and the Fuerhoelzl deep well; hardness directories claim far higher figures than the utility itself publishes",
+      "range_mg_l": [
+        124.9,
+        160.6
+      ],
+      "lat": 47.5833,
+      "lon": 12.1667
+    },
+    "AT/Leoben": {
+      "mg_l": 224.9,
+      "band": "very hard",
+      "source": "Stadtwerke Leoben",
+      "source_url": "https://www.stadtwerke-leoben.at/wasserversorgung/",
+      "measured_on": "2025",
+      "note": "the analysis figure; the supply area as a whole runs 9-14 dH",
+      "range_mg_l": [
+        160.6,
+        249.9
+      ],
+      "lat": 47.3833,
+      "lon": 15.1
     },
     "AT/Linz": {
       "mg_l": 348.0,
@@ -78,6 +133,14 @@
       "lat": 48.3064,
       "lon": 14.2861
     },
+    "AT/Mödling": {
+      "mg_l": 339.1,
+      "band": "very hard",
+      "source": "Stadtgemeinde Moedling",
+      "source_url": "https://www.moedling.at/Wasserqualitaet_und_Wasserpreis",
+      "lat": 48.0861,
+      "lon": 16.2892
+    },
     "AT/Salzburg": {
       "mg_l": 178.5,
       "band": "hard",
@@ -91,6 +154,15 @@
       ],
       "lat": 47.7994,
       "lon": 13.044
+    },
+    "AT/Steyr": {
+      "mg_l": 285.6,
+      "band": "very hard",
+      "source": "Stadtbetriebe Steyr",
+      "source_url": "https://www.stadtbetriebe.at/Wasser/FAQ",
+      "note": "wells in the Dietach and Tinsting groundwater fields",
+      "lat": 48.0427,
+      "lon": 14.4213
     },
     "AT/Vienna": {
       "mg_l": null,
@@ -286,6 +358,15 @@
       ],
       "lat": 46.9918,
       "lon": 6.931
+    },
+    "CH/Riehen": {
+      "mg_l": 189.0,
+      "band": "very hard",
+      "source": "Gemeinde Riehen / IWB",
+      "source_url": "https://www.riehen.ch/verwaltung/dienstleistungen/47_trinkwasser,-brunnen-und-quellen",
+      "note": "supplied through the cantonal IWB network at 18.9 f; the village also keeps its own small spring network from the Au and Moostal valleys",
+      "lat": 47.5788,
+      "lon": 7.6468
     },
     "CH/Sion": {
       "mg_l": 239.0,

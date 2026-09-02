@@ -1,7 +1,8 @@
 # Wasserhärte deutscher Städte — offener Datensatz
 
-Die Trinkwasserhärte der 60 größten deutschen Städte, dazu 96 Städte in
-Österreich, der Schweiz, Frankreich und Großbritannien. Erhoben 2026,
+Die Trinkwasserhärte der 60 größten deutschen Städte, dazu der komplette DACH-Raum
+(alle 17 österreichischen und 17 Schweizer Städte der Sammlung) sowie
+Frankreich und Großbritannien — 163 Städte insgesamt. Erhoben 2026,
 **ausschließlich aus Primärquellen**: dem Analyseblatt, der Qualitätsseite
 oder dem akkreditierten Prüfbericht des jeweiligen Versorgers. Jede Zeile
 nennt ihre Quelle mit URL und Stand.
@@ -15,8 +16,10 @@ nicht.
 Wikipedia-Liste der Trinkwasserversorgung deutscher Großstädte trägt Werte
 von 2014 bis 2024; seitdem hat Braunschweig 2024 seine Versorgung
 umgestellt, Münster enthärtet seit August 2026, Pforzheim mischt auf 9 °dH
-herunter — und Oldenburg, dort mit minimal 1,8 °dH als weichste Stadt
-geführt, liegt laut seinem Netzbetreiber heute bei 6,6–12 °dH.
+herunter — Oldenburg, dort mit minimal 1,8 °dH als weichste Stadt
+geführt, liegt laut seinem Netzbetreiber heute bei 6,6–12 °dH — und für
+Kufstein behaupten Wasserhärte-Verzeichnisse 12,9 °dH, während die
+Stadtwerke selbst 7–9 veröffentlichen.
 
 ## Dateien
 
@@ -54,8 +57,8 @@ betrifft die Zusammenstellung.
 
 ## English summary
 
-Drinking-water hardness for the 60 largest German cities plus 96 cities in
-Austria, Switzerland, France and the UK, surveyed in 2026 exclusively from
+Drinking-water hardness for the 60 largest German cities plus all covered cities in
+Austria and Switzerland (DACH complete) and in France and the UK — 163 in total, surveyed in 2026 exclusively from
 primary sources (each utility's own published analysis), with source URL and
 date per row. `hardness.json` carries mg/L CaCO₃, per-zone ranges, notes and
 coordinates; `staedte.csv` is the flat version with German degrees. Licensed

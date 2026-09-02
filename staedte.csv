@@ -1,11 +1,17 @@
 stadt,land,mg_l_caco3,dH,zone_min_dH,zone_max_dH,band_international,stand,quelle,quelle_url
 Bregenz,AT,198.1,11.1,11.1,13.8,very hard,2026,Stadtwerke Bregenz,https://www.stadtwerke-bregenz.at/wasser-kanal-muell/wasserqualitaet
 Dornbirn,AT,163.3,9.1,9.0,9.3,hard,2024,Wasserwerk Dornbirn (Österreichische Trinkwasserdatenbank),https://www.trinkwasserinfo.at/datenbank?tx_abatrinkwdb_pi1_anlagenid=TWP_0008
+Feldkirch,AT,,,7.0,17.0,varies by supply zone,2025,Stadtwerke Feldkirch,https://www.stadtwerke-feldkirch.at/unsere-bereiche/wasser/informationen-zur-wasserqualitaet-und-haerte
 Graz,AT,285.6,16.0,15.0,17.0,very hard,,Holding Graz,https://www.holding-graz.at/de/wasserqualitaet/
 Innsbruck,AT,110.7,6.2,,,moderately hard,2025,Innsbrucker Kommunalbetriebe (IKB),https://www.ikb.at/fileadmin/user_upload/Dokumente/Wasser/Wasserhaerteplan.pdf
+Kapfenberg,AT,267.7,15.0,14.0,16.0,very hard,,Stadtwerke Kapfenberg,https://www.stadtwerke-kapfenberg.at/wasser.html
 Klagenfurt,AT,330.2,18.5,17.0,20.0,very hard,,Stadtwerke Klagenfurt,https://www.stw.at/privat/wasser/wasserqualitaet/
+Kufstein,AT,142.8,8.0,7.0,9.0,hard,2026,Stadtwerke Kufstein,https://www.stwk.at/produkte-leistungen/wasser/
+Leoben,AT,224.9,12.6,9.0,14.0,very hard,2025,Stadtwerke Leoben,https://www.stadtwerke-leoben.at/wasserversorgung/
 Linz,AT,348.0,19.5,16.2,21.3,very hard,2025,LINZ AG,https://www.linzag.at/media/dokumente/wasser_2/trinkwasseruntersuchungen/wasserguete-juli-august-2025.pdf
+Mödling,AT,339.1,19.0,,,very hard,,Stadtgemeinde Moedling,https://www.moedling.at/Wasserqualitaet_und_Wasserpreis
 Salzburg,AT,178.5,10.0,9.0,18.0,hard,2026,Salzburg AG,https://www.salzburg-ag.at/waerme-wasser/privat/wasser/trinkwasser.html
+Steyr,AT,285.6,16.0,,,very hard,,Stadtbetriebe Steyr,https://www.stadtbetriebe.at/Wasser/FAQ
 Vienna,AT,,,6.0,20.0,varies by supply zone,2026,Wiener Wasser (MA 31),https://www.wien.gv.at/umwelt/trinkwasser-wasserhaerte
 Villach,AT,176.7,9.9,9.4,16.0,hard,2026,Stadt Villach - Wasserwerk,https://villach.at/stadt-service/wasser/wasserqualitaet-wasserhaerte
 Wels,AT,207.0,11.6,10.3,11.6,very hard,2024,eww ag (Österreichische Trinkwasserdatenbank),https://www.trinkwasserinfo.at/datenbank?tx_abatrinkwdb_pi1_anlagenid=03011000
@@ -20,6 +26,7 @@ Lausanne,CH,,,7.8,15.7,varies by supply zone,2024,"Ville de Lausanne, eauservice
 Lucerne,CH,,,6.2,15.7,varies by supply zone,2025,ewl energie wasser luzern,https://www.ewl-luzern.ch/wasser/wasserqualitaet
 Lugano,CH,130.0,7.3,1.1,16.2,hard,2024,Aziende Industriali di Lugano (AIL) (SVGW trinkwasser.ch),https://trinkwasser.ch/de/versorger/949/aziende-industriali-di-lugano-ail-sa/1904/default
 Neuchatel,CH,186.0,10.4,8.1,22.6,very hard,2024,Viteos SA (SVGW trinkwasser.ch),https://trinkwasser.ch/de/versorger/755/viteos-sa/2882/default
+Riehen,CH,189.0,10.6,,,very hard,,Gemeinde Riehen / IWB,"https://www.riehen.ch/verwaltung/dienstleistungen/47_trinkwasser,-brunnen-und-quellen"
 Sion,CH,239.0,13.4,12.1,16.4,very hard,2024,Oiken SA (SVGW trinkwasser.ch),https://trinkwasser.ch/de/versorger/782/oiken-sa/2639/default
 St. Gallen,CH,162.0,9.1,9.0,9.2,hard,2025,St.Galler Stadtwerke (SVGW trinkwasser.ch),https://trinkwasser.ch/de/versorger/668/stgaller-stadtwerke/3272/default
 Thal,CH,166.5,9.3,9.1,9.4,hard,2021,Technische Betriebe Thal (SVGW trinkwasser.ch),https://trinkwasser.ch/de/versorger/721/technische-betriebe-thal/696/default
