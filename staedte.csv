@@ -17,7 +17,7 @@ Villach,AT,176.7,9.9,9.4,16.0,,,,,,,spring,hard,2026,Stadt Villach - Wasserwerk,
 Wels,AT,207.0,11.6,10.3,11.6,,,,,,,,very hard,2024,eww ag (Österreichische Trinkwasserdatenbank),https://www.trinkwasserinfo.at/datenbank?tx_abatrinkwdb_pi1_anlagenid=03011000
 Wiener Neustadt,AT,291.8,16.3,15.2,19.9,78.3,18.5,,,,,,very hard,2024,"Stadt Wiener Neustadt, Wasserwerk",https://www.wiener-neustadt.at/files/drive/wrn/content/service/umwelt-abfall/Wasserwerk/a4_wasserwerte_hp_2024_2.pdf
 Baden,CH,335.0,18.8,17.9,19.7,95.0,19.0,16.0,,,,,very hard,2024,Wasserversorgung Baden (SVGW trinkwasser.ch),https://trinkwasser.ch/de/versorger/1520/wasserversorgung-baden/2550/default
-Basel,CH,175.0,9.8,9.0,10.6,,,,,,,,hard,2025,IWB,https://www.iwb.ch/klimadreh/ratgeber/sauberes-trinkwasser/fakten-zum-trinkwasser
+Basel,CH,177.0,9.9,9.7,10.1,,,,,7.7,,river_bank;groundwater,hard,2025,IWB,https://www.iwb.ch/klimadreh/ratgeber/sauberes-trinkwasser/fakten-zum-trinkwasser
 Bern,CH,250.0,14.0,11.2,16.8,,,4.3,3.4,,,,very hard,2026,Energie Wasser Bern (ewb),https://www.ewb.ch/angebot/aues-fuer-baern/wasserversorgung/wasserqualitaet.php
 Biel,CH,117.0,6.6,5.6,9.8,40.7,4.51,4.5,5.33,7.65,,,moderately hard,2025,Energie Service Biel/Bienne (SVGW trinkwasser.ch),https://trinkwasser.ch/de/versorger/735/energie-service-biel-esb/3240/default
 Fribourg,CH,280.0,15.7,15.1,16.8,85.0,18.0,9.0,7.0,,,,very hard,2025,SINEF SA (SVGW trinkwasser.ch),https://trinkwasser.ch/de/versorger/1042/sinef-sa/3598/default
@@ -35,7 +35,7 @@ Zug,CH,248.0,13.9,11.8,15.2,76.5,14.1,8.3,10.1,7.48,,,very hard,2025,WWZ AG (SVG
 Zurich,CH,150.0,8.4,,,,,,,,,lake;spring;groundwater,hard,2022,Stadt Zürich Wasserversorgung (SVGW trinkwasser.ch),https://trinkwasser.ch/de/versorger/834/stadt-zurich-wasserversorgung/268/default
 Aachen,DE,,,3.4,10.9,,,,,,,,varies by supply zone,2025,STAWAG,https://www.stawag.de/fileadmin/stawag/content/Dokumente/Wasser/Trinkwasseranalyse_Aachen_2024.pdf
 Augsburg,DE,244.5,13.7,13.5,13.9,,,10.0,,,,,very hard,2025,Stadtwerke Augsburg,https://www.sw-augsburg.de/wasser/wasserqualitaet
-Berlin,DE,249.9,14.0,,,,,,37.0,,,,very hard,2025,Berliner Wasserbetriebe,https://www.bwb.de/de/wasserqualitaet.php
+Berlin,DE,,,14.0,25.7,,,,,,,,very hard,2024,Berliner Wasserbetriebe,https://www.bwb.de/de/analysedaten-nach-postleitzahlen.php?PLZ=10115&send=Suchen
 Bielefeld,DE,,,4.3,17.1,,,,,,,,varies by supply zone,2026,Stadtwerke Bielefeld,https://www.stadtwerke-bielefeld.de/privatkunden/wasser/trinkwasser/wasserversorgung/
 Bochum,DE,133.0,7.5,,,41.0,6.9,,,,96.4,,hard,2026,Stadtwerke Bochum,https://www.stadtwerke-bochum.de/privatkunden/produkte/wasser/wasserqualitaet
 Bonn,DE,101.7,5.7,4.4,7.0,,,9.0,9.8,,,,moderately hard,2025,Stadtwerke Bonn,https://www.stadtwerke-bonn.de/fuer-zuhause/produkte/wasser/wasseranalyse/
@@ -44,7 +44,7 @@ Bremen,DE,112.5,6.3,,,,,,,,,,moderately hard,2026,swb,https://www.swb.de/wasser/
 Bremerhaven,DE,,,9.0,11.4,,,,,,,groundwater,varies by supply zone,2026,swb,https://www.swb.de/wasser/trinkwasserqualitaet
 Chemnitz,DE,76.7,4.3,,,,,,,8.1,,,moderately hard,2024,eins energie in sachsen,https://www.eins.de/privatkunden/wasser
 Cologne,DE,,,15.6,18.1,,,22.0,35.0,,230.2,,varies by supply zone,2025,RheinEnergie,https://web.cdn.rheinenergie.com/cms/media/documents/trinkwasseranalyse/Trinkwasseranalyse_Linksrheinisch.pdf
-Cottbus,DE,265.9,14.9,,,87.5,11.5,,,,,groundwater,very hard,2025,LWG Lausitzer Wasser (Prüfbericht AQS),https://lausitzer-wasser.de/visioncontent/mediendatenbank/5_cottbus-sachsendorf_2026_geschwaerzt.pdf
+Cottbus,DE,285.6,16.0,14.0,17.0,93.5,11.9,1.5,14.0,7.54,,groundwater,very hard,2025,LWG Lausitzer Wasser (Prüfbericht AQS),https://lausitzer-wasser.de/visioncontent/mediendatenbank/5_cottbus-sachsendorf_2026_geschwaerzt.pdf
 Darmstadt,DE,339.1,19.0,18.4,19.6,101.8,17.6,,,,,,very hard,2026,ENTEGA / Hessenwasser,https://www.entega.ag/fileadmin/downloads/wasser/Trinkwasser_Darmstadt_InfoMW.pdf
 Dortmund,DE,137.4,7.7,,,,,,,7.9,,,hard,2026,DEW21,https://www.dew21.de/ueber-uns/unser-wasser
 Dresden,DE,,,5.6,12.3,,,,,,,reservoir;river_bank;groundwater,varies by supply zone,2026,SachsenEnergie,https://www.sachsenenergie.de/wps/portal/energie/cms/menu_main/privatkunden/wasser/gut-zu-wissen/trinkwasserqualitaet

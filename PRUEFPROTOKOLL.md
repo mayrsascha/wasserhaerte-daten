@@ -126,3 +126,31 @@ dieses Durchgangs: Methoden-Fußnoten als Messwerte (Regensburg "22"),
 der Schweizer Nitrat-Grenzwert 40 als Zürcher Messwert, Stationscodes
 in Laborberichten (Braunschweig, Wolfsburg). Cottbus' Prüfbericht ist
 ein Scan ohne Textebene; seine übrigen Werte fehlen darum weiter.
+
+## Nachtrag vom 2. September 2026: vier Städte mit Saschas Hilfe
+
+- **Berlin** ist jetzt ehrlich modelliert. Die alte Zeile sagte "14,0 °dH";
+  die Analysedaten der Berliner Wasserbetriebe für die zentrale PLZ 10115
+  zeigen 14,0 bis 25,7 °dH, weil die Wasserwerke im Verbund ein wechselndes
+  Mischwasser pumpen. Berlin ist darum eine Spannen-Stadt (249,9 bis 458,7
+  mg/L) mit Verweis auf die PLZ-Abfrage des Versorgers. Das zuvor
+  gespeicherte Natrium (37) wurde entfernt, die echte Spanne ist 21 bis 53.
+- **Cottbus** wurde von der Einzelprobe (13. Januar 2025) auf die
+  veröffentlichten Fünfjahresmittel 2021-2025 des Werks Sachsendorf
+  umgestellt, per Screenshot aus dem Scan abgelesen: 16 °dH, Calcium 93,5,
+  Magnesium 11,9, Natrium 14,0, Nitrat 1,5, pH 7,54. Ca+Mg reproduzieren
+  die Härte auf 1,1 Prozent.
+- **Basel** trägt jetzt die Jahresmittel 2025 der beiden Werke (Lange Erlen
+  17,3 °f, Hardwasser 18,1 °f, beides Rheinuferfiltrat) statt der groben
+  Spanne 16-19, dazu pH 7,7, der in beiden Werken identisch gemessen ist.
+  Calcium, Magnesium, Nitrat und Natrium unterscheiden sich zwischen den
+  Werken und bleiben darum bewusst leer.
+- **Zürich** bleibt bewusst wertfrei, jetzt mit Beleg: der offene Datensatz
+  der Stadt (data.stadt-zuerich.ch, dib_wvz_trinkwasserqualitaet) enthält
+  nur Werksausgänge (Lengg, Moos, Hardhof), keine Netzproben, und die
+  Werke unterscheiden sich in der Gesamthärte um bis zu 23 Prozent.
+- **Düsseldorf** liefert ein Lehrstück: die Trinkwasseranalyse 2026 der
+  Stadtwerke nennt Gesamthärte 15,0 °dH, aber ihre eigenen Werte Calcium
+  65 und Magnesium 8,6 ergeben nur 11,1 °dH; zugleich sagt die
+  Wasserhärte-Seite "etwa 14,0". Ein in sich widersprüchliches Blatt
+  spendet keine Werte.

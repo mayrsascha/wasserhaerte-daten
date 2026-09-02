@@ -275,18 +275,23 @@
       "nitrate_mg_l": 16.0
     },
     "CH/Basel": {
-      "mg_l": 175.0,
+      "mg_l": 177.0,
       "band": "hard",
       "source": "IWB",
       "source_url": "https://www.iwb.ch/klimadreh/ratgeber/sauberes-trinkwasser/fakten-zum-trinkwasser",
       "measured_on": "2025",
-      "note": "midpoint of the published 16-19 f range",
+      "note": "midpoint of the two works' 2025 annual means, which the network blends: Lange Erlen 17.3 f, Hardwasser 18.1 f, both Rhine bank filtrate; the quality reports are linked from the source page",
       "range_mg_l": [
-        160.0,
-        190.0
+        173.0,
+        181.0
       ],
       "lat": 47.5584,
-      "lon": 7.5733
+      "lon": 7.5733,
+      "ph": 7.7,
+      "origin": [
+        "river_bank",
+        "groundwater"
+      ]
     },
     "CH/Bern": {
       "mg_l": 250.0,
@@ -592,15 +597,19 @@
       "nitrate_mg_l": 10.0
     },
     "DE/Berlin": {
-      "mg_l": 249.9,
       "band": "very hard",
       "source": "Berliner Wasserbetriebe",
-      "source_url": "https://www.bwb.de/de/wasserqualitaet.php",
-      "measured_on": "2025",
-      "note": "converted from 14.0 dH",
+      "source_url": "https://www.bwb.de/de/analysedaten-nach-postleitzahlen.php?PLZ=10115&send=Suchen",
+      "measured_on": "2024",
       "lat": 52.5244,
       "lon": 13.4105,
-      "sodium_mg_l": 37.0
+      "mg_l": null,
+      "range_mg_l": [
+        249.9,
+        458.7
+      ],
+      "lookup_url": "https://www.bwb.de/de/analysedaten-nach-postleitzahlen.php",
+      "note": "central Berlin, postcode 10115: the works pump a blend that varies with demand, so hardness runs 14.0-25.7 dH even within this one postcode; the utility publishes the figures for every postcode"
     },
     "DE/Bielefeld": {
       "mg_l": null,
@@ -714,19 +723,26 @@
       "carbonate_mg_l": 230.2
     },
     "DE/Cottbus": {
-      "mg_l": 265.9,
+      "mg_l": 285.6,
       "band": "very hard",
       "source": "LWG Lausitzer Wasser (Prüfbericht AQS)",
       "source_url": "https://lausitzer-wasser.de/visioncontent/mediendatenbank/5_cottbus-sachsendorf_2026_geschwaerzt.pdf",
-      "measured_on": "2025-01-13",
-      "note": "computed from the accredited report's calcium (87.5 mg/L) and magnesium (11.5 mg/L), which is the definition of total hardness; the sample is the Sachsendorf zone, and the city's other zones differ",
+      "measured_on": "2025",
+      "note": "the works' published mean for 2021-2025: 16 dH with a spread of 14-17 dH; this is the Sachsendorf zone, and the city's other zones differ",
       "lat": 51.7577,
       "lon": 14.3289,
-      "calcium_mg_l": 87.5,
-      "magnesium_mg_l": 11.5,
+      "calcium_mg_l": 93.5,
+      "magnesium_mg_l": 11.9,
       "origin": [
         "groundwater"
-      ]
+      ],
+      "range_mg_l": [
+        249.9,
+        303.4
+      ],
+      "sodium_mg_l": 14.0,
+      "nitrate_mg_l": 1.5,
+      "ph": 7.54
     },
     "DE/Darmstadt": {
       "mg_l": 339.1,
