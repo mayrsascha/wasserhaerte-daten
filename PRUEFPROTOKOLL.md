@@ -11,7 +11,7 @@ Primärquelle geprüft; dieses Protokoll dokumentiert wie.
 2. **URL-Prüfung** aller 110 eindeutigen Quell-URLs (Status, Weiterleitungen).
    Weiterleitungen wurden auf die Ziel-URL umgeschrieben.
 3. **Wertprüfung**: Jede Quelle wurde maschinell geladen (HTML oder PDF) und
-   auf den eingetragenen Wert in seiner Originaleinheit durchsucht — mit
+   auf den eingetragenen Wert in seiner Originaleinheit durchsucht, mit
    Komma- und Punktschreibweise, mmol-Äquivalent und Rundungsnachbarn.
 
 ## Ergebnis
@@ -33,7 +33,7 @@ Primärquelle geprüft; dieses Protokoll dokumentiert wie.
 - **8 dokumentierte Handfälle**:
   - *Cottbus, Lübeck, Münster*: Die Analyse liegt als Scan bzw. hinter einem
     Download-Portal; Werte aus dem Dokument selbst abgelesen (Cottbus zudem
-    aus Calcium + Magnesium des akkreditierten Prüfberichts nachgerechnet —
+    aus Calcium + Magnesium des akkreditierten Prüfberichts nachgerechnet;
     das ist die Definition der Gesamthärte).
   - *Lausanne, Belfast, Bristol, Cardiff*: Der Versorger veröffentlicht den
     Wert nur über eine Adress-/Postleitzahl-Abfrage; die genannte Zone steht
@@ -45,8 +45,16 @@ Primärquelle geprüft; dieses Protokoll dokumentiert wie.
 ## Grundsätze
 
 - Kein Wert stammt aus einem Wasserhärte-Verzeichnis oder einer Ratgeberseite.
-- Wo ein Versorger keine Einzelzahl nennt, steht die Spanne — nie ein
+- Wo ein Versorger keine Einzelzahl nennt, steht die Spanne und nie ein
   erfundener Mittelwert (Ausnahme: als „Mittelwert der veröffentlichten
   Spanne" gekennzeichnete Zeilen, deren Spanne mitgeliefert wird).
 - Elementares Calcium wird nicht in Härte umgerechnet (York), Gesamthärte in
-  Calcium-Einheiten schon (Portsmouth) — der Unterschied steht in den Notizen.
+  Calcium-Einheiten schon (Portsmouth). Der Unterschied steht in den Notizen.
+
+## Calcium und Magnesium
+
+Zwölf Städte tragen zusätzlich die Calcium- und Magnesiumwerte des
+Versorgers. Ein Paar wird nur übernommen, wenn es die Gesamthärte der Zeile
+rechnerisch reproduziert (Toleranz 10 Prozent), denn Calcium plus Magnesium
+ist die Definition der Gesamthärte. Ein Paar, das nicht aufgeht, hieße, dass
+eine der Zahlen falsch ist.

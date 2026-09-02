@@ -12,7 +12,9 @@
         246.3
       ],
       "lat": 47.5031,
-      "lon": 9.7471
+      "lon": 9.7471,
+      "calcium_mg_l": 65.0,
+      "magnesium_mg_l": 8.8
     },
     "AT/Dornbirn": {
       "mg_l": 163.3,
@@ -218,7 +220,9 @@
         355.2
       ],
       "lat": 47.8049,
-      "lon": 16.232
+      "lon": 16.232,
+      "calcium_mg_l": 78.3,
+      "magnesium_mg_l": 18.5
     },
     "CH/Baden": {
       "mg_l": 335.0,
@@ -421,7 +425,9 @@
         280.0
       ],
       "lat": 47.5056,
-      "lon": 8.7241
+      "lon": 8.7241,
+      "calcium_mg_l": 75.8,
+      "magnesium_mg_l": 19.8
     },
     "CH/Zug": {
       "mg_l": 248.0,
@@ -505,7 +511,9 @@
       "measured_on": "2026",
       "note": "converted from 7.45 dH",
       "lat": 51.4817,
-      "lon": 7.2165
+      "lon": 7.2165,
+      "calcium_mg_l": 41.0,
+      "magnesium_mg_l": 6.9
     },
     "DE/Bonn": {
       "mg_l": 101.7,
@@ -587,7 +595,9 @@
       "measured_on": "2025-01-13",
       "note": "computed from the accredited report's calcium (87.5 mg/L) and magnesium (11.5 mg/L), which is the definition of total hardness; the sample is the Sachsendorf zone, and the city's other zones differ",
       "lat": 51.7577,
-      "lon": 14.3289
+      "lon": 14.3289,
+      "calcium_mg_l": 87.5,
+      "magnesium_mg_l": 11.5
     },
     "DE/Darmstadt": {
       "mg_l": 339.1,
@@ -600,7 +610,9 @@
         349.8
       ],
       "lat": 49.8717,
-      "lon": 8.6503
+      "lon": 8.6503,
+      "calcium_mg_l": 101.8,
+      "magnesium_mg_l": 17.6
     },
     "DE/Dortmund": {
       "mg_l": 137.4,
@@ -739,7 +751,9 @@
         130.3
       ],
       "lat": 51.5344,
-      "lon": 9.9323
+      "lon": 9.9323,
+      "calcium_mg_l": 34.9,
+      "magnesium_mg_l": 7.4
     },
     "DE/Halle (Saale)": {
       "mg_l": 75.5,
@@ -772,7 +786,9 @@
       "measured_on": "2025",
       "note": "converted from 12.0 dH",
       "lat": 52.3705,
-      "lon": 9.7332
+      "lon": 9.7332,
+      "calcium_mg_l": 76.0,
+      "magnesium_mg_l": 5.8
     },
     "DE/Heidelberg": {
       "mg_l": null,
@@ -817,7 +833,9 @@
       "source": "Ingolstaedter Kommunalbetriebe (INKB)",
       "source_url": "https://www.in-kb.de/Wasser/Trinkwasser/Qualit%C3%A4t/",
       "lat": 48.7651,
-      "lon": 11.4237
+      "lon": 11.4237,
+      "calcium_mg_l": 89.0,
+      "magnesium_mg_l": 36.0
     },
     "DE/Jena": {
       "mg_l": null,
@@ -964,7 +982,9 @@
       "measured_on": "2025",
       "note": "all of it from the Colbitz works in the Colbitz-Letzlinger Heide; the figure sits so close to the 14.0 boundary that SWM's own pages label it hart in one place and mittel in another",
       "lat": 52.1313,
-      "lon": 11.6319
+      "lon": 11.6319,
+      "calcium_mg_l": 91.5,
+      "magnesium_mg_l": 6.6
     },
     "DE/Mainz": {
       "mg_l": null,
@@ -1060,7 +1080,9 @@
         242.8
       ],
       "lat": 49.4542,
-      "lon": 11.0775
+      "lon": 11.0775,
+      "calcium_mg_l": 58.0,
+      "magnesium_mg_l": 14.0
     },
     "DE/Oberhausen": {
       "mg_l": null,
@@ -1134,7 +1156,7 @@
       "band": "varies by supply zone",
       "source": "Energie und Wasser Potsdam (EWP)",
       "source_url": "https://www.swp-potsdam.de/de/wasser/wasserh%C3%A4rtegrad/",
-      "note": "mostly hard: the Wildpark works at 20-22 dH supplies the west and centre; only the Ferch works delivers medium water",
+      "note": "mostly hard: the Wildpark works at the top of that span supplies the west and the centre; only the Ferch works delivers medium water",
       "range_mg_l": [
         178.5,
         374.8
@@ -1181,7 +1203,9 @@
       "source_url": "https://www.nordwasser.de/trinkwasser/versorgung/trinkwasseranalyse-ww-rostock-1",
       "note": "2.54 mmol/L at the Rostock waterworks outlet",
       "lat": 54.0887,
-      "lon": 12.1405
+      "lon": 12.1405,
+      "calcium_mg_l": 83.6,
+      "magnesium_mg_l": 11.0
     },
     "DE/Saarbrücken": {
       "mg_l": null,
@@ -1290,7 +1314,11 @@
       "measured_on": "2025",
       "note": "midpoint of three sources, 5.1-11.3 dH",
       "lat": 51.2563,
-      "lon": 7.1482
+      "lon": 7.1482,
+      "range_mg_l": [
+        91.0,
+        201.7
+      ]
     },
     "DE/Würzburg": {
       "mg_l": null,

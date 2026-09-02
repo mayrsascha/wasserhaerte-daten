@@ -1,23 +1,23 @@
-# Wasserhärte deutscher Städte — offener Datensatz
+# Wasserhärte deutscher Städte: offener Datensatz
 
 Die Trinkwasserhärte von 70 deutschen Großstädten, dazu der komplette DACH-Raum
 (alle 17 österreichischen und 17 Schweizer Städte der Sammlung) sowie
-Frankreich und Großbritannien — 173 Städte insgesamt. Erhoben 2026,
+Frankreich und Großbritannien: 173 Städte insgesamt. Erhoben 2026,
 **ausschließlich aus Primärquellen**: dem Analyseblatt, der Qualitätsseite
 oder dem akkreditierten Prüfbericht des jeweiligen Versorgers. Jede Zeile
 nennt ihre Quelle mit URL und Stand.
 
 Kein Wert stammt aus einem Wasserhärte-Verzeichnis oder einer anderen
 Sekundärquelle. Wo ein Versorger keine einzelne Zahl veröffentlicht, steht
-die Spanne über seine Wasserwerke — ein erfundener Mittelwert steht hier
+die Spanne über seine Wasserwerke. Ein erfundener Mittelwert steht hier
 nicht.
 
 **Warum das nötig war:** Die verbreiteten Übersichten sind alt. Die
 Wikipedia-Liste der Trinkwasserversorgung deutscher Großstädte trägt Werte
 von 2014 bis 2024; seitdem hat Braunschweig 2024 seine Versorgung
 umgestellt, Münster enthärtet seit August 2026, Pforzheim mischt auf 9 °dH
-herunter — Oldenburg, dort mit minimal 1,8 °dH als weichste Stadt
-geführt, liegt laut seinem Netzbetreiber heute bei 6,6–12 °dH — und für
+herunter. Oldenburg, dort mit minimal 1,8 °dH als weichste Stadt
+geführt, liegt laut seinem Netzbetreiber heute bei 6,6–12 °dH. Und für
 Kufstein behaupten Wasserhärte-Verzeichnisse 12,9 °dH, während die
 Stadtwerke selbst 7–9 veröffentlichen.
 
@@ -27,24 +27,24 @@ acht dokumentierten Handfälle.
 
 ## Dateien
 
-- **`hardness.json`** — der vollständige Datensatz: mg/L CaCO₃ (die
+- **`hardness.json`**: der vollständige Datensatz: mg/L CaCO₃ (die
   universelle Größe), Spannen je Versorgungszone, Quelle, Quell-URL,
   Messdatum, Anmerkungen, Koordinaten.
-- **`staedte.csv`** — dasselbe flach als Tabelle, mit °dH umgerechnet.
+- **`staedte.csv`**: dasselbe flach als Tabelle, mit °dH umgerechnet.
 
 ## Die Extreme (Deutschland, 2026)
 
 Das härteste Stadtwasser fließt in **Würzburg**: 25,4–42,7 °dH aus dem
 Muschelkalk, je nach Hochbehälter. Das weichste stadtweite Wasser in **Hildesheim**: 1,8 °dH Harzer
 Talsperrenwasser. Eine einzelne Zone unterbietet das: der Wiesbadener
-Taunusstollen liefert 1,72 °dH — Quarzit löst fast nichts.
+Taunusstollen liefert 1,72 °dH, denn Quarzit löst fast nichts.
 
 ## Einheiten
 
 Härte ist eine Größe auf vier Skalen: 1 °dH = 17,848 mg/L CaCO₃ = 1,7848 °f
 = 0,1783 mmol/L. Der Datensatz führt mg/L CaCO₃; alles andere ist
 Umrechnung. Die Härtebereiche (weich/mittel/hart) sind national verschieden
-definiert — `band_international` folgt WHO/USGS (60/120/180 mg/L).
+definiert; `band_international` folgt WHO/USGS (60/120/180 mg/L).
 
 ## Aufbereitete Ansicht
 
@@ -53,7 +53,7 @@ Jede Stadt mit Einordnung, Skalenvergleich und Karte:
 
 ## Lizenz
 
-[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.de) — frei
+[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.de): frei
 nutzbar mit Namensnennung: *„Daten: iswatersafetodrink.in"* mit Link.
 Die Einzelwerte sind Fakten der jeweils genannten Versorger; die Lizenz
 betrifft die Zusammenstellung.
@@ -63,11 +63,11 @@ betrifft die Zusammenstellung.
 ## English summary
 
 Drinking-water hardness for the 60 largest German cities plus all covered cities in
-Austria and Switzerland (DACH complete) and in France and the UK — 173 in total, surveyed in 2026 exclusively from
+Austria and Switzerland (DACH complete) and in France and the UK, 173 in total, surveyed in 2026 exclusively from
 primary sources (each utility's own published analysis), with source URL and
 date per row. `hardness.json` carries mg/L CaCO₃, per-zone ranges, notes and
 coordinates; `staedte.csv` is the flat version with German degrees. Licensed
-CC BY 4.0 — attribute as "Data: iswatersafetodrink.in" with a link.
+CC BY 4.0; attribute as "Data: iswatersafetodrink.in" with a link.
 
 ## Alle deutschen Städte mit Wert, weich nach hart
 
