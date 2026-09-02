@@ -1,0 +1,1741 @@
+{
+  "cities": {
+    "AT/Bregenz": {
+      "mg_l": 198.1,
+      "band": "very hard",
+      "source": "Stadtwerke Bregenz",
+      "source_url": "https://www.stadtwerke-bregenz.at/wasser-kanal-muell/wasserqualitaet",
+      "measured_on": "2026",
+      "note": "the city groundwater; the Fluh springs supply 13.8 dH",
+      "range_mg_l": [
+        198.1,
+        246.3
+      ],
+      "lat": 47.5031,
+      "lon": 9.7471
+    },
+    "AT/Dornbirn": {
+      "mg_l": 163.3,
+      "band": "hard",
+      "source": "Wasserwerk Dornbirn (Österreichische Trinkwasserdatenbank)",
+      "source_url": "https://www.trinkwasserinfo.at/datenbank?tx_abatrinkwdb_pi1_anlagenid=TWP_0008",
+      "measured_on": "2024",
+      "note": "the Fussenegg filter plant zone",
+      "range_mg_l": [
+        160.6,
+        166.0
+      ],
+      "lat": 47.4143,
+      "lon": 9.742
+    },
+    "AT/Graz": {
+      "mg_l": 285.6,
+      "band": "very hard",
+      "source": "Holding Graz",
+      "source_url": "https://www.holding-graz.at/de/wasserqualitaet/",
+      "note": "midpoint of the published 15-17 dH range, which straddles the boundary between Austrian hardness levels II and III",
+      "range_mg_l": [
+        267.7,
+        303.4
+      ],
+      "lat": 47.0673,
+      "lon": 15.442
+    },
+    "AT/Innsbruck": {
+      "mg_l": 110.7,
+      "band": "moderately hard",
+      "source": "Innsbrucker Kommunalbetriebe (IKB)",
+      "source_url": "https://www.ikb.at/fileadmin/user_upload/Dokumente/Wasser/Wasserhaerteplan.pdf",
+      "measured_on": "2025",
+      "note": "the main city zone; outlying zones run from 1.5 dH at Amras to 21.2 dH in Oberes Hötting West",
+      "lat": 47.2627,
+      "lon": 11.3945
+    },
+    "AT/Klagenfurt": {
+      "mg_l": 330.2,
+      "band": "very hard",
+      "source": "Stadtwerke Klagenfurt",
+      "source_url": "https://www.stw.at/privat/wasser/wasserqualitaet/",
+      "note": "midpoint of the published 17-20 dH range",
+      "range_mg_l": [
+        303.4,
+        357.0
+      ],
+      "lat": 46.6247,
+      "lon": 14.3053
+    },
+    "AT/Linz": {
+      "mg_l": 348.0,
+      "band": "very hard",
+      "source": "LINZ AG",
+      "source_url": "https://www.linzag.at/media/dokumente/wasser_2/trinkwasseruntersuchungen/wasserguete-juli-august-2025.pdf",
+      "measured_on": "2025",
+      "note": "median of eleven supply zones measuring 16.2-21.3 dH; all eleven fall in hardness level III",
+      "range_mg_l": [
+        289.1,
+        380.2
+      ],
+      "lat": 48.3064,
+      "lon": 14.2861
+    },
+    "AT/Salzburg": {
+      "mg_l": 178.5,
+      "band": "hard",
+      "source": "Salzburg AG",
+      "source_url": "https://www.salzburg-ag.at/waerme-wasser/privat/wasser/trinkwasser.html",
+      "measured_on": "2026",
+      "note": "about 10 dH across 90 percent of the supply area; the Tiefenbach spring zones on the edge of the city run 17-18 dH",
+      "range_mg_l": [
+        160.6,
+        321.3
+      ],
+      "lat": 47.7994,
+      "lon": 13.044
+    },
+    "AT/Vienna": {
+      "mg_l": null,
+      "band": "varies by supply zone",
+      "source": "Wiener Wasser (MA 31)",
+      "source_url": "https://www.wien.gv.at/umwelt/trinkwasser-wasserhaerte",
+      "measured_on": "2026",
+      "note": "6-12 dH across most of the city; districts 2, 3, 11, 20, 21 and 22 take groundwater as well and run 6-20 dH",
+      "range_mg_l": [
+        107.1,
+        357.0
+      ],
+      "lat": 48.2085,
+      "lon": 16.3721
+    },
+    "AT/Villach": {
+      "mg_l": 176.7,
+      "band": "hard",
+      "source": "Stadt Villach - Wasserwerk",
+      "source_url": "https://villach.at/stadt-service/wasser/wasserqualitaet-wasserhaerte",
+      "measured_on": "2026",
+      "note": "the Union spring, which supplies the city proper; Landskron runs 14.0-16.0 dH and Mittewald 12.3 dH",
+      "range_mg_l": [
+        167.8,
+        285.6
+      ],
+      "lat": 46.6103,
+      "lon": 13.8558
+    },
+    "AT/Wels": {
+      "mg_l": 207.0,
+      "band": "very hard",
+      "source": "eww ag (Österreichische Trinkwasserdatenbank)",
+      "source_url": "https://www.trinkwasserinfo.at/datenbank?tx_abatrinkwdb_pi1_anlagenid=03011000",
+      "measured_on": "2024",
+      "note": "the Messegelände zone; the other zones in the city measure 10.3-11.6 dH",
+      "range_mg_l": [
+        183.8,
+        207.0
+      ],
+      "lat": 48.1667,
+      "lon": 14.0333
+    },
+    "AT/Wiener Neustadt": {
+      "mg_l": 291.8,
+      "band": "very hard",
+      "source": "Stadt Wiener Neustadt, Wasserwerk",
+      "source_url": "https://www.wiener-neustadt.at/files/drive/wrn/content/service/umwelt-abfall/Wasserwerk/a4_wasserwerte_hp_2024_2.pdf",
+      "measured_on": "2024",
+      "note": "median of the four distribution areas, which measure 15.2-19.9 dH",
+      "range_mg_l": [
+        271.3,
+        355.2
+      ],
+      "lat": 47.8049,
+      "lon": 16.232
+    },
+    "CH/Baden": {
+      "mg_l": 335.0,
+      "band": "very hard",
+      "source": "Wasserversorgung Baden (SVGW trinkwasser.ch)",
+      "source_url": "https://trinkwasser.ch/de/versorger/1520/wasserversorgung-baden/2550/default",
+      "measured_on": "2024",
+      "range_mg_l": [
+        319.0,
+        352.0
+      ],
+      "lat": 47.4733,
+      "lon": 8.3059
+    },
+    "CH/Basel": {
+      "mg_l": 175.0,
+      "band": "hard",
+      "source": "IWB",
+      "source_url": "https://www.iwb.ch/klimadreh/ratgeber/sauberes-trinkwasser/fakten-zum-trinkwasser",
+      "measured_on": "2025",
+      "note": "midpoint of the published 16-19 f range",
+      "range_mg_l": [
+        160.0,
+        190.0
+      ],
+      "lat": 47.5584,
+      "lon": 7.5733
+    },
+    "CH/Bern": {
+      "mg_l": 250.0,
+      "band": "very hard",
+      "source": "Energie Wasser Bern (ewb)",
+      "source_url": "https://www.ewb.ch/angebot/aues-fuer-baern/wasserversorgung/wasserqualitaet.php",
+      "measured_on": "2026",
+      "note": "midpoint of the published 20-30 f range across the three catchments in the Emmental, at Kiesen and in the Aare valley",
+      "range_mg_l": [
+        200.0,
+        300.0
+      ],
+      "lat": 46.9481,
+      "lon": 7.4474
+    },
+    "CH/Biel": {
+      "mg_l": 117.0,
+      "band": "moderately hard",
+      "source": "Energie Service Biel/Bienne (SVGW trinkwasser.ch)",
+      "source_url": "https://trinkwasser.ch/de/versorger/735/energie-service-biel-esb/3240/default",
+      "measured_on": "2025",
+      "note": "average of 27 measurements",
+      "range_mg_l": [
+        100.0,
+        175.0
+      ],
+      "lat": 47.1371,
+      "lon": 7.2461
+    },
+    "CH/Fribourg": {
+      "mg_l": 280.0,
+      "band": "very hard",
+      "source": "SINEF SA (SVGW trinkwasser.ch)",
+      "source_url": "https://trinkwasser.ch/de/versorger/1042/sinef-sa/3598/default",
+      "measured_on": "2025",
+      "note": "average of 15 measurements",
+      "range_mg_l": [
+        270.0,
+        300.0
+      ],
+      "lat": 46.8024,
+      "lon": 7.1513
+    },
+    "CH/Geneva": {
+      "mg_l": 134.0,
+      "band": "hard",
+      "source": "SIG (Services industriels de Genève)",
+      "source_url": "https://media.sig-ge.ch/documents/particuliers/eau/bilan_eau_potable.pdf",
+      "measured_on": "2024",
+      "note": "lake water, which supplies most of the city; the networks fed from the Genevois aquifer run 18.3-21.2 f",
+      "range_mg_l": [
+        134.0,
+        212.0
+      ],
+      "lat": 46.2022,
+      "lon": 6.1457
+    },
+    "CH/Lausanne": {
+      "mg_l": null,
+      "band": "varies by supply zone",
+      "source": "Ville de Lausanne, eauservice",
+      "source_url": "https://www.lausanne.ch/vie-pratique/energies-et-eau/eau/qualite/durete-eau.html",
+      "measured_on": "2024",
+      "note": "water from Lake Geneva is soft at 14 f, the Thierrens springs fairly hard at 28 f; which reservoir feeds a street decides the figure",
+      "range_mg_l": [
+        140.0,
+        280.0
+      ],
+      "lat": 46.516,
+      "lon": 6.6328
+    },
+    "CH/Lucerne": {
+      "mg_l": null,
+      "band": "varies by supply zone",
+      "source": "ewl energie wasser luzern",
+      "source_url": "https://www.ewl-luzern.ch/wasser/wasserqualitaet",
+      "measured_on": "2025",
+      "note": "lake water 11 f, spring water 13-20 f, groundwater about 28 f; which of them reaches a district decides the figure",
+      "range_mg_l": [
+        110.0,
+        280.0
+      ],
+      "lat": 47.0505,
+      "lon": 8.3064
+    },
+    "CH/Lugano": {
+      "mg_l": 130.0,
+      "band": "hard",
+      "source": "Aziende Industriali di Lugano (AIL) (SVGW trinkwasser.ch)",
+      "source_url": "https://trinkwasser.ch/de/versorger/949/aziende-industriali-di-lugano-ail-sa/1904/default",
+      "measured_on": "2024",
+      "note": "average of 123 measurements across the integrated network, which spans 2-29 f; the central districts measure 10-12 f",
+      "range_mg_l": [
+        20.0,
+        290.0
+      ],
+      "lat": 46.0101,
+      "lon": 8.96
+    },
+    "CH/Neuchatel": {
+      "mg_l": 186.0,
+      "band": "very hard",
+      "source": "Viteos SA (SVGW trinkwasser.ch)",
+      "source_url": "https://trinkwasser.ch/de/versorger/755/viteos-sa/2882/default",
+      "measured_on": "2024",
+      "note": "average of 49 measurements; the network spans 14.5-40.4 f, so a single figure hides a lot",
+      "range_mg_l": [
+        145.0,
+        404.0
+      ],
+      "lat": 46.9918,
+      "lon": 6.931
+    },
+    "CH/Sion": {
+      "mg_l": 239.0,
+      "band": "very hard",
+      "source": "Oiken SA (SVGW trinkwasser.ch)",
+      "source_url": "https://trinkwasser.ch/de/versorger/782/oiken-sa/2639/default",
+      "measured_on": "2024",
+      "note": "the Sion Plaine zone, which covers the town centre; the Coteau rive droite zone measures 21.6 f and the Coteau rive gauche 29.3 f",
+      "range_mg_l": [
+        216.0,
+        293.0
+      ],
+      "lat": 46.2274,
+      "lon": 7.3556
+    },
+    "CH/St. Gallen": {
+      "mg_l": 162.0,
+      "band": "hard",
+      "source": "St.Galler Stadtwerke (SVGW trinkwasser.ch)",
+      "source_url": "https://trinkwasser.ch/de/versorger/668/stgaller-stadtwerke/3272/default",
+      "measured_on": "2025",
+      "note": "the city takes all of its water from Lake Constance, which is why the span is so narrow",
+      "range_mg_l": [
+        161.0,
+        164.0
+      ],
+      "lat": 47.4239,
+      "lon": 9.3748
+    },
+    "CH/Thal": {
+      "mg_l": 166.5,
+      "band": "hard",
+      "source": "Technische Betriebe Thal (SVGW trinkwasser.ch)",
+      "source_url": "https://trinkwasser.ch/de/versorger/721/technische-betriebe-thal/696/default",
+      "measured_on": "2021",
+      "range_mg_l": [
+        163.0,
+        168.0
+      ],
+      "lat": 47.4667,
+      "lon": 9.5667
+    },
+    "CH/Winterthur": {
+      "mg_l": 271.0,
+      "band": "very hard",
+      "source": "Stadtwerk Winterthur (SVGW trinkwasser.ch)",
+      "source_url": "https://trinkwasser.ch/de/versorger/792/stadtwerk-winterthur/3438/default",
+      "measured_on": "2025",
+      "note": "average of 34 measurements; outlying districts on spring water run about 36 f",
+      "range_mg_l": [
+        256.0,
+        280.0
+      ],
+      "lat": 47.5056,
+      "lon": 8.7241
+    },
+    "CH/Zug": {
+      "mg_l": 248.0,
+      "band": "very hard",
+      "source": "WWZ AG (SVGW trinkwasser.ch)",
+      "source_url": "https://trinkwasser.ch/de/versorger/635/wwz-ag/3227/default",
+      "measured_on": "2025",
+      "note": "average of 13 measurements",
+      "range_mg_l": [
+        211.0,
+        271.0
+      ],
+      "lat": 47.1724,
+      "lon": 8.5175
+    },
+    "CH/Zurich": {
+      "mg_l": 150.0,
+      "band": "hard",
+      "source": "Stadt Zürich Wasserversorgung (SVGW trinkwasser.ch)",
+      "source_url": "https://trinkwasser.ch/de/versorger/834/stadt-zurich-wasserversorgung/268/default",
+      "measured_on": "2022",
+      "lat": 47.3667,
+      "lon": 8.55
+    },
+    "DE/Aachen": {
+      "mg_l": null,
+      "band": "varies by supply zone",
+      "source": "STAWAG",
+      "source_url": "https://www.stawag.de/fileadmin/stawag/content/Dokumente/Wasser/Trinkwasseranalyse_Aachen_2024.pdf",
+      "measured_on": "2025",
+      "note": "3.4-4.0 dH from Roetgen, 9.7-10.9 dH from Binsfeldhammer; STAWAG states hard water does not occur in its area",
+      "range_mg_l": [
+        60.7,
+        194.6
+      ],
+      "lat": 50.7766,
+      "lon": 6.0834
+    },
+    "DE/Augsburg": {
+      "mg_l": 244.5,
+      "band": "very hard",
+      "source": "Stadtwerke Augsburg",
+      "source_url": "https://www.sw-augsburg.de/wasser/wasserqualitaet",
+      "measured_on": "2025",
+      "note": "published range 13.5-13.9 dH across the whole supply area",
+      "range_mg_l": [
+        241.0,
+        248.1
+      ],
+      "lat": 48.3715,
+      "lon": 10.8985
+    },
+    "DE/Berlin": {
+      "mg_l": 249.9,
+      "band": "very hard",
+      "source": "Berliner Wasserbetriebe",
+      "source_url": "https://www.bwb.de/de/wasserqualitaet.php",
+      "measured_on": "2025",
+      "note": "converted from 14.0 dH",
+      "lat": 52.5244,
+      "lon": 13.4105
+    },
+    "DE/Bielefeld": {
+      "mg_l": null,
+      "band": "varies by supply zone",
+      "source": "Stadtwerke Bielefeld",
+      "source_url": "https://www.stadtwerke-bielefeld.de/privatkunden/wasser/trinkwasser/wasserversorgung/",
+      "note": "eleven waterworks from 4.3 dH at the softest to 17.1 dH at the hardest; the utility lists each with its figure",
+      "range_mg_l": [
+        76.7,
+        305.2
+      ],
+      "lat": 52.0333,
+      "lon": 8.5333
+    },
+    "DE/Bochum": {
+      "mg_l": 133.0,
+      "band": "hard",
+      "source": "Stadtwerke Bochum",
+      "source_url": "https://www.stadtwerke-bochum.de/privatkunden/produkte/wasser/wasserqualitaet",
+      "measured_on": "2026",
+      "note": "converted from 7.45 dH",
+      "lat": 51.4817,
+      "lon": 7.2165
+    },
+    "DE/Bonn": {
+      "mg_l": 101.7,
+      "band": "moderately hard",
+      "source": "Stadtwerke Bonn",
+      "source_url": "https://www.stadtwerke-bonn.de/fuer-zuhause/produkte/wasser/wasseranalyse/",
+      "measured_on": "2025",
+      "note": "midpoint of the published 4.4-7.0 dH range",
+      "lat": 50.7344,
+      "lon": 7.0955
+    },
+    "DE/Braunschweig": {
+      "mg_l": 149.9,
+      "band": "hard",
+      "source": "BS|ENERGY",
+      "source_url": "https://www.bs-energy.de/fileadmin/BSEnergy/Main_Menu/Privatkunden/Wasser/Wasseranalysen/Trinkwasser_Vollanalyse_2026.pdf",
+      "measured_on": "2026",
+      "note": "exactly on the soft/medium boundary; the supply mix changed in February 2024, when Harz reservoir water was joined by groundwater from Börßum",
+      "lat": 52.2659,
+      "lon": 10.5267
+    },
+    "DE/Bremen": {
+      "mg_l": 112.5,
+      "band": "moderately hard",
+      "source": "swb",
+      "source_url": "https://www.swb.de/wasser/trinkwasserqualitaet",
+      "measured_on": "2026",
+      "note": "Bremen-Stadt zone, 6.3 dH; other zones run to 13.5 dH",
+      "lat": 53.0758,
+      "lon": 8.8072
+    },
+    "DE/Bremerhaven": {
+      "mg_l": null,
+      "band": "varies by supply zone",
+      "source": "swb",
+      "source_url": "https://www.swb.de/wasser/trinkwasserqualitaet",
+      "measured_on": "2026",
+      "note": "three works, all in the medium band: Langen 9.0 dH, Bexhövede 9.5, Leherheide 11.4",
+      "range_mg_l": [
+        160.6,
+        203.5
+      ],
+      "lat": 53.5536,
+      "lon": 8.5755
+    },
+    "DE/Chemnitz": {
+      "mg_l": 76.7,
+      "band": "moderately hard",
+      "source": "eins energie in sachsen",
+      "source_url": "https://www.eins.de/privatkunden/wasser",
+      "measured_on": "2024",
+      "note": "the whole supply area sits in the soft band; the utility notes descaling agents are unnecessary",
+      "lat": 50.8357,
+      "lon": 12.9292
+    },
+    "DE/Cologne": {
+      "mg_l": null,
+      "band": "varies by supply zone",
+      "source": "RheinEnergie",
+      "source_url": "https://web.cdn.rheinenergie.com/cms/media/documents/trinkwasseranalyse/Trinkwasseranalyse_Linksrheinisch.pdf",
+      "measured_on": "2025",
+      "note": "18.1 dH left of the Rhine, 15.6 dH right",
+      "range_mg_l": [
+        278.5,
+        323.1
+      ],
+      "lat": 50.9333,
+      "lon": 6.95
+    },
+    "DE/Cottbus": {
+      "mg_l": 265.9,
+      "band": "very hard",
+      "source": "LWG Lausitzer Wasser (Prüfbericht AQS)",
+      "source_url": "https://lausitzer-wasser.de/visioncontent/mediendatenbank/5_cottbus-sachsendorf_2026_geschwaerzt.pdf",
+      "measured_on": "2025-01-13",
+      "note": "computed from the accredited report's calcium (87.5 mg/L) and magnesium (11.5 mg/L), which is the definition of total hardness; the sample is the Sachsendorf zone, and the city's other zones differ"
+    },
+    "DE/Dortmund": {
+      "mg_l": 137.4,
+      "band": "hard",
+      "source": "DEW21",
+      "source_url": "https://www.dew21.de/ueber-uns/unser-wasser",
+      "measured_on": "2026",
+      "note": "converted from about 7.7 dH",
+      "lat": 51.5149,
+      "lon": 7.466
+    },
+    "DE/Dresden": {
+      "mg_l": null,
+      "band": "varies by supply zone",
+      "source": "SachsenEnergie",
+      "source_url": "https://www.sachsenenergie.de/wps/portal/energie/cms/menu_main/privatkunden/wasser/gut-zu-wissen/trinkwasserqualitaet",
+      "measured_on": "2026",
+      "note": "the Coschütz works supplies zone 1 with soft water at 5.6 dH; the mixing zones with Hosterwitz and Tolkewitz Elbe water run to 12.3 dH",
+      "range_mg_l": [
+        99.9,
+        219.5
+      ],
+      "lat": 51.0509,
+      "lon": 13.7383
+    },
+    "DE/Duisburg": {
+      "mg_l": 258.8,
+      "band": "very hard",
+      "source": "Stadtwerke Duisburg",
+      "source_url": "https://www.stadtwerke-duisburg.de/privatkunden/themen/trinkwasser-fuer-duisburg",
+      "measured_on": "2025",
+      "note": "midpoint of four supply areas, 11-18 dH",
+      "range_mg_l": [
+        196.4,
+        321.3
+      ],
+      "lat": 51.4325,
+      "lon": 6.7652
+    },
+    "DE/Dusseldorf": {
+      "mg_l": 249.9,
+      "band": "very hard",
+      "source": "Stadtwerke Düsseldorf",
+      "source_url": "https://www.swd-ag.de/pk/strom-gas-wasser/wasser/wasserhaerte/",
+      "measured_on": "2026",
+      "note": "converted from about 14.0 dH",
+      "lat": 51.2232,
+      "lon": 6.7793
+    },
+    "DE/Erfurt": {
+      "mg_l": null,
+      "band": "varies by supply zone",
+      "source": "SWE Stadtwerke Erfurt (ThüWa)",
+      "source_url": "https://www.swe-energie.de/energie/home/themenwelt/erfurter-wasser",
+      "measured_on": "2025",
+      "note": "most of the city gets mixed water at 12-14 dH; the eastern districts get soft long-distance water at about 3.1 dH, and the utility looks the figure up per street",
+      "range_mg_l": [
+        55.3,
+        249.9
+      ],
+      "lat": 50.9773,
+      "lon": 11.0354
+    },
+    "DE/Erlangen": {
+      "mg_l": null,
+      "band": "varies by supply zone",
+      "source": "Erlanger Stadtwerke (ESTW)",
+      "source_url": "https://www.estw.de/de/Energie-Wasser/Wasser/Trinkwasserqualitaet/Wasserhaerte-in-Grenzen/Wasserhaerte-in-Grenzen.html",
+      "measured_on": "2026",
+      "note": "own works at 9.8-12.9 dH in the medium band; purchased N-ERGIE and WFW water crosses into hard",
+      "range_mg_l": [
+        174.9,
+        273.1
+      ],
+      "lat": 49.591,
+      "lon": 11.0078
+    },
+    "DE/Essen": {
+      "mg_l": 117.8,
+      "band": "moderately hard",
+      "source": "Stadtwerke Essen",
+      "source_url": "https://www.stadtwerke-essen.de/netze/wassernetz/trinkwasser/wasserhaerte",
+      "measured_on": "2026",
+      "note": "converted from about 6.6 dH",
+      "lat": 51.4566,
+      "lon": 7.0123
+    },
+    "DE/Frankfurt am Main": {
+      "mg_l": null,
+      "band": "varies by supply zone",
+      "source": "Mainova / Hessenwasser",
+      "source_url": "https://www.mainova.de/de/wissenswertes/ratgeber/wasserqualitaet-und-wasserhaerte-mainova-trinkwasser",
+      "note": "the city draws on several Hessenwasser sources, mixed differently per district; Mainova's site looks the figure up per address",
+      "range_mg_l": [
+        71.4,
+        357.0
+      ],
+      "lat": 50.1155,
+      "lon": 8.6842
+    },
+    "DE/Freiburg im Breisgau": {
+      "mg_l": null,
+      "band": "varies by supply zone",
+      "source": "badenova",
+      "source_url": "https://www.badenova.de/privatkunden/wasser/wasserversorgung-in-freiburg",
+      "measured_on": "2026",
+      "note": "four supply areas, 2.3-12.7 dH; soft in three of them",
+      "range_mg_l": [
+        41.1,
+        226.7
+      ],
+      "lat": 47.9959,
+      "lon": 7.8522
+    },
+    "DE/Gelsenkirchen": {
+      "mg_l": 201.7,
+      "band": "very hard",
+      "source": "Gelsenwasser",
+      "source_url": "https://www.gelsenwasser.de/wasser/wasserhaerte/gelsenkirchen",
+      "note": "the Haltern works supplies most of the city; Feldmark, Neustadt, Rotthausen and Ückendorf get softer Essen water at 7.7 dH",
+      "range_mg_l": [
+        137.4,
+        201.7
+      ],
+      "lat": 51.5051,
+      "lon": 7.0965
+    },
+    "DE/Göttingen": {
+      "mg_l": 124.0,
+      "band": "hard",
+      "source": "Stadtwerke Göttingen",
+      "source_url": "https://www.stadtwerke-goettingen.de/produkte/trinkwasser/trinkwasserqualitaet/",
+      "note": "published as 6.6-7.3 dH; the utility notes that softening salts for household machines are unnecessary",
+      "range_mg_l": [
+        117.8,
+        130.3
+      ],
+      "lat": 51.5344,
+      "lon": 9.9323
+    },
+    "DE/Halle (Saale)": {
+      "mg_l": 75.5,
+      "band": "moderately hard",
+      "source": "Hallesche Wasser und Stadtwirtschaft (HWS)",
+      "source_url": "https://hws-halle.de/produkte-dienstleistungen/trink-abwasser/trinkwasser/qualitaet",
+      "note": "from the Beesen works; water leaving the Wienrode works measures 4.1 dH",
+      "lat": 51.4816,
+      "lon": 11.9795
+    },
+    "DE/Hamburg": {
+      "mg_l": null,
+      "band": "varies by supply zone",
+      "source": "HAMBURG WASSER",
+      "source_url": "https://www.hamburgwasser.de/fileadmin/Redakteur/Downloads/Labor/Informationen-ueber-die-Beschaffenheit-des-Trinkwassers.pdf",
+      "measured_on": "2025",
+      "note": "5.1-18.3 dH across waterworks, spans three bands; no single city figure is published",
+      "range_mg_l": [
+        91.0,
+        326.7
+      ],
+      "lat": 53.5507,
+      "lon": 9.993
+    },
+    "DE/Hanover": {
+      "mg_l": 214.2,
+      "band": "very hard",
+      "source": "enercity",
+      "source_url": "https://www.enercity.de/privatkunden/produkte/wasser/wasserqualitaet",
+      "measured_on": "2025",
+      "note": "converted from 12.0 dH",
+      "lat": 52.3705,
+      "lon": 9.7332
+    },
+    "DE/Heidelberg": {
+      "mg_l": null,
+      "band": "varies by supply zone",
+      "source": "Stadtwerke Heidelberg Netze",
+      "source_url": "https://www.swhd.de/de/Hauptnavigation/Privatkunden/Wasser/Trinkwasser-in-Heidelberg_344228.html",
+      "measured_on": "2026",
+      "note": "two soft zones at 2.7-6.6 dH and two hard zones at 17.5-21.1 dH; a single figure would mislead",
+      "range_mg_l": [
+        48.2,
+        376.6
+      ],
+      "lat": 49.4077,
+      "lon": 8.6908
+    },
+    "DE/Heilbronn": {
+      "mg_l": null,
+      "band": "varies by supply zone",
+      "source": "Stadtwerke Heilbronn",
+      "source_url": "https://www.stadtwerke-heilbronn.de/swh/wasserversorgung/wasserhaerte.php",
+      "measured_on": "2025",
+      "note": "four hardness areas at 9, 10, 14 and 14-18 dH; the utility publishes a street directory naming each one",
+      "range_mg_l": [
+        160.6,
+        321.3
+      ],
+      "lat": 49.14,
+      "lon": 9.2205
+    },
+    "DE/Hildesheim": {
+      "mg_l": 32.1,
+      "band": "soft",
+      "source": "EVI Energieversorgung Hildesheim",
+      "source_url": "https://www.evi-hildesheim.de/evi/Produkte-fuer-Privatkunden/Wasser/Trinkwasseranalyse/",
+      "note": "Harz reservoir water; the softest city figure in this collection",
+      "lat": 52.1508,
+      "lon": 9.9511
+    },
+    "DE/Ingolstadt": {
+      "mg_l": 371.2,
+      "band": "very hard",
+      "source": "Ingolstaedter Kommunalbetriebe (INKB)",
+      "source_url": "https://www.in-kb.de/Wasser/Trinkwasser/Qualit%C3%A4t/",
+      "lat": 48.7651,
+      "lon": 11.4237
+    },
+    "DE/Jena": {
+      "mg_l": null,
+      "band": "varies by supply zone",
+      "source": "JenaWasser",
+      "source_url": "https://www.jenawasser.de/wasserqualitaet",
+      "note": "the Burgau works serves much of the city with hard water at 18.5 dH, Drackendorf at 14.8; streets on Thuringian long-distance water get 3.2 dH, and the utility lists every street",
+      "range_mg_l": [
+        57.1,
+        330.2
+      ],
+      "lat": 50.9288,
+      "lon": 11.5899
+    },
+    "DE/Karlsruhe": {
+      "mg_l": 321.3,
+      "band": "very hard",
+      "source": "Stadtwerke Karlsruhe",
+      "source_url": "https://www.stadtwerke-karlsruhe.de/de/pk/wasser/wasserqualitaet.php",
+      "measured_on": "2026",
+      "note": "converted from about 18 dH",
+      "lat": 49.0094,
+      "lon": 8.4044
+    },
+    "DE/Kassel": {
+      "mg_l": null,
+      "band": "varies by supply zone",
+      "source": "KASSELWASSER",
+      "source_url": "https://kasselwasser.de/trinkwasser/unser-wasser/wasserhaerte",
+      "note": "fourteen storage reservoirs serve the city: around 11 dH in the centre, up to about 15 dH in Harleshausen and Kirchditmold; the utility looks the figure up per address",
+      "range_mg_l": [
+        149.9,
+        267.7
+      ],
+      "lat": 51.3167,
+      "lon": 9.5
+    },
+    "DE/Kiel": {
+      "mg_l": 265.1,
+      "band": "very hard",
+      "source": "Stadtwerke Kiel",
+      "source_url": "https://www.stadtwerke-kiel.de/wasser/qualitaet",
+      "measured_on": "2025",
+      "note": "midpoint of four waterworks, 11.4-18.3 dH",
+      "range_mg_l": [
+        203.5,
+        326.7
+      ],
+      "lat": 54.3213,
+      "lon": 10.1349
+    },
+    "DE/Koblenz": {
+      "mg_l": null,
+      "band": "mittel / hart",
+      "published_value": "only a hardness band per district (mittel or hart)",
+      "source": "Vereinigte Wasserwerke Mittelrhein (evm)",
+      "source_url": "https://www.evm.de/privatkunden/rund-ums-haus/wasser/",
+      "measured_on": "2024",
+      "note": "VWM's district map: Altstadt, Luetzel, Neuendorf, Kesselheim, Wallersheim, Metternich, Guels and Rauental are hart; Karthause, Oberwerth, Ehrenbreitstein, Pfaffendorf, Arenberg and most right-bank districts mittel; the address lookup on the evm site answers per street"
+    },
+    "DE/Krefeld": {
+      "mg_l": 232.0,
+      "band": "very hard",
+      "source": "SWK Stadtwerke Krefeld",
+      "source_url": "https://www.swk.de/privatkunden/de/dienstleistungen/wasser",
+      "note": "the raw groundwater is centrally softened to 13 dH before distribution",
+      "lat": 51.3365,
+      "lon": 6.5538
+    },
+    "DE/Leipzig": {
+      "mg_l": null,
+      "band": "varies by supply zone",
+      "source": "Leipziger Wasserwerke",
+      "source_url": "https://www.l.de/wasserwerke/leipziger-wasser/wasserhaerte/",
+      "note": "two thirds of the city drinks hard water from the Naunhof, Canitz and Thallwitz works at up to 18.5 dH; the remaining third arrives at medium hardness from the Elbaue-Ostharz long-distance supply",
+      "range_mg_l": [
+        153.5,
+        330.2
+      ],
+      "lat": 51.3396,
+      "lon": 12.3713
+    },
+    "DE/Lübeck": {
+      "mg_l": null,
+      "band": "varies by supply zone",
+      "source": "Stadtwerke Lübeck",
+      "source_url": "https://www.swhl.de/downloads/trinkwasserqualitaet-luebeck/",
+      "measured_on": "2026",
+      "note": "the utility's own quality sheet gives 11.1-16.3 dH and classes the water as hart",
+      "range_mg_l": [
+        198.1,
+        290.9
+      ]
+    },
+    "DE/Magdeburg": {
+      "mg_l": 255.2,
+      "band": "very hard",
+      "source": "SWM Magdeburg",
+      "source_url": "https://www.sw-magdeburg.de/privatkunden/produkte/trinkwasser/qualitaet",
+      "measured_on": "2025",
+      "note": "all of it from the Colbitz works in the Colbitz-Letzlinger Heide; the figure sits so close to the 14.0 boundary that SWM's own pages label it hart in one place and mittel in another",
+      "lat": 52.1313,
+      "lon": 11.6319
+    },
+    "DE/Mainz": {
+      "mg_l": null,
+      "band": "varies by supply zone",
+      "source": "Mainzer Netze",
+      "source_url": "https://www.mainzer-netze.de/trinkwasser/trinkwasserqualitaet",
+      "note": "three waterworks: Hof Schönau at 12.6 dH, Eich at 19.3 dH and Petersaue at 25.1 dH; which one supplies a street decides the figure",
+      "range_mg_l": [
+        224.9,
+        448.0
+      ],
+      "lat": 49.9819,
+      "lon": 8.2801
+    },
+    "DE/Mannheim": {
+      "mg_l": 357.9,
+      "band": "very hard",
+      "source": "MVV Energie",
+      "source_url": "https://www.mvv.de/wasser/wasserqualitaet",
+      "measured_on": "2026",
+      "note": "midpoint of three waterworks, 18.4-21.7 dH",
+      "range_mg_l": [
+        328.4,
+        387.3
+      ],
+      "lat": 49.4891,
+      "lon": 8.4669
+    },
+    "DE/Munich": {
+      "mg_l": 282.0,
+      "band": "very hard",
+      "source": "Stadtwerke München",
+      "source_url": "https://www.swm.de/wasser/wasserqualitaet",
+      "measured_on": "2026",
+      "note": "converted from 15.8 dH average",
+      "range_mg_l": [
+        248.1,
+        319.5
+      ],
+      "lat": 48.1374,
+      "lon": 11.5755
+    },
+    "DE/Munster": {
+      "mg_l": 249.0,
+      "band": "very hard",
+      "source": "Stadtwerke Münster",
+      "source_url": "https://www.stadtwerke-muenster.de/Stadtwerke/Dokumente/Trinkwasser/Trinkwasseranalytik.pdf",
+      "measured_on": "2025",
+      "note": "midpoint of four waterworks; softening at Hornheide began August 2026, so this will fall",
+      "lat": 51.9624,
+      "lon": 7.6257
+    },
+    "DE/Mönchengladbach": {
+      "mg_l": null,
+      "band": "varies by supply zone",
+      "source": "NEW",
+      "source_url": "https://www.new.de/trinkwasser/trinkwasserqualitaet",
+      "note": "NEW puts the whole city in the medium band; six waterworks feed it, and which one serves a street is not published",
+      "range_mg_l": [
+        149.9,
+        249.9
+      ],
+      "lat": 51.1854,
+      "lon": 6.4417
+    },
+    "DE/Nuremberg": {
+      "mg_l": 206.2,
+      "band": "very hard",
+      "source": "N-ERGIE",
+      "source_url": "https://www.n-ergie.de/public/remotemedien/media/n_ergie/internet/privatkunden/produkte/wasser_1/neugestaltung_seite/Trinkwasser-Analysewerte.pdf",
+      "measured_on": "2026",
+      "note": "midpoint of four supply networks, 9.5-13.6 dH",
+      "range_mg_l": [
+        169.6,
+        242.8
+      ],
+      "lat": 49.4542,
+      "lon": 11.0775
+    },
+    "DE/Oberhausen": {
+      "mg_l": null,
+      "band": "varies by supply zone",
+      "source": "RWW Rheinisch-Westfälische Wasserwerksgesellschaft",
+      "source_url": "https://www.rww.de/trinkwasser/wasserqualitaet",
+      "measured_on": "2025",
+      "note": "two zones split along the A42: the south drinks Mülheim-Styrum water at a median of 8.0 dH (soft), the north Dorsten-Holsterhausen water at 13.5 dH (medium)",
+      "range_mg_l": [
+        101.7,
+        251.7
+      ]
+    },
+    "DE/Oldenburg": {
+      "mg_l": null,
+      "band": "varies by supply zone",
+      "source": "EWE NETZ",
+      "source_url": "https://www.ewe-netz.de/privatkunden/trinkwasser/ol",
+      "note": "three waterworks: Sandkrug is soft at 6.6 dH, Donnerschwee 11.8 and Alexanderfeld 12 sit in the medium band; which one serves a street decides the figure",
+      "range_mg_l": [
+        117.8,
+        214.2
+      ],
+      "lat": 53.1404,
+      "lon": 8.2148
+    },
+    "DE/Pforzheim": {
+      "mg_l": null,
+      "band": "varies by supply zone",
+      "source": "Stadtwerke Pforzheim (SWP)",
+      "source_url": "https://www.stadtwerke-pforzheim.de/trinkwasser/trinkwasserqualitaet-und-preise/",
+      "note": "6 dH in the southwest, 9 dH elsewhere; treatment brought the hardness down from about 14 dH",
+      "range_mg_l": [
+        107.1,
+        160.6
+      ],
+      "lat": 48.8844,
+      "lon": 8.6989
+    },
+    "DE/Potsdam": {
+      "mg_l": null,
+      "band": "varies by supply zone",
+      "source": "Energie und Wasser Potsdam (EWP)",
+      "source_url": "https://www.swp-potsdam.de/de/wasser/wasserh%C3%A4rtegrad/",
+      "note": "mostly hard: the Wildpark works at 20-22 dH supplies the west and centre; only the Ferch works delivers medium water",
+      "range_mg_l": [
+        178.5,
+        374.8
+      ],
+      "lat": 52.3989,
+      "lon": 13.0657
+    },
+    "DE/Regensburg": {
+      "mg_l": 301.7,
+      "band": "very hard",
+      "source": "REWAG",
+      "source_url": "https://www.rewag.de/produkte-dienstleistungen/wasser/herkunft-qualitaet",
+      "measured_on": "2025",
+      "note": "converted from 16.9 dH",
+      "lat": 49.0151,
+      "lon": 12.1016
+    },
+    "DE/Reutlingen": {
+      "mg_l": null,
+      "band": "varies by supply zone",
+      "source": "FairEnergie",
+      "source_url": "https://www.fairenergie.de/wasser/trinkwasser.html",
+      "note": "two thirds Lake Constance water at 9.1 dH, the rest from own springs running to about 16 dH; the utility looks the figure up per street",
+      "range_mg_l": [
+        162.4,
+        287.4
+      ],
+      "lat": 48.4914,
+      "lon": 9.2043
+    },
+    "DE/Rostock": {
+      "mg_l": 253.4,
+      "band": "very hard",
+      "source": "Nordwasser",
+      "source_url": "https://www.nordwasser.de/trinkwasser/versorgung/trinkwasseranalyse-ww-rostock-1",
+      "note": "2.54 mmol/L at the Rostock waterworks outlet",
+      "lat": 54.0887,
+      "lon": 12.1405
+    },
+    "DE/Saarbrücken": {
+      "mg_l": null,
+      "band": "varies by supply zone",
+      "source": "Stadtwerke Saarbrücken",
+      "source_url": "https://www.saarbruecker-stadtwerke.de/media/download-57a456f6e566f",
+      "note": "four sources between 5.9 and 12.4 dH, blended differently across the network; the utility answers per street",
+      "range_mg_l": [
+        105.3,
+        221.3
+      ],
+      "lat": 49.2326,
+      "lon": 7.0098
+    },
+    "DE/Siegen": {
+      "mg_l": 80.3,
+      "band": "moderately hard",
+      "source": "Siegener Versorgungsbetriebe (SVB)",
+      "source_url": "https://www.svb-siegen.de/netze/trinkwasseranalyse",
+      "note": "ninety percent reservoir water from the Obernau and Breitenbach dams",
+      "lat": 50.8748,
+      "lon": 8.0243
+    },
+    "DE/Stuttgart": {
+      "mg_l": null,
+      "band": "varies by supply zone",
+      "source": "Netze BW Wasser",
+      "source_url": "https://www.netze-bw.de/unsernetz/trinkwasserstuttgart",
+      "measured_on": "2026",
+      "note": "9.0 dH Lake Constance water, 13.0 dH from the Landeswasserversorgung, depending on district",
+      "range_mg_l": [
+        160.7,
+        232.1
+      ],
+      "lat": 48.7823,
+      "lon": 9.177
+    },
+    "DE/Trier": {
+      "mg_l": null,
+      "band": "varies by supply zone",
+      "source": "SWT Stadtwerke Trier",
+      "source_url": "https://www.swt.de/p/Trinkwasserversorgung-5-2814.html",
+      "measured_on": "2025",
+      "note": "soft Riveris reservoir water from the Irsch works at 4.7 dH supplies most of the city; Kylltal well water measures 9.3 dH",
+      "range_mg_l": [
+        83.9,
+        166.0
+      ],
+      "lat": 49.7557,
+      "lon": 6.6394
+    },
+    "DE/Ulm": {
+      "mg_l": null,
+      "band": "varies by supply zone",
+      "source": "Stadtwerke Ulm/Neu-Ulm (SWU)",
+      "source_url": "https://www.swu.de/fileadmin/content/energie-wasser/wasser/SWU-Analysedaten-Trinkwasser.pdf",
+      "note": "four zones between 12.7 and 19.1 dH; the city centre drinks Rote Wand well water at the soft end of that span",
+      "range_mg_l": [
+        226.7,
+        340.9
+      ],
+      "lat": 48.3984,
+      "lon": 9.9916
+    },
+    "DE/Wolfsburg": {
+      "mg_l": 141.0,
+      "band": "hard",
+      "source": "LSW Energie, Wasser und Waerme",
+      "source_url": "https://www.lsw.de/fileadmin/user_upload/Pr%C3%BCfbericht_Wolfsburg.pdf",
+      "note": "Harz reservoir water blended with groundwater from the Westerbeck and Rühen works",
+      "lat": 52.4245,
+      "lon": 10.7815
+    },
+    "DE/Wuppertal": {
+      "mg_l": 146.4,
+      "band": "hard",
+      "source": "Stadt Wuppertal (WAW)",
+      "source_url": "https://www.wuppertal.de/microsite/wasserversorgung/medien/bindata/Trinkwasseranalyse-2025.pdf",
+      "measured_on": "2025",
+      "note": "midpoint of three sources, 5.1-11.3 dH",
+      "lat": 51.2563,
+      "lon": 7.1482
+    },
+    "DE/Würzburg": {
+      "mg_l": null,
+      "band": "varies by supply zone",
+      "source": "Würzburger Versorgungs- und Verkehrs-GmbH (WVV)",
+      "source_url": "https://www.wvv.de/trinkwasser/wuerzburg/index.html",
+      "measured_on": "2026",
+      "note": "the hardest city water in this collection, from the Muschelkalk: Zellingen 25.4 dH, Versbach 38.2, Galgenberg 40.4, Grombühl 42.7",
+      "range_mg_l": [
+        453.3,
+        762.1
+      ],
+      "lat": 49.7939,
+      "lon": 9.9512
+    },
+    "FR/Acheres": {
+      "mg_l": 369.9,
+      "band": "very hard",
+      "source": "Hubeau, Ministère de la Santé (contrôle sanitaire)",
+      "source_url": "https://hubeau.eaufrance.fr/page/api-qualite-eau-potable",
+      "measured_on": "2026-05-13T10:50:00Z",
+      "lat": 48.9612,
+      "lon": 2.0688
+    },
+    "FR/Aix-en-Provence": {
+      "mg_l": 178.1,
+      "band": "hard",
+      "source": "Hubeau, Ministère de la Santé (contrôle sanitaire)",
+      "source_url": "https://hubeau.eaufrance.fr/page/api-qualite-eau-potable",
+      "measured_on": "2026-06-15T12:27:00Z",
+      "lat": 43.5283,
+      "lon": 5.4497
+    },
+    "FR/Ajaccio": {
+      "mg_l": 60.0,
+      "band": "moderately hard",
+      "source": "Hubeau, Ministère de la Santé (contrôle sanitaire)",
+      "source_url": "https://hubeau.eaufrance.fr/page/api-qualite-eau-potable",
+      "measured_on": "2026-06-16T10:15:00Z",
+      "lat": 41.9189,
+      "lon": 8.7381
+    },
+    "FR/Amiens": {
+      "mg_l": 301.0,
+      "band": "very hard",
+      "source": "Hubeau, Ministère de la Santé (contrôle sanitaire)",
+      "source_url": "https://hubeau.eaufrance.fr/page/api-qualite-eau-potable",
+      "measured_on": "2026-06-30T15:50:00Z",
+      "lat": 49.9,
+      "lon": 2.3
+    },
+    "FR/Angers": {
+      "mg_l": 166.0,
+      "band": "hard",
+      "source": "Hubeau, Ministère de la Santé (contrôle sanitaire)",
+      "source_url": "https://hubeau.eaufrance.fr/page/api-qualite-eau-potable",
+      "measured_on": "2026-06-18T11:29:00Z",
+      "lat": 47.4716,
+      "lon": -0.552
+    },
+    "FR/Annecy": {
+      "mg_l": 296.0,
+      "band": "very hard",
+      "source": "Hubeau, Ministère de la Santé (contrôle sanitaire)",
+      "source_url": "https://hubeau.eaufrance.fr/page/api-qualite-eau-potable",
+      "measured_on": "2026-04-09T12:53:00Z",
+      "lat": 45.9088,
+      "lon": 6.1257
+    },
+    "FR/Antibes": {
+      "mg_l": 402.3,
+      "band": "very hard",
+      "source": "Hubeau, Ministère de la Santé (contrôle sanitaire)",
+      "source_url": "https://hubeau.eaufrance.fr/page/api-qualite-eau-potable",
+      "measured_on": "2026-06-11T09:33:00Z",
+      "lat": 43.5813,
+      "lon": 7.1249
+    },
+    "FR/Antony": {
+      "mg_l": 253.6,
+      "band": "very hard",
+      "source": "Hubeau, Ministère de la Santé (contrôle sanitaire)",
+      "source_url": "https://hubeau.eaufrance.fr/page/api-qualite-eau-potable",
+      "measured_on": "2026-06-01T11:16:00Z",
+      "lat": 48.7533,
+      "lon": 2.2967
+    },
+    "FR/Avignon": {
+      "mg_l": 291.0,
+      "band": "very hard",
+      "source": "Hubeau, Ministère de la Santé (contrôle sanitaire)",
+      "source_url": "https://hubeau.eaufrance.fr/page/api-qualite-eau-potable",
+      "measured_on": "2026-06-30T11:44:00Z",
+      "lat": 43.9483,
+      "lon": 4.8089
+    },
+    "FR/Besancon": {
+      "mg_l": 244.0,
+      "band": "very hard",
+      "source": "Hubeau, Ministère de la Santé (contrôle sanitaire)",
+      "source_url": "https://hubeau.eaufrance.fr/page/api-qualite-eau-potable",
+      "measured_on": "2026-06-29T08:30:00Z",
+      "lat": 47.2488,
+      "lon": 6.0182
+    },
+    "FR/Biarritz": {
+      "mg_l": 119.0,
+      "band": "moderately hard",
+      "source": "Hubeau, Ministère de la Santé (contrôle sanitaire)",
+      "source_url": "https://hubeau.eaufrance.fr/page/api-qualite-eau-potable",
+      "measured_on": "2026-06-08T08:35:00Z",
+      "lat": 43.4806,
+      "lon": -1.5568
+    },
+    "FR/Bordeaux": {
+      "mg_l": 188.0,
+      "band": "very hard",
+      "source": "Hubeau, Ministère de la Santé (contrôle sanitaire)",
+      "source_url": "https://hubeau.eaufrance.fr/page/api-qualite-eau-potable",
+      "measured_on": "2026-06-30T14:05:00Z",
+      "lat": 44.8412,
+      "lon": -0.5805
+    },
+    "FR/Brest": {
+      "mg_l": 130.0,
+      "band": "hard",
+      "source": "Hubeau, Ministère de la Santé (contrôle sanitaire)",
+      "source_url": "https://hubeau.eaufrance.fr/page/api-qualite-eau-potable",
+      "measured_on": "2026-06-30T11:50:00Z",
+      "lat": 48.3903,
+      "lon": -4.4863
+    },
+    "FR/Caen": {
+      "mg_l": 241.0,
+      "band": "very hard",
+      "source": "Hubeau, Ministère de la Santé (contrôle sanitaire)",
+      "source_url": "https://hubeau.eaufrance.fr/page/api-qualite-eau-potable",
+      "measured_on": "2026-06-09T11:39:00Z",
+      "lat": 49.1859,
+      "lon": -0.3591
+    },
+    "FR/Cannes": {
+      "mg_l": 310.2,
+      "band": "very hard",
+      "source": "Hubeau, Ministère de la Santé (contrôle sanitaire)",
+      "source_url": "https://hubeau.eaufrance.fr/page/api-qualite-eau-potable",
+      "measured_on": "2026-06-05T12:29:00Z",
+      "lat": 43.5514,
+      "lon": 7.0128
+    },
+    "FR/Castres": {
+      "mg_l": 117.0,
+      "band": "moderately hard",
+      "source": "Hubeau, Ministère de la Santé (contrôle sanitaire)",
+      "source_url": "https://hubeau.eaufrance.fr/page/api-qualite-eau-potable",
+      "measured_on": "2026-06-17T08:41:00Z",
+      "lat": 43.6053,
+      "lon": 2.2409
+    },
+    "FR/Cergy": {
+      "mg_l": 293.8,
+      "band": "very hard",
+      "source": "Hubeau, Ministère de la Santé (contrôle sanitaire)",
+      "source_url": "https://hubeau.eaufrance.fr/page/api-qualite-eau-potable",
+      "measured_on": "2026-04-16T10:15:00Z",
+      "lat": 49.0365,
+      "lon": 2.0761
+    },
+    "FR/Chartres": {
+      "mg_l": 207.1,
+      "band": "very hard",
+      "source": "Hubeau, Ministère de la Santé (contrôle sanitaire)",
+      "source_url": "https://hubeau.eaufrance.fr/page/api-qualite-eau-potable",
+      "measured_on": "2026-06-03T13:22:00Z",
+      "lat": 48.4469,
+      "lon": 1.4893
+    },
+    "FR/Chateauroux": {
+      "mg_l": 231.0,
+      "band": "very hard",
+      "source": "Hubeau, Ministère de la Santé (contrôle sanitaire)",
+      "source_url": "https://hubeau.eaufrance.fr/page/api-qualite-eau-potable",
+      "measured_on": "2026-06-29T10:42:00Z",
+      "lat": 46.8125,
+      "lon": 1.6936
+    },
+    "FR/Chatou": {
+      "mg_l": 195.7,
+      "band": "very hard",
+      "source": "Hubeau, Ministère de la Santé (contrôle sanitaire)",
+      "source_url": "https://hubeau.eaufrance.fr/page/api-qualite-eau-potable",
+      "measured_on": "2026-06-15T11:38:00Z",
+      "lat": 48.8898,
+      "lon": 2.1586
+    },
+    "FR/Cherbourg": {
+      "mg_l": 132.0,
+      "band": "hard",
+      "source": "Hubeau, Ministère de la Santé (contrôle sanitaire)",
+      "source_url": "https://hubeau.eaufrance.fr/page/api-qualite-eau-potable",
+      "measured_on": "2026-06-30T10:37:00Z",
+      "lat": 49.6398,
+      "lon": -1.6164
+    },
+    "FR/Clermont-Ferrand": {
+      "mg_l": 65.5,
+      "band": "moderately hard",
+      "source": "Hubeau, Ministère de la Santé (contrôle sanitaire)",
+      "source_url": "https://hubeau.eaufrance.fr/page/api-qualite-eau-potable",
+      "measured_on": "2026-06-26T11:16:00Z",
+      "lat": 45.7797,
+      "lon": 3.0868
+    },
+    "FR/Dijon": {
+      "mg_l": 267.0,
+      "band": "very hard",
+      "source": "Hubeau, Ministère de la Santé (contrôle sanitaire)",
+      "source_url": "https://hubeau.eaufrance.fr/page/api-qualite-eau-potable",
+      "measured_on": "2026-06-29T09:30:00Z",
+      "lat": 47.3134,
+      "lon": 5.0139
+    },
+    "FR/Dreux": {
+      "mg_l": 283.4,
+      "band": "very hard",
+      "source": "Hubeau, Ministère de la Santé (contrôle sanitaire)",
+      "source_url": "https://hubeau.eaufrance.fr/page/api-qualite-eau-potable",
+      "measured_on": "2026-06-11T13:03:00Z",
+      "lat": 48.7365,
+      "lon": 1.3657
+    },
+    "FR/Fontainebleau": {
+      "mg_l": 244.7,
+      "band": "very hard",
+      "source": "Hubeau, Ministère de la Santé (contrôle sanitaire)",
+      "source_url": "https://hubeau.eaufrance.fr/page/api-qualite-eau-potable",
+      "measured_on": "2026-05-19T13:01:00Z",
+      "lat": 48.4091,
+      "lon": 2.7018
+    },
+    "FR/Grenoble": {
+      "mg_l": 205.1,
+      "band": "very hard",
+      "source": "Hubeau, Ministère de la Santé (contrôle sanitaire)",
+      "source_url": "https://hubeau.eaufrance.fr/page/api-qualite-eau-potable",
+      "measured_on": "2026-06-25T12:05:00Z",
+      "lat": 45.1787,
+      "lon": 5.7148
+    },
+    "FR/La Garenne-Colombes": {
+      "mg_l": 168.7,
+      "band": "hard",
+      "source": "Hubeau, Ministère de la Santé (contrôle sanitaire)",
+      "source_url": "https://hubeau.eaufrance.fr/page/api-qualite-eau-potable",
+      "measured_on": "2026-05-29T13:35:00Z",
+      "lat": 48.9047,
+      "lon": 2.2469
+    },
+    "FR/La Rochelle": {
+      "mg_l": 277.0,
+      "band": "very hard",
+      "source": "Hubeau, Ministère de la Santé (contrôle sanitaire)",
+      "source_url": "https://hubeau.eaufrance.fr/page/api-qualite-eau-potable",
+      "measured_on": "2026-06-18T12:30:00Z",
+      "lat": 46.1631,
+      "lon": -1.1522
+    },
+    "FR/Le Havre": {
+      "mg_l": 236.0,
+      "band": "very hard",
+      "source": "Hubeau, Ministère de la Santé (contrôle sanitaire)",
+      "source_url": "https://hubeau.eaufrance.fr/page/api-qualite-eau-potable",
+      "measured_on": "2026-06-29T11:45:00Z",
+      "lat": 49.4935,
+      "lon": 0.1079
+    },
+    "FR/Le Mans": {
+      "mg_l": 298.0,
+      "band": "very hard",
+      "source": "Hubeau, Ministère de la Santé (contrôle sanitaire)",
+      "source_url": "https://hubeau.eaufrance.fr/page/api-qualite-eau-potable",
+      "measured_on": "2026-06-29T12:58:00Z",
+      "lat": 48.0021,
+      "lon": 0.2025
+    },
+    "FR/Lille": {
+      "mg_l": 345.1,
+      "band": "very hard",
+      "source": "Hubeau, Ministère de la Santé (contrôle sanitaire)",
+      "source_url": "https://hubeau.eaufrance.fr/page/api-qualite-eau-potable",
+      "measured_on": "2026-06-15T11:53:00Z",
+      "lat": 50.6339,
+      "lon": 3.0551
+    },
+    "FR/Limoges": {
+      "mg_l": 100.0,
+      "band": "moderately hard",
+      "source": "Hubeau, Ministère de la Santé (contrôle sanitaire)",
+      "source_url": "https://hubeau.eaufrance.fr/page/api-qualite-eau-potable",
+      "measured_on": "2026-06-22T14:31:00Z",
+      "lat": 45.8336,
+      "lon": 1.2476
+    },
+    "FR/Lorient": {
+      "mg_l": 132.0,
+      "band": "hard",
+      "source": "Hubeau, Ministère de la Santé (contrôle sanitaire)",
+      "source_url": "https://hubeau.eaufrance.fr/page/api-qualite-eau-potable",
+      "measured_on": "2026-06-17T11:15:00Z",
+      "lat": 47.7482,
+      "lon": -3.3718
+    },
+    "FR/Lyon": {
+      "mg_l": 186.7,
+      "band": "very hard",
+      "source": "Hubeau, Ministère de la Santé (contrôle sanitaire)",
+      "source_url": "https://hubeau.eaufrance.fr/page/api-qualite-eau-potable",
+      "measured_on": "2026-06-26T13:15:00Z",
+      "lat": 45.7491,
+      "lon": 4.8479
+    },
+    "FR/Marseille": {
+      "mg_l": 222.6,
+      "band": "very hard",
+      "source": "Hubeau, Ministère de la Santé (contrôle sanitaire)",
+      "source_url": "https://hubeau.eaufrance.fr/page/api-qualite-eau-potable",
+      "measured_on": "2026-06-26T08:36:00Z",
+      "lat": 43.297,
+      "lon": 5.3811
+    },
+    "FR/Metz": {
+      "mg_l": 192.0,
+      "band": "very hard",
+      "source": "Hubeau, Ministère de la Santé (contrôle sanitaire)",
+      "source_url": "https://hubeau.eaufrance.fr/page/api-qualite-eau-potable",
+      "measured_on": "2026-06-26T08:18:00Z",
+      "lat": 49.1191,
+      "lon": 6.1727
+    },
+    "FR/Montpellier": {
+      "mg_l": 321.7,
+      "band": "very hard",
+      "source": "Hubeau, Ministère de la Santé (contrôle sanitaire)",
+      "source_url": "https://hubeau.eaufrance.fr/page/api-qualite-eau-potable",
+      "measured_on": "2026-05-28T15:59:00Z",
+      "lat": 43.6109,
+      "lon": 3.8764
+    },
+    "FR/Mulhouse": {
+      "mg_l": 106.0,
+      "band": "moderately hard",
+      "source": "Hubeau, Ministère de la Santé (contrôle sanitaire)",
+      "source_url": "https://hubeau.eaufrance.fr/page/api-qualite-eau-potable",
+      "measured_on": "2026-06-25T08:20:00Z",
+      "lat": 47.7521,
+      "lon": 7.3287
+    },
+    "FR/Nancy": {
+      "mg_l": 152.0,
+      "band": "hard",
+      "source": "Hubeau, Ministère de la Santé (contrôle sanitaire)",
+      "source_url": "https://hubeau.eaufrance.fr/page/api-qualite-eau-potable",
+      "measured_on": "2026-06-24T12:49:00Z",
+      "lat": 48.6844,
+      "lon": 6.185
+    },
+    "FR/Nantes": {
+      "mg_l": 127.0,
+      "band": "hard",
+      "source": "Hubeau, Ministère de la Santé (contrôle sanitaire)",
+      "source_url": "https://hubeau.eaufrance.fr/page/api-qualite-eau-potable",
+      "measured_on": "2026-06-30T08:58:00Z",
+      "lat": 47.2173,
+      "lon": -1.5534
+    },
+    "FR/Nevers": {
+      "mg_l": 116.4,
+      "band": "moderately hard",
+      "source": "Hubeau, Ministère de la Santé (contrôle sanitaire)",
+      "source_url": "https://hubeau.eaufrance.fr/page/api-qualite-eau-potable",
+      "measured_on": "2026-06-29T09:12:00Z",
+      "lat": 46.9896,
+      "lon": 3.159
+    },
+    "FR/Nice": {
+      "mg_l": 153.6,
+      "band": "hard",
+      "source": "Hubeau, Ministère de la Santé (contrôle sanitaire)",
+      "source_url": "https://hubeau.eaufrance.fr/page/api-qualite-eau-potable",
+      "measured_on": "2026-06-30T11:09:00Z",
+      "lat": 43.7031,
+      "lon": 7.2661
+    },
+    "FR/Nimes": {
+      "mg_l": 225.9,
+      "band": "very hard",
+      "source": "Hubeau, Ministère de la Santé (contrôle sanitaire)",
+      "source_url": "https://hubeau.eaufrance.fr/page/api-qualite-eau-potable",
+      "measured_on": "2026-06-30T13:26:00Z",
+      "lat": 43.8367,
+      "lon": 4.3579
+    },
+    "FR/Orleans": {
+      "mg_l": 155.9,
+      "band": "hard",
+      "source": "Hubeau, Ministère de la Santé (contrôle sanitaire)",
+      "source_url": "https://hubeau.eaufrance.fr/page/api-qualite-eau-potable",
+      "measured_on": "2026-06-19T10:04:00Z",
+      "lat": 47.9025,
+      "lon": 1.9041
+    },
+    "FR/Paris": {
+      "mg_l": 249.2,
+      "band": "very hard",
+      "source": "Hubeau, Ministère de la Santé (contrôle sanitaire)",
+      "source_url": "https://hubeau.eaufrance.fr/page/api-qualite-eau-potable",
+      "measured_on": "2026-04-30T12:02:00Z",
+      "lat": 48.8534,
+      "lon": 2.3488
+    },
+    "FR/Pau": {
+      "mg_l": 115.0,
+      "band": "moderately hard",
+      "source": "Hubeau, Ministère de la Santé (contrôle sanitaire)",
+      "source_url": "https://hubeau.eaufrance.fr/page/api-qualite-eau-potable",
+      "measured_on": "2026-06-18T12:40:00Z",
+      "lat": 43.3112,
+      "lon": -0.3558
+    },
+    "FR/Perpignan": {
+      "mg_l": 131.0,
+      "band": "hard",
+      "source": "Hubeau, Ministère de la Santé (contrôle sanitaire)",
+      "source_url": "https://hubeau.eaufrance.fr/page/api-qualite-eau-potable",
+      "measured_on": "2026-06-15T10:09:00Z",
+      "lat": 42.6976,
+      "lon": 2.8954
+    },
+    "FR/Poitiers": {
+      "mg_l": 251.0,
+      "band": "very hard",
+      "source": "Hubeau, Ministère de la Santé (contrôle sanitaire)",
+      "source_url": "https://hubeau.eaufrance.fr/page/api-qualite-eau-potable",
+      "measured_on": "2026-06-11T09:05:00Z",
+      "lat": 46.5826,
+      "lon": 0.3435
+    },
+    "FR/Reims": {
+      "mg_l": 271.0,
+      "band": "very hard",
+      "source": "Hubeau, Ministère de la Santé (contrôle sanitaire)",
+      "source_url": "https://hubeau.eaufrance.fr/page/api-qualite-eau-potable",
+      "measured_on": "2026-06-23T14:25:00Z",
+      "lat": 49.2653,
+      "lon": 4.0285
+    },
+    "FR/Rennes": {
+      "mg_l": 155.0,
+      "band": "hard",
+      "source": "Hubeau, Ministère de la Santé (contrôle sanitaire)",
+      "source_url": "https://hubeau.eaufrance.fr/page/api-qualite-eau-potable",
+      "measured_on": "2026-06-24T08:29:00Z",
+      "lat": 48.1111,
+      "lon": -1.6743
+    },
+    "FR/Rouen": {
+      "mg_l": 278.0,
+      "band": "very hard",
+      "source": "Hubeau, Ministère de la Santé (contrôle sanitaire)",
+      "source_url": "https://hubeau.eaufrance.fr/page/api-qualite-eau-potable",
+      "measured_on": "2026-06-30T12:05:00Z",
+      "lat": 49.4431,
+      "lon": 1.0993
+    },
+    "FR/Rueil-Malmaison": {
+      "mg_l": 185.5,
+      "band": "very hard",
+      "source": "Hubeau, Ministère de la Santé (contrôle sanitaire)",
+      "source_url": "https://hubeau.eaufrance.fr/page/api-qualite-eau-potable",
+      "measured_on": "2026-06-25T08:41:00Z",
+      "lat": 48.8765,
+      "lon": 2.1897
+    },
+    "FR/Saint-Etienne": {
+      "mg_l": 338.0,
+      "band": "very hard",
+      "source": "Hubeau, Ministère de la Santé (contrôle sanitaire)",
+      "source_url": "https://hubeau.eaufrance.fr/page/api-qualite-eau-potable",
+      "measured_on": "2026-06-25T09:20:00Z",
+      "lat": 45.4339,
+      "lon": 4.39
+    },
+    "FR/Strasbourg": {
+      "mg_l": 248.0,
+      "band": "very hard",
+      "source": "Hubeau, Ministère de la Santé (contrôle sanitaire)",
+      "source_url": "https://hubeau.eaufrance.fr/page/api-qualite-eau-potable",
+      "measured_on": "2026-06-30T07:51:00Z",
+      "lat": 48.5839,
+      "lon": 7.7455
+    },
+    "FR/Toulon": {
+      "mg_l": 350.8,
+      "band": "very hard",
+      "source": "Hubeau, Ministère de la Santé (contrôle sanitaire)",
+      "source_url": "https://hubeau.eaufrance.fr/page/api-qualite-eau-potable",
+      "measured_on": "2026-06-09T11:07:00Z",
+      "lat": 43.1244,
+      "lon": 5.9284
+    },
+    "FR/Toulouse": {
+      "mg_l": 91.0,
+      "band": "moderately hard",
+      "source": "Hubeau, Ministère de la Santé (contrôle sanitaire)",
+      "source_url": "https://hubeau.eaufrance.fr/page/api-qualite-eau-potable",
+      "measured_on": "2026-06-30T12:36:00Z",
+      "lat": 43.6043,
+      "lon": 1.4437
+    },
+    "FR/Tours": {
+      "mg_l": 143.0,
+      "band": "hard",
+      "source": "Hubeau, Ministère de la Santé (contrôle sanitaire)",
+      "source_url": "https://hubeau.eaufrance.fr/page/api-qualite-eau-potable",
+      "measured_on": "2026-06-23T08:31:00Z",
+      "lat": 47.3948,
+      "lon": 0.704
+    },
+    "FR/Troyes": {
+      "mg_l": 239.0,
+      "band": "very hard",
+      "source": "Hubeau, Ministère de la Santé (contrôle sanitaire)",
+      "source_url": "https://hubeau.eaufrance.fr/page/api-qualite-eau-potable",
+      "measured_on": "2026-06-24T12:51:00Z",
+      "lat": 48.3007,
+      "lon": 4.0852
+    },
+    "FR/Valence": {
+      "mg_l": 300.6,
+      "band": "very hard",
+      "source": "Hubeau, Ministère de la Santé (contrôle sanitaire)",
+      "source_url": "https://hubeau.eaufrance.fr/page/api-qualite-eau-potable",
+      "measured_on": "2026-06-29T08:33:00Z",
+      "lat": 44.9256,
+      "lon": 4.9096
+    },
+    "GB/Aberdeen": {
+      "mg_l": 26.7,
+      "band": "soft",
+      "source": "Scottish Water",
+      "source_url": "https://www.scottishwater.co.uk/-/media/scottishwater/document-hub/key-publications/water-quality/130225waterhardnessdata24.pdf",
+      "measured_on": "2024",
+      "note": "Mannofield zones",
+      "range_mg_l": [
+        19.4,
+        26.7
+      ],
+      "lat": 57.1437,
+      "lon": -2.0981
+    },
+    "GB/Belfast": {
+      "mg_l": 157.7,
+      "band": "hard",
+      "source": "NI Water",
+      "source_url": "https://www.niwater.com/about-your-water/drinking-water/water-quality-results",
+      "measured_on": "2025",
+      "note": "Oldpark zone in the centre; Belfast ranges 43-160 by zone",
+      "range_mg_l": [
+        43.1,
+        159.5
+      ],
+      "lat": 54.5968,
+      "lon": -5.9254
+    },
+    "GB/Bristol": {
+      "mg_l": 212.0,
+      "band": "very hard",
+      "source": "Bristol Water",
+      "source_url": "https://www.bristolwater.co.uk/home/account-and-services/water-quality-checker",
+      "measured_on": "2025",
+      "note": "Clifton/Redland zone; central Bristol zones run 205-212",
+      "range_mg_l": [
+        205.0,
+        212.0
+      ],
+      "lat": 51.4552,
+      "lon": -2.5967
+    },
+    "GB/Cambridge": {
+      "mg_l": 334.6,
+      "band": "very hard",
+      "source": "Cambridge Water",
+      "source_url": "https://www.cambridge-water.co.uk/household/my-water-supply/water-quality/water-quality-standards/cambridge-city-north-water-quality-zone-z1/",
+      "measured_on": "2025",
+      "note": "city north zone; city south is 307.2",
+      "range_mg_l": [
+        307.2,
+        334.6
+      ],
+      "lat": 52.2,
+      "lon": 0.1167
+    },
+    "GB/Cardiff": {
+      "mg_l": 105.3,
+      "band": "moderately hard",
+      "source": "Dŵr Cymru Welsh Water",
+      "source_url": "https://www.dwrcymru.com/en/help-advice/drinking-water-quality/water-hardness",
+      "measured_on": "2025",
+      "note": "Cardiff Bay/Canton/Cathays zone",
+      "lat": 51.48,
+      "lon": -3.18
+    },
+    "GB/Edinburgh": {
+      "mg_l": 31.4,
+      "band": "soft",
+      "source": "Scottish Water",
+      "source_url": "https://www.scottishwater.co.uk/-/media/scottishwater/document-hub/key-publications/water-quality/130225waterhardnessdata24.pdf",
+      "measured_on": "2024",
+      "note": "Glencorse zones",
+      "range_mg_l": [
+        30.4,
+        31.4
+      ],
+      "lat": 55.9521,
+      "lon": -3.1965
+    },
+    "GB/Glasgow": {
+      "mg_l": 15.7,
+      "band": "soft",
+      "source": "Scottish Water",
+      "source_url": "https://www.scottishwater.co.uk/-/media/scottishwater/document-hub/key-publications/water-quality/130225waterhardnessdata24.pdf",
+      "measured_on": "2024",
+      "note": "Milngavie zones",
+      "range_mg_l": [
+        15.7,
+        22.8
+      ],
+      "lat": 55.8652,
+      "lon": -4.2576
+    },
+    "GB/Kingston upon Hull": {
+      "mg_l": null,
+      "band": "very hard",
+      "published_value": "145.8 mg/L calcium",
+      "source": "Yorkshire Water",
+      "source_url": "https://www.yorkshirewater.com/your-water/water-hardness/",
+      "measured_on": "2024",
+      "note": "Yorkshire Water publishes calcium, not CaCO3; their own classification is 'very hard'",
+      "lat": 53.7446,
+      "lon": -0.3353
+    },
+    "GB/Portsmouth": {
+      "mg_l": 288.5,
+      "band": "very hard",
+      "source": "Portsmouth Water",
+      "source_url": "https://www.portsmouthwater.co.uk/wp-content/uploads/2022/06/ZFA1-WQ-Summary_2021.pdf",
+      "measured_on": "2021",
+      "note": "converted from 115.4 mg/L calcium, Farlington North zone",
+      "lat": 50.799,
+      "lon": -1.0913
+    },
+    "GB/York": {
+      "mg_l": null,
+      "band": "hard",
+      "published_value": "98.8 mg/L calcium",
+      "source": "Yorkshire Water",
+      "source_url": "https://www.yorkshirewater.com/your-water/water-hardness/",
+      "measured_on": "2024",
+      "note": "Yorkshire Water publishes calcium, not CaCO3; their own classification is 'hard'",
+      "lat": 53.9576,
+      "lon": -1.0827
+    }
+  },
+  "generated_on": "2026-09-01"
+}
