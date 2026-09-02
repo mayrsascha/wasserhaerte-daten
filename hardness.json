@@ -95,7 +95,7 @@
       "mg_l": 142.8,
       "band": "hard",
       "source": "Stadtwerke Kufstein",
-      "source_url": "https://www.stwk.at/produkte-leistungen/wasser/",
+      "source_url": "https://www.stwk.at/wasser/",
       "measured_on": "2026",
       "note": "Hofinger spring and the Fuerhoelzl deep well; hardness directories claim far higher figures than the utility itself publishes",
       "range_mg_l": [
@@ -307,9 +307,9 @@
       "mg_l": null,
       "band": "varies by supply zone",
       "source": "Ville de Lausanne, eauservice",
-      "source_url": "https://www.lausanne.ch/vie-pratique/energies-et-eau/eau/qualite/durete-eau.html",
+      "source_url": "https://www.lausanne.ch/vie-pratique/energies-et-eau/eau/qualite/reservoir-recherche.html",
       "measured_on": "2024",
-      "note": "water from Lake Geneva is soft at 14 f, the Thierrens springs fairly hard at 28 f; which reservoir feeds a street decides the figure",
+      "note": "water from Lake Geneva is soft at about 14 f, the Thierrens springs fairly hard at 28 f; eauservice's address lookup, linked as the source, gives the reservoir and figure per street",
       "range_mg_l": [
         140.0,
         280.0
@@ -515,7 +515,11 @@
       "measured_on": "2025",
       "note": "midpoint of the published 4.4-7.0 dH range",
       "lat": 50.7344,
-      "lon": 7.0955
+      "lon": 7.0955,
+      "range_mg_l": [
+        78.5,
+        124.9
+      ]
     },
     "DE/Braunschweig": {
       "mg_l": 149.9,
@@ -581,7 +585,9 @@
       "source": "LWG Lausitzer Wasser (Prüfbericht AQS)",
       "source_url": "https://lausitzer-wasser.de/visioncontent/mediendatenbank/5_cottbus-sachsendorf_2026_geschwaerzt.pdf",
       "measured_on": "2025-01-13",
-      "note": "computed from the accredited report's calcium (87.5 mg/L) and magnesium (11.5 mg/L), which is the definition of total hardness; the sample is the Sachsendorf zone, and the city's other zones differ"
+      "note": "computed from the accredited report's calcium (87.5 mg/L) and magnesium (11.5 mg/L), which is the definition of total hardness; the sample is the Sachsendorf zone, and the city's other zones differ",
+      "lat": 51.7577,
+      "lon": 14.3289
     },
     "DE/Darmstadt": {
       "mg_l": 339.1,
@@ -830,7 +836,7 @@
       "mg_l": null,
       "band": "varies by supply zone",
       "source": "SWK Stadtwerke Kaiserslautern",
-      "source_url": "https://www.swk-kl.de/produkte-services/energie/wasser/wasserqualitaet",
+      "source_url": "https://www.swk-kl.de/wasser/wasserqualitaet",
       "measured_on": "2023",
       "note": "three waterworks, all soft: Mölschbach 4.2 dH, Barbarossastraße 4.5, Rote Hohl 5.1",
       "range_mg_l": [
@@ -884,7 +890,9 @@
       "source": "Vereinigte Wasserwerke Mittelrhein (evm)",
       "source_url": "https://www.evm.de/privatkunden/rund-ums-haus/wasser/",
       "measured_on": "2024",
-      "note": "VWM's district map: Altstadt, Luetzel, Neuendorf, Kesselheim, Wallersheim, Metternich, Guels and Rauental are hart; Karthause, Oberwerth, Ehrenbreitstein, Pfaffendorf, Arenberg and most right-bank districts mittel; the address lookup on the evm site answers per street"
+      "note": "VWM's district map: Altstadt, Luetzel, Neuendorf, Kesselheim, Wallersheim, Metternich, Guels and Rauental are hart; Karthause, Oberwerth, Ehrenbreitstein, Pfaffendorf, Arenberg and most right-bank districts mittel; the address lookup on the evm site answers per street",
+      "lat": 50.3536,
+      "lon": 7.5788
     },
     "DE/Krefeld": {
       "mg_l": 232.0,
@@ -924,13 +932,14 @@
       "band": "varies by supply zone",
       "source": "Technische Werke Ludwigshafen (TWL)",
       "source_url": "https://www.twl-kurier.de/wasserhaerte-in-ludwigshafen-2-6620",
-      "note": "the Parkinsel works supplies the inner districts at 14.5 dH, Maudach-Oggersheim the north and west at 10.8",
+      "note": "the Parkinsel works supplies the inner districts at 14.8 dH, the Maudach works the north and west at 10.5, per TWL's own works manager",
       "range_mg_l": [
-        192.8,
-        258.8
+        187.4,
+        264.2
       ],
       "lat": 49.4812,
-      "lon": 8.4464
+      "lon": 8.4464,
+      "measured_on": "2024-03"
     },
     "DE/Lübeck": {
       "mg_l": null,
@@ -942,7 +951,9 @@
       "range_mg_l": [
         198.1,
         290.9
-      ]
+      ],
+      "lat": 53.8689,
+      "lon": 10.6873
     },
     "DE/Magdeburg": {
       "mg_l": 255.2,
@@ -996,14 +1007,18 @@
       "lon": 11.5755
     },
     "DE/Munster": {
-      "mg_l": 249.0,
-      "band": "very hard",
+      "mg_l": null,
+      "band": "varies by supply zone",
       "source": "Stadtwerke Münster",
       "source_url": "https://www.stadtwerke-muenster.de/Stadtwerke/Dokumente/Trinkwasser/Trinkwasseranalytik.pdf",
       "measured_on": "2025",
-      "note": "midpoint of four waterworks; softening at Hornheide began August 2026, so this will fall",
+      "note": "2025 annual means per works: Hohe Ward 12.5 dH, Vennheide 16.9, Hornheide 15.1 (softening since 2026), purchased Gelsenwasser supply 11.0",
       "lat": 51.9624,
-      "lon": 7.6257
+      "lon": 7.6257,
+      "range_mg_l": [
+        196.3,
+        301.6
+      ]
     },
     "DE/Mönchengladbach": {
       "mg_l": null,
@@ -1056,20 +1071,23 @@
       "range_mg_l": [
         101.7,
         251.7
-      ]
+      ],
+      "lat": 51.4781,
+      "lon": 6.8625
     },
     "DE/Offenbach": {
       "mg_l": null,
       "band": "varies by supply zone",
       "source": "Zweckverband Wasserversorgung Stadt und Kreis Offenbach (ZWO)",
-      "source_url": "https://www.offenbach.de/stadtwerke/stadtwerke/evo-und-zwo/trinkwasserversorgung.php",
-      "note": "the published span for the city network, all of it in the medium band",
+      "source_url": "https://www.zwo-wasser.de/files/VG7.pdf",
+      "note": "ZWO's supply-group 7 sheet for the city, Q2 2026: 10.5-12.9 dH; the Hafen, Kaiserlei and northern Nordend districts are served separately",
       "range_mg_l": [
-        169.6,
-        219.5
+        187.4,
+        230.2
       ],
       "lat": 50.0956,
-      "lon": 8.7761
+      "lon": 8.7761,
+      "measured_on": "2026"
     },
     "DE/Oldenburg": {
       "mg_l": null,
@@ -1217,7 +1235,7 @@
       "mg_l": null,
       "band": "varies by supply zone",
       "source": "SWT Stadtwerke Trier",
-      "source_url": "https://www.swt.de/p/Trinkwasserversorgung-5-2814.html",
+      "source_url": "https://www.swt.de/seite/unser-swt-trinkwasser",
       "measured_on": "2025",
       "note": "soft Riveris reservoir water from the Irsch works at 4.7 dH supplies most of the city; Kylltal well water measures 9.3 dH",
       "range_mg_l": [
@@ -1277,7 +1295,7 @@
       "mg_l": null,
       "band": "varies by supply zone",
       "source": "Würzburger Versorgungs- und Verkehrs-GmbH (WVV)",
-      "source_url": "https://www.wvv.de/trinkwasser/wuerzburg/index.html",
+      "source_url": "https://www.wvv.de/trinkwasser/wuerzburg/",
       "measured_on": "2026",
       "note": "the hardest city water in this collection, from the Muschelkalk: Zellingen 25.4 dH, Versbach 38.2, Galgenberg 40.4, Grombühl 42.7",
       "range_mg_l": [
@@ -1929,7 +1947,7 @@
       "source": "Portsmouth Water",
       "source_url": "https://www.portsmouthwater.co.uk/wp-content/uploads/2022/06/ZFA1-WQ-Summary_2021.pdf",
       "measured_on": "2021",
-      "note": "converted from 115.4 mg/L calcium, Farlington North zone",
+      "note": "the sheet reports total hardness expressed as calcium (115.4 mg/l Ca, Farlington North zone); converting that unit to CaCO3 is exact, unlike elemental-calcium figures",
       "lat": 50.799,
       "lon": -1.0913
     },

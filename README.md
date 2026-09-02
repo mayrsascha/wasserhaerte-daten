@@ -21,6 +21,10 @@ geführt, liegt laut seinem Netzbetreiber heute bei 6,6–12 °dH — und für
 Kufstein behaupten Wasserhärte-Verzeichnisse 12,9 °dH, während die
 Stadtwerke selbst 7–9 veröffentlichen.
 
+**[Prüfprotokoll](PRUEFPROTOKOLL.md):** Jede Zeile wurde am 2. September 2026
+gegen ihre Primärquelle geprüft; das Protokoll dokumentiert Methode und die
+acht dokumentierten Handfälle.
+
 ## Dateien
 
 - **`hardness.json`** — der vollständige Datensatz: mg/L CaCO₃ (die

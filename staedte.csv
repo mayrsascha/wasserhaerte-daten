@@ -6,7 +6,7 @@ Graz,AT,285.6,16.0,15.0,17.0,very hard,,Holding Graz,https://www.holding-graz.at
 Innsbruck,AT,110.7,6.2,,,moderately hard,2025,Innsbrucker Kommunalbetriebe (IKB),https://www.ikb.at/fileadmin/user_upload/Dokumente/Wasser/Wasserhaerteplan.pdf
 Kapfenberg,AT,267.7,15.0,14.0,16.0,very hard,,Stadtwerke Kapfenberg,https://www.stadtwerke-kapfenberg.at/wasser.html
 Klagenfurt,AT,330.2,18.5,17.0,20.0,very hard,,Stadtwerke Klagenfurt,https://www.stw.at/privat/wasser/wasserqualitaet/
-Kufstein,AT,142.8,8.0,7.0,9.0,hard,2026,Stadtwerke Kufstein,https://www.stwk.at/produkte-leistungen/wasser/
+Kufstein,AT,142.8,8.0,7.0,9.0,hard,2026,Stadtwerke Kufstein,https://www.stwk.at/wasser/
 Leoben,AT,224.9,12.6,9.0,14.0,very hard,2025,Stadtwerke Leoben,https://www.stadtwerke-leoben.at/wasserversorgung/
 Linz,AT,348.0,19.5,16.2,21.3,very hard,2025,LINZ AG,https://www.linzag.at/media/dokumente/wasser_2/trinkwasseruntersuchungen/wasserguete-juli-august-2025.pdf
 Mödling,AT,339.1,19.0,,,very hard,,Stadtgemeinde Moedling,https://www.moedling.at/Wasserqualitaet_und_Wasserpreis
@@ -22,7 +22,7 @@ Bern,CH,250.0,14.0,11.2,16.8,very hard,2026,Energie Wasser Bern (ewb),https://ww
 Biel,CH,117.0,6.6,5.6,9.8,moderately hard,2025,Energie Service Biel/Bienne (SVGW trinkwasser.ch),https://trinkwasser.ch/de/versorger/735/energie-service-biel-esb/3240/default
 Fribourg,CH,280.0,15.7,15.1,16.8,very hard,2025,SINEF SA (SVGW trinkwasser.ch),https://trinkwasser.ch/de/versorger/1042/sinef-sa/3598/default
 Geneva,CH,134.0,7.5,7.5,11.9,hard,2024,SIG (Services industriels de Genève),https://media.sig-ge.ch/documents/particuliers/eau/bilan_eau_potable.pdf
-Lausanne,CH,,,7.8,15.7,varies by supply zone,2024,"Ville de Lausanne, eauservice",https://www.lausanne.ch/vie-pratique/energies-et-eau/eau/qualite/durete-eau.html
+Lausanne,CH,,,7.8,15.7,varies by supply zone,2024,"Ville de Lausanne, eauservice",https://www.lausanne.ch/vie-pratique/energies-et-eau/eau/qualite/reservoir-recherche.html
 Lucerne,CH,,,6.2,15.7,varies by supply zone,2025,ewl energie wasser luzern,https://www.ewl-luzern.ch/wasser/wasserqualitaet
 Lugano,CH,130.0,7.3,1.1,16.2,hard,2024,Aziende Industriali di Lugano (AIL) (SVGW trinkwasser.ch),https://trinkwasser.ch/de/versorger/949/aziende-industriali-di-lugano-ail-sa/1904/default
 Neuchatel,CH,186.0,10.4,8.1,22.6,very hard,2024,Viteos SA (SVGW trinkwasser.ch),https://trinkwasser.ch/de/versorger/755/viteos-sa/2882/default
@@ -38,7 +38,7 @@ Augsburg,DE,244.5,13.7,13.5,13.9,very hard,2025,Stadtwerke Augsburg,https://www.
 Berlin,DE,249.9,14.0,,,very hard,2025,Berliner Wasserbetriebe,https://www.bwb.de/de/wasserqualitaet.php
 Bielefeld,DE,,,4.3,17.1,varies by supply zone,,Stadtwerke Bielefeld,https://www.stadtwerke-bielefeld.de/privatkunden/wasser/trinkwasser/wasserversorgung/
 Bochum,DE,133.0,7.5,,,hard,2026,Stadtwerke Bochum,https://www.stadtwerke-bochum.de/privatkunden/produkte/wasser/wasserqualitaet
-Bonn,DE,101.7,5.7,,,moderately hard,2025,Stadtwerke Bonn,https://www.stadtwerke-bonn.de/fuer-zuhause/produkte/wasser/wasseranalyse/
+Bonn,DE,101.7,5.7,4.4,7.0,moderately hard,2025,Stadtwerke Bonn,https://www.stadtwerke-bonn.de/fuer-zuhause/produkte/wasser/wasseranalyse/
 Braunschweig,DE,149.9,8.4,,,hard,2026,BS|ENERGY,https://www.bs-energy.de/fileadmin/BSEnergy/Main_Menu/Privatkunden/Wasser/Wasseranalysen/Trinkwasser_Vollanalyse_2026.pdf
 Bremen,DE,112.5,6.3,,,moderately hard,2026,swb,https://www.swb.de/wasser/trinkwasserqualitaet
 Bremerhaven,DE,,,9.0,11.4,varies by supply zone,2026,swb,https://www.swb.de/wasser/trinkwasserqualitaet
@@ -65,7 +65,7 @@ Heilbronn,DE,,,9.0,18.0,varies by supply zone,2025,Stadtwerke Heilbronn,https://
 Hildesheim,DE,32.1,1.8,,,soft,,EVI Energieversorgung Hildesheim,https://www.evi-hildesheim.de/evi/Produkte-fuer-Privatkunden/Wasser/Trinkwasseranalyse/
 Ingolstadt,DE,371.2,20.8,,,very hard,,Ingolstaedter Kommunalbetriebe (INKB),https://www.in-kb.de/Wasser/Trinkwasser/Qualit%C3%A4t/
 Jena,DE,,,3.2,18.5,varies by supply zone,,JenaWasser,https://www.jenawasser.de/wasserqualitaet
-Kaiserslautern,DE,,,4.2,5.1,varies by supply zone,2023,SWK Stadtwerke Kaiserslautern,https://www.swk-kl.de/produkte-services/energie/wasser/wasserqualitaet
+Kaiserslautern,DE,,,4.2,5.1,varies by supply zone,2023,SWK Stadtwerke Kaiserslautern,https://www.swk-kl.de/wasser/wasserqualitaet
 Karlsruhe,DE,321.3,18.0,,,very hard,2026,Stadtwerke Karlsruhe,https://www.stadtwerke-karlsruhe.de/de/pk/wasser/wasserqualitaet.php
 Kassel,DE,,,8.4,15.0,varies by supply zone,,KASSELWASSER,https://kasselwasser.de/trinkwasser/unser-wasser/wasserhaerte
 Kiel,DE,265.1,14.9,11.4,18.3,very hard,2025,Stadtwerke Kiel,https://www.stadtwerke-kiel.de/wasser/qualitaet
@@ -73,18 +73,18 @@ Koblenz,DE,,,,,mittel / hart,2024,Vereinigte Wasserwerke Mittelrhein (evm),https
 Krefeld,DE,232.0,13.0,,,very hard,,SWK Stadtwerke Krefeld,https://www.swk.de/privatkunden/de/dienstleistungen/wasser
 Leipzig,DE,,,8.6,18.5,varies by supply zone,,Leipziger Wasserwerke,https://www.l.de/wasserwerke/leipziger-wasser/wasserhaerte/
 Leverkusen,DE,,,,,weich,2026,Energieversorgung Leverkusen (EVL),https://evl-leverkusen.de/trinkwasser/
-Ludwigshafen am Rhein,DE,,,10.8,14.5,varies by supply zone,,Technische Werke Ludwigshafen (TWL),https://www.twl-kurier.de/wasserhaerte-in-ludwigshafen-2-6620
+Ludwigshafen am Rhein,DE,,,10.5,14.8,varies by supply zone,2024-03,Technische Werke Ludwigshafen (TWL),https://www.twl-kurier.de/wasserhaerte-in-ludwigshafen-2-6620
 Lübeck,DE,,,11.1,16.3,varies by supply zone,2026,Stadtwerke Lübeck,https://www.swhl.de/downloads/trinkwasserqualitaet-luebeck/
 Magdeburg,DE,255.2,14.3,,,very hard,2025,SWM Magdeburg,https://www.sw-magdeburg.de/privatkunden/produkte/trinkwasser/qualitaet
 Mainz,DE,,,12.6,25.1,varies by supply zone,,Mainzer Netze,https://www.mainzer-netze.de/trinkwasser/trinkwasserqualitaet
 Mannheim,DE,357.9,20.1,18.4,21.7,very hard,2026,MVV Energie,https://www.mvv.de/wasser/wasserqualitaet
 Munich,DE,282.0,15.8,13.9,17.9,very hard,2026,Stadtwerke München,https://www.swm.de/wasser/wasserqualitaet
-Munster,DE,249.0,14.0,,,very hard,2025,Stadtwerke Münster,https://www.stadtwerke-muenster.de/Stadtwerke/Dokumente/Trinkwasser/Trinkwasseranalytik.pdf
+Munster,DE,,,11.0,16.9,varies by supply zone,2025,Stadtwerke Münster,https://www.stadtwerke-muenster.de/Stadtwerke/Dokumente/Trinkwasser/Trinkwasseranalytik.pdf
 Mönchengladbach,DE,,,8.4,14.0,varies by supply zone,,NEW,https://www.new.de/trinkwasser/trinkwasserqualitaet
 Mülheim (Ruhr),DE,142.8,8.0,5.7,10.7,hard,2025,RWW Rheinisch-Westfälische Wasserwerksgesellschaft,https://www.rww.de/trinkwasser/wasserqualitaet
 Nuremberg,DE,206.2,11.6,9.5,13.6,very hard,2026,N-ERGIE,https://www.n-ergie.de/public/remotemedien/media/n_ergie/internet/privatkunden/produkte/wasser_1/neugestaltung_seite/Trinkwasser-Analysewerte.pdf
 Oberhausen,DE,,,5.7,14.1,varies by supply zone,2025,RWW Rheinisch-Westfälische Wasserwerksgesellschaft,https://www.rww.de/trinkwasser/wasserqualitaet
-Offenbach,DE,,,9.5,12.3,varies by supply zone,,Zweckverband Wasserversorgung Stadt und Kreis Offenbach (ZWO),https://www.offenbach.de/stadtwerke/stadtwerke/evo-und-zwo/trinkwasserversorgung.php
+Offenbach,DE,,,10.5,12.9,varies by supply zone,2026,Zweckverband Wasserversorgung Stadt und Kreis Offenbach (ZWO),https://www.zwo-wasser.de/files/VG7.pdf
 Oldenburg,DE,,,6.6,12.0,varies by supply zone,,EWE NETZ,https://www.ewe-netz.de/privatkunden/trinkwasser/ol
 Osnabrück,DE,,,7.3,13.0,varies by supply zone,,Stadtwerke Osnabrück,https://www.stadtwerke-osnabrueck.de/trinkwasser/wasserhaerte
 Pforzheim,DE,,,6.0,9.0,varies by supply zone,,Stadtwerke Pforzheim (SWP),https://www.stadtwerke-pforzheim.de/trinkwasser/trinkwasserqualitaet-und-preise/
@@ -97,12 +97,12 @@ Saarbrücken,DE,,,5.9,12.4,varies by supply zone,,Stadtwerke Saarbrücken,https:
 Siegen,DE,80.3,4.5,,,moderately hard,,Siegener Versorgungsbetriebe (SVB),https://www.svb-siegen.de/netze/trinkwasseranalyse
 Solingen,DE,99.9,5.6,5.2,6.1,moderately hard,,Stadtwerke Solingen,https://www.stadtwerke-solingen.de/privat-gewerbekunden/wasser/wasserqualitaet/
 Stuttgart,DE,,,9.0,13.0,varies by supply zone,2026,Netze BW Wasser,https://www.netze-bw.de/unsernetz/trinkwasserstuttgart
-Trier,DE,,,4.7,9.3,varies by supply zone,2025,SWT Stadtwerke Trier,https://www.swt.de/p/Trinkwasserversorgung-5-2814.html
+Trier,DE,,,4.7,9.3,varies by supply zone,2025,SWT Stadtwerke Trier,https://www.swt.de/seite/unser-swt-trinkwasser
 Ulm,DE,,,12.7,19.1,varies by supply zone,,Stadtwerke Ulm/Neu-Ulm (SWU),https://www.swu.de/fileadmin/content/energie-wasser/wasser/SWU-Analysedaten-Trinkwasser.pdf
 Wiesbaden,DE,,,1.7,19.2,varies by supply zone,2024-05,Wasserversorgungsbetriebe der Landeshauptstadt Wiesbaden (WLW),https://web.archive.org/web/2024/https://www.wlw-wiesbaden.de/wasser/wasserhaerte
 Wolfsburg,DE,141.0,7.9,,,hard,,"LSW Energie, Wasser und Waerme",https://www.lsw.de/fileadmin/user_upload/Pr%C3%BCfbericht_Wolfsburg.pdf
 Wuppertal,DE,146.4,8.2,,,hard,2025,Stadt Wuppertal (WAW),https://www.wuppertal.de/microsite/wasserversorgung/medien/bindata/Trinkwasseranalyse-2025.pdf
-Würzburg,DE,,,25.4,42.7,varies by supply zone,2026,Würzburger Versorgungs- und Verkehrs-GmbH (WVV),https://www.wvv.de/trinkwasser/wuerzburg/index.html
+Würzburg,DE,,,25.4,42.7,varies by supply zone,2026,Würzburger Versorgungs- und Verkehrs-GmbH (WVV),https://www.wvv.de/trinkwasser/wuerzburg/
 Acheres,FR,369.9,20.7,,,very hard,2026-05-13T10:50:00Z,"Hubeau, Ministère de la Santé (contrôle sanitaire)",https://hubeau.eaufrance.fr/page/api-qualite-eau-potable
 Aix-en-Provence,FR,178.1,10.0,,,hard,2026-06-15T12:27:00Z,"Hubeau, Ministère de la Santé (contrôle sanitaire)",https://hubeau.eaufrance.fr/page/api-qualite-eau-potable
 Ajaccio,FR,60.0,3.4,,,moderately hard,2026-06-16T10:15:00Z,"Hubeau, Ministère de la Santé (contrôle sanitaire)",https://hubeau.eaufrance.fr/page/api-qualite-eau-potable
