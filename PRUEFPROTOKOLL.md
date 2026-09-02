@@ -300,3 +300,39 @@ Toleranz. Ergebnis:
 Die Konsistenzprüfung (Ca+Mg-Arithmetik, Karbonat kleiner Gesamthärte,
 Band-Grenzen, Spannen-Logik, Wertebereiche, Quellenpflicht) läuft seither
 als eigener Schritt vor jedem Frische-Check.
+
+## Tiefenprüfung vom 3. September 2026
+
+Auf ausdrücklichen Wunsch ein weiterer, härterer Durchgang mit Prüfungen,
+die es vorher nicht gab. Ergebnisse:
+
+1. **Alle 346 gebauten Härteseiten Feld für Feld gegen den Datensatz**
+   (Kopfzahl, Spannen, Calcium/Magnesium, Karbonathärte, alle vier
+   Einheitenumrechnungen, Geräte-Stufe, Rang, Median, Städtezahl,
+   Stand-Jahr; beide Sprachen, mit exakter kaufmännischer Rundung):
+   null Abweichungen. Zwei scheinbare Treffer (Ulm, Freiburg) lösten
+   sich als Messerschneiden-Rundung der Site-Konstante 100,09 gegen die
+   exakte Molmasse 100,0869 auf; die Seite rechnet konsistent mit ihrer
+   eigenen, hier dokumentierten Konstante.
+2. **Jeder gespeicherte Zusatzwert wortwörtlich gegen seinen Quelltext**:
+   141 Werte wörtlich im Quelldokument gefunden (inklusive
+   mmol-Schreibweisen und Landeseinheiten), 33 über ihren Kanal
+   verifiziert (Gelsenwasser-API, Yorkshire-Checker, Cottbus-Screenshot).
+   Einziger Fund: Göttingens Magnesium stand als gerundete 7,4 im
+   Datensatz, die Quelle druckt die Spanne 7,36-8,74; die Zeile trägt
+   jetzt wortwörtlich 7,36.
+3. **Frankreich-Stichprobe über die Hubeau-API**: 40 von 40 geprüften
+   Werten aus acht Städten stehen exakt in den jüngsten Proben ihrer
+   Gemeinde.
+4. **CSV Zelle für Zelle gegen das JSON**: 173 Zeilen, null Differenzen.
+5. **Alle 114 externen Links der Härteseiten**: 109 antworten mit 200.
+   Die fünf übrigen sind erklärt: Graz und Leipzig sperren
+   Nicht-Browser (im Browser erreichbar, seit je dokumentiert), Mainova
+   sperrt curl, liefert aber im echten Browser, wo die Seite "zwischen
+   4 und 20 °dH" sagt und damit die Frankfurter Spanne exakt bestätigt;
+   der Wiesbadener Wayback-Link drosselt automatische Abrufe; der
+   fünfte Treffer war ein preconnect-Tag, kein Leserlink.
+
+Bekannte, bewusst belassene Kleinigkeit: Cherbourg und Lorient teilen
+sich exakt 132,0 mg/L und tragen darum die willkürlich geordneten
+Plätze 46 und 47 ihres Landes-Rankings.
