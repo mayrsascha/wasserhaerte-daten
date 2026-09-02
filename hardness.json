@@ -177,7 +177,9 @@
       "lon": 13.044,
       "origin": [
         "spring"
-      ]
+      ],
+      "calcium_mg_l": 53.6,
+      "magnesium_mg_l": 13.3
     },
     "AT/Steyr": {
       "mg_l": 285.6,
@@ -354,7 +356,10 @@
       "lon": 6.1457,
       "origin": [
         "lake"
-      ]
+      ],
+      "calcium_mg_l": 43.9,
+      "magnesium_mg_l": 5.9,
+      "sodium_mg_l": 9.4
     },
     "CH/Lausanne": {
       "mg_l": null,
@@ -899,7 +904,13 @@
       "source_url": "https://hws-halle.de/produkte-dienstleistungen/trink-abwasser/trinkwasser/qualitaet",
       "note": "from the Beesen works; water leaving the Wienrode works measures 4.1 dH",
       "lat": 51.4816,
-      "lon": 11.9795
+      "lon": 11.9795,
+      "calcium_mg_l": 24.22,
+      "magnesium_mg_l": 3.28,
+      "sodium_mg_l": 7.67,
+      "nitrate_mg_l": 8.78,
+      "ph": 8.41,
+      "carbonate_mg_l": 46.2
     },
     "DE/Hamburg": {
       "mg_l": null,
@@ -1022,7 +1033,11 @@
       "measured_on": "2026",
       "note": "converted from about 18 dH",
       "lat": 49.0094,
-      "lon": 8.4044
+      "lon": 8.4044,
+      "calcium_mg_l": 98.6,
+      "magnesium_mg_l": 20.9,
+      "sodium_mg_l": 7.4,
+      "nitrate_mg_l": 10.3
     },
     "DE/Kassel": {
       "mg_l": null,
@@ -1191,7 +1206,12 @@
         319.5
       ],
       "lat": 48.1374,
-      "lon": 11.5755
+      "lon": 11.5755,
+      "calcium_mg_l": 78.0,
+      "magnesium_mg_l": 20.9,
+      "sodium_mg_l": 5.9,
+      "nitrate_mg_l": 6.5,
+      "ph": 7.56
     },
     "DE/Munster": {
       "mg_l": null,
@@ -1360,7 +1380,12 @@
       "measured_on": "2025",
       "note": "converted from 16.9 dH",
       "lat": 49.0151,
-      "lon": 12.1016
+      "lon": 12.1016,
+      "calcium_mg_l": 96.0,
+      "magnesium_mg_l": 15.0,
+      "sodium_mg_l": 11.0,
+      "nitrate_mg_l": 30.0,
+      "ph": 7.4
     },
     "DE/Reutlingen": {
       "mg_l": null,
@@ -1597,7 +1622,10 @@
       "lon": 2.3,
       "nitrate_mg_l": 32.2,
       "ph": 7.2,
-      "carbonate_mg_l": 249.0
+      "carbonate_mg_l": 249.0,
+      "calcium_mg_l": 108.0,
+      "magnesium_mg_l": 6.3,
+      "sodium_mg_l": 12.2
     },
     "FR/Angers": {
       "mg_l": 166.0,
@@ -1622,7 +1650,9 @@
       "nitrate_mg_l": 12.0,
       "sodium_mg_l": 3.1,
       "ph": 7.4,
-      "carbonate_mg_l": 276.0
+      "carbonate_mg_l": 276.0,
+      "calcium_mg_l": 113.0,
+      "magnesium_mg_l": 3.5
     },
     "FR/Antibes": {
       "mg_l": 402.3,
@@ -1680,7 +1710,8 @@
       "magnesium_mg_l": 3.6,
       "nitrate_mg_l": 4.4,
       "ph": 7.6,
-      "carbonate_mg_l": 228.0
+      "carbonate_mg_l": 228.0,
+      "sodium_mg_l": 3.1
     },
     "FR/Biarritz": {
       "mg_l": 119.0,
@@ -1706,7 +1737,9 @@
       "nitrate_mg_l": 2.0,
       "sodium_mg_l": 24.0,
       "ph": 7.5,
-      "carbonate_mg_l": 188.0
+      "carbonate_mg_l": 188.0,
+      "calcium_mg_l": 74.0,
+      "magnesium_mg_l": 5.1
     },
     "FR/Brest": {
       "mg_l": 130.0,
@@ -1720,7 +1753,8 @@
       "magnesium_mg_l": 7.1,
       "nitrate_mg_l": 25.0,
       "ph": 7.7,
-      "carbonate_mg_l": 63.0
+      "carbonate_mg_l": 63.0,
+      "sodium_mg_l": 26.5
     },
     "FR/Caen": {
       "mg_l": 241.0,
@@ -1734,7 +1768,8 @@
       "magnesium_mg_l": 5.5,
       "nitrate_mg_l": 33.7,
       "ph": 7.3,
-      "carbonate_mg_l": 173.0
+      "carbonate_mg_l": 173.0,
+      "sodium_mg_l": 19.4
     },
     "FR/Cannes": {
       "mg_l": 310.2,
@@ -1763,7 +1798,8 @@
       "magnesium_mg_l": 4.5,
       "nitrate_mg_l": 4.9,
       "ph": 8.0,
-      "carbonate_mg_l": 116.0
+      "carbonate_mg_l": 116.0,
+      "sodium_mg_l": 4.8
     },
     "FR/Cergy": {
       "mg_l": 293.8,
@@ -1802,7 +1838,9 @@
       "calcium_mg_l": 93.4,
       "magnesium_mg_l": 4.1,
       "ph": 7.3,
-      "carbonate_mg_l": 235.0
+      "carbonate_mg_l": 235.0,
+      "sodium_mg_l": 20.0,
+      "nitrate_mg_l": 49.0
     },
     "FR/Chatou": {
       "mg_l": 195.7,
@@ -1859,7 +1897,9 @@
       "calcium_mg_l": 108.7,
       "magnesium_mg_l": 2.6,
       "nitrate_mg_l": 11.0,
-      "carbonate_mg_l": 269.2
+      "carbonate_mg_l": 269.2,
+      "sodium_mg_l": 2.6,
+      "ph": 7.6
     },
     "FR/Dreux": {
       "mg_l": 283.4,
@@ -2005,7 +2045,8 @@
       "magnesium_mg_l": 4.0,
       "nitrate_mg_l": 23.0,
       "ph": 8.2,
-      "carbonate_mg_l": 91.0
+      "carbonate_mg_l": 91.0,
+      "sodium_mg_l": 17.7
     },
     "FR/Lyon": {
       "mg_l": 186.7,
@@ -2105,7 +2146,10 @@
       "lon": -1.5534,
       "nitrate_mg_l": 8.5,
       "sodium_mg_l": 22.4,
-      "carbonate_mg_l": 90.0
+      "carbonate_mg_l": 90.0,
+      "calcium_mg_l": 42.9,
+      "magnesium_mg_l": 4.6,
+      "ph": 7.9
     },
     "FR/Nevers": {
       "mg_l": 116.4,
@@ -2117,7 +2161,8 @@
       "lon": 3.159,
       "nitrate_mg_l": 6.8,
       "ph": 7.62,
-      "carbonate_mg_l": 106.5
+      "carbonate_mg_l": 106.5,
+      "sodium_mg_l": 9.2
     },
     "FR/Nice": {
       "mg_l": 153.6,
@@ -2130,7 +2175,9 @@
       "nitrate_mg_l": 1.0,
       "sodium_mg_l": 11.8,
       "ph": 8.15,
-      "carbonate_mg_l": 63.0
+      "carbonate_mg_l": 63.0,
+      "calcium_mg_l": 47.5,
+      "magnesium_mg_l": 8.8
     },
     "FR/Nimes": {
       "mg_l": 225.9,
@@ -2158,7 +2205,9 @@
       "nitrate_mg_l": 13.4,
       "sodium_mg_l": 10.8,
       "ph": 7.6,
-      "carbonate_mg_l": 156.0
+      "carbonate_mg_l": 156.0,
+      "calcium_mg_l": 56.3,
+      "magnesium_mg_l": 5.0
     },
     "FR/Paris": {
       "mg_l": 249.2,
@@ -2217,7 +2266,8 @@
       "magnesium_mg_l": 8.7,
       "nitrate_mg_l": 44.0,
       "ph": 7.6,
-      "carbonate_mg_l": 217.0
+      "carbonate_mg_l": 217.0,
+      "sodium_mg_l": 13.0
     },
     "FR/Reims": {
       "mg_l": 271.0,
@@ -2231,7 +2281,8 @@
       "magnesium_mg_l": 4.0,
       "nitrate_mg_l": 23.2,
       "sodium_mg_l": 11.0,
-      "carbonate_mg_l": 236.0
+      "carbonate_mg_l": 236.0,
+      "ph": 7.4
     },
     "FR/Rennes": {
       "mg_l": 155.0,
@@ -2245,7 +2296,8 @@
       "magnesium_mg_l": 5.0,
       "nitrate_mg_l": 15.7,
       "ph": 8.1,
-      "carbonate_mg_l": 97.0
+      "carbonate_mg_l": 97.0,
+      "sodium_mg_l": 18.0
     },
     "FR/Rouen": {
       "mg_l": 278.0,
@@ -2259,7 +2311,8 @@
       "magnesium_mg_l": 4.3,
       "nitrate_mg_l": 23.6,
       "ph": 7.4,
-      "carbonate_mg_l": 262.0
+      "carbonate_mg_l": 262.0,
+      "sodium_mg_l": 9.3
     },
     "FR/Rueil-Malmaison": {
       "mg_l": 185.5,
@@ -2287,7 +2340,8 @@
       "magnesium_mg_l": 8.1,
       "nitrate_mg_l": 32.8,
       "ph": 7.1,
-      "carbonate_mg_l": 257.0
+      "carbonate_mg_l": 257.0,
+      "sodium_mg_l": 17.7
     },
     "FR/Strasbourg": {
       "mg_l": 248.0,
@@ -2301,7 +2355,8 @@
       "magnesium_mg_l": 11.0,
       "nitrate_mg_l": 11.0,
       "ph": 7.2,
-      "carbonate_mg_l": 205.0
+      "carbonate_mg_l": 205.0,
+      "sodium_mg_l": 23.0
     },
     "FR/Toulon": {
       "mg_l": 350.8,
@@ -2330,7 +2385,8 @@
       "magnesium_mg_l": 2.7,
       "nitrate_mg_l": 3.0,
       "ph": 8.0,
-      "carbonate_mg_l": 85.0
+      "carbonate_mg_l": 85.0,
+      "sodium_mg_l": 5.2
     },
     "FR/Tours": {
       "mg_l": 143.0,
@@ -2359,7 +2415,8 @@
       "magnesium_mg_l": 3.3,
       "nitrate_mg_l": 16.0,
       "ph": 7.4,
-      "carbonate_mg_l": 210.0
+      "carbonate_mg_l": 210.0,
+      "sodium_mg_l": 3.3
     },
     "FR/Valence": {
       "mg_l": 300.6,
@@ -2489,7 +2546,10 @@
       "measured_on": "2021",
       "note": "the sheet reports total hardness expressed as calcium (115.4 mg/l Ca, Farlington North zone); converting that unit to CaCO3 is exact, unlike elemental-calcium figures",
       "lat": 50.799,
-      "lon": -1.0913
+      "lon": -1.0913,
+      "nitrate_mg_l": 34.4,
+      "sodium_mg_l": 9.5,
+      "ph": 7.28
     },
     "GB/York": {
       "mg_l": null,

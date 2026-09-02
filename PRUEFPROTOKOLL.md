@@ -86,3 +86,43 @@ Calcium-Magnesium-Paar wird nur gespeichert, wenn es die Gesamthärte der
 Zeile reproduziert; Nizza zum Beispiel scheiterte an dieser Prüfung und
 trägt darum bewusst kein Paar. Die Karbonathärte ist kanonisch in mg/L
 CaCO₃ abgelegt und wird je Land in dessen Einheit angezeigt.
+
+## Vollständigkeits-Durchgang vom 2. September 2026
+
+Ein letzter Durchgang hat für jede Stadt mit Einzelwert die Quelle neu
+abgerufen und dort verlinkte Analyse-Dokumente verfolgt. Angenommen wurde
+ein Dokument nur, wenn seine eigene Gesamthärte die Kennzahl der Zeile
+reproduziert (Toleranz 12 Prozent). Neu aufgenommen:
+
+- **München** (Trinkwasser-Analysewerte der SWM, Mittelwert-Spalte):
+  Calcium 78,0, Magnesium 20,9, Natrium 5,9, Nitrat 6,5, pH 7,56.
+- **Regensburg** (Chemische Analyse der REWAG, Oktober 2025): Calcium 96,
+  Magnesium 15, Natrium 11, Nitrat 30, pH 7,4. Die Gesamthärte des
+  Berichts (16,9 °dH) ist exakt die Kennzahl der Zeile.
+- **Halle (Saale)** (Mittelwertanalyse 2025 der HWS): Calcium 24,22,
+  Magnesium 3,28, Natrium 7,67, Nitrat 8,78, pH 8,41, Karbonathärte
+  2,59 °dH (kanonisch 46,2 mg/L CaCO₃).
+- **Karlsruhe** (Jahresmittelwerte Wasserwerk KA): Nitrat 10,3, Natrium
+  7,4; Calcium und Magnesium stehen dort in mmol/l (2,46 und 0,86) und
+  sind stöchiometrisch in mg/L umgerechnet (98,6 und 20,9).
+- **Salzburg** (Wasserbeschaffenheit der Salzburg AG): Calcium 53,6,
+  Magnesium 13,3 für das Hauptversorgungsgebiet.
+- **Genf** (Bilan de l'eau der SIG): Calcium 43,9, Magnesium 5,9,
+  Natrium 9,4 aus dem Seewasser-Netz, aus dem auch die Kennzahl der
+  Zeile stammt.
+- **Portsmouth** (Zonenblatt Farlington North): Nitrat 34,4, Natrium 9,5,
+  pH 7,28 als Jahresmittel; Calcium ist dort nicht einzeln ausgewiesen,
+  weil das Blatt die Härte als Calcium-Äquivalent angibt.
+- **Frankreich**: ein zweiter Hubeau-Durchgang über die jeweils sechs
+  jüngsten Proben schloss 26 Lücken (6x Ca/Mg, 16x Natrium, 3x pH,
+  1x Nitrat).
+
+Genauso wichtig ist, was NICHT aufgenommen wurde. Verworfen, weil die
+Dokumente werks- oder zonenspezifisch sind und die Stadtkennzahl eine
+Mischung ist: Bochum, Krefeld, Leoben, Graz, Augsburg (dessen
+Einzelanalyse mit 12,8 °dH sogar außerhalb der veröffentlichten Spanne
+13,5-13,9 liegt), Aberdeen, Edinburgh, Glasgow. Verworfene Artefakte
+dieses Durchgangs: Methoden-Fußnoten als Messwerte (Regensburg "22"),
+der Schweizer Nitrat-Grenzwert 40 als Zürcher Messwert, Stationscodes
+in Laborberichten (Braunschweig, Wolfsburg). Cottbus' Prüfbericht ist
+ein Scan ohne Textebene; seine übrigen Werte fehlen darum weiter.
