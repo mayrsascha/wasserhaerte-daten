@@ -98,13 +98,14 @@
       "band": "very hard",
       "source": "Stadtwerke Klagenfurt",
       "source_url": "https://www.stw.at/privat/wasser/wasserqualitaet/",
-      "note": "midpoint of the published 17-20 dH range",
+      "note": "midpoint of the published 17-20 dH range; the utility's June 2026 certificates for four network points measured 13.8 to 18 dH, so parts of the supply run softer than the published range suggests",
       "range_mg_l": [
         303.4,
         357.0
       ],
       "lat": 46.6247,
-      "lon": 14.3053
+      "lon": 14.3053,
+      "measured_on": "2026"
     },
     "AT/Kufstein": {
       "mg_l": 142.8,
@@ -1144,19 +1145,22 @@
       ]
     },
     "DE/Leverkusen": {
-      "mg_l": null,
-      "band": "weich",
-      "published_value": "no citywide figure; both supply areas classed weich",
+      "mg_l": 94.1,
+      "band": "moderately hard",
       "source": "Energieversorgung Leverkusen (EVL)",
       "source_url": "https://evl-leverkusen.de/trinkwasser/",
       "measured_on": "2026",
-      "note": "Dhünn reservoir water and Rheindorf groundwater; EVL classes both supply areas weich and publishes no citywide figure",
+      "note": "the 2026 analysis of the Grosse Dhuenn reservoir supply (0.94 mmol/L, 5.2 dH), which EVL distributes across most of the city; the Rheindorf area drinks groundwater that EVL also classes as soft",
       "lat": 51.0303,
       "lon": 6.9843,
       "origin": [
-        "reservoir",
-        "groundwater"
-      ]
+        "reservoir"
+      ],
+      "calcium_mg_l": 31.9,
+      "magnesium_mg_l": 3.5,
+      "sodium_mg_l": 5.2,
+      "nitrate_mg_l": 9.0,
+      "ph": 7.95
     },
     "DE/Ludwigshafen am Rhein": {
       "mg_l": null,
@@ -2571,13 +2575,13 @@
       "lon": -4.2576
     },
     "GB/Kingston upon Hull": {
-      "mg_l": null,
+      "mg_l": 370.6,
       "band": "very hard",
-      "published_value": "145.8 mg/L calcium",
+      "published_value": "148.4 mg/l calcium",
       "source": "Yorkshire Water",
       "source_url": "https://www.yorkshirewater.com/your-water/water-hardness/",
       "measured_on": "2024",
-      "note": "Yorkshire Water publishes calcium, not CaCO3; their own classification is 'very hard'",
+      "note": "Yorkshire Water reports hardness as calcium: 148.4 mg/l Ca for the Hull Central West zone across 2024, which is 370.6 mg/L as calcium carbonate; look up other postcodes with the utility's checker",
       "lat": 53.7446,
       "lon": -0.3353
     },
@@ -2595,13 +2599,13 @@
       "ph": 7.28
     },
     "GB/York": {
-      "mg_l": null,
-      "band": "hard",
-      "published_value": "98.8 mg/L calcium",
+      "mg_l": 246.7,
+      "band": "very hard",
+      "published_value": "98.8 mg/l calcium",
       "source": "Yorkshire Water",
       "source_url": "https://www.yorkshirewater.com/your-water/water-hardness/",
       "measured_on": "2024",
-      "note": "Yorkshire Water publishes calcium, not CaCO3; their own classification is 'hard'",
+      "note": "Yorkshire Water reports hardness as calcium: 98.8 mg/l Ca for the York East zone across 2024, which is 246.7 mg/L as calcium carbonate; the utility's own two-level label for this is 'hard'",
       "lat": 53.9576,
       "lon": -1.0827
     }

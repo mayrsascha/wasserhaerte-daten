@@ -72,7 +72,7 @@ Kiel,DE,265.1,14.9,11.4,18.3,,,,,,,,very hard,2025,Stadtwerke Kiel,https://www.s
 Koblenz,DE,,,,,,,,,,,,mittel / hart,2024,Vereinigte Wasserwerke Mittelrhein (evm),https://www.evm.de/privatkunden/rund-ums-haus/wasser/
 Krefeld,DE,232.0,13.0,,,,,,,,,groundwater,very hard,2026,SWK Stadtwerke Krefeld,https://www.swk.de/privatkunden/de/dienstleistungen/wasser
 Leipzig,DE,,,8.0,17.5,,,,,,,reservoir;long_distance,varies by supply zone,2025,Leipziger Wasserwerke,https://www.l.de/wasserwerke/leipziger-wasser/inhaltsstoffe/
-Leverkusen,DE,,,,,,,,,,,reservoir;groundwater,weich,2026,Energieversorgung Leverkusen (EVL),https://evl-leverkusen.de/trinkwasser/
+Leverkusen,DE,94.1,5.3,,,31.9,3.5,9.0,5.2,7.95,,reservoir,moderately hard,2026,Energieversorgung Leverkusen (EVL),https://evl-leverkusen.de/trinkwasser/
 Ludwigshafen am Rhein,DE,,,10.5,14.8,,,,,,,,varies by supply zone,2024,Technische Werke Ludwigshafen (TWL),https://www.twl-kurier.de/wasserhaerte-in-ludwigshafen-2-6620
 Lübeck,DE,,,11.1,16.3,,,,,,,,varies by supply zone,2026,Stadtwerke Lübeck,https://www.swhl.de/downloads/trinkwasserqualitaet-luebeck/
 Magdeburg,DE,255.2,14.3,,,91.5,6.6,2.7,,,,groundwater,very hard,2025,SWM Magdeburg,https://www.sw-magdeburg.de/privatkunden/produkte/trinkwasser/qualitaet
@@ -169,6 +169,6 @@ Cambridge,GB,334.6,18.7,17.2,18.7,,,,,,,,very hard,2025,Cambridge Water,https://
 Cardiff,GB,105.3,5.9,,,,,,,,,,moderately hard,2025,Dŵr Cymru Welsh Water,https://www.dwrcymru.com/en/help-advice/drinking-water-quality/water-hardness
 Edinburgh,GB,31.4,1.8,1.7,1.8,,,,,,,,soft,2024,Scottish Water,https://www.scottishwater.co.uk/-/media/scottishwater/document-hub/key-publications/water-quality/130225waterhardnessdata24.pdf
 Glasgow,GB,15.7,0.9,0.9,1.3,,,,,,,,soft,2024,Scottish Water,https://www.scottishwater.co.uk/-/media/scottishwater/document-hub/key-publications/water-quality/130225waterhardnessdata24.pdf
-Kingston upon Hull,GB,,,,,,,,,,,,very hard,2024,Yorkshire Water,https://www.yorkshirewater.com/your-water/water-hardness/
+Kingston upon Hull,GB,370.6,20.8,,,,,,,,,,very hard,2024,Yorkshire Water,https://www.yorkshirewater.com/your-water/water-hardness/
 Portsmouth,GB,288.5,16.2,,,,,34.4,9.5,7.28,,,very hard,2021,Portsmouth Water,https://www.portsmouthwater.co.uk/wp-content/uploads/2022/06/ZFA1-WQ-Summary_2021.pdf
-York,GB,,,,,,,,,,,,hard,2024,Yorkshire Water,https://www.yorkshirewater.com/your-water/water-hardness/
+York,GB,246.7,13.8,,,,,,,,,,very hard,2024,Yorkshire Water,https://www.yorkshirewater.com/your-water/water-hardness/

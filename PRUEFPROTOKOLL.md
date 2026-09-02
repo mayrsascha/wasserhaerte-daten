@@ -191,3 +191,36 @@ Methodischer Neuzugang: Die Trinkwasseranalyse-Widgets von Gelsenwasser
 und Wasserwerke Westfalen laden ihre Daten von einer offenen JSON-API
 (twa-gelsenwasser), die pro Ort und Wasserwerk Jahresmediane aller
 Parameter liefert. Das ist die sauberste deutsche Quelle nach Hubeau.
+
+## Stufe-1-Heilungen vom 2. September 2026
+
+Drei der vier Städte ohne Zahl haben jetzt eine, eine Fehleinschätzung
+ist korrigiert:
+
+- **Leverkusen**: Die Wasseranalyse 2026 der EVL für das
+  Dhünn-Talsperrenwasser nennt 0,94 mmol/l (5,2 °dH) mit vollem
+  Wertesatz; Calcium 31,9 und Magnesium 3,5 reproduzieren die Härte
+  exakt. Das Gebiet Rheindorf (Grundwasser, ebenfalls weich) steht in
+  der Notiz.
+- **Hull und York**: Die frühere Einschätzung, Yorkshire Water
+  veröffentliche elementares Calcium ohne Härtebezug, war falsch. Das
+  Postleitzahl-Tool beschriftet den Wert ausdrücklich als "Water
+  hardness average" in mg/l Calcium, also Gesamthärte in
+  Calcium-Einheiten nach britischer Konvention. Hull Central West 2024:
+  148,4 mg/l Ca = 370,6 mg/l CaCO₃; York East 2024: 98,8 mg/l Ca =
+  246,7 mg/l CaCO₃ (Faktor 100,0869/40,078 = 2,4973). Belegt per
+  Screenshot der Abfrage vom 2. September 2026, maschinell ist das
+  Tool nicht bedienbar.
+- **Koblenz** bleibt ohne Zahl, jetzt abschließend geklärt: die
+  Härtebekanntmachung 2023 enthält nur die gesetzlichen
+  Härtebereichs-Definitionen und Zonen-Etiketten (mittel/hart), und
+  das Trinkwasserinformationssystem Rheinland-Pfalz ist "zur Zeit
+  überarbeitet und vorübergehend nicht erreichbar". Der einzige Weg zu
+  Zahlen ist die individuelle Analyse, die die evm auf Anfrage binnen
+  zwei Arbeitstagen erstellt.
+- **Klagenfurt**: Die vier Untersuchungszeugnisse vom Juni 2026
+  (Straschitz II, HB Spitalberg, Zwirnawald, Wasserschiene Krappfeld)
+  messen 13,8 bis 18 °dH bei Unsicherheiten von ±3 bis ±4 — teils
+  unter der veröffentlichten Spanne 17-20. Die Notiz sagt das jetzt;
+  Einzelwerte bleiben leer, weil alle Parameter zwischen den vier
+  Netzpunkten variieren.
