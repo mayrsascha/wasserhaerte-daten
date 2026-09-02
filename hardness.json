@@ -1251,7 +1251,7 @@
       "source": "Energieversorgung Leverkusen (EVL)",
       "source_url": "https://evl-leverkusen.de/trinkwasser/",
       "measured_on": "2026",
-      "note": "the 2026 analysis of the Grosse Dhuenn reservoir supply (0.94 mmol/L, 5.2 dH), which EVL distributes across most of the city; the Rheindorf area drinks groundwater that EVL also classes as soft",
+      "note": "the 2026 analyses of both works: the Dhuenn reservoir supply (0.94 mmol/L, 5.2 dH) serves most of the city, the Rheindorf groundwater works (1.39 mmol/L, 7.8 dH) serves Hitdorf, Rheindorf, Buerrig, Kueppersteg, Opladen and Alkenrath",
       "lat": 51.0303,
       "lon": 6.9843,
       "origin": [
@@ -1261,7 +1261,11 @@
       "magnesium_mg_l": 3.5,
       "sodium_mg_l": 5.2,
       "nitrate_mg_l": 9.0,
-      "ph": 7.95
+      "ph": 7.95,
+      "range_mg_l": [
+        94.1,
+        139.1
+      ]
     },
     "DE/Ludwigshafen am Rhein": {
       "mg_l": null,

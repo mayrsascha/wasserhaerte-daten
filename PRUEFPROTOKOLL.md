@@ -261,3 +261,14 @@ Höhenstadtteile-Blatt; die Zeile trägt jetzt die Jahresmittelwerte 2025
 mmol/l umgerechnet). Herkunft von 40 auf 65 Städte erweitert, nur aus
 expliziten Versorgerangaben. 27 undatierte Zeilen tragen als Stand das
 Abrufjahr 2026 der lebenden Quellseite.
+
+## Leverkusen-Rheindorf (3. September 2026)
+
+Der zweite EVL-Analysebogen (Wasserwerk Rheindorf, versorgt Hitdorf,
+Rheindorf, Bürrig, Küppersteg, Opladen und Alkenrath) macht Leverkusen
+sauber zweizonig: Dhünn 0,94 mmol/l, Rheindorf 1,39 mmol/l. Bemerkenswert:
+die Überschrift des Rheindorf-Bogens behauptet "1,54 Millimol, Härtebereich
+mittel", aber die eigene Tabelle summiert die Erdalkalien zu 1,39 mmol/l,
+und Calcium 41,3 plus Magnesium 8,6 ergeben exakt diese 1,39. Die
+gemessene Tabelle gewinnt gegen die Prosa; damit sind beide Leverkusener
+Zonen weich, wie es die EVL an anderer Stelle auch selbst sagt.
