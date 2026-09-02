@@ -45,6 +45,7 @@ Bremerhaven,DE,,,9.0,11.4,varies by supply zone,2026,swb,https://www.swb.de/wass
 Chemnitz,DE,76.7,4.3,,,moderately hard,2024,eins energie in sachsen,https://www.eins.de/privatkunden/wasser
 Cologne,DE,,,15.6,18.1,varies by supply zone,2025,RheinEnergie,https://web.cdn.rheinenergie.com/cms/media/documents/trinkwasseranalyse/Trinkwasseranalyse_Linksrheinisch.pdf
 Cottbus,DE,265.9,14.9,,,very hard,2025-01-13,LWG Lausitzer Wasser (Prüfbericht AQS),https://lausitzer-wasser.de/visioncontent/mediendatenbank/5_cottbus-sachsendorf_2026_geschwaerzt.pdf
+Darmstadt,DE,339.1,19.0,18.4,19.6,very hard,,ENTEGA / Hessenwasser,https://www.entega.ag/fileadmin/downloads/wasser/Trinkwasser_Darmstadt_InfoMW.pdf
 Dortmund,DE,137.4,7.7,,,hard,2026,DEW21,https://www.dew21.de/ueber-uns/unser-wasser
 Dresden,DE,,,5.6,12.3,varies by supply zone,2026,SachsenEnergie,https://www.sachsenenergie.de/wps/portal/energie/cms/menu_main/privatkunden/wasser/gut-zu-wissen/trinkwasserqualitaet
 Duisburg,DE,258.8,14.5,11.0,18.0,very hard,2025,Stadtwerke Duisburg,https://www.stadtwerke-duisburg.de/privatkunden/themen/trinkwasser-fuer-duisburg
@@ -64,12 +65,15 @@ Heilbronn,DE,,,9.0,18.0,varies by supply zone,2025,Stadtwerke Heilbronn,https://
 Hildesheim,DE,32.1,1.8,,,soft,,EVI Energieversorgung Hildesheim,https://www.evi-hildesheim.de/evi/Produkte-fuer-Privatkunden/Wasser/Trinkwasseranalyse/
 Ingolstadt,DE,371.2,20.8,,,very hard,,Ingolstaedter Kommunalbetriebe (INKB),https://www.in-kb.de/Wasser/Trinkwasser/Qualit%C3%A4t/
 Jena,DE,,,3.2,18.5,varies by supply zone,,JenaWasser,https://www.jenawasser.de/wasserqualitaet
+Kaiserslautern,DE,,,4.2,5.1,varies by supply zone,2023,SWK Stadtwerke Kaiserslautern,https://www.swk-kl.de/produkte-services/energie/wasser/wasserqualitaet
 Karlsruhe,DE,321.3,18.0,,,very hard,2026,Stadtwerke Karlsruhe,https://www.stadtwerke-karlsruhe.de/de/pk/wasser/wasserqualitaet.php
 Kassel,DE,,,8.4,15.0,varies by supply zone,,KASSELWASSER,https://kasselwasser.de/trinkwasser/unser-wasser/wasserhaerte
 Kiel,DE,265.1,14.9,11.4,18.3,very hard,2025,Stadtwerke Kiel,https://www.stadtwerke-kiel.de/wasser/qualitaet
 Koblenz,DE,,,,,mittel / hart,2024,Vereinigte Wasserwerke Mittelrhein (evm),https://www.evm.de/privatkunden/rund-ums-haus/wasser/
 Krefeld,DE,232.0,13.0,,,very hard,,SWK Stadtwerke Krefeld,https://www.swk.de/privatkunden/de/dienstleistungen/wasser
 Leipzig,DE,,,8.6,18.5,varies by supply zone,,Leipziger Wasserwerke,https://www.l.de/wasserwerke/leipziger-wasser/wasserhaerte/
+Leverkusen,DE,,,,,weich,2026,Energieversorgung Leverkusen (EVL),https://evl-leverkusen.de/trinkwasser/
+Ludwigshafen am Rhein,DE,,,10.8,14.5,varies by supply zone,,Technische Werke Ludwigshafen (TWL),https://www.twl-kurier.de/wasserhaerte-in-ludwigshafen-2-6620
 Lübeck,DE,,,11.1,16.3,varies by supply zone,2026,Stadtwerke Lübeck,https://www.swhl.de/downloads/trinkwasserqualitaet-luebeck/
 Magdeburg,DE,255.2,14.3,,,very hard,2025,SWM Magdeburg,https://www.sw-magdeburg.de/privatkunden/produkte/trinkwasser/qualitaet
 Mainz,DE,,,12.6,25.1,varies by supply zone,,Mainzer Netze,https://www.mainzer-netze.de/trinkwasser/trinkwasserqualitaet
@@ -77,16 +81,21 @@ Mannheim,DE,357.9,20.1,18.4,21.7,very hard,2026,MVV Energie,https://www.mvv.de/w
 Munich,DE,282.0,15.8,13.9,17.9,very hard,2026,Stadtwerke München,https://www.swm.de/wasser/wasserqualitaet
 Munster,DE,249.0,14.0,,,very hard,2025,Stadtwerke Münster,https://www.stadtwerke-muenster.de/Stadtwerke/Dokumente/Trinkwasser/Trinkwasseranalytik.pdf
 Mönchengladbach,DE,,,8.4,14.0,varies by supply zone,,NEW,https://www.new.de/trinkwasser/trinkwasserqualitaet
+Mülheim (Ruhr),DE,142.8,8.0,5.7,10.7,hard,2025,RWW Rheinisch-Westfälische Wasserwerksgesellschaft,https://www.rww.de/trinkwasser/wasserqualitaet
 Nuremberg,DE,206.2,11.6,9.5,13.6,very hard,2026,N-ERGIE,https://www.n-ergie.de/public/remotemedien/media/n_ergie/internet/privatkunden/produkte/wasser_1/neugestaltung_seite/Trinkwasser-Analysewerte.pdf
 Oberhausen,DE,,,5.7,14.1,varies by supply zone,2025,RWW Rheinisch-Westfälische Wasserwerksgesellschaft,https://www.rww.de/trinkwasser/wasserqualitaet
+Offenbach,DE,,,9.5,12.3,varies by supply zone,,Zweckverband Wasserversorgung Stadt und Kreis Offenbach (ZWO),https://www.offenbach.de/stadtwerke/stadtwerke/evo-und-zwo/trinkwasserversorgung.php
 Oldenburg,DE,,,6.6,12.0,varies by supply zone,,EWE NETZ,https://www.ewe-netz.de/privatkunden/trinkwasser/ol
+Osnabrück,DE,,,7.3,13.0,varies by supply zone,,Stadtwerke Osnabrück,https://www.stadtwerke-osnabrueck.de/trinkwasser/wasserhaerte
 Pforzheim,DE,,,6.0,9.0,varies by supply zone,,Stadtwerke Pforzheim (SWP),https://www.stadtwerke-pforzheim.de/trinkwasser/trinkwasserqualitaet-und-preise/
 Potsdam,DE,,,10.0,21.0,varies by supply zone,,Energie und Wasser Potsdam (EWP),https://www.swp-potsdam.de/de/wasser/wasserh%C3%A4rtegrad/
+Recklinghausen,DE,201.7,11.3,,,very hard,,Gelsenwasser,https://www.gelsenwasser.de/wasser/wasserhaerte/recklinghausen
 Regensburg,DE,301.7,16.9,,,very hard,2025,REWAG,https://www.rewag.de/produkte-dienstleistungen/wasser/herkunft-qualitaet
 Reutlingen,DE,,,9.1,16.1,varies by supply zone,,FairEnergie,https://www.fairenergie.de/wasser/trinkwasser.html
 Rostock,DE,253.4,14.2,,,very hard,,Nordwasser,https://www.nordwasser.de/trinkwasser/versorgung/trinkwasseranalyse-ww-rostock-1
 Saarbrücken,DE,,,5.9,12.4,varies by supply zone,,Stadtwerke Saarbrücken,https://www.saarbruecker-stadtwerke.de/media/download-57a456f6e566f
 Siegen,DE,80.3,4.5,,,moderately hard,,Siegener Versorgungsbetriebe (SVB),https://www.svb-siegen.de/netze/trinkwasseranalyse
+Solingen,DE,99.9,5.6,5.2,6.1,moderately hard,,Stadtwerke Solingen,https://www.stadtwerke-solingen.de/privat-gewerbekunden/wasser/wasserqualitaet/
 Stuttgart,DE,,,9.0,13.0,varies by supply zone,2026,Netze BW Wasser,https://www.netze-bw.de/unsernetz/trinkwasserstuttgart
 Trier,DE,,,4.7,9.3,varies by supply zone,2025,SWT Stadtwerke Trier,https://www.swt.de/p/Trinkwasserversorgung-5-2814.html
 Ulm,DE,,,12.7,19.1,varies by supply zone,,Stadtwerke Ulm/Neu-Ulm (SWU),https://www.swu.de/fileadmin/content/energie-wasser/wasser/SWU-Analysedaten-Trinkwasser.pdf

@@ -1,8 +1,8 @@
 # Wasserhärte deutscher Städte — offener Datensatz
 
-Die Trinkwasserhärte der 60 größten deutschen Städte, dazu der komplette DACH-Raum
+Die Trinkwasserhärte von 69 deutschen Großstädten, dazu der komplette DACH-Raum
 (alle 17 österreichischen und 17 Schweizer Städte der Sammlung) sowie
-Frankreich und Großbritannien — 163 Städte insgesamt. Erhoben 2026,
+Frankreich und Großbritannien — 172 Städte insgesamt. Erhoben 2026,
 **ausschließlich aus Primärquellen**: dem Analyseblatt, der Qualitätsseite
 oder dem akkreditierten Prüfbericht des jeweiligen Versorgers. Jede Zeile
 nennt ihre Quelle mit URL und Stand.
@@ -58,13 +58,13 @@ betrifft die Zusammenstellung.
 ## English summary
 
 Drinking-water hardness for the 60 largest German cities plus all covered cities in
-Austria and Switzerland (DACH complete) and in France and the UK — 163 in total, surveyed in 2026 exclusively from
+Austria and Switzerland (DACH complete) and in France and the UK — 172 in total, surveyed in 2026 exclusively from
 primary sources (each utility's own published analysis), with source URL and
 date per row. `hardness.json` carries mg/L CaCO₃, per-zone ranges, notes and
 coordinates; `staedte.csv` is the flat version with German degrees. Licensed
 CC BY 4.0 — attribute as "Data: iswatersafetodrink.in" with a link.
 
-## Alle 59 deutschen Städte mit Wert, weich nach hart
+## Alle deutschen Städte mit Wert, weich nach hart
 
 | Stadt | Gesamthärte | Quelle | Stand |
 |---|---|---|---|

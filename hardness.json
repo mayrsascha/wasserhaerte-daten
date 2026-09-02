@@ -583,6 +583,19 @@
       "measured_on": "2025-01-13",
       "note": "computed from the accredited report's calcium (87.5 mg/L) and magnesium (11.5 mg/L), which is the definition of total hardness; the sample is the Sachsendorf zone, and the city's other zones differ"
     },
+    "DE/Darmstadt": {
+      "mg_l": 339.1,
+      "band": "very hard",
+      "source": "ENTEGA / Hessenwasser",
+      "source_url": "https://www.entega.ag/fileadmin/downloads/wasser/Trinkwasser_Darmstadt_InfoMW.pdf",
+      "note": "midpoint of the published 18.4-19.6 dH",
+      "range_mg_l": [
+        328.4,
+        349.8
+      ],
+      "lat": 49.8717,
+      "lon": 8.6503
+    },
     "DE/Dortmund": {
       "mg_l": 137.4,
       "band": "hard",
@@ -813,6 +826,20 @@
       "lat": 50.9288,
       "lon": 11.5899
     },
+    "DE/Kaiserslautern": {
+      "mg_l": null,
+      "band": "varies by supply zone",
+      "source": "SWK Stadtwerke Kaiserslautern",
+      "source_url": "https://www.swk-kl.de/produkte-services/energie/wasser/wasserqualitaet",
+      "measured_on": "2023",
+      "note": "three waterworks, all soft: Mölschbach 4.2 dH, Barbarossastraße 4.5, Rote Hohl 5.1",
+      "range_mg_l": [
+        75.0,
+        91.0
+      ],
+      "lat": 49.443,
+      "lon": 7.7716
+    },
     "DE/Karlsruhe": {
       "mg_l": 321.3,
       "band": "very hard",
@@ -880,6 +907,30 @@
       ],
       "lat": 51.3396,
       "lon": 12.3713
+    },
+    "DE/Leverkusen": {
+      "mg_l": null,
+      "band": "weich",
+      "published_value": "no citywide figure; both supply areas classed weich",
+      "source": "Energieversorgung Leverkusen (EVL)",
+      "source_url": "https://evl-leverkusen.de/trinkwasser/",
+      "measured_on": "2026",
+      "note": "Dhünn reservoir water and Rheindorf groundwater; EVL classes both supply areas weich and publishes no citywide figure",
+      "lat": 51.0303,
+      "lon": 6.9843
+    },
+    "DE/Ludwigshafen am Rhein": {
+      "mg_l": null,
+      "band": "varies by supply zone",
+      "source": "Technische Werke Ludwigshafen (TWL)",
+      "source_url": "https://www.twl-kurier.de/wasserhaerte-in-ludwigshafen-2-6620",
+      "note": "the Parkinsel works supplies the inner districts at 14.5 dH, Maudach-Oggersheim the north and west at 10.8",
+      "range_mg_l": [
+        192.8,
+        258.8
+      ],
+      "lat": 49.4812,
+      "lon": 8.4464
     },
     "DE/Lübeck": {
       "mg_l": null,
@@ -967,6 +1018,20 @@
       "lat": 51.1854,
       "lon": 6.4417
     },
+    "DE/Mülheim (Ruhr)": {
+      "mg_l": 142.8,
+      "band": "hard",
+      "source": "RWW Rheinisch-Westfälische Wasserwerksgesellschaft",
+      "source_url": "https://www.rww.de/trinkwasser/wasserqualitaet",
+      "measured_on": "2025",
+      "note": "median of the Mülheim-Styrum works' 2025 data; Mintard is served separately",
+      "range_mg_l": [
+        101.7,
+        191.0
+      ],
+      "lat": 51.4322,
+      "lon": 6.8797
+    },
     "DE/Nuremberg": {
       "mg_l": 206.2,
       "band": "very hard",
@@ -993,6 +1058,19 @@
         251.7
       ]
     },
+    "DE/Offenbach": {
+      "mg_l": null,
+      "band": "varies by supply zone",
+      "source": "Zweckverband Wasserversorgung Stadt und Kreis Offenbach (ZWO)",
+      "source_url": "https://www.offenbach.de/stadtwerke/stadtwerke/evo-und-zwo/trinkwasserversorgung.php",
+      "note": "the published span for the city network, all of it in the medium band",
+      "range_mg_l": [
+        169.6,
+        219.5
+      ],
+      "lat": 50.0956,
+      "lon": 8.7761
+    },
     "DE/Oldenburg": {
       "mg_l": null,
       "band": "varies by supply zone",
@@ -1005,6 +1083,19 @@
       ],
       "lat": 53.1404,
       "lon": 8.2148
+    },
+    "DE/Osnabrück": {
+      "mg_l": null,
+      "band": "varies by supply zone",
+      "source": "Stadtwerke Osnabrück",
+      "source_url": "https://www.stadtwerke-osnabrueck.de/trinkwasser/wasserhaerte",
+      "note": "three waterworks: Thiene 7.3 dH, Wittefeld 9.6, Düstrup about 13; which one serves a district decides the figure",
+      "range_mg_l": [
+        130.3,
+        232.0
+      ],
+      "lat": 52.2726,
+      "lon": 8.0498
     },
     "DE/Pforzheim": {
       "mg_l": null,
@@ -1031,6 +1122,15 @@
       ],
       "lat": 52.3989,
       "lon": 13.0657
+    },
+    "DE/Recklinghausen": {
+      "mg_l": 201.7,
+      "band": "very hard",
+      "source": "Gelsenwasser",
+      "source_url": "https://www.gelsenwasser.de/wasser/wasserhaerte/recklinghausen",
+      "note": "the Haltern works, 2.02 mmol/L",
+      "lat": 51.6138,
+      "lon": 7.1974
     },
     "DE/Regensburg": {
       "mg_l": 301.7,
@@ -1085,6 +1185,19 @@
       "note": "ninety percent reservoir water from the Obernau and Breitenbach dams",
       "lat": 50.8748,
       "lon": 8.0243
+    },
+    "DE/Solingen": {
+      "mg_l": 99.9,
+      "band": "moderately hard",
+      "source": "Stadtwerke Solingen",
+      "source_url": "https://www.stadtwerke-solingen.de/privat-gewerbekunden/wasser/wasserqualitaet/",
+      "note": "Sengbach reservoir water treated at Glüder; the published span across plants is 5.2-6.1 dH",
+      "range_mg_l": [
+        92.8,
+        108.9
+      ],
+      "lat": 51.1734,
+      "lon": 7.0845
     },
     "DE/Stuttgart": {
       "mg_l": null,
