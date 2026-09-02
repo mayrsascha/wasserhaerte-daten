@@ -1,8 +1,8 @@
 # Wasserhärte deutscher Städte — offener Datensatz
 
-Die Trinkwasserhärte von 69 deutschen Großstädten, dazu der komplette DACH-Raum
+Die Trinkwasserhärte von 70 deutschen Großstädten, dazu der komplette DACH-Raum
 (alle 17 österreichischen und 17 Schweizer Städte der Sammlung) sowie
-Frankreich und Großbritannien — 172 Städte insgesamt. Erhoben 2026,
+Frankreich und Großbritannien — 173 Städte insgesamt. Erhoben 2026,
 **ausschließlich aus Primärquellen**: dem Analyseblatt, der Qualitätsseite
 oder dem akkreditierten Prüfbericht des jeweiligen Versorgers. Jede Zeile
 nennt ihre Quelle mit URL und Stand.
@@ -31,8 +31,9 @@ Stadtwerke selbst 7–9 veröffentlichen.
 ## Die Extreme (Deutschland, 2026)
 
 Das härteste Stadtwasser fließt in **Würzburg**: 25,4–42,7 °dH aus dem
-Muschelkalk, je nach Hochbehälter. Das weichste in **Hildesheim**: 1,8 °dH
-Harzer Talsperrenwasser.
+Muschelkalk, je nach Hochbehälter. Das weichste stadtweite Wasser in **Hildesheim**: 1,8 °dH Harzer
+Talsperrenwasser. Eine einzelne Zone unterbietet das: der Wiesbadener
+Taunusstollen liefert 1,72 °dH — Quarzit löst fast nichts.
 
 ## Einheiten
 
@@ -58,7 +59,7 @@ betrifft die Zusammenstellung.
 ## English summary
 
 Drinking-water hardness for the 60 largest German cities plus all covered cities in
-Austria and Switzerland (DACH complete) and in France and the UK — 172 in total, surveyed in 2026 exclusively from
+Austria and Switzerland (DACH complete) and in France and the UK — 173 in total, surveyed in 2026 exclusively from
 primary sources (each utility's own published analysis), with source URL and
 date per row. `hardness.json` carries mg/L CaCO₃, per-zone ranges, notes and
 coordinates; `staedte.csv` is the flat version with German degrees. Licensed

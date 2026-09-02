@@ -1240,6 +1240,20 @@
       "lat": 48.3984,
       "lon": 9.9916
     },
+    "DE/Wiesbaden": {
+      "mg_l": null,
+      "band": "varies by supply zone",
+      "source": "Wasserversorgungsbetriebe der Landeshauptstadt Wiesbaden (WLW)",
+      "source_url": "https://web.archive.org/web/2024/https://www.wlw-wiesbaden.de/wasser/wasserhaerte",
+      "measured_on": "2024-05",
+      "note": "four sources spanning almost the whole scale: Taunus tunnel water at 1.7 dH, Naurod 7.2, Schierstein 16.4, Hessisches Ried 19.2; WLW runs a street-level lookup, and its site being offline is why the source link points at the archived copy",
+      "range_mg_l": [
+        30.7,
+        342.7
+      ],
+      "lat": 50.0825,
+      "lon": 8.24
+    },
     "DE/Wolfsburg": {
       "mg_l": 141.0,
       "band": "hard",
