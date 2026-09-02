@@ -14,7 +14,9 @@
       "lat": 47.5031,
       "lon": 9.7471,
       "calcium_mg_l": 65.0,
-      "magnesium_mg_l": 8.8
+      "magnesium_mg_l": 8.8,
+      "carbonate_dh": 11.1,
+      "ph": 7.6
     },
     "AT/Dornbirn": {
       "mg_l": 163.3,
@@ -105,7 +107,10 @@
         160.6
       ],
       "lat": 47.5833,
-      "lon": 12.1667
+      "lon": 12.1667,
+      "carbonate_dh": 5.7,
+      "nitrate_mg_l": 3.3,
+      "ph": 7.8
     },
     "AT/Leoben": {
       "mg_l": 224.9,
@@ -263,7 +268,9 @@
         300.0
       ],
       "lat": 46.9481,
-      "lon": 7.4474
+      "lon": 7.4474,
+      "nitrate_mg_l": 4.3,
+      "sodium_mg_l": 3.4
     },
     "CH/Biel": {
       "mg_l": 117.0,
@@ -478,7 +485,8 @@
         248.1
       ],
       "lat": 48.3715,
-      "lon": 10.8985
+      "lon": 10.8985,
+      "nitrate_mg_l": 10.0
     },
     "DE/Berlin": {
       "mg_l": 249.9,
@@ -488,7 +496,8 @@
       "measured_on": "2025",
       "note": "converted from 14.0 dH",
       "lat": 52.5244,
-      "lon": 13.4105
+      "lon": 13.4105,
+      "sodium_mg_l": 37.0
     },
     "DE/Bielefeld": {
       "mg_l": null,
@@ -513,7 +522,8 @@
       "lat": 51.4817,
       "lon": 7.2165,
       "calcium_mg_l": 41.0,
-      "magnesium_mg_l": 6.9
+      "magnesium_mg_l": 6.9,
+      "carbonate_dh": 5.4
     },
     "DE/Bonn": {
       "mg_l": 101.7,
@@ -527,7 +537,9 @@
       "range_mg_l": [
         78.5,
         124.9
-      ]
+      ],
+      "nitrate_mg_l": 9.0,
+      "sodium_mg_l": 9.8
     },
     "DE/Braunschweig": {
       "mg_l": 149.9,
@@ -571,7 +583,8 @@
       "measured_on": "2024",
       "note": "the whole supply area sits in the soft band; the utility notes descaling agents are unnecessary",
       "lat": 50.8357,
-      "lon": 12.9292
+      "lon": 12.9292,
+      "ph": 8.1
     },
     "DE/Cologne": {
       "mg_l": null,
@@ -585,7 +598,10 @@
         323.1
       ],
       "lat": 50.9333,
-      "lon": 6.95
+      "lon": 6.95,
+      "carbonate_dh": 12.9,
+      "nitrate_mg_l": 22.0,
+      "sodium_mg_l": 35.0
     },
     "DE/Cottbus": {
       "mg_l": 265.9,
@@ -622,7 +638,8 @@
       "measured_on": "2026",
       "note": "converted from about 7.7 dH",
       "lat": 51.5149,
-      "lon": 7.466
+      "lon": 7.466,
+      "ph": 7.9
     },
     "DE/Dresden": {
       "mg_l": null,
@@ -753,7 +770,10 @@
       "lat": 51.5344,
       "lon": 9.9323,
       "calcium_mg_l": 34.9,
-      "magnesium_mg_l": 7.4
+      "magnesium_mg_l": 7.4,
+      "nitrate_mg_l": 9.3,
+      "ph": 7.6,
+      "sodium_mg_l": 6.2
     },
     "DE/Halle (Saale)": {
       "mg_l": 75.5,
@@ -835,7 +855,8 @@
       "lat": 48.7651,
       "lon": 11.4237,
       "calcium_mg_l": 89.0,
-      "magnesium_mg_l": 36.0
+      "magnesium_mg_l": 36.0,
+      "sodium_mg_l": 3.4
     },
     "DE/Jena": {
       "mg_l": null,
@@ -984,7 +1005,8 @@
       "lat": 52.1313,
       "lon": 11.6319,
       "calcium_mg_l": 91.5,
-      "magnesium_mg_l": 6.6
+      "magnesium_mg_l": 6.6,
+      "nitrate_mg_l": 2.7
     },
     "DE/Mainz": {
       "mg_l": null,
@@ -1011,7 +1033,8 @@
         387.3
       ],
       "lat": 49.4891,
-      "lon": 8.4669
+      "lon": 8.4669,
+      "nitrate_mg_l": 16.0
     },
     "DE/Munich": {
       "mg_l": 282.0,
@@ -1082,7 +1105,8 @@
       "lat": 49.4542,
       "lon": 11.0775,
       "calcium_mg_l": 58.0,
-      "magnesium_mg_l": 14.0
+      "magnesium_mg_l": 14.0,
+      "carbonate_dh": 9.35
     },
     "DE/Oberhausen": {
       "mg_l": null,
@@ -1205,7 +1229,10 @@
       "lat": 54.0887,
       "lon": 12.1405,
       "calcium_mg_l": 83.6,
-      "magnesium_mg_l": 11.0
+      "magnesium_mg_l": 11.0,
+      "nitrate_mg_l": 2.06,
+      "ph": 7.7,
+      "sodium_mg_l": 43.1
     },
     "DE/Saarbrücken": {
       "mg_l": null,

@@ -58,3 +58,14 @@ Versorgers. Ein Paar wird nur übernommen, wenn es die Gesamthärte der Zeile
 rechnerisch reproduziert (Toleranz 10 Prozent), denn Calcium plus Magnesium
 ist die Definition der Gesamthärte. Ein Paar, das nicht aufgeht, hieße, dass
 eine der Zahlen falsch ist.
+
+## Nitrat, Natrium, pH und Karbonathärte
+
+Sechzehn Städte tragen weitere Werte aus derselben Analyse wie ihr
+Härtewert. Übernommen wird ein Wert nur, wenn die Stadt eine
+Einzelzonen-Zeile ist (bei Zonen-Städten variieren diese Werte je Werk wie
+die Härte selbst), die Quelle ein Einzeldokument ist und der Wert innerhalb
+der Plausibilitätsgrenzen liegt; die gesetzlichen Grenzwerte selbst werden
+als Treffer ausgeschlossen. Verworfen wurden unter anderem alle
+trinkwasser.ch-Zeilen, weil der Parser dort die Anzahl der Messungen statt
+des Messwerts griff.
