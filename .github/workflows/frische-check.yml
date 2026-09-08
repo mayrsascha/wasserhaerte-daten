@@ -26,7 +26,10 @@ jobs:
           sudo apt-get install -y -q poppler-utils
           pip install --quiet requests
       - name: Interne Konsistenz prüfen
-        run: python3 tools_consistency.py
+        shell: bash
+        run: |
+          set -o pipefail
+          python3 tools_consistency.py | tee konsistenz-report.txt
       # pipefail, sonst entscheidet tee über den Exit-Code und ein DRIFT
       # käme als Erfolg durch. Genau das ist am 8. September passiert.
       - name: Alle Quellen gegenprüfen
@@ -56,7 +59,14 @@ jobs:
             echo "checked_on am Dateianfang auf das Datum der abgeschlossenen Prüfung setzen."
             echo
             echo '```'
-            grep -E "DRIFT|FAIL|unreachable|ERROR" frische-report.txt | head -80 || tail -n 40 frische-report.txt
+            if [ -s frische-report.txt ]; then
+              grep -E "DRIFT|FETCH|FAIL|ERROR|== " frische-report.txt | head -80 || tail -n 40 frische-report.txt
+            elif [ -s konsistenz-report.txt ]; then
+              echo "Die Quellenprüfung lief nicht: schon die interne Konsistenzprüfung ist fehlgeschlagen."
+              tail -n 40 konsistenz-report.txt
+            else
+              echo "Kein Report vorhanden; bitte das Protokoll des Laufs lesen."
+            fi
             echo '```'
             echo
             echo "Lauf: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}"
