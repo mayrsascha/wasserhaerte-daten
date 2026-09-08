@@ -14,6 +14,7 @@ catch: a drift is not an error in this script, it is homework.
 
 Requires: requests, pdftotext (poppler-utils).
 """
+import html
 import json
 import re
 import subprocess
@@ -56,6 +57,10 @@ KNOWN_INDIRECT = {
     "GB/Cardiff": "postcode tool",
     "GB/Kingston upon Hull": "postcode tool, verified via headless browser",
     "GB/York": "postcode tool, verified via headless browser",
+    # Agrolab's annual analysis PDF has no usable text layer (glyphs come out
+    # as symbols), so pdftotext cannot read it. The quarterly check opens it
+    # by eye instead; the date of that reading belongs in PRUEFPROTOKOLL.md.
+    "AT/Wels": "PDF ohne Textebene (Agrolab); Sichtprüfung im Quartals-Check",
 }
 
 
@@ -64,7 +69,10 @@ def fold(s):
                    if not unicodedata.combining(c)).lower().strip()
 
 
-def fetch_text(url):
+def fetch_text(url, keep_raw=False):
+    """Visible text of a page or PDF. With keep_raw, script blocks stay in,
+    because some utilities (Stadtwerke Erfurt) ship the analysis table as
+    JSON inside a <script> tag and print the figures from there."""
     r = requests.get(url, headers={"Accept": "*/*", "User-Agent": UA}, timeout=60)
     r.raise_for_status()
     if r.content[:4] == b"%PDF":
@@ -74,8 +82,8 @@ def fetch_text(url):
             t = subprocess.run(["pdftotext", "-layout", f.name, "-"],
                                capture_output=True, text=True).stdout
     else:
-        t = re.sub(r"<(script|style)[^>]*>.*?</\1>", "", r.text, flags=re.S | re.I)
-        t = re.sub(r"<[^>]+>", " ", t)
+        t = r.text if keep_raw else re.sub(r"<(script|style)[^>]*>.*?</\1>", "", r.text, flags=re.S | re.I)
+        t = html.unescape(re.sub(r"<[^>]+>", " ", t))
     return re.sub(r"\s+", " ", t)
 
 
@@ -105,6 +113,10 @@ def local_values(row, cc):
             vals += [mg / FH, mg / MMOL]
         elif cc == "FR":
             vals.append(mg / FH)
+        elif cc == "IT":
+            # South Tyrol prints French degrees and, for German readers,
+            # German degrees next to them (SEAB Bozen: "13 bis 16 ... 7,3 - 9").
+            vals += [mg / FH, mg / DH]
         else:
             vals += [mg, mg / AS_CA]
     return vals
@@ -130,6 +142,17 @@ def check_static(key, row):
     hits, misses = [], []
     for v in local_values(row, cc):
         (hits if any(t in text for t in tokens_for(v)) else misses).append(round(v, 2))
+    if not hits:
+        # Second pass over the page including its script data: a figure that
+        # only lives in an embedded JSON table still counts as printed.
+        try:
+            raw = fetch_text(row["source_url"], keep_raw=True)
+        except Exception:  # noqa: BLE001
+            raw = ""
+        if raw:
+            hits, misses = [], []
+            for v in local_values(row, cc):
+                (hits if any(t in raw for t in tokens_for(v)) else misses).append(round(v, 2))
     # A midpoint or converted variant is never printed, so any hit means the
     # source still shows a stored figure; only a page with NO stored figure
     # left counts as drift.
