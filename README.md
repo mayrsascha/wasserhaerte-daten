@@ -1,8 +1,8 @@
-# Wasserhärte deutscher Städte: offener Datensatz
+# Wasserhärte nach Stadt: offener Datensatz
 
-Die Trinkwasserhärte der großen deutschen Städte, dazu Österreich, die Schweiz
-und Südtirol sowie Frankreich und Großbritannien. Wie viele Städte gerade
-enthalten sind, zeigt `staedte.csv`; die Zahl wächst. Erhoben 2026,
+Die Trinkwasserhärte von Städten in Deutschland, Österreich, der Schweiz und
+Südtirol sowie in Frankreich und Großbritannien. Welche Städte enthalten sind,
+zeigt `staedte.csv`; die Liste wächst. Erhoben 2026,
 **ausschließlich aus Primärquellen**: dem Analyseblatt, der Qualitätsseite
 oder dem akkreditierten Prüfbericht des jeweiligen Versorgers. Jede Zeile
 nennt ihre Quelle mit URL und Stand.
@@ -34,8 +34,8 @@ als `checked_on` am Anfang von `hardness.json`, die Handfälle stehen im Protoko
 
 ## Die Extreme
 
-Welche Städte das härteste und das weichste Wasser haben, steht als jährliches
-Ranking auf [aquascala.de/wasserhaerte/ranking-2026](https://aquascala.de/wasserhaerte/ranking-2026).
+Welche Städte das härteste und das weichste Wasser haben, steht in der jährlichen
+Rangliste auf [aquascala.de/wasserhaerte/rangliste-2026](https://aquascala.de/wasserhaerte/rangliste-2026).
 
 ## Einheiten
 
@@ -63,8 +63,8 @@ betrifft die Zusammenstellung.
 
 ## English summary
 
-Drinking-water hardness for the large German cities plus Austria, Switzerland, South
-Tyrol, France and the UK (the row count in `staedte.csv` is the current size), surveyed in 2026 exclusively from
+Drinking-water hardness for cities in Germany, Austria, Switzerland, South Tyrol,
+France and the UK (`staedte.csv` lists which), surveyed in 2026 exclusively from
 primary sources (each utility's own published analysis), with source URL and
 date per row. `hardness.json` carries mg/L CaCO₃, per-zone ranges, notes and
 coordinates; `staedte.csv` is the flat version with German degrees. Licensed
