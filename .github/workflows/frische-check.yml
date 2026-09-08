@@ -21,8 +21,13 @@ jobs:
           pip install --quiet requests
       - name: Interne Konsistenz prüfen
         run: python3 tools_consistency.py
+      # pipefail, sonst entscheidet tee über den Exit-Code und ein DRIFT
+      # käme als Erfolg durch. Genau das ist am 8. September passiert.
       - name: Alle Quellen gegenprüfen
-        run: python3 tools_verify.py | tee frische-report.txt
+        shell: bash
+        run: |
+          set -o pipefail
+          python3 tools_verify.py | tee frische-report.txt
       - name: Report anhängen
         if: always()
         run: |
