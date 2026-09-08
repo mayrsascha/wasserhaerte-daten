@@ -3,6 +3,12 @@ name: Frische-Check
 # Prüft einmal pro Quartal jede Härtezahl gegen ihre lebende Quelle.
 # Schlägt der Lauf fehl, hat sich entweder eine Quelle geändert (DRIFT,
 # der eigentliche Zweck) oder zu viele Quellen sind unerreichbar geworden.
+# Das Token braucht Schreibrecht auf Issues, sonst scheitert das Anlegen mit
+# "Resource not accessible by integration" (so am 8. September gesehen).
+permissions:
+  contents: read
+  issues: write
+
 on:
   schedule:
     - cron: "17 6 2 1,4,7,10 *"
