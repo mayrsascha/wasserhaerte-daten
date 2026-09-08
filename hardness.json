@@ -2808,12 +2808,12 @@
    "fresh_note": "Werte unveraendert: die Jahresdurchschnittsanalyse 2025 fuehrt WW Thallwitz 8,0 dH, WW Canitz 11,9, Fernwasser (Elbaue-Ostharz) 12,9, WVA Probstheida 15,3, WW Naunhof 1/2 17,0 und 16,7, WW Belgershain 17,5 - also weiter 8,0 bis 17,5 dH (= 142,8 bis 312,3 mg/l CaCO3). Geaendert nur die Quelle: die bisher verlinkte Seite /wasserwerke/leipziger-wasser/inhaltsstoffe/ fuehrt in ihrer heutigen Fassung keine Haerte mehr, sondern nur noch eine Mineralstofftabelle (Calcium 84, Chlorid 49, Eisen 0,018, Magnesium 16, Natrium 30 mg/l) und verlinkt die vollstaendige Analyse als PDF; ausserdem antwortet sie Nicht-Browser-Clients mit HTTP 403 (Cloudflare), im Archiv-Abzug vom 12.04.2026 aber normal. Verlinkt ist jetzt direkt das PDF, das die Haertewerte tatsaechlich enthaelt."
   },
   "DE/Leverkusen": {
-   "mg_l": 94.1,
-   "band": "moderately hard",
+   "mg_l": null,
+   "band": "varies by supply zone",
    "source": "Energieversorgung Leverkusen (EVL)",
    "source_url": "https://evl-leverkusen.de/trinkwasser/",
    "measured_on": "2026",
-   "note": "the 2026 analyses of both works: the Dhuenn reservoir supply (0.94 mmol/L, 5.2 dH) serves most of the city, the Rheindorf groundwater works (1.39 mmol/L, 7.8 dH) serves Hitdorf, Rheindorf, Buerrig, Kueppersteg, Opladen and Alkenrath",
+   "note": "EVL publishes a figure per address rather than one for the city. The Grosse Dhuenn reservoir supply (0.94 mmol/L, 5.2 dH) serves about seventy percent of the households, the Rheindorf groundwater works (1.39 mmol/L, 7.8 dH) serves Hitdorf, Rheindorf, Buerrig, Kueppersteg, Opladen and Alkenrath, and Wiesdorf and Manfort are at present supplied from the Currenta works at 2.04 mmol/L, which is 11.4 dH and the mittel band",
    "lat": 51.0303,
    "lon": 6.9843,
    "origin": [
@@ -2826,7 +2826,7 @@
    "ph": 7.95,
    "range_mg_l": [
     94.1,
-    139.1
+    204.2
    ],
    "pfas": {
     "sum20": {
@@ -2842,7 +2842,9 @@
     "source_url": "https://api.wasserportal.info/api/public/qualitaet/trinkwasseranalyse/1a86b634-5c8e-4531-8244-6342b46ace6d",
     "checked_on": "2026-09-05",
     "note": "EVL gibt die Analyse adressbezogen über wasserqualität-online.de / wasserportal.info aus; dieses PDF (Stand Juni 2026) gilt für das Grundwasser aus dem Wasserwerk Rheindorf (86 % Eigengewinnung, 5 % Große Dhünn-Talsperre, 9 % Uferfiltrat des Currenta-Wasserwerks Hitdorf). Summe PFAS-4 wird nicht veröffentlicht, ebenso keine Bestimmungsgrenze. Für das Talsperren-Versorgungsgebiet, das den größeren Teil der Stadt beliefert, ließ sich kein PFAS-Wert abrufen — der erfasste Wert gilt nur für die genannten Stadtteile."
-   }
+   },
+   "mechanism": "fixed",
+   "fresh_note": "CHANGED on 2026-09-09, and mg_l is now null. EVL's own page says 'Aktuell versorgen wir Wiesdorf und Manfort ueber das Currenta-Wasserwerk' and links an analysis dated April 2026 that reads 'Summe Erdalkalien 2,04 mmol/l, als Gesamthaerte 11,4 dH, Haertebereich mittel' for those two districts (https://evl-leverkusen.de/wp-content/uploads/2026/09/Wasseranalyse-2026-Manfort-Wiesdorf.pdf). The city centre therefore sits outside the 5.3-7.8 dH range this row carried, and the single figure of 5.3 dH, which was our pick of the works serving most of the city rather than a figure EVL publishes for Leverkusen, described neither end. The row becomes a span, which also takes it out of the single-figure ranking."
   },
   "DE/Ludwigshafen am Rhein": {
    "mg_l": null,
@@ -2998,12 +3000,12 @@
    "ph_note": "Drei Versorgungsgebiete: Eich (Finthen, Drais, Lerchenberg, Gonsenheim, Bretzenheim, Marienborn, Hechtsheim, Hartenberg/Münchfeld, Teil Mombach — gut die Hälfte der Mainzer Bevölkerung) 7,30; Hof Schönau 7,33; Petersaue 7,50. Nicht gemittelt."
   },
   "DE/Mannheim": {
-   "mg_l": 357.9,
+   "mg_l": 357.0,
    "band": "very hard",
    "source": "MVV Energie",
-   "source_url": "https://www.mvv.de/wasser/wasserqualitaet",
-   "measured_on": "2026",
-   "note": "midpoint of three waterworks, 18.4-21.7 dH",
+   "source_url": "https://www.mvv.de/fileadmin/user_upload_pk_gewk/pdf/Wasser/Bekanntmachung-trinkwasser_01.pdf",
+   "measured_on": "2024",
+   "note": "MVV's yearly announcement under the Wasch- und Reinigungsmittelgesetz gives one figure for the whole delivery area, 3.6 mmol/L or 20 dH; the three works behind it run 18.4-21.7 dH",
    "range_mg_l": [
     328.4,
     387.3
@@ -3037,7 +3039,8 @@
    "ph": 7.32,
    "ph_measured_on": "2026-06",
    "ph_source_url": "https://www.mvv.de/fileadmin/user_upload_pk_gewk/pdf/Wasser/wasserqualitaet-rheinau.pdf",
-   "ph_note": "Wasserwerk Rheinau (größtes Werk, rund 60 % der Versorgung) 7,32; Käfertal ebenfalls 7,32; Schwetzinger Hardt 7,35. Die drei Werke liegen eng beieinander."
+   "ph_note": "Wasserwerk Rheinau (größtes Werk, rund 60 % der Versorgung) 7,32; Käfertal ebenfalls 7,32; Schwetzinger Hardt 7,35. Die drei Werke liegen eng beieinander.",
+   "fresh_note": "CHANGED on 2026-09-09. The row carried 357.9 mg/l, which was the midpoint of the three waterworks and a figure nobody measured, dated 2026 without a document. MVV's statutory announcement, linked from its water-quality page, reads 'hatte 2024 eine Gesamthaerte von 3,6 Millimol pro Liter (3,6 mmol/l) beziehungsweise 20 dH' for Mannheim and Bruehl. Value set to that published figure, 20 dH, and the year to 2024."
   },
   "DE/Munich": {
    "mg_l": 282.0,

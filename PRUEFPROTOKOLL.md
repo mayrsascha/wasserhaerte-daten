@@ -372,3 +372,31 @@ Sichtprüfungen, Sascha Mayr, 8. September 2026:
 
 `checked_on` steht damit auf 2026-09-08.
 
+
+## 9. September 2026 — Nachprüfung Hildesheim, Leverkusen, Mannheim
+
+Anlass: vor einer Presseansprache sollten die beiden Enden der deutschen
+Rangliste noch einmal an der Quelle stehen.
+
+- **DE/Hildesheim, 1,8 °dH: bestätigt.** Die EVI führt Hildesheim und die
+  Ortschaften Einum, Achtum, Uppen, Bavenstedt, Sorsum, Neuhof und Marienrode
+  im Härtebereich 1 „weich" mit einem Jahresmittel von 1,8 °dH und verlinkt
+  dazu die Analyse des Wasserwerks Söse I. Dieselbe Analyse liegt beim
+  Vorlieferanten Harzwasserwerke: Gesamthärte 1,8 °dH im Mittel, 1,7 bis 2,0
+  °dH, aus den Monatsanalysen des Jahres 2025, veröffentlicht im Februar 2026
+  (https://www.harzwasserwerke.de/wp-content/uploads/2026/02/WW-Soese-Reinwasser-I-2025.pdf).
+  Eine neuere Jahresanalyse kann es noch nicht geben. Die anderswo kursierenden
+  Zahlen 2,9 und 3,2 °dH gehören zum Wasserwerk Grane, dessen Analyse 2025 im
+  Mittel 3,0 °dH mit einem Maximum von 3,2 °dH ausweist.
+- **DE/Leverkusen: geändert, Einzelwert entfernt.** Die EVL schreibt auf ihrer
+  Trinkwasserseite „Aktuell versorgen wir Wiesdorf und Manfort über das
+  Currenta-Wasserwerk" und verlinkt eine Analyse mit Stand April 2026: 2,04
+  mmol/l, 11,4 °dH, Härtebereich mittel. Die Stadtmitte lag damit außerhalb der
+  bisherigen Spanne 5,3 bis 7,8 °dH. Die Zeile führt jetzt 5,3 bis 11,4 °dH
+  ohne Einzelwert und fällt aus der Rangliste.
+- **DE/Mannheim: Wert korrigiert.** Bisher stand hier der Mittelpunkt dreier
+  Wasserwerke. Die amtliche Bekanntmachung der MVV nennt für 2024 eine
+  Gesamthärte von 3,6 mmol/l beziehungsweise 20 °dH für das gesamte
+  Liefergebiet. Wert auf 20,0 °dH, Jahr auf 2024, Quelle auf die Bekanntmachung.
+
+Damit stehen 33 deutsche Städte mit Einzelwert in der Rangliste.
