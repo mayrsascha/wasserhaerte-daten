@@ -346,3 +346,29 @@ der Frische-Prüfung vom 6. September (überwiegend österreichische Städte,
 gegen die Trinkwasserdatenbank geprüft; Details im Website-Repository, Commit
 „Freshness pass"). `checked_on` am Dateianfang nennt das Datum dieser Prüfung.
 
+## Frische-Check vom 8. September 2026
+
+Vollständiger Lauf gegen alle Quellen: 139 Werte bestätigt, 8 teilweise (eine
+Zahl der Spanne gefunden), 23 Sichtprüfungen laut Liste, 7 Quellen nicht
+abrufbar, 0 Abweichungen. Drei Meldungen des ersten Laufs waren Grenzen des
+Skripts (Bozen: Einheit; Erfurt: Tabelle im Script-Block; Wels: PDF ohne
+Textebene) und sind behoben beziehungsweise als Sichtprüfung geführt.
+
+Sichtprüfungen, Sascha Mayr, 8. September 2026:
+
+- **AT/Wels**: Prüfbericht Agrolab vom 4. November 2025, Probenahme 8. Oktober
+  2025, Entnahmestelle HB-Heitzing, Gesamthärte 10,5 °dH. Unverändert; die
+  untere Grenze 9,6 °dH stammt aus den Netzmessstellen vom Juli 2026.
+- **DE/Erfurt**: Adressabfrage der SWE, neun Adressen quer über die Stadt.
+  Innenstadt und Süden (Anger, Domplatz, Bahnhofstraße, Juri-Gagarin-Ring,
+  Schmidtstedter Straße, Nordhäuser Straße, Rudolstädter Straße) 12,8 °dH,
+  Gispersleben (Alacher Straße) 12,5 °dH, Stotternheim (Erfurter Landstraße)
+  3,2 °dH, jeweils als Messwert je Versorgungsgebiet. Die Spanne 3,2 bis
+  26,4 °dH bleibt; 26,4 steht für die 62 Grundwasser-Adressen in derselben
+  Tabelle der Seite.
+- **IT (Landesumweltagentur)**: Tabelle liegt hinter einer klickbaren Grafik;
+  die Werte wurden am 6. September aus genau dieser Tabelle übernommen
+  (Proben Oktober bis Dezember 2025), keine erneute Lesung nötig.
+
+`checked_on` steht damit auf 2026-09-08.
+
