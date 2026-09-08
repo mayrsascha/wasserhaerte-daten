@@ -30,3 +30,25 @@ jobs:
           echo '```' >> "$GITHUB_STEP_SUMMARY"
           tail -n 60 frische-report.txt >> "$GITHUB_STEP_SUMMARY"
           echo '```' >> "$GITHUB_STEP_SUMMARY"
+      # Ein Drift ist Hausaufgabe für einen Menschen: Quelle neu lesen, Wert
+      # ändern, Protokoll schreiben. Deshalb wird er als Issue angelegt und
+      # bleibt offen, bis das erledigt ist. Ohne Drift kein Issue.
+      - name: Drifts als Issue anlegen
+        if: failure()
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          title="Frische-Check $(date -u +%Y-%m-%d): Abweichungen oder unerreichbare Quellen"
+          {
+            echo "Der vierteljährliche Abgleich gegen die Quellen hat Abweichungen gemeldet."
+            echo "Vorgehen: Quelle öffnen, Wert neu lesen, hardness.json und PRUEFPROTOKOLL.md zusammen ändern,"
+            echo "checked_on am Dateianfang auf das Datum der abgeschlossenen Prüfung setzen."
+            echo
+            echo '```'
+            grep -E "DRIFT|FAIL|unreachable|ERROR" frische-report.txt | head -80 || tail -n 40 frische-report.txt
+            echo '```'
+            echo
+            echo "Lauf: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}"
+          } > issue-body.md
+          gh issue create --title "$title" --body-file issue-body.md --label frische-check || \
+          gh issue create --title "$title" --body-file issue-body.md
