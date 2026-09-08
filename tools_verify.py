@@ -61,6 +61,12 @@ KNOWN_INDIRECT = {
     # as symbols), so pdftotext cannot read it. The quarterly check opens it
     # by eye instead; the date of that reading belongs in PRUEFPROTOKOLL.md.
     "AT/Wels": "PDF ohne Textebene (Agrolab); Sichtprüfung im Quartals-Check",
+    # The Landesumweltagentur serves its sampling tables from a JavaScript
+    # application (/shp.js); the HTML alone says "Loading...". Read by eye.
+    "IT/Bressanone": "JavaScript-Anwendung der Landesumweltagentur; Sichtprüfung",
+    "IT/Brunico": "JavaScript-Anwendung der Landesumweltagentur; Sichtprüfung",
+    "IT/Laives": "JavaScript-Anwendung der Landesumweltagentur; Sichtprüfung",
+    "IT/Merano": "JavaScript-Anwendung der Landesumweltagentur; Sichtprüfung",
 }
 
 
