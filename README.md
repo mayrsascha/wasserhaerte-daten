@@ -1,5 +1,7 @@
 # Wasserhärte nach Stadt: offener Datensatz
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22666436.svg)](https://doi.org/10.5281/zenodo.22666436)
+
 Die Trinkwasserhärte von Städten in Deutschland, Österreich, der Schweiz und
 Südtirol sowie in Frankreich und Großbritannien. Welche Städte enthalten sind,
 zeigt `staedte.csv`; die Liste wächst. Erhoben 2026,
@@ -56,7 +58,11 @@ Was Werkzeuge tun und was ich tue, damit man den Datensatz einordnen kann:
 
 ## Zitieren
 
-Siehe `CITATION.cff` in diesem Repository und die Zitierweise auf
+Mayr, Sascha (2026): Wasserhärte nach Stadt: offener Datensatz. Version 2026.09.
+Zenodo. https://doi.org/10.5281/zenodo.22666437
+
+Der Konzept-DOI https://doi.org/10.5281/zenodo.22666436 zeigt immer auf die neueste
+Version; jede Quartalsprüfung bekommt eine eigene. Details in `CITATION.cff` und auf
 [aquascala.de/lizenz](https://aquascala.de/lizenz).
 
 ## Dateien
