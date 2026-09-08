@@ -1,8 +1,8 @@
 # Wasserhärte deutscher Städte: offener Datensatz
 
-Die Trinkwasserhärte von 70 deutschen Großstädten, dazu der komplette DACH-Raum
-(alle 17 österreichischen und 17 Schweizer Städte der Sammlung) sowie
-Frankreich und Großbritannien: 173 Städte insgesamt. Erhoben 2026,
+Die Trinkwasserhärte der großen deutschen Städte, dazu Österreich, die Schweiz
+und Südtirol sowie Frankreich und Großbritannien. Wie viele Städte gerade
+enthalten sind, zeigt `staedte.csv`; die Zahl wächst. Erhoben 2026,
 **ausschließlich aus Primärquellen**: dem Analyseblatt, der Qualitätsseite
 oder dem akkreditierten Prüfbericht des jeweiligen Versorgers. Jede Zeile
 nennt ihre Quelle mit URL und Stand.
@@ -21,9 +21,9 @@ geführt, liegt laut seinem Netzbetreiber heute bei 6,6–12 °dH. Und für
 Kufstein behaupten Wasserhärte-Verzeichnisse 12,9 °dH, während die
 Stadtwerke selbst 7–9 veröffentlichen.
 
-**[Prüfprotokoll](PRUEFPROTOKOLL.md):** Jede Zeile wurde am 2. September 2026
-gegen ihre Primärquelle geprüft; das Protokoll dokumentiert Methode und die
-acht dokumentierten Handfälle.
+**[Prüfprotokoll](PRUEFPROTOKOLL.md):** Jede Zeile wird vierteljährlich gegen
+ihre Primärquelle geprüft; das Datum der letzten vollständigen Prüfung steht
+als `checked_on` am Anfang von `hardness.json`, die Handfälle stehen im Protokoll.
 
 ## Dateien
 
@@ -63,8 +63,8 @@ betrifft die Zusammenstellung.
 
 ## English summary
 
-Drinking-water hardness for the 60 largest German cities plus all covered cities in
-Austria and Switzerland (DACH complete) and in France and the UK, 173 in total, surveyed in 2026 exclusively from
+Drinking-water hardness for the large German cities plus Austria, Switzerland, South
+Tyrol, France and the UK (the row count in `staedte.csv` is the current size), surveyed in 2026 exclusively from
 primary sources (each utility's own published analysis), with source URL and
 date per row. `hardness.json` carries mg/L CaCO₃, per-zone ranges, notes and
 coordinates; `staedte.csv` is the flat version with German degrees. Licensed

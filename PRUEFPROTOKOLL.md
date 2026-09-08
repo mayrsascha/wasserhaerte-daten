@@ -336,3 +336,13 @@ die es vorher nicht gab. Ergebnisse:
 Bekannte, bewusst belassene Kleinigkeit: Cherbourg und Lorient teilen
 sich exakt 132,0 mg/L und tragen darum die willkürlich geordneten
 Plätze 46 und 47 ihres Landes-Rankings.
+
+## Abgleich mit aquascala.de, 8. September 2026
+
+`hardness.json` ist jetzt die Datei, aus der aquascala.de baut; der Stand hier
+und dort ist derselbe. Neu gegenüber dem Stand vom 2. September: die fünf
+Südtiroler Städte (Bozen, Brixen, Bruneck, Leifers, Meran) und die 17 Werte
+der Frische-Prüfung vom 6. September (überwiegend österreichische Städte,
+gegen die Trinkwasserdatenbank geprüft; Details im Website-Repository, Commit
+„Freshness pass"). `checked_on` am Dateianfang nennt das Datum dieser Prüfung.
+
