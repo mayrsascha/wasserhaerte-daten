@@ -25,6 +25,40 @@ Stadtwerke selbst 7–9 veröffentlichen.
 ihre Primärquelle geprüft; das Datum der letzten vollständigen Prüfung steht
 als `checked_on` am Anfang von `hardness.json`, die Handfälle stehen im Protokoll.
 
+## Verantwortlich, Kontakt
+
+Sascha Mayr. Fehler, neuere Werte oder fehlende Städte: bitte ein
+[Issue](https://github.com/mayrsascha/wasserhaerte-daten/issues) mit Link auf die
+Veröffentlichung des Versorgers. Issues bleiben offen, bis sie geklärt sind, und
+die Klärung steht dann im Prüfprotokoll. Wer lieber schreibt: die Adresse steht im
+[Impressum von aquascala.de](https://aquascala.de/impressum).
+
+## Arbeitsweise
+
+Was Werkzeuge tun und was ich tue, damit man den Datensatz einordnen kann:
+
+- Jeder Wert stammt aus der Veröffentlichung des Versorgers, nie aus einer
+  Zweitquelle. Welche Veröffentlichung als Quelle gilt, entscheide ich; die
+  Regeln dazu stehen im Prüfprotokoll.
+- Ein Skript (`tools_verify.py`, vierteljährlich als Action) vergleicht jeden
+  gespeicherten Wert mit der Quelle im Netz. Eine Abweichung ist ein Hinweis,
+  keine Änderung: die Quelle wird neu gelesen, und erst dann wird der Wert
+  geändert, mit Datum und Begründung im Prüfprotokoll.
+- Umrechnungen und Konsistenzprüfungen sind Code (`tools_consistency.py`),
+  nicht Schätzung. Die CSV wird aus der JSON-Datei erzeugt, nie von Hand gepflegt.
+- Beim Sammeln, Lesen von Analyseblättern und Formulieren helfen Sprachmodelle
+  als Werkzeug. Jede Änderung am Datensatz und jeder Text geht vor der
+  Veröffentlichung über meinen Tisch; die Verantwortung für das, was hier steht,
+  liegt bei mir.
+- Wasserhärte ist kein Gesundheitswert; die WHO nennt keinen Grenzwert. Wo der
+  Datensatz Werte mit Gesundheitsbezug führt (Nitrat, PFAS, Blei), stehen nur
+  die veröffentlichten Messwerte und der gesetzliche Grenzwert, keine Deutung.
+
+## Zitieren
+
+Siehe `CITATION.cff` in diesem Repository und die Zitierweise auf
+[aquascala.de/lizenz](https://aquascala.de/lizenz).
+
 ## Dateien
 
 - **`hardness.json`**: der vollständige Datensatz: mg/L CaCO₃ (die

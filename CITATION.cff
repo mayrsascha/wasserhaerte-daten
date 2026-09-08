@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: "Wenn Sie diesen Datensatz verwenden, zitieren Sie ihn bitte wie unten angegeben."
+title: "Wasserhärte nach Stadt: offener Datensatz"
+type: dataset
+authors:
+  - family-names: Mayr
+    given-names: Sascha
+repository-code: "https://github.com/mayrsascha/wasserhaerte-daten"
+url: "https://aquascala.de/daten"
+license: CC-BY-4.0
+date-released: "2026-09-06"
+version: "2026-09"
+abstract: "Trinkwasserhärte von Städten in Deutschland, Österreich, der Schweiz und Südtirol sowie Frankreich und Großbritannien, jede Zeile aus der Veröffentlichung des zuständigen Versorgers mit Quell-URL und Stand, vierteljährlich gegen die Quelle geprüft."
+keywords:
+  - Wasserhärte
+  - Trinkwasser
+  - Kalk
+  - Deutschland
+  - Österreich
+  - Schweiz
