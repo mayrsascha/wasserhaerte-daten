@@ -5358,7 +5358,9 @@
    "nitrate_mg_l": 16.6,
    "ph": 7.74,
    "lat": 51.4513,
-   "lon": 6.6284
+   "lon": 6.6284,
+   "magnesium_mg_l": 12.3,
+   "sodium_mg_l": 19.1
   }
  }
 }
