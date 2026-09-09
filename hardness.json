@@ -5285,7 +5285,7 @@
     298.1
    ],
    "mechanism": "fixed",
-   "note": "the Niederdruckzone runs 14.7 dH and the Hochdruckzone 16.7 dH, both hart; the utility publishes no measurement date and says the figures for the Knoblauchsland blend are calculated estimates while the new works comes online in autumn 2026",
+   "note": "the Niederdruckzone runs 14.7 dH and the Hochdruckzone 16.7 dH, both hart, and the utility publishes no measurement date for either; the figures behind the Knoblauchsland blend are calculated estimates, and infra fuerth announces that the hardness will fall from 16.39 to 11.83 dH once the new works comes online, planned for autumn 2026, so this row is expected to change",
    "lat": 49.4886,
    "lon": 10.9587
   },
@@ -5329,7 +5329,7 @@
    "mg_l": null,
    "band": "varies by supply zone",
    "source": "WEVG Salzgitter",
-   "source_url": "https://www.wevg.com/wasser/wasser-lexikon",
+   "source_url": "https://www.vftv.de/wevg/anang2.htm",
    "measured_on": "2026",
    "range_mg_l": [
     58.9,
@@ -5340,7 +5340,7 @@
     "reservoir",
     "groundwater"
    ],
-   "note": "three supply areas fed by the Harzwasserwerke and Avacon, all weich: 3.3 dH and 6.3 dH in the north, 3.8 dH in the south and in Osterlinde; the utility does not say which district belongs to which area",
+   "note": "three supply areas fed by the Harzwasserwerke and Avacon, all weich: the northern area 1 reads 3.3 dH sampled on 10 February 2026 (https://www.vftv.de/wevg/anang1.htm), the northern area 2 reads 6.3 dH sampled on 10 December 2025, and the southern area with Osterlinde reads 3.8 dH sampled on 4 May 2026 (https://www.vftv.de/wevg/anasg.htm); the utility does not say which district belongs to which area",
    "lat": 52.1504,
    "lon": 10.3593
   },
