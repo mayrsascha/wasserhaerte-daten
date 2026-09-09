@@ -2879,17 +2879,17 @@
    "zones": [
     {
      "name": "Wasserwerk der Currenta",
-     "mg_l": 203.5,
+     "mg_l": 204.2,
      "area": "Wiesdorf, Manfort, derzeit"
     },
     {
      "name": "Wasserwerk Rheindorf",
-     "mg_l": 139.2,
+     "mg_l": 139.1,
      "area": "Hitdorf, Rheindorf, Bürrig, Küppersteg, Opladen, Alkenrath"
     },
     {
      "name": "Große Dhünn-Talsperre",
-     "mg_l": 92.8,
+     "mg_l": 94.1,
      "area": "der größte Teil der Stadt"
     }
    ]
@@ -5304,14 +5304,14 @@
      "area": "das übrige Stadtgebiet"
     },
     {
-     "name": "Wasserwerk Echthausen",
-     "mg_l": 128.5,
-     "area": "Uentrop"
-    },
-    {
      "name": "Wasserwerk Halingen",
      "mg_l": 139.2,
      "area": "Bockum-Hövel, Bockumer Berg"
+    },
+    {
+     "name": "Wasserwerk Echthausen",
+     "mg_l": 128.5,
+     "area": "Uentrop"
     }
    ]
   },
@@ -5335,14 +5335,14 @@
    "lon": 7.22,
    "zones": [
     {
-     "name": "Wasserwerk Witten",
-     "mg_l": 130.3,
-     "area": "der größte Teil der Stadt"
-    },
-    {
      "name": "Wasserwerk Haltern",
      "mg_l": 201.7,
      "area": "Crange, Unser Fritz, Wanne, Bickern, Baukau, Horsthausen, Holsterhausen, Eickel, Röhlinghausen"
+    },
+    {
+     "name": "Wasserwerk Witten",
+     "mg_l": 130.3,
+     "area": "der größte Teil der Stadt"
     }
    ]
   },

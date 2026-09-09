@@ -461,3 +461,20 @@ davon maschinell bestätigt, Mannheim von Hand.
   bleibt deshalb in beiden Ranglisten außen vor.
 
 Deutschland steht damit bei 81 Städten, 36 davon mit Einzelwert.
+
+## 9. September 2026 — Versorgungszonen im Datensatz
+
+Neues Feld `zones` für Städte, deren Versorger seine Wasserwerke oder
+Versorgungsgebiete benennt: je Zone ein Name, der Wert in mg/l Calciumcarbonat
+und, wo der Versorger es sagt, die zugehörigen Stadtteile. Absteigend nach
+Härte sortiert. Belegt für elf Städte: Hagen, Hamm, Herne, Paderborn, Neuss,
+Fürth, Bottrop, Salzgitter, Leverkusen, Leipzig und Würzburg. Die Zonenwerte
+stimmen an beiden Enden mit der Spanne der jeweiligen Stadt überein; geprüft
+wurde das maschinell.
+
+Bei Leverkusen wurden die Zonenwerte auf die mmol-Angaben des Versorgers
+umgestellt (0,94, 1,39 und 2,04 mmol/l), damit sie nicht um zwei Zehntel von
+der Spanne abweichen, die aus denselben Angaben stammt.
+
+Städte ohne benannte Zonen behalten kein leeres Feld: fehlt `zones`, nennt der
+Versorger keine, und das ist etwas anderes als eine Stadt mit nur einer Zone.
