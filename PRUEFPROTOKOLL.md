@@ -441,3 +441,23 @@ amtliche Zahl korrigiert, zehn Großstädte ergänzt, Fürth und Salzgitter mit
 geschärfter Quelle und Notiz, Moers um Magnesium und Natrium erweitert.
 Dreizehn Zeilen wurden dabei einzeln gegen ihre Quelle nachgeprüft, zwölf
 davon maschinell bestätigt, Mannheim von Hand.
+
+## 9. September 2026 — Bergisch Gladbach ergänzt, Koblenz bleibt ohne Zahl
+
+- **DE/Bergisch Gladbach aufgenommen.** Die BELKAW nennt auf ihrer Seite
+  2,28 mol/m³ beziehungsweise 12,8 °dH ohne Datum. Das Datum steht in der
+  Trinkwasseranalyse Ausgabe 2026, „Jahresmittelwerte der Daten aus 2025“
+  (https://www.belkaw.de/trinkwasseranalyse-belkaw-2026.pdfx). Die Datei
+  trägt die Endung .pdfx und war deshalb bei der Suche nach PDF-Dateien
+  nicht aufgefallen. Gesamthärte für das ganze Stadtgebiet, Härtebereich
+  mittel, Karbonathärte 8,4 °dH. Gegenprobe: 69 mg/l Calcium und 14 mg/l
+  Magnesium ergeben 12,89 °dH.
+- **DE/Koblenz bleibt ohne Zahl.** Die amtliche Bekanntmachung der
+  Vereinigte Wasserwerke Mittelrhein für Koblenz vom November 2023 nennt je
+  Versorgungszone nur den Härtebereich, mittel oder hart, und als einzige
+  Zahlen die Grenzen des Wasch- und Reinigungsmittelgesetzes selbst. Die
+  Übersichtskarte vom November 2024 verfährt genauso. Eine Gesamthärte in
+  °dH oder mmol/l veröffentlicht der Versorger für Koblenz nicht. Die Stadt
+  bleibt deshalb in beiden Ranglisten außen vor.
+
+Deutschland steht damit bei 81 Städten, 36 davon mit Einzelwert.

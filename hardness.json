@@ -5362,6 +5362,25 @@
    "lon": 6.6284,
    "magnesium_mg_l": 12.3,
    "sodium_mg_l": 19.1
+  },
+  "DE/Bergisch Gladbach": {
+   "mg_l": 228.5,
+   "band": "very hard",
+   "source": "BELKAW",
+   "source_url": "https://www.belkaw.de/trinkwasseranalyse-belkaw-2026.pdfx",
+   "measured_on": "2025",
+   "note": "one figure for the whole city, 2.28 mol/m3 or 12.8 dH, Haertebereich mittel; the water comes from BELKAW's own Refrath works out of the Paffrather Kalkmulde and from RheinEnergie",
+   "lat": 50.9929,
+   "lon": 7.1277,
+   "origin": [
+    "groundwater"
+   ],
+   "calcium_mg_l": 69.0,
+   "magnesium_mg_l": 14.0,
+   "nitrate_mg_l": 19.0,
+   "sodium_mg_l": 24.0,
+   "ph": 7.59,
+   "carbonate_mg_l": 149.9
   }
  }
 }
