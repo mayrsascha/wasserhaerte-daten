@@ -478,3 +478,10 @@ der Spanne abweichen, die aus denselben Angaben stammt.
 
 Städte ohne benannte Zonen behalten kein leeres Feld: fehlt `zones`, nennt der
 Versorger keine, und das ist etwas anderes als eine Stadt mit nur einer Zone.
+
+**Zur Version 2026.09.09.2:** Die Datei `hardness.json` führt die
+Versionsnummer seit dieser Ausgabe als eigenes Feld, weil zwei
+Veröffentlichungen an einem Tag sich mit dem Datum allein nicht
+unterscheiden lassen. Das Feld wurde unmittelbar nach der Zenodo-Ausgabe
+ergänzt; die dort archivierte Fassung trägt es deshalb noch nicht. Inhaltlich
+sind Archiv, Spiegel-Repo und Website identisch.
