@@ -39,6 +39,7 @@ Berlin,DE,,,14.0,25.7,,,,,7.5,,groundwater,very hard,2024,Berliner Wasserbetrieb
 Bielefeld,DE,,,4.3,17.1,,,,,7.13,,,varies by supply zone,2025,Stadtwerke Bielefeld,https://www.stadtwerke-bielefeld.de/privatkunden/wasser/trinkwasser/wasserversorgung/
 Bochum,DE,130.3,7.3,7.3,7.6,41.0,6.9,8.9,27.0,8.08,96.4,,hard,2026,Stadtwerke Bochum,https://www.stadtwerke-bochum.de/privatkunden/produkte/wasser/wasserqualitaet
 Bonn,DE,101.7,5.7,4.4,7.0,,,9.0,9.8,8.0,,reservoir,moderately hard,2025,Stadtwerke Bonn,https://www.stadtwerke-bonn.de/fuer-zuhause/produkte/wasser/wasseranalyse/
+Bottrop,DE,,,8.0,13.5,,,,,,,groundwater,varies by supply zone,2025,RWW Rheinisch-Westfälische Wasserwerksgesellschaft,https://www.rww.de/fileadmin/assets/pdf/twa_bot_mh_med.pdf
 Braunschweig,DE,149.9,8.4,,,49.0,6.7,7.1,22.9,7.97,73.2,reservoir;groundwater,hard,2026,BS|ENERGY,https://www.bs-energy.de/fileadmin/BSEnergy/Main_Menu/Privatkunden/Wasser/Wasseranalysen/Trinkwasser_Vollanalyse_2026.pdf
 Bremen,DE,112.5,6.3,,,,,,,7.9,,,moderately hard,2026,swb,https://www.swb.de/wasser/trinkwasserqualitaet
 Bremerhaven,DE,,,9.0,11.4,,,,,,,groundwater,varies by supply zone,2026,swb,https://www.swb.de/wasser/trinkwasserqualitaet
@@ -55,13 +56,17 @@ Erlangen,DE,,,9.8,15.3,,,,,7.68,,,varies by supply zone,2026,Erlanger Stadtwerke
 Essen,DE,137.4,7.7,,,42.0,7.9,9.2,41.0,7.9,110.7,,hard,2025,Stadtwerke Essen,https://www.stadtwerke-essen.de/fileadmin/user_upload/pdf/netz/2025_00-0350_SWE.pdf
 Frankfurt am Main,DE,,,4.0,20.0,,,,,,,,varies by supply zone,2026,Mainova / Hessenwasser,https://www.mainova.de/de/wissenswertes/ratgeber/wasserqualitaet-und-wasserhaerte-mainova-trinkwasser
 Freiburg im Breisgau,DE,,,2.3,12.7,,,,,7.71,,,varies by supply zone,2026,badenova,https://www.badenova.de/privatkunden/wasser/wasserversorgung-in-freiburg
+Fürth,DE,,,14.7,16.7,,,,,,,,varies by supply zone,2026,infra fürth,https://www.infra-fuerth.de/privatkunden/produkte/trinkwasser/wasser-qualitaet
 Gelsenkirchen,DE,201.7,11.3,7.7,11.3,73.0,4.8,11.6,19.0,7.55,149.9,,very hard,2025,Gelsenwasser,https://www.gelsenwasser.de/wasser/wasserhaerte/gelsenkirchen
 Göttingen,DE,124.0,6.9,6.6,7.3,34.9,7.36,9.3,6.2,7.6,,reservoir;long_distance;groundwater,hard,2025,Stadtwerke Göttingen,https://www.stadtwerke-goettingen.de/produkte/trinkwasser/trinkwasserqualitaet/
+Hagen,DE,,,4.2,7.2,,,,,,,river_bank;reservoir,varies by supply zone,2025,Mark-E (ENERVIE),https://a.storyblok.com/f/320707/x/21b19e87e2/trinkwasseranalyse-jahresmittelwerte-wasserwerk-hengstey-2025.pdf
 Halle (Saale),DE,75.5,4.2,,,24.22,3.28,8.78,7.67,8.41,46.2,reservoir;long_distance,moderately hard,2026,Hallesche Wasser und Stadtwirtschaft (HWS),https://hws-halle.de/produkte-dienstleistungen/trink-abwasser/trinkwasser/qualitaet
 Hamburg,DE,,,5.1,18.3,,,,,,,,varies by supply zone,2025,HAMBURG WASSER,https://www.hamburgwasser.de/fileadmin/Redakteur/Downloads/Labor/Informationen-ueber-die-Beschaffenheit-des-Trinkwassers.pdf
+Hamm,DE,,,7.2,8.3,,,,,,,river_bank,varies by supply zone,2025,Energie- und Wasserversorgung Hamm (EWV),https://www.stadtwerke-hamm.de/fileadmin/user-storage/EWV/Wasser/Jahrestrinkwasseranalyse_2025.pdf
 Hanover,DE,214.2,12.0,,,76.0,5.8,,,7.8,,,very hard,2025,enercity,https://www.enercity.de/privatkunden/produkte/wasser/wasserqualitaet
 Heidelberg,DE,,,3.0,21.0,,,,,,,groundwater,varies by supply zone,2026,Stadtwerke Heidelberg Netze,https://www.swhd.de/de/Hauptnavigation/Privatkunden/Wasser/Trinkwasser-in-Heidelberg_344228.html
 Heilbronn,DE,,,9.0,18.0,,,,,8.0,,,varies by supply zone,2025,Stadtwerke Heilbronn,https://www.stadtwerke-heilbronn.de/swh/wasserversorgung/wasserhaerte.php
+Herne,DE,,,7.3,11.3,,,,,,,river_bank;groundwater,varies by supply zone,2025,Stadtwerke Herne,https://www.stadtwerke-herne.de/privatkunden/wasser/trinkwasseranalyse
 Hildesheim,DE,32.1,1.8,,,,,,,9.12,,reservoir,soft,2025,EVI Energieversorgung Hildesheim,https://www.evi-hildesheim.de/evi/Produkte-fuer-Privatkunden/Wasser/Trinkwasseranalyse/
 Ingolstadt,DE,371.2,20.8,,,89.0,36.0,,3.4,7.4,,,very hard,2026,Ingolstädter Kommunalbetriebe (INKB),https://www.in-kb.de/Wasser/Trinkwasser/Qualit%C3%A4t/
 Jena,DE,,,3.2,18.5,,,,,7.5,,long_distance,varies by supply zone,2026,JenaWasser,https://www.jenawasser.de/wasserqualitaet
@@ -78,22 +83,27 @@ Lübeck,DE,,,11.1,16.3,,,,,,,,varies by supply zone,2026,Stadtwerke Lübeck,http
 Magdeburg,DE,255.2,14.3,,,91.5,6.6,2.7,,7.55,,groundwater,very hard,2025,SWM Magdeburg,https://www.sw-magdeburg.de/privatkunden/produkte/trinkwasser/qualitaet
 Mainz,DE,,,12.6,25.1,,,,,7.3,,,varies by supply zone,2026,Mainzer Netze,https://www.mainzer-netze.de/-/media/project/mainzer-stadtwerke/websites-mainzer-netze/mainzer-netze/dateien/ordnerstruktur-clean/g_s_w_weitere-infos/wasser/trinkwasserqualitaet/w_analysewerte-trinkwasser.pdf
 Mannheim,DE,357.0,20.0,18.4,21.7,,,16.0,,7.32,,groundwater,very hard,2024,MVV Energie,https://www.mvv.de/fileadmin/user_upload_pk_gewk/pdf/Wasser/Bekanntmachung-trinkwasser_01.pdf
+Moers,DE,235.6,13.2,,,74.3,,16.6,,7.74,,groundwater,very hard,2026,ENNI Energie & Umwelt Niederrhein,https://www.enni.de/energie-und-wasser/wasser/trinkwasser/
 Munich,DE,282.0,15.8,13.9,17.9,78.0,20.9,6.5,5.9,7.56,,spring;groundwater,very hard,2026,Stadtwerke München,https://www.swm.de/wasser/wasserqualitaet
 Munster,DE,,,11.0,16.9,,,,,7.4,,groundwater,varies by supply zone,2025,Stadtwerke Münster,https://www.stadtwerke-muenster.de/Stadtwerke/Dokumente/Trinkwasser/Trinkwasseranalytik.pdf
 Mönchengladbach,DE,,,8.4,14.0,,,,,7.87,,,varies by supply zone,2026,NEW,https://www.new.de/trinkwasser/trinkwasserqualitaet
 Mülheim (Ruhr),DE,142.8,8.0,5.7,10.7,,,,,7.78,,river_bank,hard,2025,RWW Rheinisch-Westfälische Wasserwerksgesellschaft,https://www.rww.de/fileadmin/assets/pdf/twa_bot_mh_med.pdf
+Neuss,DE,,,14.7,15.4,,,,,,,groundwater,varies by supply zone,2026,Stadtwerke Neuss Energie und Wasser,https://www.stadtwerke-neuss.de/sites/default/files/downloads/pdfs/Energie-Privatkunden/Wasser/Trinkwasseranalyse-2026.pdf
 Nuremberg,DE,206.2,11.6,9.5,13.6,58.0,14.0,,,7.64,166.9,groundwater;spring,very hard,2026,N-ERGIE,https://www.n-ergie.de/public/remotemedien/media/n_ergie/internet/privatkunden/produkte/wasser_1/neugestaltung_seite/Trinkwasser-Analysewerte.pdf
 Oberhausen,DE,,,5.7,14.1,,,,,7.78,,river_bank,varies by supply zone,2025,RWW Rheinisch-Westfälische Wasserwerksgesellschaft,https://www.rww.de/trinkwasser/wasserqualitaet/trinkwasseranalysen
 Offenbach,DE,,,10.5,12.9,,,,,,,,varies by supply zone,2026,Zweckverband Wasserversorgung Stadt und Kreis Offenbach (ZWO),https://www.zwo-wasser.de/files/VG7.pdf
 Oldenburg,DE,,,6.6,12.0,,,,,7.4,,,varies by supply zone,2026,EWE NETZ,https://www.ewe-netz.de/privatkunden/trinkwasser/ol
 Osnabrück,DE,,,8.4,14.0,,,,,7.65,,groundwater,varies by supply zone,2026,Stadtwerke Osnabrück,https://karten.swo-netz.de/trinkwasserhaerte/
+Paderborn,DE,,,5.7,17.1,,,,,,,,varies by supply zone,2026,Stadtwerke Paderborn,https://www.stadtwerke-pb.de/app/uploads/2026/07/SWPB_Trinkwasseranalyse_02_2026_BF.pdf
 Pforzheim,DE,,,6.0,9.0,,,,,7.99,,,varies by supply zone,2026,Stadtwerke Pforzheim (SWP),https://www.stadtwerke-pforzheim.de/trinkwasser/trinkwasserqualitaet-und-preise/
 Potsdam,DE,,,10.0,21.0,,,,,,,,varies by supply zone,2026,Energie und Wasser Potsdam (EWP),https://www.swp-potsdam.de/de/wasser/wasserh%C3%A4rtegrad/
 Recklinghausen,DE,201.7,11.3,,,73.0,4.8,11.6,19.0,7.55,149.9,,very hard,2025,Gelsenwasser,https://www.gelsenwasser.de/wasser/wasserhaerte/recklinghausen
 Regensburg,DE,301.7,16.9,,,96.0,15.0,30.0,11.0,7.4,,groundwater,very hard,2025,REWAG,https://www.rewag.de/fileadmin/user_upload/Produkte_Dienstleistungen/Wasser/Herkunft_Qualitaet/Chemische_Analyse_Oktober_2025.pdf
+Remscheid,DE,91.0,5.1,,,31.0,3.5,7.0,5.4,,73.2,reservoir,moderately hard,2025,EWR Remscheid,https://www.ewr-remscheid.de/app/uploads/EWR_Trinkwasseranalyse_2025.pdf
 Reutlingen,DE,,,9.1,18.8,,,,,7.99,,lake;spring,varies by supply zone,2026,FairEnergie,https://www.fairenergie.de/wasser/trinkwasser.html
 Rostock,DE,253.4,14.2,,,83.6,11.0,2.06,43.1,7.7,,,very hard,2026,Nordwasser,https://www.nordwasser.de/trinkwasser/versorgung/trinkwasseranalyse-ww-rostock-1
 Saarbrücken,DE,,,4.8,14.0,,,,,7.69,,,varies by supply zone,2026,Stadtwerke Saarbrücken,https://www.saarbruecker-stadtwerke.de/media/download-5ce2a5f92c7ee
+Salzgitter,DE,,,3.3,6.3,,,,,,,reservoir;groundwater,varies by supply zone,2026,WEVG Salzgitter,https://www.wevg.com/wasser/wasser-lexikon
 Siegen,DE,80.3,4.5,,,,,,,,,reservoir,moderately hard,2026,Siegener Versorgungsbetriebe (SVB),https://www.svb-siegen.de/netze/trinkwasseranalyse
 Solingen,DE,99.9,5.6,5.2,11.0,,,,,7.94,,reservoir,moderately hard,2026,Stadtwerke Solingen,https://www.stadtwerke-solingen.de/privat-gewerbekunden/wasser/der-weg-des-wassers/wasseraufbereitung/
 Stuttgart,DE,,,9.0,13.0,,,,,8.2,,lake;long_distance,varies by supply zone,2026,Netze BW Wasser,https://www.netze-bw.de/unsernetz/trinkwasserstuttgart

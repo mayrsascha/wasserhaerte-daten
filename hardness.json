@@ -5184,6 +5184,181 @@
     "checked_on": "2026-09-06",
     "note": "sum20/sum4 omitted because the province publishes no sum: 26 congeners listed individually, no sum row, no bound convention. LOQ 0,0010 µg/L (1 ng/l), 0,010 µg/L for 6:2 FTSA. A clean non-detect on every congener, far under the D.Lgs 18/2023 (as amended by D.Lgs 102/2025) sum-of-30 limit of 0,10 µg/l. One point only in 2025. Corroboration: 2024 provincial table, Pozzo Nazario Sauro T02 (02/10/2024), < 0.01 µg/L at the coarser 10 ng/l LOQ — the same well the 2025 fountain sits on. Leifers is supplied by the municipality (SEAB runs waste, not water, there); neither the Gemeinde's water pages nor any operator document publishes a PFAS row. No TFA (acido trifluoroacetico) column in any provincial table."
    }
+  },
+  "DE/Hagen": {
+   "mg_l": null,
+   "band": "varies by supply zone",
+   "source": "Mark-E (ENERVIE)",
+   "source_url": "https://a.storyblok.com/f/320707/x/21b19e87e2/trinkwasseranalyse-jahresmittelwerte-wasserwerk-hengstey-2025.pdf",
+   "measured_on": "2025",
+   "range_mg_l": [
+    75.0,
+    128.5
+   ],
+   "mechanism": "mixed",
+   "origin": [
+    "river_bank",
+    "reservoir"
+   ],
+   "note": "the two works and every mixture of them reach the network, so the utility maps no figure to a district: Hengstey 7.2 dH from the Ruhr, Hasper Talsperre 4.2 dH, both weich; fourteen listed streets in Rummenohl take AVU water at 3.3-4.6 dH",
+   "lat": 51.3583,
+   "lon": 7.4733
+  },
+  "DE/Hamm": {
+   "mg_l": null,
+   "band": "varies by supply zone",
+   "source": "Energie- und Wasserversorgung Hamm (EWV)",
+   "source_url": "https://www.stadtwerke-hamm.de/fileadmin/user-storage/EWV/Wasser/Jahrestrinkwasseranalyse_2025.pdf",
+   "measured_on": "2025",
+   "range_mg_l": [
+    128.5,
+    148.1
+   ],
+   "mechanism": "fixed",
+   "origin": [
+    "river_bank"
+   ],
+   "note": "three named zones, all weich: Warmen 8.3 dH serves most of the city, Echthausen 7.2 dH serves Uentrop, Halingen 7.8 dH serves Bockum-Hoevel and the Bockumer Berg",
+   "lat": 51.6813,
+   "lon": 7.8191
+  },
+  "DE/Herne": {
+   "mg_l": null,
+   "band": "varies by supply zone",
+   "source": "Stadtwerke Herne",
+   "source_url": "https://www.stadtwerke-herne.de/privatkunden/wasser/trinkwasseranalyse",
+   "measured_on": "2025",
+   "range_mg_l": [
+    130.3,
+    201.7
+   ],
+   "mechanism": "fixed",
+   "origin": [
+    "river_bank",
+    "groundwater"
+   ],
+   "note": "two zones that straddle a band boundary: the Witten works at 7.3 dH is weich and covers most of the city, the Haltern works at 11.3 dH is mittel and serves Crange, Unser Fritz, Wanne, Bickern, Baukau, Horsthausen, Holsterhausen, Eickel and Roehlinghausen",
+   "lat": 51.538,
+   "lon": 7.22
+  },
+  "DE/Paderborn": {
+   "mg_l": null,
+   "band": "varies by supply zone",
+   "source": "Stadtwerke Paderborn",
+   "source_url": "https://www.stadtwerke-pb.de/app/uploads/2026/07/SWPB_Trinkwasseranalyse_02_2026_BF.pdf",
+   "measured_on": "2026",
+   "range_mg_l": [
+    101.4,
+    305.2
+   ],
+   "mechanism": "fixed",
+   "note": "five works across three hardness bands: Boker Heide 17.1 dH serves Elsen, Diebesweg 14.4 dH the city centre and Schloss Neuhaus, Aabach 7.71 dH, Hossengrund 5.86 dH and Lichtenau 5.68 dH the outer districts",
+   "lat": 51.7177,
+   "lon": 8.7527
+  },
+  "DE/Neuss": {
+   "mg_l": null,
+   "band": "varies by supply zone",
+   "source": "Stadtwerke Neuss Energie und Wasser",
+   "source_url": "https://www.stadtwerke-neuss.de/sites/default/files/downloads/pdfs/Energie-Privatkunden/Wasser/Trinkwasseranalyse-2026.pdf",
+   "measured_on": "2026",
+   "range_mg_l": [
+    261.7,
+    274.1
+   ],
+   "mechanism": "fixed",
+   "origin": [
+    "groundwater"
+   ],
+   "note": "Neuss-Nord from the Broichhof works at 14.66 dH and Neuss-Sued from Rheinbogen at 15.36 dH, both hart; the parts supplied by Kreiswerke Grevenbroich are published only as the mittel band, 8.4-14 dH, and the utility lists the hardness street by street",
+   "lookup_url": "https://www.stadtwerke-neuss.de/sites/default/files/downloads/pdfs/Energie-Privatkunden/Wasser/Wasserhaerte-nach-Strassen-2025.pdf",
+   "lat": 51.1982,
+   "lon": 6.6916
+  },
+  "DE/Fürth": {
+   "mg_l": null,
+   "band": "varies by supply zone",
+   "source": "infra fürth",
+   "source_url": "https://www.infra-fuerth.de/privatkunden/produkte/trinkwasser/wasser-qualitaet",
+   "range_mg_l": [
+    262.4,
+    298.1
+   ],
+   "mechanism": "fixed",
+   "note": "the Niederdruckzone runs 14.7 dH and the Hochdruckzone 16.7 dH, both hart; the utility publishes no measurement date and says the figures for the Knoblauchsland blend are calculated estimates while the new works comes online in autumn 2026",
+   "lat": 49.4886,
+   "lon": 10.9587
+  },
+  "DE/Bottrop": {
+   "mg_l": null,
+   "band": "varies by supply zone",
+   "source": "RWW Rheinisch-Westfälische Wasserwerksgesellschaft",
+   "source_url": "https://www.rww.de/fileadmin/assets/pdf/twa_bot_mh_med.pdf",
+   "measured_on": "2025",
+   "range_mg_l": [
+    142.8,
+    240.9
+   ],
+   "mechanism": "fixed",
+   "origin": [
+    "groundwater"
+   ],
+   "note": "the city is split by Essener Strasse, Friedrich-Ebert-Strasse and Horster Strasse: east and south run a median 8.0 dH and are weich, west and north a median 13.5 dH and are mittel; the yearly ranges behind those medians are 5.7-10.7 and 12.6-14.1 dH",
+   "lat": 51.5216,
+   "lon": 6.9292
+  },
+  "DE/Remscheid": {
+   "mg_l": 91.0,
+   "band": "moderately hard",
+   "source": "EWR Remscheid",
+   "source_url": "https://www.ewr-remscheid.de/app/uploads/EWR_Trinkwasseranalyse_2025.pdf",
+   "measured_on": "2025",
+   "origin": [
+    "reservoir"
+   ],
+   "note": "one figure for the whole city, 0.9 mmol/L or 5.1 dH, Haertebereich weich",
+   "calcium_mg_l": 31.0,
+   "magnesium_mg_l": 3.5,
+   "nitrate_mg_l": 7.0,
+   "sodium_mg_l": 5.4,
+   "carbonate_mg_l": 73.2,
+   "lat": 51.1799,
+   "lon": 7.1944
+  },
+  "DE/Salzgitter": {
+   "mg_l": null,
+   "band": "varies by supply zone",
+   "source": "WEVG Salzgitter",
+   "source_url": "https://www.wevg.com/wasser/wasser-lexikon",
+   "measured_on": "2026",
+   "range_mg_l": [
+    58.9,
+    112.4
+   ],
+   "mechanism": "fixed",
+   "origin": [
+    "reservoir",
+    "groundwater"
+   ],
+   "note": "three supply areas fed by the Harzwasserwerke and Avacon, all weich: 3.3 dH and 6.3 dH in the north, 3.8 dH in the south and in Osterlinde; the utility does not say which district belongs to which area",
+   "lat": 52.1504,
+   "lon": 10.3593
+  },
+  "DE/Moers": {
+   "mg_l": 235.6,
+   "band": "very hard",
+   "source": "ENNI Energie & Umwelt Niederrhein",
+   "source_url": "https://www.enni.de/energie-und-wasser/wasser/trinkwasser/",
+   "measured_on": "2026",
+   "origin": [
+    "groundwater"
+   ],
+   "note": "one figure for the whole ENNI area, 13.2 dH and Haertebereich mittel; a central decarbonisation plant has evened the network out since 2006",
+   "calcium_mg_l": 74.3,
+   "nitrate_mg_l": 16.6,
+   "ph": 7.74,
+   "lat": 51.4513,
+   "lon": 6.6284
   }
  }
 }

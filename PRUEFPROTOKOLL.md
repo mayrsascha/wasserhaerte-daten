@@ -400,3 +400,30 @@ Rangliste noch einmal an der Quelle stehen.
   Liefergebiet. Wert auf 20,0 °dH, Jahr auf 2024, Quelle auf die Bekanntmachung.
 
 Damit stehen 33 deutsche Städte mit Einzelwert in der Rangliste.
+
+## 9. September 2026 — zehn fehlende Großstädte ergänzt
+
+Abgleich gegen die Liste der deutschen Städte über 100.000 Einwohnern: elf
+fehlten. Zehn sind jetzt aufgenommen, jeweils mit der Angabe des eigenen
+Versorgers.
+
+- **Spanne über Versorgungszonen**, weil der Versorger keine Stadtzahl nennt:
+  Hagen 4,2 bis 7,2 °dH (Mark-E, beide Wässer und alle Mischungen im Netz),
+  Hamm 7,2 bis 8,3 (EWV, drei benannte Zonen), Herne 7,3 bis 11,3 (Stadtwerke
+  Herne, Witten weich und Haltern mittel), Paderborn 5,68 bis 17,1 (fünf
+  Wasserwerke über drei Härtebereiche), Neuss 14,66 bis 15,36 (zwei Zonen,
+  Straßenliste beim Versorger), Fürth 14,7 bis 16,7 (zwei Druckzonen, ohne
+  Datum, Umstellung im Herbst 2026), Bottrop 8,0 bis 13,5 (RWW, die
+  Straßenseite entscheidet zwischen weich und mittel), Salzgitter 3,3 bis 6,3
+  (WEVG, drei Versorgungsbereiche).
+- **Einzelwert**, weil der Versorger eine Zahl fürs ganze Gebiet nennt:
+  Remscheid 5,1 °dH (EWR, Jahresmittel 2025) und Moers 13,2 °dH (Enni, Stand
+  April 2026, zentrale Entkarbonisierung seit 2006). Beide selbst am
+  Versorgerdokument nachgelesen.
+
+**Bergisch Gladbach bleibt offen.** Die BELKAW nennt 12,8 °dH ohne
+Analysentabelle und ohne Messdatum; auf der abgerufenen Seite war die Zahl
+nicht auffindbar. Eine undatierte Einzelzahl kommt nicht in die Rangliste.
+
+Deutschland steht damit bei 80 Städten, davon 35 mit Einzelwert. Neu in der
+Rangliste der weichsten: Remscheid auf Platz 5.
