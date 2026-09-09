@@ -5284,8 +5284,8 @@
     262.4,
     298.1
    ],
-   "mechanism": "fixed",
-   "note": "the Niederdruckzone runs 14.7 dH and the Hochdruckzone 16.7 dH, both hart, and the utility publishes no measurement date for either; the figures behind the Knoblauchsland blend are calculated estimates, and infra fuerth announces that the hardness will fall from 16.39 to 11.83 dH once the new works comes online, planned for autumn 2026, so this row is expected to change",
+   "mechanism": "mixed",
+   "note": "infra fuerth publishes a figure per pressure zone and no measurement date: the Niederdruckzone reads 14.7 dGH over Dambach, Innenstadt, Suedstadt and Weikershof, the Hochdruckzone 16.7 dGH over Atzenhof, Burgfarrnbach, Vach and nine more districts, both hart. Since 1 September 2026 a third zone is being phased in: about ten thousand residents of Bislohe, Braunsbach, Herboldshof, Mannhof, Sack, Stadeln and Steinach move to the new Knoblauchsland works, and the utility gives 14.56 dGH for that blend as a calculated figure, not a measured one, which is why several other parameters there read 'nicht berechnet'. The changeover completes in early October 2026 and the utility expects the hardness to fall from 16.39 to 11.83 dH, so this row will change.",
    "lat": 49.4886,
    "lon": 10.9587
   },
