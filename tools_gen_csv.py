@@ -2,6 +2,13 @@
 """Regenerate staedte.csv from hardness.json. Run after any data change."""
 import json, csv
 
+# Die Schluessel in hardness.json tragen den englischen bzw. landessprachlichen
+# Stadtnamen ("DE/Cologne", "IT/Bolzano"). Die CSV hat deutsche Spaltennamen und
+# gehoert damit in deutsche Ortsnamen. exonyme_de.json haelt die Zuordnung;
+# der Originalschluessel bleibt in der Spalte "stadt_key" erhalten, damit
+# bestehende Auswertungen weiter zuordnen koennen.
+EXONYME = json.load(open("exonyme_de.json", encoding="utf-8"))
+
 d = json.load(open("hardness.json", encoding="utf-8"))
 rows = []
 for key, r in sorted(d["cities"].items()):
@@ -10,7 +17,7 @@ for key, r in sorted(d["cities"].items()):
     rng = r.get("range_mg_l")
     if mg is None and not r.get("range_mg_l") and not r.get("band"): continue
     rows.append({
-        "stadt": name, "land": cc,
+        "stadt": EXONYME.get(name, name), "stadt_key": name, "land": cc,
         "mg_l_caco3": mg if mg is not None else "",
         "dH": round(mg / 17.848, 1) if mg is not None else "",
         "zone_min_dH": round(rng[0] / 17.848, 1) if rng else "",

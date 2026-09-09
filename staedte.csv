@@ -1,190 +1,190 @@
-stadt,land,mg_l_caco3,dH,zone_min_dH,zone_max_dH,calcium_mg_l,magnesium_mg_l,nitrat_mg_l,natrium_mg_l,ph,karbonathaerte_mg_l_caco3,herkunft,band_international,stand,quelle,quelle_url
-Bregenz,AT,198.1,11.1,11.1,13.8,65.0,8.8,,,7.6,198.1,spring;groundwater,very hard,2026,Stadtwerke Bregenz,https://www.stadtwerke-bregenz.at/wasser-kanal-muell/wasserqualitaet
-Dornbirn,AT,163.3,9.1,9.0,9.3,,,,,7.8,,,hard,2024,Wasserwerk Dornbirn (Österreichische Trinkwasserdatenbank),https://www.trinkwasserinfo.at/datenbank?tx_abatrinkwdb_pi1_anlagenid=TWP_0008&tx_abatrinkwdb_pi1_plz=6850
-Feldkirch,AT,,,7.0,17.0,,,,,7.4,,spring;groundwater,varies by supply zone,2025,Stadtwerke Feldkirch,https://www.stadtwerke-feldkirch.at/unsere-bereiche/wasser/informationen-zur-wasserqualitaet-und-haerte
-Graz,AT,289.1,16.2,15.0,18.0,,,,,7.6,,,very hard,2025,Holding Graz,https://www.holding-graz.at/de/wasser/wasserlabor/
-Innsbruck,AT,110.7,6.2,,,,,,,8.0,,spring,moderately hard,2025,Innsbrucker Kommunalbetriebe (IKB),https://www.ikb.at/fileadmin/user_upload/Dokumente/Wasser/Wasserhaerteplan.pdf
-Kapfenberg,AT,276.6,15.5,11.5,15.5,,,,,7.3,,groundwater;long_distance,very hard,2026,Stadtwerke Kapfenberg,https://www.stadtwerke-kapfenberg.at/files/SWK_Layout/PDFs/Wasser/Wasserbefunde%20Brunnen%20Hafendorf-0826.pdf
-Klagenfurt,AT,330.2,18.5,17.0,20.0,,,,,7.4,,groundwater,very hard,2026,Stadtwerke Klagenfurt,https://www.stw.at/privat/wasser/wasserqualitaet/
-Kufstein,AT,142.8,8.0,7.0,9.0,,,3.3,,7.8,101.7,spring,hard,2026,Stadtwerke Kufstein,https://www.stwk.at/wasser/
-Leoben,AT,219.5,12.3,9.0,14.0,,,,,7.5,,groundwater,very hard,2026,Stadtwerke Leoben,https://www.stadtwerke-leoben.at/wasserversorgung/
-Linz,AT,273.1,15.3,13.0,19.1,,,,,6.8,,,very hard,2026,LINZ AG,https://www.linzag.at/media/dokumente/wasser_2/trinkwasseruntersuchungen/wasserguete-juli-august-2026.pdf
-Mödling,AT,340.9,19.1,,,,,15.0,,7.6,,groundwater;spring,very hard,2026,Stadtgemeinde Mödling,https://www.moedling.at/system/web/getDocument.ashx?cts=1774000779&fileid=3647464
-Salzburg,AT,178.5,10.0,9.0,18.0,51.7,13.1,,,7.7,,spring,hard,2026,Salzburg AG,https://www.salzburg-ag.at/waerme-wasser/privat/wasser/trinkwasser.html
-Steyr,AT,308.8,17.3,,,,,,,7.4,,groundwater,very hard,2025,Stadtbetriebe Steyr,https://ftp2.stadtbetriebe.at/wasser/Wasseruntersuchungsergebnisse_2025.pdf
-Vienna,AT,,,6.0,20.0,,,,,7.7,,spring;groundwater,varies by supply zone,2026,Wiener Wasser (MA 31),https://www.wien.gv.at/umwelt/trinkwasser-wasserhaerte
-Villach,AT,180.3,10.1,10.1,15.0,,,,,8.0,,spring,very hard,2026,Stadt Villach - Wasserwerk,https://villach.at/stadt-service/wasser/wasserqualitaet-wasserhaerte
-Wels,AT,187.4,10.5,9.6,10.5,,,,,7.7,,,very hard,2025,eww ag,https://www.eww.at/fileadmin/user_upload/downloads/wasser/infomaterial/Agrolab-Vollanalyse-Wasser-Jaehrlich.pdf
-Wiener Neustadt,AT,304.3,17.0,14.5,20.5,,,,,7.6,,,very hard,2025,"Stadt Wiener Neustadt, Wasserwerk",https://www.wiener-neustadt.at/files/drive/wrn/content/service/umwelt-abfall/Wasserwerk/a4_wasserwerte_hp_2026.pdf
-Baden,CH,,,16.2,17.4,95.0,19.0,16.0,,7.4,,spring;groundwater,very hard,2025,Regionalwerke AG Baden,https://www.regionalwerke.ch/privat-geschaeftskunden/angebot/wasser
-Basel,CH,177.0,9.9,9.7,10.1,,,,,7.7,,river_bank;groundwater,hard,2025,IWB,https://www.iwb.ch/klimadreh/ratgeber/sauberes-trinkwasser/fakten-zum-trinkwasser
-Bern,CH,200.0,11.2,11.0,11.2,,,4.3,3.4,7.6,,groundwater,very hard,2026,Energie Wasser Bern (ewb),https://www.ewb.ch/angebot/aues-fuer-baern/wasserversorgung/wasserqualitaet.php
-Biel,CH,117.0,6.6,5.6,9.8,40.7,4.51,4.5,5.33,7.65,,lake,moderately hard,2025,Energie Service Biel/Bienne,https://trinkwasser.ch/de/versorger/735/energie-service-biel-esb/3240/default
-Fribourg,CH,280.0,15.7,15.1,16.8,85.0,18.0,9.0,7.0,,,groundwater;spring,very hard,2025,SINEF SA,https://trinkwasser.ch/de/versorger/1042/sinef-sa/3598/default
-Geneva,CH,128.0,7.2,7.2,11.9,43.9,5.9,,9.4,8.16,,lake,hard,2025,SIG (Services industriels de Genève),https://media.sig-ge.ch/documents/particuliers/nos_offres/eau/bilan_eau_potable.pdf
-Lausanne,CH,,,7.7,11.4,,,,,,,lake;spring,varies by supply zone,2025,"Ville de Lausanne, eauservice",https://www.lausanne.ch/vie-pratique/energies-et-eau/eau/qualite/reservoir-recherche.html
-Lucerne,CH,,,6.2,15.7,,,,,7.8,,lake;spring;groundwater,varies by supply zone,2025,ewl energie wasser luzern,https://www.ewl-luzern.ch/wasser/wasserqualitaet
-Lugano,CH,,,2.8,10.6,,,4.8,4.2,7.9,,spring;groundwater;lake,varies by supply zone,2026,Aziende Industriali di Lugano (AIL SA),https://www.cca-lab.ch/etichettatura-acqua-distribuita/
-Neuchatel,CH,189.0,10.6,8.3,13.2,61.3,6.7,5.9,3.3,7.8,,spring;lake,very hard,2025,Viteos SA,https://www.viteos.ch/wp-content/uploads/O_Qualite_2025_Ne.pdf
-Riehen,CH,189.0,10.6,,,,,,,,,spring,very hard,2026,Gemeinde Riehen / IWB,"https://www.riehen.ch/verwaltung/dienstleistungen/47_trinkwasser,-brunnen-und-quellen"
-Sion,CH,239.0,13.4,12.1,16.4,70.0,16.6,3.85,8.6,7.9,,,very hard,2024,Oiken SA,https://trinkwasser.ch/de/versorger/782/oiken-sa/2639/default
-St. Gallen,CH,162.0,9.1,9.0,9.2,51.0,8.0,4.0,6.0,8.02,,lake,hard,2025,St.Galler Stadtwerke,https://trinkwasser.ch/de/versorger/668/stgaller-stadtwerke/3272/default
-Thal,CH,165.0,9.2,,,51.0,9.0,4.0,,8.03,,lake,hard,2025,Technische Betriebe Thal,https://www.thal.ch/uploads/698aff90bf53768d1c3574df/-/Information%20zur%20Trinkwasserqualit%C3%A4t%202025.pdf
-Winterthur,CH,271.0,15.2,14.3,15.7,75.8,19.8,6.4,5.8,7.5,,groundwater;spring,very hard,2025,Stadtwerk Winterthur,https://trinkwasser.ch/de/versorger/792/stadtwerk-winterthur/3438/default
-Zug,CH,248.0,13.9,11.8,15.2,76.5,14.1,8.3,10.1,7.48,,spring;groundwater,very hard,2025,WWZ AG,https://trinkwasser.ch/de/versorger/635/wwz-ag/3227/default
-Zurich,CH,158.0,8.9,7.7,10.7,,,,,7.85,,lake;spring;groundwater,hard,2025,Wasserversorgung Zurich (Stadt Zurich),https://www.stadt-zuerich.ch/content/dam/web/de/umwelt-energie/wasser/dokumente/2025_Trinkwasserqualitaet.pdf
-Aachen,DE,,,3.0,14.0,,,,,,,,varies by supply zone,2024,STAWAG,https://www.stawag.de/fileadmin/stawag/content/Dokumente/Wasser/Trinkwasseranalyse_Aachen_2024.pdf
-Augsburg,DE,244.5,13.7,13.5,13.9,,,10.0,,7.58,,,very hard,2025,Stadtwerke Augsburg,https://www.sw-augsburg.de/wasser/wasserqualitaet
-Bergisch Gladbach,DE,228.5,12.8,,,69.0,14.0,19.0,24.0,7.59,149.9,groundwater,very hard,2025,BELKAW,https://www.belkaw.de/trinkwasseranalyse-belkaw-2026.pdfx
-Berlin,DE,,,14.0,25.7,,,,,7.5,,groundwater,very hard,2024,Berliner Wasserbetriebe,https://www.bwb.de/de/analysedaten-nach-postleitzahlen.php?PLZ=10115&send=Suchen
-Bielefeld,DE,,,4.3,17.1,,,,,7.13,,,varies by supply zone,2025,Stadtwerke Bielefeld,https://www.stadtwerke-bielefeld.de/privatkunden/wasser/trinkwasser/wasserversorgung/
-Bochum,DE,130.3,7.3,7.3,7.6,41.0,6.9,8.9,27.0,8.08,96.4,,hard,2026,Stadtwerke Bochum,https://www.stadtwerke-bochum.de/privatkunden/produkte/wasser/wasserqualitaet
-Bonn,DE,101.7,5.7,4.4,7.0,,,9.0,9.8,8.0,,reservoir,moderately hard,2025,Stadtwerke Bonn,https://www.stadtwerke-bonn.de/fuer-zuhause/produkte/wasser/wasseranalyse/
-Bottrop,DE,,,8.0,13.5,,,,,,,groundwater,varies by supply zone,2025,RWW Rheinisch-Westfälische Wasserwerksgesellschaft,https://www.rww.de/fileadmin/assets/pdf/twa_bot_mh_med.pdf
-Braunschweig,DE,149.9,8.4,,,49.0,6.7,7.1,22.9,7.97,73.2,reservoir;groundwater,hard,2026,BS|ENERGY,https://www.bs-energy.de/fileadmin/BSEnergy/Main_Menu/Privatkunden/Wasser/Wasseranalysen/Trinkwasser_Vollanalyse_2026.pdf
-Bremen,DE,112.5,6.3,,,,,,,7.9,,,moderately hard,2026,swb,https://www.swb.de/wasser/trinkwasserqualitaet
-Bremerhaven,DE,,,9.0,11.4,,,,,,,groundwater,varies by supply zone,2026,swb,https://www.swb.de/wasser/trinkwasserqualitaet
-Chemnitz,DE,76.7,4.3,,,,,,,8.1,,long_distance,moderately hard,2024,eins energie in sachsen,https://www.eins.de/privatkunden/wasser
-Cologne,DE,,,15.6,18.1,,,22.0,35.0,7.3,230.2,,varies by supply zone,2025,RheinEnergie,https://web.cdn.rheinenergie.com/cms/media/documents/trinkwasseranalyse/Trinkwasseranalyse_Linksrheinisch.pdf
-Cottbus,DE,285.6,16.0,14.0,17.0,93.5,11.9,1.5,14.0,7.54,,groundwater,very hard,2025,LWG Lausitzer Wasser (Prüfbericht AQS),https://lausitzer-wasser.de/visioncontent/mediendatenbank/5_cottbus-sachsendorf_2026_geschwaerzt.pdf
-Darmstadt,DE,339.1,19.0,18.4,19.6,101.8,17.6,,,7.5,,,very hard,2024,ENTEGA / Hessenwasser,https://www.entega.ag/fileadmin/downloads/wasser/Trinkwasser_Darmstadt_InfoMW.pdf
-Dortmund,DE,137.4,7.7,7.3,8.2,,,,,7.9,,river_bank;groundwater,hard,2026,DEW21,https://www.dew21.de/ueber-uns/unser-wasser
-Dresden,DE,,,5.6,12.3,,,,,8.14,,reservoir;river_bank;groundwater,varies by supply zone,2025,SachsenEnergie,https://www.sachsenenergie.de/wps/portal/energie/cms/menu_main/privatkunden/wasser/gut-zu-wissen/trinkwasserqualitaet
-Duisburg,DE,258.8,14.5,11.0,18.0,,,,,7.2,,,very hard,2025,Stadtwerke Duisburg,https://www.stadtwerke-duisburg.de/privatkunden/themen/trinkwasser-fuer-duisburg
-Dusseldorf,DE,267.7,15.0,,,,,,,7.5,,,very hard,2025,Stadtwerke Düsseldorf,https://a.storyblok.com/f/274772/x/9e9ba42c93/trinkwasseranalyse-duesseldorf-2026.pdf
-Erfurt,DE,,,3.2,26.4,,,,,7.9,,long_distance;groundwater,varies by supply zone,2025,SWE Stadtwerke Erfurt (ThüWa),https://www.swe-energie.de/energie/home/themenwelt/erfurter-wasser
-Erlangen,DE,,,9.8,15.3,,,,,7.68,,,varies by supply zone,2026,Erlanger Stadtwerke (ESTW),https://www.estw.de/de/Energie-Wasser/Wasser/Trinkwasserqualitaet/Wasserhaerte-in-Grenzen/Wasserhaerte-in-Grenzen.html
-Essen,DE,137.4,7.7,,,42.0,7.9,9.2,41.0,7.9,110.7,,hard,2025,Stadtwerke Essen,https://www.stadtwerke-essen.de/fileadmin/user_upload/pdf/netz/2025_00-0350_SWE.pdf
-Frankfurt am Main,DE,,,4.0,20.0,,,,,,,,varies by supply zone,2026,Mainova / Hessenwasser,https://www.mainova.de/de/wissenswertes/ratgeber/wasserqualitaet-und-wasserhaerte-mainova-trinkwasser
-Freiburg im Breisgau,DE,,,2.3,12.7,,,,,7.71,,,varies by supply zone,2026,badenova,https://www.badenova.de/privatkunden/wasser/wasserversorgung-in-freiburg
-Fürth,DE,,,14.7,16.7,,,,,,,,varies by supply zone,2026,infra fürth,https://www.infra-fuerth.de/privatkunden/produkte/trinkwasser/wasser-qualitaet
-Gelsenkirchen,DE,201.7,11.3,7.7,11.3,73.0,4.8,11.6,19.0,7.55,149.9,,very hard,2025,Gelsenwasser,https://www.gelsenwasser.de/wasser/wasserhaerte/gelsenkirchen
-Göttingen,DE,124.0,6.9,6.6,7.3,34.9,7.36,9.3,6.2,7.6,,reservoir;long_distance;groundwater,hard,2025,Stadtwerke Göttingen,https://www.stadtwerke-goettingen.de/produkte/trinkwasser/trinkwasserqualitaet/
-Hagen,DE,,,4.2,7.2,,,,,,,river_bank;reservoir,varies by supply zone,2025,Mark-E (ENERVIE),https://a.storyblok.com/f/320707/x/21b19e87e2/trinkwasseranalyse-jahresmittelwerte-wasserwerk-hengstey-2025.pdf
-Halle (Saale),DE,75.5,4.2,,,24.22,3.28,8.78,7.67,8.41,46.2,reservoir;long_distance,moderately hard,2026,Hallesche Wasser und Stadtwirtschaft (HWS),https://hws-halle.de/produkte-dienstleistungen/trink-abwasser/trinkwasser/qualitaet
-Hamburg,DE,,,5.1,18.3,,,,,,,,varies by supply zone,2025,HAMBURG WASSER,https://www.hamburgwasser.de/fileadmin/Redakteur/Downloads/Labor/Informationen-ueber-die-Beschaffenheit-des-Trinkwassers.pdf
-Hamm,DE,,,7.2,8.3,,,,,,,river_bank,varies by supply zone,2025,Energie- und Wasserversorgung Hamm (EWV),https://www.stadtwerke-hamm.de/fileadmin/user-storage/EWV/Wasser/Jahrestrinkwasseranalyse_2025.pdf
-Hanover,DE,214.2,12.0,,,76.0,5.8,,,7.8,,,very hard,2025,enercity,https://www.enercity.de/privatkunden/produkte/wasser/wasserqualitaet
-Heidelberg,DE,,,3.0,21.0,,,,,,,groundwater,varies by supply zone,2026,Stadtwerke Heidelberg Netze,https://www.swhd.de/de/Hauptnavigation/Privatkunden/Wasser/Trinkwasser-in-Heidelberg_344228.html
-Heilbronn,DE,,,9.0,18.0,,,,,8.0,,,varies by supply zone,2025,Stadtwerke Heilbronn,https://www.stadtwerke-heilbronn.de/swh/wasserversorgung/wasserhaerte.php
-Herne,DE,,,7.3,11.3,,,,,,,river_bank;groundwater,varies by supply zone,2025,Stadtwerke Herne,https://www.stadtwerke-herne.de/privatkunden/wasser/trinkwasseranalyse
-Hildesheim,DE,32.1,1.8,,,,,,,9.12,,reservoir,soft,2025,EVI Energieversorgung Hildesheim,https://www.evi-hildesheim.de/evi/Produkte-fuer-Privatkunden/Wasser/Trinkwasseranalyse/
-Ingolstadt,DE,371.2,20.8,,,89.0,36.0,,3.4,7.4,,,very hard,2026,Ingolstädter Kommunalbetriebe (INKB),https://www.in-kb.de/Wasser/Trinkwasser/Qualit%C3%A4t/
-Jena,DE,,,3.2,18.5,,,,,7.5,,long_distance,varies by supply zone,2026,JenaWasser,https://www.jenawasser.de/wasserqualitaet
-Kaiserslautern,DE,,,4.1,5.5,,,,,8.13,,groundwater,varies by supply zone,2026,SWK Stadtwerke Kaiserslautern,https://www.swk-kl.de/wasser/wasserqualitaet
-Karlsruhe,DE,326.6,18.3,,,114.2,10.2,3.6,12.7,7.22,,groundwater,very hard,2025,Stadtwerke Karlsruhe,https://www.stadtwerke-karlsruhe.de/wMedia/docs/service/infomaterial/produkte/Trinkwasser-Jahresmittelwerte-KA.pdf
-Kassel,DE,,,5.1,15.0,,,,,7.9,,,varies by supply zone,2026,KASSELWASSER,https://kasselwasser.de/trinkwasser/unser-wasser/wasserhaerte
-Kiel,DE,265.1,14.9,11.4,18.3,,,,,7.63,,groundwater,very hard,2025,Stadtwerke Kiel,https://www.stadtwerke-kiel.de/wasser/qualitaet
-Koblenz,DE,,,,,,,,,,,,mittel / hart,2024,Vereinigte Wasserwerke Mittelrhein (evm),https://www.evm.de/privatkunden/rund-ums-haus/wasser/
-Krefeld,DE,232.0,13.0,,,,,,,7.7,,groundwater,very hard,2026,SWK Stadtwerke Krefeld,https://www.swk.de/privatkunden/de/dienstleistungen/wasser
-Leipzig,DE,,,8.0,17.5,,,,,7.7,,reservoir;long_distance,varies by supply zone,2025,Leipziger Wasserwerke,https://files.l.de/lde-typo3/Leipziger/Wasserwerke/Download-Center/Flyer_und_Broschueren/Wasserwerke-Jahresdurchschnittsanalyse-2025.pdf
-Leverkusen,DE,,,5.3,11.4,31.9,3.5,9.0,5.2,7.95,,reservoir,varies by supply zone,2026,Energieversorgung Leverkusen (EVL),https://evl-leverkusen.de/trinkwasser/
-Ludwigshafen am Rhein,DE,,,9.9,13.4,,,,,7.11,,,varies by supply zone,2026,Technische Werke Ludwigshafen (TWL),https://www.twl.de/fileadmin/user_upload/twl/00_Content/01_Privatkunden/01_Meine_Energie/04_Wasser/Trinkwasseranalyse_Januar_2026_f%C3%BCr_Homepage_TWL.pdf
-Lübeck,DE,,,11.1,16.3,,,,,,,,varies by supply zone,2026,Stadtwerke Lübeck,https://www.swhl.de/downloads/trinkwasserqualitaet-luebeck/
-Magdeburg,DE,255.2,14.3,,,91.5,6.6,2.7,,7.55,,groundwater,very hard,2025,SWM Magdeburg,https://www.sw-magdeburg.de/privatkunden/produkte/trinkwasser/qualitaet
-Mainz,DE,,,12.6,25.1,,,,,7.3,,,varies by supply zone,2026,Mainzer Netze,https://www.mainzer-netze.de/-/media/project/mainzer-stadtwerke/websites-mainzer-netze/mainzer-netze/dateien/ordnerstruktur-clean/g_s_w_weitere-infos/wasser/trinkwasserqualitaet/w_analysewerte-trinkwasser.pdf
-Mannheim,DE,357.0,20.0,18.4,21.7,,,16.0,,7.32,,groundwater,very hard,2024,MVV Energie,https://www.mvv.de/fileadmin/user_upload_pk_gewk/pdf/Wasser/Bekanntmachung-trinkwasser_01.pdf
-Moers,DE,235.6,13.2,,,74.3,12.3,16.6,19.1,7.74,,groundwater,very hard,2026,ENNI Energie & Umwelt Niederrhein,https://www.enni.de/energie-und-wasser/wasser/trinkwasser/
-Munich,DE,282.0,15.8,13.9,17.9,78.0,20.9,6.5,5.9,7.56,,spring;groundwater,very hard,2026,Stadtwerke München,https://www.swm.de/wasser/wasserqualitaet
-Munster,DE,,,11.0,16.9,,,,,7.4,,groundwater,varies by supply zone,2025,Stadtwerke Münster,https://www.stadtwerke-muenster.de/Stadtwerke/Dokumente/Trinkwasser/Trinkwasseranalytik.pdf
-Mönchengladbach,DE,,,8.4,14.0,,,,,7.87,,,varies by supply zone,2026,NEW,https://www.new.de/trinkwasser/trinkwasserqualitaet
-Mülheim (Ruhr),DE,142.8,8.0,5.7,10.7,,,,,7.78,,river_bank,hard,2025,RWW Rheinisch-Westfälische Wasserwerksgesellschaft,https://www.rww.de/fileadmin/assets/pdf/twa_bot_mh_med.pdf
-Neuss,DE,,,14.7,15.4,,,,,,,groundwater,varies by supply zone,2026,Stadtwerke Neuss Energie und Wasser,https://www.stadtwerke-neuss.de/sites/default/files/downloads/pdfs/Energie-Privatkunden/Wasser/Trinkwasseranalyse-2026.pdf
-Nuremberg,DE,206.2,11.6,9.5,13.6,58.0,14.0,,,7.64,166.9,groundwater;spring,very hard,2026,N-ERGIE,https://www.n-ergie.de/public/remotemedien/media/n_ergie/internet/privatkunden/produkte/wasser_1/neugestaltung_seite/Trinkwasser-Analysewerte.pdf
-Oberhausen,DE,,,5.7,14.1,,,,,7.78,,river_bank,varies by supply zone,2025,RWW Rheinisch-Westfälische Wasserwerksgesellschaft,https://www.rww.de/trinkwasser/wasserqualitaet/trinkwasseranalysen
-Offenbach,DE,,,10.5,12.9,,,,,,,,varies by supply zone,2026,Zweckverband Wasserversorgung Stadt und Kreis Offenbach (ZWO),https://www.zwo-wasser.de/files/VG7.pdf
-Oldenburg,DE,,,6.6,12.0,,,,,7.4,,,varies by supply zone,2026,EWE NETZ,https://www.ewe-netz.de/privatkunden/trinkwasser/ol
-Osnabrück,DE,,,8.4,14.0,,,,,7.65,,groundwater,varies by supply zone,2026,Stadtwerke Osnabrück,https://karten.swo-netz.de/trinkwasserhaerte/
-Paderborn,DE,,,5.7,17.1,,,,,,,,varies by supply zone,2026,Stadtwerke Paderborn,https://www.stadtwerke-pb.de/app/uploads/2026/07/SWPB_Trinkwasseranalyse_02_2026_BF.pdf
-Pforzheim,DE,,,6.0,9.0,,,,,7.99,,,varies by supply zone,2026,Stadtwerke Pforzheim (SWP),https://www.stadtwerke-pforzheim.de/trinkwasser/trinkwasserqualitaet-und-preise/
-Potsdam,DE,,,10.0,21.0,,,,,,,,varies by supply zone,2026,Energie und Wasser Potsdam (EWP),https://www.swp-potsdam.de/de/wasser/wasserh%C3%A4rtegrad/
-Recklinghausen,DE,201.7,11.3,,,73.0,4.8,11.6,19.0,7.55,149.9,,very hard,2025,Gelsenwasser,https://www.gelsenwasser.de/wasser/wasserhaerte/recklinghausen
-Regensburg,DE,301.7,16.9,,,96.0,15.0,30.0,11.0,7.4,,groundwater,very hard,2025,REWAG,https://www.rewag.de/fileadmin/user_upload/Produkte_Dienstleistungen/Wasser/Herkunft_Qualitaet/Chemische_Analyse_Oktober_2025.pdf
-Remscheid,DE,91.0,5.1,,,31.0,3.5,7.0,5.4,,73.2,reservoir,moderately hard,2025,EWR Remscheid,https://www.ewr-remscheid.de/app/uploads/EWR_Trinkwasseranalyse_2025.pdf
-Reutlingen,DE,,,9.1,18.8,,,,,7.99,,lake;spring,varies by supply zone,2026,FairEnergie,https://www.fairenergie.de/wasser/trinkwasser.html
-Rostock,DE,253.4,14.2,,,83.6,11.0,2.06,43.1,7.7,,,very hard,2026,Nordwasser,https://www.nordwasser.de/trinkwasser/versorgung/trinkwasseranalyse-ww-rostock-1
-Saarbrücken,DE,,,4.8,14.0,,,,,7.69,,,varies by supply zone,2026,Stadtwerke Saarbrücken,https://www.saarbruecker-stadtwerke.de/media/download-5ce2a5f92c7ee
-Salzgitter,DE,,,3.3,6.3,,,,,,,reservoir;groundwater,varies by supply zone,2026,WEVG Salzgitter,https://www.vftv.de/wevg/anang2.htm
-Siegen,DE,80.3,4.5,,,,,,,,,reservoir,moderately hard,2026,Siegener Versorgungsbetriebe (SVB),https://www.svb-siegen.de/netze/trinkwasseranalyse
-Solingen,DE,99.9,5.6,5.2,11.0,,,,,7.94,,reservoir,moderately hard,2026,Stadtwerke Solingen,https://www.stadtwerke-solingen.de/privat-gewerbekunden/wasser/der-weg-des-wassers/wasseraufbereitung/
-Stuttgart,DE,,,9.0,13.0,,,,,8.2,,lake;long_distance,varies by supply zone,2026,Netze BW Wasser,https://www.netze-bw.de/unsernetz/trinkwasserstuttgart
-Trier,DE,,,4.7,11.0,,,,,7.93,,reservoir,varies by supply zone,2025,SWT Stadtwerke Trier,https://www.swt.de/seite/faq-trinkwasser
-Ulm,DE,,,13.4,15.7,,,,,7.6,,,varies by supply zone,2025,Stadtwerke Ulm/Neu-Ulm (SWU),https://www.swu.de/fileadmin/content/energie-wasser/wasser/SWU-Trinkwasser-Analysedaten-2026.pdf
-Wiesbaden,DE,,,1.7,19.2,,,,,7.45,,spring;groundwater;river_bank,varies by supply zone,2024,Wasserversorgungsbetriebe der Landeshauptstadt Wiesbaden (WLW),https://web.archive.org/web/2024/https://www.wlw-wiesbaden.de/wasser/wasserhaerte
-Wolfsburg,DE,141.0,7.9,,,51.3,3.3,0.6,24.0,7.5,121.4,groundwater,hard,2026,"LSW Energie, Wasser und Waerme",https://www.lsw.de/fileadmin/user_upload/Pr%C3%BCfbericht_Wolfsburg.pdf
-Wuppertal,DE,146.4,8.2,5.1,11.3,,,,,8.0,,reservoir;river_bank,hard,2025,Stadt Wuppertal (WAW),https://www.wuppertal.de/microsite/wasserversorgung/medien/bindata/Trinkwasseranalyse-2025.pdf
-Würzburg,DE,,,25.4,42.7,,,,,7.08,,,varies by supply zone,2026,Würzburger Versorgungs- und Verkehrs-GmbH (WVV),https://www.wvv.de/trinkwasser/wuerzburg/
-Acheres,FR,369.9,20.7,,,103.2,27.2,6.8,20.4,7.27,291.0,,very hard,2026,"Hubeau, Ministère de la Santé (contrôle sanitaire)",https://hubeau.eaufrance.fr/page/api-qualite-eau-potable
-Aix-en-Provence,FR,178.1,10.0,,,63.1,5.0,0.6,13.7,8.1,157.5,,hard,2026,"Hubeau, Ministère de la Santé (contrôle sanitaire)",https://hubeau.eaufrance.fr/page/api-qualite-eau-potable
-Ajaccio,FR,60.0,3.4,,,20.5,2.0,1.0,7.8,7.7,56.0,,moderately hard,2026,"Hubeau, Ministère de la Santé (contrôle sanitaire)",https://hubeau.eaufrance.fr/page/api-qualite-eau-potable
-Amiens,FR,301.0,16.9,,,108.0,6.3,32.2,12.2,7.2,249.0,,very hard,2026,"Hubeau, Ministère de la Santé (contrôle sanitaire)",https://hubeau.eaufrance.fr/page/api-qualite-eau-potable
-Angers,FR,166.0,9.3,,,,,13.0,,7.6,119.0,,hard,2026,"Hubeau, Ministère de la Santé (contrôle sanitaire)",https://hubeau.eaufrance.fr/page/api-qualite-eau-potable
-Annecy,FR,296.0,16.6,,,113.0,3.5,12.0,3.1,7.4,276.0,,very hard,2026,"Hubeau, Ministère de la Santé (contrôle sanitaire)",https://hubeau.eaufrance.fr/page/api-qualite-eau-potable
-Antibes,FR,402.3,22.5,,,105.1,33.9,14.2,15.2,7.18,314.0,,very hard,2026,"Hubeau, Ministère de la Santé (contrôle sanitaire)",https://hubeau.eaufrance.fr/page/api-qualite-eau-potable
-Antony,FR,253.6,14.2,,,95.2,3.8,22.6,,7.4,188.0,,very hard,2026,"Hubeau, Ministère de la Santé (contrôle sanitaire)",https://hubeau.eaufrance.fr/page/api-qualite-eau-potable
-Avignon,FR,291.0,16.3,,,92.6,13.6,5.3,11.4,7.56,240.5,,very hard,2026,"Hubeau, Ministère de la Santé (contrôle sanitaire)",https://hubeau.eaufrance.fr/page/api-qualite-eau-potable
-Besancon,FR,244.0,13.7,,,92.6,3.3,4.4,3.1,7.6,228.0,,very hard,2026,"Hubeau, Ministère de la Santé (contrôle sanitaire)",https://hubeau.eaufrance.fr/page/api-qualite-eau-potable
-Biarritz,FR,119.0,6.7,,,,,2.9,9.6,8.2,110.0,,moderately hard,2026,"Hubeau, Ministère de la Santé (contrôle sanitaire)",https://hubeau.eaufrance.fr/page/api-qualite-eau-potable
-Bordeaux,FR,188.0,10.5,,,66.0,5.1,2.0,24.0,7.5,188.0,,very hard,2026,"Hubeau, Ministère de la Santé (contrôle sanitaire)",https://hubeau.eaufrance.fr/page/api-qualite-eau-potable
-Brest,FR,130.0,7.3,,,44.4,4.7,25.0,26.5,7.7,63.0,,hard,2026,"Hubeau, Ministère de la Santé (contrôle sanitaire)",https://hubeau.eaufrance.fr/page/api-qualite-eau-potable
-Caen,FR,241.0,13.5,,,87.5,5.5,33.7,19.4,7.3,173.0,,very hard,2026,"Hubeau, Ministère de la Santé (contrôle sanitaire)",https://hubeau.eaufrance.fr/page/api-qualite-eau-potable
-Cannes,FR,310.2,17.4,,,93.5,14.3,5.4,10.3,7.78,212.0,,very hard,2026,"Hubeau, Ministère de la Santé (contrôle sanitaire)",https://hubeau.eaufrance.fr/page/api-qualite-eau-potable
-Castres,FR,117.0,6.6,,,39.4,4.5,4.9,4.8,8.0,116.0,,moderately hard,2026,"Hubeau, Ministère de la Santé (contrôle sanitaire)",https://hubeau.eaufrance.fr/page/api-qualite-eau-potable
-Cergy,FR,293.8,16.5,,,,,24.2,17.0,7.4,223.0,,very hard,2026,"Hubeau, Ministère de la Santé (contrôle sanitaire)",https://hubeau.eaufrance.fr/page/api-qualite-eau-potable
-Chartres,FR,207.1,11.6,,,,,37.8,9.2,7.5,153.5,,very hard,2026,"Hubeau, Ministère de la Santé (contrôle sanitaire)",https://hubeau.eaufrance.fr/page/api-qualite-eau-potable
-Chateauroux,FR,231.0,12.9,,,93.4,4.1,49.0,20.0,7.3,235.0,,very hard,2026,"Hubeau, Ministère de la Santé (contrôle sanitaire)",https://hubeau.eaufrance.fr/page/api-qualite-eau-potable
-Chatou,FR,195.7,11.0,,,67.1,6.8,13.6,,7.76,202.0,,very hard,2026,"Hubeau, Ministère de la Santé (contrôle sanitaire)",https://hubeau.eaufrance.fr/page/api-qualite-eau-potable
-Cherbourg,FR,132.0,7.4,,,40.4,6.4,21.3,16.9,8.1,102.0,,hard,2026,"Hubeau, Ministère de la Santé (contrôle sanitaire)",https://hubeau.eaufrance.fr/page/api-qualite-eau-potable
-Clermont-Ferrand,FR,65.5,3.7,,,14.0,7.4,12.8,15.3,7.5,69.0,,moderately hard,2026,"Hubeau, Ministère de la Santé (contrôle sanitaire)",https://hubeau.eaufrance.fr/page/api-qualite-eau-potable
-Dijon,FR,267.0,15.0,,,96.6,5.2,11.0,2.6,7.6,269.2,,very hard,2026,"Hubeau, Ministère de la Santé (contrôle sanitaire)",https://hubeau.eaufrance.fr/page/api-qualite-eau-potable
-Dreux,FR,283.4,15.9,,,98.1,7.2,38.2,12.9,7.1,230.5,,very hard,2026,"Hubeau, Ministère de la Santé (contrôle sanitaire)",https://hubeau.eaufrance.fr/page/api-qualite-eau-potable
-Fontainebleau,FR,244.7,13.7,,,91.8,3.7,19.6,8.9,7.1,214.5,,very hard,2026,"Hubeau, Ministère de la Santé (contrôle sanitaire)",https://hubeau.eaufrance.fr/page/api-qualite-eau-potable
-Grenoble,FR,205.1,11.5,,,66.9,8.9,5.2,5.3,7.7,192.5,,very hard,2026,"Hubeau, Ministère de la Santé (contrôle sanitaire)",https://hubeau.eaufrance.fr/page/api-qualite-eau-potable
-La Garenne-Colombes,FR,168.7,9.5,,,57.6,6.0,25.8,,7.76,163.5,,hard,2026,"Hubeau, Ministère de la Santé (contrôle sanitaire)",https://hubeau.eaufrance.fr/page/api-qualite-eau-potable
-La Rochelle,FR,277.0,15.5,,,,,29.0,16.0,7.2,247.0,,very hard,2026,"Hubeau, Ministère de la Santé (contrôle sanitaire)",https://hubeau.eaufrance.fr/page/api-qualite-eau-potable
-Le Havre,FR,236.0,13.2,,,96.0,3.3,34.2,14.2,7.3,213.0,,very hard,2026,"Hubeau, Ministère de la Santé (contrôle sanitaire)",https://hubeau.eaufrance.fr/page/api-qualite-eau-potable
-Le Mans,FR,298.0,16.7,,,108.0,3.9,17.0,16.1,7.7,226.0,,very hard,2026,"Hubeau, Ministère de la Santé (contrôle sanitaire)",https://hubeau.eaufrance.fr/page/api-qualite-eau-potable
-Lille,FR,345.1,19.3,,,136.0,3.6,25.3,24.4,7.3,271.5,,very hard,2026,"Hubeau, Ministère de la Santé (contrôle sanitaire)",https://hubeau.eaufrance.fr/page/api-qualite-eau-potable
-Limoges,FR,100.0,5.6,,,39.0,0.6,3.4,12.0,8.1,87.0,,moderately hard,2026,"Hubeau, Ministère de la Santé (contrôle sanitaire)",https://hubeau.eaufrance.fr/page/api-qualite-eau-potable
-Lorient,FR,132.0,7.4,,,43.3,4.9,23.0,17.7,8.2,91.0,,hard,2026,"Hubeau, Ministère de la Santé (contrôle sanitaire)",https://hubeau.eaufrance.fr/page/api-qualite-eau-potable
-Lyon,FR,186.7,10.5,,,65.8,5.4,4.6,6.6,7.6,167.5,,very hard,2026,"Hubeau, Ministère de la Santé (contrôle sanitaire)",https://hubeau.eaufrance.fr/page/api-qualite-eau-potable
-Marseille,FR,222.6,12.5,,,68.1,14.0,1.4,11.5,7.87,112.5,,very hard,2026,"Hubeau, Ministère de la Santé (contrôle sanitaire)",https://hubeau.eaufrance.fr/page/api-qualite-eau-potable
-Metz,FR,192.0,10.8,,,66.0,6.4,8.4,,7.8,156.0,,very hard,2026,"Hubeau, Ministère de la Santé (contrôle sanitaire)",https://hubeau.eaufrance.fr/page/api-qualite-eau-potable
-Montpellier,FR,321.7,18.0,,,112.7,9.7,5.3,20.2,7.4,284.5,,very hard,2026,"Hubeau, Ministère de la Santé (contrôle sanitaire)",https://hubeau.eaufrance.fr/page/api-qualite-eau-potable
-Mulhouse,FR,106.0,5.9,,,33.0,5.7,17.0,9.2,6.8,77.0,,moderately hard,2026,"Hubeau, Ministère de la Santé (contrôle sanitaire)",https://hubeau.eaufrance.fr/page/api-qualite-eau-potable
-Nancy,FR,152.0,8.5,,,44.0,10.0,3.7,,8.0,85.0,,hard,2026,"Hubeau, Ministère de la Santé (contrôle sanitaire)",https://hubeau.eaufrance.fr/page/api-qualite-eau-potable
-Nantes,FR,127.0,7.1,,,42.9,4.6,8.5,22.4,7.9,90.0,,hard,2026,"Hubeau, Ministère de la Santé (contrôle sanitaire)",https://hubeau.eaufrance.fr/page/api-qualite-eau-potable
-Nevers,FR,116.4,6.5,,,,,6.8,9.2,7.62,106.5,,moderately hard,2026,"Hubeau, Ministère de la Santé (contrôle sanitaire)",https://hubeau.eaufrance.fr/page/api-qualite-eau-potable
-Nice,FR,153.6,8.6,,,47.5,8.8,1.0,11.8,8.15,63.0,,hard,2026,"Hubeau, Ministère de la Santé (contrôle sanitaire)",https://hubeau.eaufrance.fr/page/api-qualite-eau-potable
-Nimes,FR,225.9,12.7,,,78.5,7.2,7.1,10.3,7.1,197.5,,very hard,2026,"Hubeau, Ministère de la Santé (contrôle sanitaire)",https://hubeau.eaufrance.fr/page/api-qualite-eau-potable
-Orleans,FR,155.9,8.7,,,56.3,5.0,13.4,10.8,7.6,156.0,,hard,2026,"Hubeau, Ministère de la Santé (contrôle sanitaire)",https://hubeau.eaufrance.fr/page/api-qualite-eau-potable
-Paris,FR,249.2,14.0,,,94.4,3.2,32.8,7.9,7.81,208.0,,very hard,2026,"Hubeau, Ministère de la Santé (contrôle sanitaire)",https://hubeau.eaufrance.fr/page/api-qualite-eau-potable
-Pau,FR,115.0,6.4,,,40.2,3.0,1.6,3.1,8.5,105.0,,moderately hard,2026,"Hubeau, Ministère de la Santé (contrôle sanitaire)",https://hubeau.eaufrance.fr/page/api-qualite-eau-potable
-Perpignan,FR,131.0,7.3,,,42.0,6.3,12.4,8.8,8.0,94.2,,hard,2026,"Hubeau, Ministère de la Santé (contrôle sanitaire)",https://hubeau.eaufrance.fr/page/api-qualite-eau-potable
-Poitiers,FR,251.0,14.1,,,86.0,8.7,44.0,13.0,7.6,217.0,,very hard,2026,"Hubeau, Ministère de la Santé (contrôle sanitaire)",https://hubeau.eaufrance.fr/page/api-qualite-eau-potable
-Reims,FR,271.0,15.2,,,102.0,4.0,23.2,11.0,7.4,236.0,,very hard,2026,"Hubeau, Ministère de la Santé (contrôle sanitaire)",https://hubeau.eaufrance.fr/page/api-qualite-eau-potable
-Rennes,FR,155.0,8.7,,,52.5,5.0,15.7,18.0,8.1,97.0,,hard,2026,"Hubeau, Ministère de la Santé (contrôle sanitaire)",https://hubeau.eaufrance.fr/page/api-qualite-eau-potable
-Rouen,FR,278.0,15.6,,,112.0,3.3,23.6,9.3,7.4,262.0,,very hard,2026,"Hubeau, Ministère de la Santé (contrôle sanitaire)",https://hubeau.eaufrance.fr/page/api-qualite-eau-potable
-Rueil-Malmaison,FR,185.5,10.4,,,59.7,8.8,15.2,,7.6,,,very hard,2026,"Hubeau, Ministère de la Santé (contrôle sanitaire)",https://hubeau.eaufrance.fr/page/api-qualite-eau-potable
-Saint-Etienne,FR,338.0,18.9,,,118.0,8.1,32.8,17.7,7.1,257.0,,very hard,2026,"Hubeau, Ministère de la Santé (contrôle sanitaire)",https://hubeau.eaufrance.fr/page/api-qualite-eau-potable
-Strasbourg,FR,248.0,13.9,,,81.0,11.0,11.0,23.0,7.2,205.0,,very hard,2026,"Hubeau, Ministère de la Santé (contrôle sanitaire)",https://hubeau.eaufrance.fr/page/api-qualite-eau-potable
-Toulon,FR,350.8,19.7,,,115.0,15.5,4.5,8.4,7.76,254.5,,very hard,2026,"Hubeau, Ministère de la Santé (contrôle sanitaire)",https://hubeau.eaufrance.fr/page/api-qualite-eau-potable
-Toulouse,FR,91.0,5.1,,,32.0,2.7,3.0,5.2,8.0,85.0,,moderately hard,2026,"Hubeau, Ministère de la Santé (contrôle sanitaire)",https://hubeau.eaufrance.fr/page/api-qualite-eau-potable
-Tours,FR,143.0,8.0,,,46.8,6.1,11.0,12.2,7.5,137.0,,hard,2026,"Hubeau, Ministère de la Santé (contrôle sanitaire)",https://hubeau.eaufrance.fr/page/api-qualite-eau-potable
-Troyes,FR,239.0,13.4,,,90.0,3.3,16.0,3.3,7.4,210.0,,very hard,2026,"Hubeau, Ministère de la Santé (contrôle sanitaire)",https://hubeau.eaufrance.fr/page/api-qualite-eau-potable
-Valence,FR,300.6,16.8,,,100.2,12.2,34.3,8.8,7.4,295.5,,very hard,2026,"Hubeau, Ministère de la Santé (contrôle sanitaire)",https://hubeau.eaufrance.fr/page/api-qualite-eau-potable
-Aberdeen,GB,26.7,1.5,1.1,1.5,,,,,,,,soft,2024,Scottish Water,https://www.scottishwater.co.uk/-/media/scottishwater/document-hub/key-publications/water-quality/130225waterhardnessdata24.pdf
-Belfast,GB,157.7,8.8,2.4,8.9,,,,,,,,hard,2025,NI Water,https://www.niwater.com/about-your-water/drinking-water/water-quality-results
-Bristol,GB,212.0,11.9,11.5,11.9,,,,,,,,very hard,2025,Bristol Water,https://www.bristolwater.co.uk/home/account-and-services/water-quality-checker
-Cambridge,GB,334.6,18.7,17.2,18.7,,,,,,,,very hard,2025,Cambridge Water,https://www.cambridge-water.co.uk/household/my-water-supply/water-quality/water-quality-standards/cambridge-city-north-water-quality-zone-z1/
-Cardiff,GB,105.3,5.9,,,,,,,,,,moderately hard,2025,Dŵr Cymru Welsh Water,https://www.dwrcymru.com/en/help-advice/drinking-water-quality/water-hardness
-Edinburgh,GB,31.4,1.8,1.7,1.8,,,,,,,,soft,2024,Scottish Water,https://www.scottishwater.co.uk/-/media/scottishwater/document-hub/key-publications/water-quality/130225waterhardnessdata24.pdf
-Glasgow,GB,15.7,0.9,0.9,1.3,,,,,,,,soft,2024,Scottish Water,https://www.scottishwater.co.uk/-/media/scottishwater/document-hub/key-publications/water-quality/130225waterhardnessdata24.pdf
-Kingston upon Hull,GB,370.6,20.8,,,138.0,6.3,41.3,24.0,7.2,,,very hard,2024,Yorkshire Water,https://www.yorkshirewater.com/your-water/water-hardness/
-Portsmouth,GB,288.2,16.1,,,,,34.4,9.5,7.28,,,very hard,2021,Portsmouth Water,https://www.portsmouthwater.co.uk/wp-content/uploads/2022/06/ZFA1-WQ-Summary_2021.pdf
-York,GB,246.7,13.8,,,86.6,7.4,19.3,15.6,7.2,,,very hard,2024,Yorkshire Water,https://www.yorkshirewater.com/your-water/water-hardness/
-Bolzano,IT,,,7.3,9.0,,,,,7.9,,groundwater,weich bis mittelhart,2026,SEAB Bozen,https://www.seab.bz.it/de/bozner-trinkwasser
-Bressanone,IT,40.0,2.2,1.7,2.2,,,2.0,1.0,8.6,,spring;groundwater,weich,2025,Landesumweltagentur Südtirol,https://umwelt.provinz.bz.it/de/system.id=529d168a-8b01-460d-bac7-d9423a861e78
-Brunico,IT,,,2.8,8.4,,,,1.0,8.4,,spring,weich,2025,Landesumweltagentur Südtirol,https://umwelt.provinz.bz.it/de/system.id=529d168a-8b01-460d-bac7-d9423a861e78
-Laives,IT,,,6.7,12.3,,,7.0,11.0,7.9,,spring;groundwater,mittel bis hart,2025,Landesumweltagentur Südtirol,https://umwelt.provinz.bz.it/de/system.id=529d168a-8b01-460d-bac7-d9423a861e78
-Merano,IT,,,1.1,9.0,,,,,,,spring,weich bis hart,2025,Landesumweltagentur Südtirol,https://umwelt.provinz.bz.it/de/system.id=529d168a-8b01-460d-bac7-d9423a861e78
+stadt,stadt_key,land,mg_l_caco3,dH,zone_min_dH,zone_max_dH,calcium_mg_l,magnesium_mg_l,nitrat_mg_l,natrium_mg_l,ph,karbonathaerte_mg_l_caco3,herkunft,band_international,stand,quelle,quelle_url
+Bregenz,Bregenz,AT,198.1,11.1,11.1,13.8,65.0,8.8,,,7.6,198.1,spring;groundwater,very hard,2026,Stadtwerke Bregenz,https://www.stadtwerke-bregenz.at/wasser-kanal-muell/wasserqualitaet
+Dornbirn,Dornbirn,AT,163.3,9.1,9.0,9.3,,,,,7.8,,,hard,2024,Wasserwerk Dornbirn (Österreichische Trinkwasserdatenbank),https://www.trinkwasserinfo.at/datenbank?tx_abatrinkwdb_pi1_anlagenid=TWP_0008&tx_abatrinkwdb_pi1_plz=6850
+Feldkirch,Feldkirch,AT,,,7.0,17.0,,,,,7.4,,spring;groundwater,varies by supply zone,2025,Stadtwerke Feldkirch,https://www.stadtwerke-feldkirch.at/unsere-bereiche/wasser/informationen-zur-wasserqualitaet-und-haerte
+Graz,Graz,AT,289.1,16.2,15.0,18.0,,,,,7.6,,,very hard,2025,Holding Graz,https://www.holding-graz.at/de/wasser/wasserlabor/
+Innsbruck,Innsbruck,AT,110.7,6.2,,,,,,,8.0,,spring,moderately hard,2025,Innsbrucker Kommunalbetriebe (IKB),https://www.ikb.at/fileadmin/user_upload/Dokumente/Wasser/Wasserhaerteplan.pdf
+Kapfenberg,Kapfenberg,AT,276.6,15.5,11.5,15.5,,,,,7.3,,groundwater;long_distance,very hard,2026,Stadtwerke Kapfenberg,https://www.stadtwerke-kapfenberg.at/files/SWK_Layout/PDFs/Wasser/Wasserbefunde%20Brunnen%20Hafendorf-0826.pdf
+Klagenfurt,Klagenfurt,AT,330.2,18.5,17.0,20.0,,,,,7.4,,groundwater,very hard,2026,Stadtwerke Klagenfurt,https://www.stw.at/privat/wasser/wasserqualitaet/
+Kufstein,Kufstein,AT,142.8,8.0,7.0,9.0,,,3.3,,7.8,101.7,spring,hard,2026,Stadtwerke Kufstein,https://www.stwk.at/wasser/
+Leoben,Leoben,AT,219.5,12.3,9.0,14.0,,,,,7.5,,groundwater,very hard,2026,Stadtwerke Leoben,https://www.stadtwerke-leoben.at/wasserversorgung/
+Linz,Linz,AT,273.1,15.3,13.0,19.1,,,,,6.8,,,very hard,2026,LINZ AG,https://www.linzag.at/media/dokumente/wasser_2/trinkwasseruntersuchungen/wasserguete-juli-august-2026.pdf
+Mödling,Mödling,AT,340.9,19.1,,,,,15.0,,7.6,,groundwater;spring,very hard,2026,Stadtgemeinde Mödling,https://www.moedling.at/system/web/getDocument.ashx?cts=1774000779&fileid=3647464
+Salzburg,Salzburg,AT,178.5,10.0,9.0,18.0,51.7,13.1,,,7.7,,spring,hard,2026,Salzburg AG,https://www.salzburg-ag.at/waerme-wasser/privat/wasser/trinkwasser.html
+Steyr,Steyr,AT,308.8,17.3,,,,,,,7.4,,groundwater,very hard,2025,Stadtbetriebe Steyr,https://ftp2.stadtbetriebe.at/wasser/Wasseruntersuchungsergebnisse_2025.pdf
+Wien,Vienna,AT,,,6.0,20.0,,,,,7.7,,spring;groundwater,varies by supply zone,2026,Wiener Wasser (MA 31),https://www.wien.gv.at/umwelt/trinkwasser-wasserhaerte
+Villach,Villach,AT,180.3,10.1,10.1,15.0,,,,,8.0,,spring,very hard,2026,Stadt Villach - Wasserwerk,https://villach.at/stadt-service/wasser/wasserqualitaet-wasserhaerte
+Wels,Wels,AT,187.4,10.5,9.6,10.5,,,,,7.7,,,very hard,2025,eww ag,https://www.eww.at/fileadmin/user_upload/downloads/wasser/infomaterial/Agrolab-Vollanalyse-Wasser-Jaehrlich.pdf
+Wiener Neustadt,Wiener Neustadt,AT,304.3,17.0,14.5,20.5,,,,,7.6,,,very hard,2025,"Stadt Wiener Neustadt, Wasserwerk",https://www.wiener-neustadt.at/files/drive/wrn/content/service/umwelt-abfall/Wasserwerk/a4_wasserwerte_hp_2026.pdf
+Baden,Baden,CH,,,16.2,17.4,95.0,19.0,16.0,,7.4,,spring;groundwater,very hard,2025,Regionalwerke AG Baden,https://www.regionalwerke.ch/privat-geschaeftskunden/angebot/wasser
+Basel,Basel,CH,177.0,9.9,9.7,10.1,,,,,7.7,,river_bank;groundwater,hard,2025,IWB,https://www.iwb.ch/klimadreh/ratgeber/sauberes-trinkwasser/fakten-zum-trinkwasser
+Bern,Bern,CH,200.0,11.2,11.0,11.2,,,4.3,3.4,7.6,,groundwater,very hard,2026,Energie Wasser Bern (ewb),https://www.ewb.ch/angebot/aues-fuer-baern/wasserversorgung/wasserqualitaet.php
+Biel,Biel,CH,117.0,6.6,5.6,9.8,40.7,4.51,4.5,5.33,7.65,,lake,moderately hard,2025,Energie Service Biel/Bienne,https://trinkwasser.ch/de/versorger/735/energie-service-biel-esb/3240/default
+Fribourg,Fribourg,CH,280.0,15.7,15.1,16.8,85.0,18.0,9.0,7.0,,,groundwater;spring,very hard,2025,SINEF SA,https://trinkwasser.ch/de/versorger/1042/sinef-sa/3598/default
+Genf,Geneva,CH,128.0,7.2,7.2,11.9,43.9,5.9,,9.4,8.16,,lake,hard,2025,SIG (Services industriels de Genève),https://media.sig-ge.ch/documents/particuliers/nos_offres/eau/bilan_eau_potable.pdf
+Lausanne,Lausanne,CH,,,7.7,11.4,,,,,,,lake;spring,varies by supply zone,2025,"Ville de Lausanne, eauservice",https://www.lausanne.ch/vie-pratique/energies-et-eau/eau/qualite/reservoir-recherche.html
+Luzern,Lucerne,CH,,,6.2,15.7,,,,,7.8,,lake;spring;groundwater,varies by supply zone,2025,ewl energie wasser luzern,https://www.ewl-luzern.ch/wasser/wasserqualitaet
+Lugano,Lugano,CH,,,2.8,10.6,,,4.8,4.2,7.9,,spring;groundwater;lake,varies by supply zone,2026,Aziende Industriali di Lugano (AIL SA),https://www.cca-lab.ch/etichettatura-acqua-distribuita/
+Neuchatel,Neuchatel,CH,189.0,10.6,8.3,13.2,61.3,6.7,5.9,3.3,7.8,,spring;lake,very hard,2025,Viteos SA,https://www.viteos.ch/wp-content/uploads/O_Qualite_2025_Ne.pdf
+Riehen,Riehen,CH,189.0,10.6,,,,,,,,,spring,very hard,2026,Gemeinde Riehen / IWB,"https://www.riehen.ch/verwaltung/dienstleistungen/47_trinkwasser,-brunnen-und-quellen"
+Sion,Sion,CH,239.0,13.4,12.1,16.4,70.0,16.6,3.85,8.6,7.9,,,very hard,2024,Oiken SA,https://trinkwasser.ch/de/versorger/782/oiken-sa/2639/default
+St. Gallen,St. Gallen,CH,162.0,9.1,9.0,9.2,51.0,8.0,4.0,6.0,8.02,,lake,hard,2025,St.Galler Stadtwerke,https://trinkwasser.ch/de/versorger/668/stgaller-stadtwerke/3272/default
+Thal,Thal,CH,165.0,9.2,,,51.0,9.0,4.0,,8.03,,lake,hard,2025,Technische Betriebe Thal,https://www.thal.ch/uploads/698aff90bf53768d1c3574df/-/Information%20zur%20Trinkwasserqualit%C3%A4t%202025.pdf
+Winterthur,Winterthur,CH,271.0,15.2,14.3,15.7,75.8,19.8,6.4,5.8,7.5,,groundwater;spring,very hard,2025,Stadtwerk Winterthur,https://trinkwasser.ch/de/versorger/792/stadtwerk-winterthur/3438/default
+Zug,Zug,CH,248.0,13.9,11.8,15.2,76.5,14.1,8.3,10.1,7.48,,spring;groundwater,very hard,2025,WWZ AG,https://trinkwasser.ch/de/versorger/635/wwz-ag/3227/default
+Zürich,Zurich,CH,158.0,8.9,7.7,10.7,,,,,7.85,,lake;spring;groundwater,hard,2025,Wasserversorgung Zurich (Stadt Zurich),https://www.stadt-zuerich.ch/content/dam/web/de/umwelt-energie/wasser/dokumente/2025_Trinkwasserqualitaet.pdf
+Aachen,Aachen,DE,,,3.0,14.0,,,,,,,,varies by supply zone,2024,STAWAG,https://www.stawag.de/fileadmin/stawag/content/Dokumente/Wasser/Trinkwasseranalyse_Aachen_2024.pdf
+Augsburg,Augsburg,DE,244.5,13.7,13.5,13.9,,,10.0,,7.58,,,very hard,2025,Stadtwerke Augsburg,https://www.sw-augsburg.de/wasser/wasserqualitaet
+Bergisch Gladbach,Bergisch Gladbach,DE,228.5,12.8,,,69.0,14.0,19.0,24.0,7.59,149.9,groundwater,very hard,2025,BELKAW,https://www.belkaw.de/trinkwasseranalyse-belkaw-2026.pdfx
+Berlin,Berlin,DE,,,14.0,25.7,,,,,7.5,,groundwater,very hard,2024,Berliner Wasserbetriebe,https://www.bwb.de/de/analysedaten-nach-postleitzahlen.php?PLZ=10115&send=Suchen
+Bielefeld,Bielefeld,DE,,,4.3,17.1,,,,,7.13,,,varies by supply zone,2025,Stadtwerke Bielefeld,https://www.stadtwerke-bielefeld.de/privatkunden/wasser/trinkwasser/wasserversorgung/
+Bochum,Bochum,DE,130.3,7.3,7.3,7.6,41.0,6.9,8.9,27.0,8.08,96.4,,hard,2026,Stadtwerke Bochum,https://www.stadtwerke-bochum.de/privatkunden/produkte/wasser/wasserqualitaet
+Bonn,Bonn,DE,101.7,5.7,4.4,7.0,,,9.0,9.8,8.0,,reservoir,moderately hard,2025,Stadtwerke Bonn,https://www.stadtwerke-bonn.de/fuer-zuhause/produkte/wasser/wasseranalyse/
+Bottrop,Bottrop,DE,,,8.0,13.5,,,,,,,groundwater,varies by supply zone,2025,RWW Rheinisch-Westfälische Wasserwerksgesellschaft,https://www.rww.de/fileadmin/assets/pdf/twa_bot_mh_med.pdf
+Braunschweig,Braunschweig,DE,149.9,8.4,,,49.0,6.7,7.1,22.9,7.97,73.2,reservoir;groundwater,hard,2026,BS|ENERGY,https://www.bs-energy.de/fileadmin/BSEnergy/Main_Menu/Privatkunden/Wasser/Wasseranalysen/Trinkwasser_Vollanalyse_2026.pdf
+Bremen,Bremen,DE,112.5,6.3,,,,,,,7.9,,,moderately hard,2026,swb,https://www.swb.de/wasser/trinkwasserqualitaet
+Bremerhaven,Bremerhaven,DE,,,9.0,11.4,,,,,,,groundwater,varies by supply zone,2026,swb,https://www.swb.de/wasser/trinkwasserqualitaet
+Chemnitz,Chemnitz,DE,76.7,4.3,,,,,,,8.1,,long_distance,moderately hard,2024,eins energie in sachsen,https://www.eins.de/privatkunden/wasser
+Köln,Cologne,DE,,,15.6,18.1,,,22.0,35.0,7.3,230.2,,varies by supply zone,2025,RheinEnergie,https://web.cdn.rheinenergie.com/cms/media/documents/trinkwasseranalyse/Trinkwasseranalyse_Linksrheinisch.pdf
+Cottbus,Cottbus,DE,285.6,16.0,14.0,17.0,93.5,11.9,1.5,14.0,7.54,,groundwater,very hard,2025,LWG Lausitzer Wasser (Prüfbericht AQS),https://lausitzer-wasser.de/visioncontent/mediendatenbank/5_cottbus-sachsendorf_2026_geschwaerzt.pdf
+Darmstadt,Darmstadt,DE,339.1,19.0,18.4,19.6,101.8,17.6,,,7.5,,,very hard,2024,ENTEGA / Hessenwasser,https://www.entega.ag/fileadmin/downloads/wasser/Trinkwasser_Darmstadt_InfoMW.pdf
+Dortmund,Dortmund,DE,137.4,7.7,7.3,8.2,,,,,7.9,,river_bank;groundwater,hard,2026,DEW21,https://www.dew21.de/ueber-uns/unser-wasser
+Dresden,Dresden,DE,,,5.6,12.3,,,,,8.14,,reservoir;river_bank;groundwater,varies by supply zone,2025,SachsenEnergie,https://www.sachsenenergie.de/wps/portal/energie/cms/menu_main/privatkunden/wasser/gut-zu-wissen/trinkwasserqualitaet
+Duisburg,Duisburg,DE,258.8,14.5,11.0,18.0,,,,,7.2,,,very hard,2025,Stadtwerke Duisburg,https://www.stadtwerke-duisburg.de/privatkunden/themen/trinkwasser-fuer-duisburg
+Düsseldorf,Dusseldorf,DE,267.7,15.0,,,,,,,7.5,,,very hard,2025,Stadtwerke Düsseldorf,https://a.storyblok.com/f/274772/x/9e9ba42c93/trinkwasseranalyse-duesseldorf-2026.pdf
+Erfurt,Erfurt,DE,,,3.2,26.4,,,,,7.9,,long_distance;groundwater,varies by supply zone,2025,SWE Stadtwerke Erfurt (ThüWa),https://www.swe-energie.de/energie/home/themenwelt/erfurter-wasser
+Erlangen,Erlangen,DE,,,9.8,15.3,,,,,7.68,,,varies by supply zone,2026,Erlanger Stadtwerke (ESTW),https://www.estw.de/de/Energie-Wasser/Wasser/Trinkwasserqualitaet/Wasserhaerte-in-Grenzen/Wasserhaerte-in-Grenzen.html
+Essen,Essen,DE,137.4,7.7,,,42.0,7.9,9.2,41.0,7.9,110.7,,hard,2025,Stadtwerke Essen,https://www.stadtwerke-essen.de/fileadmin/user_upload/pdf/netz/2025_00-0350_SWE.pdf
+Frankfurt am Main,Frankfurt am Main,DE,,,4.0,20.0,,,,,,,,varies by supply zone,2026,Mainova / Hessenwasser,https://www.mainova.de/de/wissenswertes/ratgeber/wasserqualitaet-und-wasserhaerte-mainova-trinkwasser
+Freiburg im Breisgau,Freiburg im Breisgau,DE,,,2.3,12.7,,,,,7.71,,,varies by supply zone,2026,badenova,https://www.badenova.de/privatkunden/wasser/wasserversorgung-in-freiburg
+Fürth,Fürth,DE,,,14.7,16.7,,,,,,,,varies by supply zone,2026,infra fürth,https://www.infra-fuerth.de/privatkunden/produkte/trinkwasser/wasser-qualitaet
+Gelsenkirchen,Gelsenkirchen,DE,201.7,11.3,7.7,11.3,73.0,4.8,11.6,19.0,7.55,149.9,,very hard,2025,Gelsenwasser,https://www.gelsenwasser.de/wasser/wasserhaerte/gelsenkirchen
+Göttingen,Göttingen,DE,124.0,6.9,6.6,7.3,34.9,7.36,9.3,6.2,7.6,,reservoir;long_distance;groundwater,hard,2025,Stadtwerke Göttingen,https://www.stadtwerke-goettingen.de/produkte/trinkwasser/trinkwasserqualitaet/
+Hagen,Hagen,DE,,,4.2,7.2,,,,,,,river_bank;reservoir,varies by supply zone,2025,Mark-E (ENERVIE),https://a.storyblok.com/f/320707/x/21b19e87e2/trinkwasseranalyse-jahresmittelwerte-wasserwerk-hengstey-2025.pdf
+Halle (Saale),Halle (Saale),DE,75.5,4.2,,,24.22,3.28,8.78,7.67,8.41,46.2,reservoir;long_distance,moderately hard,2026,Hallesche Wasser und Stadtwirtschaft (HWS),https://hws-halle.de/produkte-dienstleistungen/trink-abwasser/trinkwasser/qualitaet
+Hamburg,Hamburg,DE,,,5.1,18.3,,,,,,,,varies by supply zone,2025,HAMBURG WASSER,https://www.hamburgwasser.de/fileadmin/Redakteur/Downloads/Labor/Informationen-ueber-die-Beschaffenheit-des-Trinkwassers.pdf
+Hamm,Hamm,DE,,,7.2,8.3,,,,,,,river_bank,varies by supply zone,2025,Energie- und Wasserversorgung Hamm (EWV),https://www.stadtwerke-hamm.de/fileadmin/user-storage/EWV/Wasser/Jahrestrinkwasseranalyse_2025.pdf
+Hannover,Hanover,DE,214.2,12.0,,,76.0,5.8,,,7.8,,,very hard,2025,enercity,https://www.enercity.de/privatkunden/produkte/wasser/wasserqualitaet
+Heidelberg,Heidelberg,DE,,,3.0,21.0,,,,,,,groundwater,varies by supply zone,2026,Stadtwerke Heidelberg Netze,https://www.swhd.de/de/Hauptnavigation/Privatkunden/Wasser/Trinkwasser-in-Heidelberg_344228.html
+Heilbronn,Heilbronn,DE,,,9.0,18.0,,,,,8.0,,,varies by supply zone,2025,Stadtwerke Heilbronn,https://www.stadtwerke-heilbronn.de/swh/wasserversorgung/wasserhaerte.php
+Herne,Herne,DE,,,7.3,11.3,,,,,,,river_bank;groundwater,varies by supply zone,2025,Stadtwerke Herne,https://www.stadtwerke-herne.de/privatkunden/wasser/trinkwasseranalyse
+Hildesheim,Hildesheim,DE,32.1,1.8,,,,,,,9.12,,reservoir,soft,2025,EVI Energieversorgung Hildesheim,https://www.evi-hildesheim.de/evi/Produkte-fuer-Privatkunden/Wasser/Trinkwasseranalyse/
+Ingolstadt,Ingolstadt,DE,371.2,20.8,,,89.0,36.0,,3.4,7.4,,,very hard,2026,Ingolstädter Kommunalbetriebe (INKB),https://www.in-kb.de/Wasser/Trinkwasser/Qualit%C3%A4t/
+Jena,Jena,DE,,,3.2,18.5,,,,,7.5,,long_distance,varies by supply zone,2026,JenaWasser,https://www.jenawasser.de/wasserqualitaet
+Kaiserslautern,Kaiserslautern,DE,,,4.1,5.5,,,,,8.13,,groundwater,varies by supply zone,2026,SWK Stadtwerke Kaiserslautern,https://www.swk-kl.de/wasser/wasserqualitaet
+Karlsruhe,Karlsruhe,DE,326.6,18.3,,,114.2,10.2,3.6,12.7,7.22,,groundwater,very hard,2025,Stadtwerke Karlsruhe,https://www.stadtwerke-karlsruhe.de/wMedia/docs/service/infomaterial/produkte/Trinkwasser-Jahresmittelwerte-KA.pdf
+Kassel,Kassel,DE,,,5.1,15.0,,,,,7.9,,,varies by supply zone,2026,KASSELWASSER,https://kasselwasser.de/trinkwasser/unser-wasser/wasserhaerte
+Kiel,Kiel,DE,265.1,14.9,11.4,18.3,,,,,7.63,,groundwater,very hard,2025,Stadtwerke Kiel,https://www.stadtwerke-kiel.de/wasser/qualitaet
+Koblenz,Koblenz,DE,,,,,,,,,,,,mittel / hart,2024,Vereinigte Wasserwerke Mittelrhein (evm),https://www.evm.de/privatkunden/rund-ums-haus/wasser/
+Krefeld,Krefeld,DE,232.0,13.0,,,,,,,7.7,,groundwater,very hard,2026,SWK Stadtwerke Krefeld,https://www.swk.de/privatkunden/de/dienstleistungen/wasser
+Leipzig,Leipzig,DE,,,8.0,17.5,,,,,7.7,,reservoir;long_distance,varies by supply zone,2025,Leipziger Wasserwerke,https://files.l.de/lde-typo3/Leipziger/Wasserwerke/Download-Center/Flyer_und_Broschueren/Wasserwerke-Jahresdurchschnittsanalyse-2025.pdf
+Leverkusen,Leverkusen,DE,,,5.3,11.4,31.9,3.5,9.0,5.2,7.95,,reservoir,varies by supply zone,2026,Energieversorgung Leverkusen (EVL),https://evl-leverkusen.de/trinkwasser/
+Ludwigshafen am Rhein,Ludwigshafen am Rhein,DE,,,9.9,13.4,,,,,7.11,,,varies by supply zone,2026,Technische Werke Ludwigshafen (TWL),https://www.twl.de/fileadmin/user_upload/twl/00_Content/01_Privatkunden/01_Meine_Energie/04_Wasser/Trinkwasseranalyse_Januar_2026_f%C3%BCr_Homepage_TWL.pdf
+Lübeck,Lübeck,DE,,,11.1,16.3,,,,,,,,varies by supply zone,2026,Stadtwerke Lübeck,https://www.swhl.de/downloads/trinkwasserqualitaet-luebeck/
+Magdeburg,Magdeburg,DE,255.2,14.3,,,91.5,6.6,2.7,,7.55,,groundwater,very hard,2025,SWM Magdeburg,https://www.sw-magdeburg.de/privatkunden/produkte/trinkwasser/qualitaet
+Mainz,Mainz,DE,,,12.6,25.1,,,,,7.3,,,varies by supply zone,2026,Mainzer Netze,https://www.mainzer-netze.de/-/media/project/mainzer-stadtwerke/websites-mainzer-netze/mainzer-netze/dateien/ordnerstruktur-clean/g_s_w_weitere-infos/wasser/trinkwasserqualitaet/w_analysewerte-trinkwasser.pdf
+Mannheim,Mannheim,DE,357.0,20.0,18.4,21.7,,,16.0,,7.32,,groundwater,very hard,2024,MVV Energie,https://www.mvv.de/fileadmin/user_upload_pk_gewk/pdf/Wasser/Bekanntmachung-trinkwasser_01.pdf
+Moers,Moers,DE,235.6,13.2,,,74.3,12.3,16.6,19.1,7.74,,groundwater,very hard,2026,ENNI Energie & Umwelt Niederrhein,https://www.enni.de/energie-und-wasser/wasser/trinkwasser/
+München,Munich,DE,282.0,15.8,13.9,17.9,78.0,20.9,6.5,5.9,7.56,,spring;groundwater,very hard,2026,Stadtwerke München,https://www.swm.de/wasser/wasserqualitaet
+Münster,Munster,DE,,,11.0,16.9,,,,,7.4,,groundwater,varies by supply zone,2025,Stadtwerke Münster,https://www.stadtwerke-muenster.de/Stadtwerke/Dokumente/Trinkwasser/Trinkwasseranalytik.pdf
+Mönchengladbach,Mönchengladbach,DE,,,8.4,14.0,,,,,7.87,,,varies by supply zone,2026,NEW,https://www.new.de/trinkwasser/trinkwasserqualitaet
+Mülheim (Ruhr),Mülheim (Ruhr),DE,142.8,8.0,5.7,10.7,,,,,7.78,,river_bank,hard,2025,RWW Rheinisch-Westfälische Wasserwerksgesellschaft,https://www.rww.de/fileadmin/assets/pdf/twa_bot_mh_med.pdf
+Neuss,Neuss,DE,,,14.7,15.4,,,,,,,groundwater,varies by supply zone,2026,Stadtwerke Neuss Energie und Wasser,https://www.stadtwerke-neuss.de/sites/default/files/downloads/pdfs/Energie-Privatkunden/Wasser/Trinkwasseranalyse-2026.pdf
+Nürnberg,Nuremberg,DE,206.2,11.6,9.5,13.6,58.0,14.0,,,7.64,166.9,groundwater;spring,very hard,2026,N-ERGIE,https://www.n-ergie.de/public/remotemedien/media/n_ergie/internet/privatkunden/produkte/wasser_1/neugestaltung_seite/Trinkwasser-Analysewerte.pdf
+Oberhausen,Oberhausen,DE,,,5.7,14.1,,,,,7.78,,river_bank,varies by supply zone,2025,RWW Rheinisch-Westfälische Wasserwerksgesellschaft,https://www.rww.de/trinkwasser/wasserqualitaet/trinkwasseranalysen
+Offenbach,Offenbach,DE,,,10.5,12.9,,,,,,,,varies by supply zone,2026,Zweckverband Wasserversorgung Stadt und Kreis Offenbach (ZWO),https://www.zwo-wasser.de/files/VG7.pdf
+Oldenburg,Oldenburg,DE,,,6.6,12.0,,,,,7.4,,,varies by supply zone,2026,EWE NETZ,https://www.ewe-netz.de/privatkunden/trinkwasser/ol
+Osnabrück,Osnabrück,DE,,,8.4,14.0,,,,,7.65,,groundwater,varies by supply zone,2026,Stadtwerke Osnabrück,https://karten.swo-netz.de/trinkwasserhaerte/
+Paderborn,Paderborn,DE,,,5.7,17.1,,,,,,,,varies by supply zone,2026,Stadtwerke Paderborn,https://www.stadtwerke-pb.de/app/uploads/2026/07/SWPB_Trinkwasseranalyse_02_2026_BF.pdf
+Pforzheim,Pforzheim,DE,,,6.0,9.0,,,,,7.99,,,varies by supply zone,2026,Stadtwerke Pforzheim (SWP),https://www.stadtwerke-pforzheim.de/trinkwasser/trinkwasserqualitaet-und-preise/
+Potsdam,Potsdam,DE,,,10.0,21.0,,,,,,,,varies by supply zone,2026,Energie und Wasser Potsdam (EWP),https://www.swp-potsdam.de/de/wasser/wasserh%C3%A4rtegrad/
+Recklinghausen,Recklinghausen,DE,201.7,11.3,,,73.0,4.8,11.6,19.0,7.55,149.9,,very hard,2025,Gelsenwasser,https://www.gelsenwasser.de/wasser/wasserhaerte/recklinghausen
+Regensburg,Regensburg,DE,301.7,16.9,,,96.0,15.0,30.0,11.0,7.4,,groundwater,very hard,2025,REWAG,https://www.rewag.de/fileadmin/user_upload/Produkte_Dienstleistungen/Wasser/Herkunft_Qualitaet/Chemische_Analyse_Oktober_2025.pdf
+Remscheid,Remscheid,DE,91.0,5.1,,,31.0,3.5,7.0,5.4,,73.2,reservoir,moderately hard,2025,EWR Remscheid,https://www.ewr-remscheid.de/app/uploads/EWR_Trinkwasseranalyse_2025.pdf
+Reutlingen,Reutlingen,DE,,,9.1,18.8,,,,,7.99,,lake;spring,varies by supply zone,2026,FairEnergie,https://www.fairenergie.de/wasser/trinkwasser.html
+Rostock,Rostock,DE,253.4,14.2,,,83.6,11.0,2.06,43.1,7.7,,,very hard,2026,Nordwasser,https://www.nordwasser.de/trinkwasser/versorgung/trinkwasseranalyse-ww-rostock-1
+Saarbrücken,Saarbrücken,DE,,,4.8,14.0,,,,,7.69,,,varies by supply zone,2026,Stadtwerke Saarbrücken,https://www.saarbruecker-stadtwerke.de/media/download-5ce2a5f92c7ee
+Salzgitter,Salzgitter,DE,,,3.3,6.3,,,,,,,reservoir;groundwater,varies by supply zone,2026,WEVG Salzgitter,https://www.vftv.de/wevg/anang2.htm
+Siegen,Siegen,DE,80.3,4.5,,,,,,,,,reservoir,moderately hard,2026,Siegener Versorgungsbetriebe (SVB),https://www.svb-siegen.de/netze/trinkwasseranalyse
+Solingen,Solingen,DE,99.9,5.6,5.2,11.0,,,,,7.94,,reservoir,moderately hard,2026,Stadtwerke Solingen,https://www.stadtwerke-solingen.de/privat-gewerbekunden/wasser/der-weg-des-wassers/wasseraufbereitung/
+Stuttgart,Stuttgart,DE,,,9.0,13.0,,,,,8.2,,lake;long_distance,varies by supply zone,2026,Netze BW Wasser,https://www.netze-bw.de/unsernetz/trinkwasserstuttgart
+Trier,Trier,DE,,,4.7,11.0,,,,,7.93,,reservoir,varies by supply zone,2025,SWT Stadtwerke Trier,https://www.swt.de/seite/faq-trinkwasser
+Ulm,Ulm,DE,,,13.4,15.7,,,,,7.6,,,varies by supply zone,2025,Stadtwerke Ulm/Neu-Ulm (SWU),https://www.swu.de/fileadmin/content/energie-wasser/wasser/SWU-Trinkwasser-Analysedaten-2026.pdf
+Wiesbaden,Wiesbaden,DE,,,1.7,19.2,,,,,7.45,,spring;groundwater;river_bank,varies by supply zone,2024,Wasserversorgungsbetriebe der Landeshauptstadt Wiesbaden (WLW),https://web.archive.org/web/2024/https://www.wlw-wiesbaden.de/wasser/wasserhaerte
+Wolfsburg,Wolfsburg,DE,141.0,7.9,,,51.3,3.3,0.6,24.0,7.5,121.4,groundwater,hard,2026,"LSW Energie, Wasser und Waerme",https://www.lsw.de/fileadmin/user_upload/Pr%C3%BCfbericht_Wolfsburg.pdf
+Wuppertal,Wuppertal,DE,146.4,8.2,5.1,11.3,,,,,8.0,,reservoir;river_bank,hard,2025,Stadt Wuppertal (WAW),https://www.wuppertal.de/microsite/wasserversorgung/medien/bindata/Trinkwasseranalyse-2025.pdf
+Würzburg,Würzburg,DE,,,25.4,42.7,,,,,7.08,,,varies by supply zone,2026,Würzburger Versorgungs- und Verkehrs-GmbH (WVV),https://www.wvv.de/trinkwasser/wuerzburg/
+Acheres,Acheres,FR,369.9,20.7,,,103.2,27.2,6.8,20.4,7.27,291.0,,very hard,2026,"Hubeau, Ministère de la Santé (contrôle sanitaire)",https://hubeau.eaufrance.fr/page/api-qualite-eau-potable
+Aix-en-Provence,Aix-en-Provence,FR,178.1,10.0,,,63.1,5.0,0.6,13.7,8.1,157.5,,hard,2026,"Hubeau, Ministère de la Santé (contrôle sanitaire)",https://hubeau.eaufrance.fr/page/api-qualite-eau-potable
+Ajaccio,Ajaccio,FR,60.0,3.4,,,20.5,2.0,1.0,7.8,7.7,56.0,,moderately hard,2026,"Hubeau, Ministère de la Santé (contrôle sanitaire)",https://hubeau.eaufrance.fr/page/api-qualite-eau-potable
+Amiens,Amiens,FR,301.0,16.9,,,108.0,6.3,32.2,12.2,7.2,249.0,,very hard,2026,"Hubeau, Ministère de la Santé (contrôle sanitaire)",https://hubeau.eaufrance.fr/page/api-qualite-eau-potable
+Angers,Angers,FR,166.0,9.3,,,,,13.0,,7.6,119.0,,hard,2026,"Hubeau, Ministère de la Santé (contrôle sanitaire)",https://hubeau.eaufrance.fr/page/api-qualite-eau-potable
+Annecy,Annecy,FR,296.0,16.6,,,113.0,3.5,12.0,3.1,7.4,276.0,,very hard,2026,"Hubeau, Ministère de la Santé (contrôle sanitaire)",https://hubeau.eaufrance.fr/page/api-qualite-eau-potable
+Antibes,Antibes,FR,402.3,22.5,,,105.1,33.9,14.2,15.2,7.18,314.0,,very hard,2026,"Hubeau, Ministère de la Santé (contrôle sanitaire)",https://hubeau.eaufrance.fr/page/api-qualite-eau-potable
+Antony,Antony,FR,253.6,14.2,,,95.2,3.8,22.6,,7.4,188.0,,very hard,2026,"Hubeau, Ministère de la Santé (contrôle sanitaire)",https://hubeau.eaufrance.fr/page/api-qualite-eau-potable
+Avignon,Avignon,FR,291.0,16.3,,,92.6,13.6,5.3,11.4,7.56,240.5,,very hard,2026,"Hubeau, Ministère de la Santé (contrôle sanitaire)",https://hubeau.eaufrance.fr/page/api-qualite-eau-potable
+Besancon,Besancon,FR,244.0,13.7,,,92.6,3.3,4.4,3.1,7.6,228.0,,very hard,2026,"Hubeau, Ministère de la Santé (contrôle sanitaire)",https://hubeau.eaufrance.fr/page/api-qualite-eau-potable
+Biarritz,Biarritz,FR,119.0,6.7,,,,,2.9,9.6,8.2,110.0,,moderately hard,2026,"Hubeau, Ministère de la Santé (contrôle sanitaire)",https://hubeau.eaufrance.fr/page/api-qualite-eau-potable
+Bordeaux,Bordeaux,FR,188.0,10.5,,,66.0,5.1,2.0,24.0,7.5,188.0,,very hard,2026,"Hubeau, Ministère de la Santé (contrôle sanitaire)",https://hubeau.eaufrance.fr/page/api-qualite-eau-potable
+Brest,Brest,FR,130.0,7.3,,,44.4,4.7,25.0,26.5,7.7,63.0,,hard,2026,"Hubeau, Ministère de la Santé (contrôle sanitaire)",https://hubeau.eaufrance.fr/page/api-qualite-eau-potable
+Caen,Caen,FR,241.0,13.5,,,87.5,5.5,33.7,19.4,7.3,173.0,,very hard,2026,"Hubeau, Ministère de la Santé (contrôle sanitaire)",https://hubeau.eaufrance.fr/page/api-qualite-eau-potable
+Cannes,Cannes,FR,310.2,17.4,,,93.5,14.3,5.4,10.3,7.78,212.0,,very hard,2026,"Hubeau, Ministère de la Santé (contrôle sanitaire)",https://hubeau.eaufrance.fr/page/api-qualite-eau-potable
+Castres,Castres,FR,117.0,6.6,,,39.4,4.5,4.9,4.8,8.0,116.0,,moderately hard,2026,"Hubeau, Ministère de la Santé (contrôle sanitaire)",https://hubeau.eaufrance.fr/page/api-qualite-eau-potable
+Cergy,Cergy,FR,293.8,16.5,,,,,24.2,17.0,7.4,223.0,,very hard,2026,"Hubeau, Ministère de la Santé (contrôle sanitaire)",https://hubeau.eaufrance.fr/page/api-qualite-eau-potable
+Chartres,Chartres,FR,207.1,11.6,,,,,37.8,9.2,7.5,153.5,,very hard,2026,"Hubeau, Ministère de la Santé (contrôle sanitaire)",https://hubeau.eaufrance.fr/page/api-qualite-eau-potable
+Chateauroux,Chateauroux,FR,231.0,12.9,,,93.4,4.1,49.0,20.0,7.3,235.0,,very hard,2026,"Hubeau, Ministère de la Santé (contrôle sanitaire)",https://hubeau.eaufrance.fr/page/api-qualite-eau-potable
+Chatou,Chatou,FR,195.7,11.0,,,67.1,6.8,13.6,,7.76,202.0,,very hard,2026,"Hubeau, Ministère de la Santé (contrôle sanitaire)",https://hubeau.eaufrance.fr/page/api-qualite-eau-potable
+Cherbourg,Cherbourg,FR,132.0,7.4,,,40.4,6.4,21.3,16.9,8.1,102.0,,hard,2026,"Hubeau, Ministère de la Santé (contrôle sanitaire)",https://hubeau.eaufrance.fr/page/api-qualite-eau-potable
+Clermont-Ferrand,Clermont-Ferrand,FR,65.5,3.7,,,14.0,7.4,12.8,15.3,7.5,69.0,,moderately hard,2026,"Hubeau, Ministère de la Santé (contrôle sanitaire)",https://hubeau.eaufrance.fr/page/api-qualite-eau-potable
+Dijon,Dijon,FR,267.0,15.0,,,96.6,5.2,11.0,2.6,7.6,269.2,,very hard,2026,"Hubeau, Ministère de la Santé (contrôle sanitaire)",https://hubeau.eaufrance.fr/page/api-qualite-eau-potable
+Dreux,Dreux,FR,283.4,15.9,,,98.1,7.2,38.2,12.9,7.1,230.5,,very hard,2026,"Hubeau, Ministère de la Santé (contrôle sanitaire)",https://hubeau.eaufrance.fr/page/api-qualite-eau-potable
+Fontainebleau,Fontainebleau,FR,244.7,13.7,,,91.8,3.7,19.6,8.9,7.1,214.5,,very hard,2026,"Hubeau, Ministère de la Santé (contrôle sanitaire)",https://hubeau.eaufrance.fr/page/api-qualite-eau-potable
+Grenoble,Grenoble,FR,205.1,11.5,,,66.9,8.9,5.2,5.3,7.7,192.5,,very hard,2026,"Hubeau, Ministère de la Santé (contrôle sanitaire)",https://hubeau.eaufrance.fr/page/api-qualite-eau-potable
+La Garenne-Colombes,La Garenne-Colombes,FR,168.7,9.5,,,57.6,6.0,25.8,,7.76,163.5,,hard,2026,"Hubeau, Ministère de la Santé (contrôle sanitaire)",https://hubeau.eaufrance.fr/page/api-qualite-eau-potable
+La Rochelle,La Rochelle,FR,277.0,15.5,,,,,29.0,16.0,7.2,247.0,,very hard,2026,"Hubeau, Ministère de la Santé (contrôle sanitaire)",https://hubeau.eaufrance.fr/page/api-qualite-eau-potable
+Le Havre,Le Havre,FR,236.0,13.2,,,96.0,3.3,34.2,14.2,7.3,213.0,,very hard,2026,"Hubeau, Ministère de la Santé (contrôle sanitaire)",https://hubeau.eaufrance.fr/page/api-qualite-eau-potable
+Le Mans,Le Mans,FR,298.0,16.7,,,108.0,3.9,17.0,16.1,7.7,226.0,,very hard,2026,"Hubeau, Ministère de la Santé (contrôle sanitaire)",https://hubeau.eaufrance.fr/page/api-qualite-eau-potable
+Lille,Lille,FR,345.1,19.3,,,136.0,3.6,25.3,24.4,7.3,271.5,,very hard,2026,"Hubeau, Ministère de la Santé (contrôle sanitaire)",https://hubeau.eaufrance.fr/page/api-qualite-eau-potable
+Limoges,Limoges,FR,100.0,5.6,,,39.0,0.6,3.4,12.0,8.1,87.0,,moderately hard,2026,"Hubeau, Ministère de la Santé (contrôle sanitaire)",https://hubeau.eaufrance.fr/page/api-qualite-eau-potable
+Lorient,Lorient,FR,132.0,7.4,,,43.3,4.9,23.0,17.7,8.2,91.0,,hard,2026,"Hubeau, Ministère de la Santé (contrôle sanitaire)",https://hubeau.eaufrance.fr/page/api-qualite-eau-potable
+Lyon,Lyon,FR,186.7,10.5,,,65.8,5.4,4.6,6.6,7.6,167.5,,very hard,2026,"Hubeau, Ministère de la Santé (contrôle sanitaire)",https://hubeau.eaufrance.fr/page/api-qualite-eau-potable
+Marseille,Marseille,FR,222.6,12.5,,,68.1,14.0,1.4,11.5,7.87,112.5,,very hard,2026,"Hubeau, Ministère de la Santé (contrôle sanitaire)",https://hubeau.eaufrance.fr/page/api-qualite-eau-potable
+Metz,Metz,FR,192.0,10.8,,,66.0,6.4,8.4,,7.8,156.0,,very hard,2026,"Hubeau, Ministère de la Santé (contrôle sanitaire)",https://hubeau.eaufrance.fr/page/api-qualite-eau-potable
+Montpellier,Montpellier,FR,321.7,18.0,,,112.7,9.7,5.3,20.2,7.4,284.5,,very hard,2026,"Hubeau, Ministère de la Santé (contrôle sanitaire)",https://hubeau.eaufrance.fr/page/api-qualite-eau-potable
+Mulhouse,Mulhouse,FR,106.0,5.9,,,33.0,5.7,17.0,9.2,6.8,77.0,,moderately hard,2026,"Hubeau, Ministère de la Santé (contrôle sanitaire)",https://hubeau.eaufrance.fr/page/api-qualite-eau-potable
+Nancy,Nancy,FR,152.0,8.5,,,44.0,10.0,3.7,,8.0,85.0,,hard,2026,"Hubeau, Ministère de la Santé (contrôle sanitaire)",https://hubeau.eaufrance.fr/page/api-qualite-eau-potable
+Nantes,Nantes,FR,127.0,7.1,,,42.9,4.6,8.5,22.4,7.9,90.0,,hard,2026,"Hubeau, Ministère de la Santé (contrôle sanitaire)",https://hubeau.eaufrance.fr/page/api-qualite-eau-potable
+Nevers,Nevers,FR,116.4,6.5,,,,,6.8,9.2,7.62,106.5,,moderately hard,2026,"Hubeau, Ministère de la Santé (contrôle sanitaire)",https://hubeau.eaufrance.fr/page/api-qualite-eau-potable
+Nizza,Nice,FR,153.6,8.6,,,47.5,8.8,1.0,11.8,8.15,63.0,,hard,2026,"Hubeau, Ministère de la Santé (contrôle sanitaire)",https://hubeau.eaufrance.fr/page/api-qualite-eau-potable
+Nimes,Nimes,FR,225.9,12.7,,,78.5,7.2,7.1,10.3,7.1,197.5,,very hard,2026,"Hubeau, Ministère de la Santé (contrôle sanitaire)",https://hubeau.eaufrance.fr/page/api-qualite-eau-potable
+Orleans,Orleans,FR,155.9,8.7,,,56.3,5.0,13.4,10.8,7.6,156.0,,hard,2026,"Hubeau, Ministère de la Santé (contrôle sanitaire)",https://hubeau.eaufrance.fr/page/api-qualite-eau-potable
+Paris,Paris,FR,249.2,14.0,,,94.4,3.2,32.8,7.9,7.81,208.0,,very hard,2026,"Hubeau, Ministère de la Santé (contrôle sanitaire)",https://hubeau.eaufrance.fr/page/api-qualite-eau-potable
+Pau,Pau,FR,115.0,6.4,,,40.2,3.0,1.6,3.1,8.5,105.0,,moderately hard,2026,"Hubeau, Ministère de la Santé (contrôle sanitaire)",https://hubeau.eaufrance.fr/page/api-qualite-eau-potable
+Perpignan,Perpignan,FR,131.0,7.3,,,42.0,6.3,12.4,8.8,8.0,94.2,,hard,2026,"Hubeau, Ministère de la Santé (contrôle sanitaire)",https://hubeau.eaufrance.fr/page/api-qualite-eau-potable
+Poitiers,Poitiers,FR,251.0,14.1,,,86.0,8.7,44.0,13.0,7.6,217.0,,very hard,2026,"Hubeau, Ministère de la Santé (contrôle sanitaire)",https://hubeau.eaufrance.fr/page/api-qualite-eau-potable
+Reims,Reims,FR,271.0,15.2,,,102.0,4.0,23.2,11.0,7.4,236.0,,very hard,2026,"Hubeau, Ministère de la Santé (contrôle sanitaire)",https://hubeau.eaufrance.fr/page/api-qualite-eau-potable
+Rennes,Rennes,FR,155.0,8.7,,,52.5,5.0,15.7,18.0,8.1,97.0,,hard,2026,"Hubeau, Ministère de la Santé (contrôle sanitaire)",https://hubeau.eaufrance.fr/page/api-qualite-eau-potable
+Rouen,Rouen,FR,278.0,15.6,,,112.0,3.3,23.6,9.3,7.4,262.0,,very hard,2026,"Hubeau, Ministère de la Santé (contrôle sanitaire)",https://hubeau.eaufrance.fr/page/api-qualite-eau-potable
+Rueil-Malmaison,Rueil-Malmaison,FR,185.5,10.4,,,59.7,8.8,15.2,,7.6,,,very hard,2026,"Hubeau, Ministère de la Santé (contrôle sanitaire)",https://hubeau.eaufrance.fr/page/api-qualite-eau-potable
+Saint-Etienne,Saint-Etienne,FR,338.0,18.9,,,118.0,8.1,32.8,17.7,7.1,257.0,,very hard,2026,"Hubeau, Ministère de la Santé (contrôle sanitaire)",https://hubeau.eaufrance.fr/page/api-qualite-eau-potable
+Straßburg,Strasbourg,FR,248.0,13.9,,,81.0,11.0,11.0,23.0,7.2,205.0,,very hard,2026,"Hubeau, Ministère de la Santé (contrôle sanitaire)",https://hubeau.eaufrance.fr/page/api-qualite-eau-potable
+Toulon,Toulon,FR,350.8,19.7,,,115.0,15.5,4.5,8.4,7.76,254.5,,very hard,2026,"Hubeau, Ministère de la Santé (contrôle sanitaire)",https://hubeau.eaufrance.fr/page/api-qualite-eau-potable
+Toulouse,Toulouse,FR,91.0,5.1,,,32.0,2.7,3.0,5.2,8.0,85.0,,moderately hard,2026,"Hubeau, Ministère de la Santé (contrôle sanitaire)",https://hubeau.eaufrance.fr/page/api-qualite-eau-potable
+Tours,Tours,FR,143.0,8.0,,,46.8,6.1,11.0,12.2,7.5,137.0,,hard,2026,"Hubeau, Ministère de la Santé (contrôle sanitaire)",https://hubeau.eaufrance.fr/page/api-qualite-eau-potable
+Troyes,Troyes,FR,239.0,13.4,,,90.0,3.3,16.0,3.3,7.4,210.0,,very hard,2026,"Hubeau, Ministère de la Santé (contrôle sanitaire)",https://hubeau.eaufrance.fr/page/api-qualite-eau-potable
+Valence,Valence,FR,300.6,16.8,,,100.2,12.2,34.3,8.8,7.4,295.5,,very hard,2026,"Hubeau, Ministère de la Santé (contrôle sanitaire)",https://hubeau.eaufrance.fr/page/api-qualite-eau-potable
+Aberdeen,Aberdeen,GB,26.7,1.5,1.1,1.5,,,,,,,,soft,2024,Scottish Water,https://www.scottishwater.co.uk/-/media/scottishwater/document-hub/key-publications/water-quality/130225waterhardnessdata24.pdf
+Belfast,Belfast,GB,157.7,8.8,2.4,8.9,,,,,,,,hard,2025,NI Water,https://www.niwater.com/about-your-water/drinking-water/water-quality-results
+Bristol,Bristol,GB,212.0,11.9,11.5,11.9,,,,,,,,very hard,2025,Bristol Water,https://www.bristolwater.co.uk/home/account-and-services/water-quality-checker
+Cambridge,Cambridge,GB,334.6,18.7,17.2,18.7,,,,,,,,very hard,2025,Cambridge Water,https://www.cambridge-water.co.uk/household/my-water-supply/water-quality/water-quality-standards/cambridge-city-north-water-quality-zone-z1/
+Cardiff,Cardiff,GB,105.3,5.9,,,,,,,,,,moderately hard,2025,Dŵr Cymru Welsh Water,https://www.dwrcymru.com/en/help-advice/drinking-water-quality/water-hardness
+Edinburgh,Edinburgh,GB,31.4,1.8,1.7,1.8,,,,,,,,soft,2024,Scottish Water,https://www.scottishwater.co.uk/-/media/scottishwater/document-hub/key-publications/water-quality/130225waterhardnessdata24.pdf
+Glasgow,Glasgow,GB,15.7,0.9,0.9,1.3,,,,,,,,soft,2024,Scottish Water,https://www.scottishwater.co.uk/-/media/scottishwater/document-hub/key-publications/water-quality/130225waterhardnessdata24.pdf
+Kingston upon Hull,Kingston upon Hull,GB,370.6,20.8,,,138.0,6.3,41.3,24.0,7.2,,,very hard,2024,Yorkshire Water,https://www.yorkshirewater.com/your-water/water-hardness/
+Portsmouth,Portsmouth,GB,288.2,16.1,,,,,34.4,9.5,7.28,,,very hard,2021,Portsmouth Water,https://www.portsmouthwater.co.uk/wp-content/uploads/2022/06/ZFA1-WQ-Summary_2021.pdf
+York,York,GB,246.7,13.8,,,86.6,7.4,19.3,15.6,7.2,,,very hard,2024,Yorkshire Water,https://www.yorkshirewater.com/your-water/water-hardness/
+Bozen,Bolzano,IT,,,7.3,9.0,,,,,7.9,,groundwater,weich bis mittelhart,2026,SEAB Bozen,https://www.seab.bz.it/de/bozner-trinkwasser
+Brixen,Bressanone,IT,40.0,2.2,1.7,2.2,,,2.0,1.0,8.6,,spring;groundwater,weich,2025,Landesumweltagentur Südtirol,https://umwelt.provinz.bz.it/de/system.id=529d168a-8b01-460d-bac7-d9423a861e78
+Bruneck,Brunico,IT,,,2.8,8.4,,,,1.0,8.4,,spring,weich,2025,Landesumweltagentur Südtirol,https://umwelt.provinz.bz.it/de/system.id=529d168a-8b01-460d-bac7-d9423a861e78
+Leifers,Laives,IT,,,6.7,12.3,,,7.0,11.0,7.9,,spring;groundwater,mittel bis hart,2025,Landesumweltagentur Südtirol,https://umwelt.provinz.bz.it/de/system.id=529d168a-8b01-460d-bac7-d9423a861e78
+Meran,Merano,IT,,,1.1,9.0,,,,,,,spring,weich bis hart,2025,Landesumweltagentur Südtirol,https://umwelt.provinz.bz.it/de/system.id=529d168a-8b01-460d-bac7-d9423a861e78

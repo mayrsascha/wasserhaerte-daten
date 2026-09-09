@@ -2,12 +2,17 @@
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22666436.svg)](https://doi.org/10.5281/zenodo.22666436)
 
-Die Trinkwasserhärte von Städten in Deutschland, Österreich, der Schweiz und
-Südtirol sowie in Frankreich und Großbritannien. Welche Städte enthalten sind,
+Die Trinkwasserhärte von Städten in Deutschland (81), Österreich (17), der
+Schweiz (17), Südtirol (5), Frankreich (59) und Großbritannien (10). Welche Städte enthalten sind,
 zeigt `staedte.csv`; die Liste wächst. Erhoben 2026,
 **ausschließlich aus Primärquellen**: dem Analyseblatt, der Qualitätsseite
 oder dem akkreditierten Prüfbericht des jeweiligen Versorgers. Jede Zeile
 nennt ihre Quelle mit URL und Stand.
+
+Die Spalte `stadt` trägt den deutschen Ortsnamen (Köln, München, Wien, Bozen),
+`stadt_key` den Schlüssel aus `hardness.json` (Cologne, Munich, Vienna,
+Bolzano). Wer bisher auf `stadt` verbunden hat, verbindet ab Version
+2026.09.10 auf `stadt_key`.
 
 Kein Wert stammt aus einem Wasserhärte-Verzeichnis oder einer anderen
 Sekundärquelle. Wo ein Versorger keine einzelne Zahl veröffentlicht, steht
