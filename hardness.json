@@ -2806,7 +2806,37 @@
    "ph_measured_on": "2024",
    "ph_source_url": "https://files.l.de/lde-typo3/Leipziger/Wasserwerke/Download-Center/Flyer_und_Broschueren/Wasserwerke-FLY-KWL40-Wasser-auf-dem-Pruefstand2025.pdf",
    "ph_note": "Wert der WVA Probstheida, der Mischstelle, an der das Wasser aller großen Werke zusammenläuft, bevor es die Stadt erreicht. Die einzelnen Werke liegen zwischen 7,62 (Canitz) und 7,79 (Thallwitz/Torgau).",
-   "fresh_note": "Werte unveraendert: die Jahresdurchschnittsanalyse 2025 fuehrt WW Thallwitz 8,0 dH, WW Canitz 11,9, Fernwasser (Elbaue-Ostharz) 12,9, WVA Probstheida 15,3, WW Naunhof 1/2 17,0 und 16,7, WW Belgershain 17,5 - also weiter 8,0 bis 17,5 dH (= 142,8 bis 312,3 mg/l CaCO3). Geaendert nur die Quelle: die bisher verlinkte Seite /wasserwerke/leipziger-wasser/inhaltsstoffe/ fuehrt in ihrer heutigen Fassung keine Haerte mehr, sondern nur noch eine Mineralstofftabelle (Calcium 84, Chlorid 49, Eisen 0,018, Magnesium 16, Natrium 30 mg/l) und verlinkt die vollstaendige Analyse als PDF; ausserdem antwortet sie Nicht-Browser-Clients mit HTTP 403 (Cloudflare), im Archiv-Abzug vom 12.04.2026 aber normal. Verlinkt ist jetzt direkt das PDF, das die Haertewerte tatsaechlich enthaelt."
+   "fresh_note": "Werte unveraendert: die Jahresdurchschnittsanalyse 2025 fuehrt WW Thallwitz 8,0 dH, WW Canitz 11,9, Fernwasser (Elbaue-Ostharz) 12,9, WVA Probstheida 15,3, WW Naunhof 1/2 17,0 und 16,7, WW Belgershain 17,5 - also weiter 8,0 bis 17,5 dH (= 142,8 bis 312,3 mg/l CaCO3). Geaendert nur die Quelle: die bisher verlinkte Seite /wasserwerke/leipziger-wasser/inhaltsstoffe/ fuehrt in ihrer heutigen Fassung keine Haerte mehr, sondern nur noch eine Mineralstofftabelle (Calcium 84, Chlorid 49, Eisen 0,018, Magnesium 16, Natrium 30 mg/l) und verlinkt die vollstaendige Analyse als PDF; ausserdem antwortet sie Nicht-Browser-Clients mit HTTP 403 (Cloudflare), im Archiv-Abzug vom 12.04.2026 aber normal. Verlinkt ist jetzt direkt das PDF, das die Haertewerte tatsaechlich enthaelt.",
+   "zones": [
+    {
+     "name": "Wasserwerk Belgershain",
+     "mg_l": 312.3
+    },
+    {
+     "name": "Wasserwerk Naunhof 1",
+     "mg_l": 303.4
+    },
+    {
+     "name": "Wasserwerk Naunhof 2",
+     "mg_l": 298.1
+    },
+    {
+     "name": "Wasserwerk Probstheida",
+     "mg_l": 273.1
+    },
+    {
+     "name": "Fernwasser Elbaue-Ostharz",
+     "mg_l": 230.2
+    },
+    {
+     "name": "Wasserwerk Canitz",
+     "mg_l": 212.4
+    },
+    {
+     "name": "Wasserwerk Thallwitz",
+     "mg_l": 142.8
+    }
+   ]
   },
   "DE/Leverkusen": {
    "mg_l": null,
@@ -2845,7 +2875,24 @@
     "note": "EVL gibt die Analyse adressbezogen über wasserqualität-online.de / wasserportal.info aus; dieses PDF (Stand Juni 2026) gilt für das Grundwasser aus dem Wasserwerk Rheindorf (86 % Eigengewinnung, 5 % Große Dhünn-Talsperre, 9 % Uferfiltrat des Currenta-Wasserwerks Hitdorf). Summe PFAS-4 wird nicht veröffentlicht, ebenso keine Bestimmungsgrenze. Für das Talsperren-Versorgungsgebiet, das den größeren Teil der Stadt beliefert, ließ sich kein PFAS-Wert abrufen — der erfasste Wert gilt nur für die genannten Stadtteile."
    },
    "mechanism": "fixed",
-   "fresh_note": "CHANGED on 2026-09-09, and mg_l is now null. EVL's own page says 'Aktuell versorgen wir Wiesdorf und Manfort ueber das Currenta-Wasserwerk' and links an analysis dated April 2026 that reads 'Summe Erdalkalien 2,04 mmol/l, als Gesamthaerte 11,4 dH, Haertebereich mittel' for those two districts (https://evl-leverkusen.de/wp-content/uploads/2026/09/Wasseranalyse-2026-Manfort-Wiesdorf.pdf). The city centre therefore sits outside the 5.3-7.8 dH range this row carried, and the single figure of 5.3 dH, which was our pick of the works serving most of the city rather than a figure EVL publishes for Leverkusen, described neither end. The row becomes a span, which also takes it out of the single-figure ranking."
+   "fresh_note": "CHANGED on 2026-09-09, and mg_l is now null. EVL's own page says 'Aktuell versorgen wir Wiesdorf und Manfort ueber das Currenta-Wasserwerk' and links an analysis dated April 2026 that reads 'Summe Erdalkalien 2,04 mmol/l, als Gesamthaerte 11,4 dH, Haertebereich mittel' for those two districts (https://evl-leverkusen.de/wp-content/uploads/2026/09/Wasseranalyse-2026-Manfort-Wiesdorf.pdf). The city centre therefore sits outside the 5.3-7.8 dH range this row carried, and the single figure of 5.3 dH, which was our pick of the works serving most of the city rather than a figure EVL publishes for Leverkusen, described neither end. The row becomes a span, which also takes it out of the single-figure ranking.",
+   "zones": [
+    {
+     "name": "Wasserwerk der Currenta",
+     "mg_l": 203.5,
+     "area": "Wiesdorf, Manfort, derzeit"
+    },
+    {
+     "name": "Wasserwerk Rheindorf",
+     "mg_l": 139.2,
+     "area": "Hitdorf, Rheindorf, Bürrig, Küppersteg, Opladen, Alkenrath"
+    },
+    {
+     "name": "Große Dhünn-Talsperre",
+     "mg_l": 92.8,
+     "area": "der größte Teil der Stadt"
+    }
+   ]
   },
   "DE/Ludwigshafen am Rhein": {
    "mg_l": null,
@@ -4012,7 +4059,25 @@
    "ph": 7.08,
    "ph_measured_on": "2026",
    "ph_source_url": "https://www.wvv.de/media-wvv/wasser/dokumente/analysewerte/datenblatt-analysewerte-hb-galgenberg-2026.pdf",
-   "ph_note": "HB Galgenberg, die größte der vier Versorgungszonen, 7,08; Grombühl 2 und Versbach je 7,18, Zellingen 7,12. Nicht gemittelt."
+   "ph_note": "HB Galgenberg, die größte der vier Versorgungszonen, 7,08; Grombühl 2 und Versbach je 7,18, Zellingen 7,12. Nicht gemittelt.",
+   "zones": [
+    {
+     "name": "Grombühl",
+     "mg_l": 762.1
+    },
+    {
+     "name": "Galgenberg",
+     "mg_l": 721.1
+    },
+    {
+     "name": "Versbach",
+     "mg_l": 681.8
+    },
+    {
+     "name": "Zellingen",
+     "mg_l": 453.3
+    }
+   ]
   },
   "FR/Acheres": {
    "mg_l": 369.9,
@@ -5203,7 +5268,17 @@
    ],
    "note": "the two works and every mixture of them reach the network, so the utility maps no figure to a district: Hengstey 7.2 dH from the Ruhr, Hasper Talsperre 4.2 dH, both weich; fourteen listed streets in Rummenohl take AVU water at 3.3-4.6 dH",
    "lat": 51.3583,
-   "lon": 7.4733
+   "lon": 7.4733,
+   "zones": [
+    {
+     "name": "Wasserwerk Hengstey",
+     "mg_l": 128.5
+    },
+    {
+     "name": "Wasserwerk Hasper Talsperre",
+     "mg_l": 75.0
+    }
+   ]
   },
   "DE/Hamm": {
    "mg_l": null,
@@ -5221,7 +5296,24 @@
    ],
    "note": "three named zones, all weich: Warmen 8.3 dH serves most of the city, Echthausen 7.2 dH serves Uentrop, Halingen 7.8 dH serves Bockum-Hoevel and the Bockumer Berg",
    "lat": 51.6813,
-   "lon": 7.8191
+   "lon": 7.8191,
+   "zones": [
+    {
+     "name": "Wasserwerk Warmen",
+     "mg_l": 148.1,
+     "area": "das übrige Stadtgebiet"
+    },
+    {
+     "name": "Wasserwerk Echthausen",
+     "mg_l": 128.5,
+     "area": "Uentrop"
+    },
+    {
+     "name": "Wasserwerk Halingen",
+     "mg_l": 139.2,
+     "area": "Bockum-Hövel, Bockumer Berg"
+    }
+   ]
   },
   "DE/Herne": {
    "mg_l": null,
@@ -5240,7 +5332,19 @@
    ],
    "note": "two zones that straddle a band boundary: the Witten works at 7.3 dH is weich and covers most of the city, the Haltern works at 11.3 dH is mittel and serves Crange, Unser Fritz, Wanne, Bickern, Baukau, Horsthausen, Holsterhausen, Eickel and Roehlinghausen",
    "lat": 51.538,
-   "lon": 7.22
+   "lon": 7.22,
+   "zones": [
+    {
+     "name": "Wasserwerk Witten",
+     "mg_l": 130.3,
+     "area": "der größte Teil der Stadt"
+    },
+    {
+     "name": "Wasserwerk Haltern",
+     "mg_l": 201.7,
+     "area": "Crange, Unser Fritz, Wanne, Bickern, Baukau, Horsthausen, Holsterhausen, Eickel, Röhlinghausen"
+    }
+   ]
   },
   "DE/Paderborn": {
    "mg_l": null,
@@ -5255,7 +5359,34 @@
    "mechanism": "fixed",
    "note": "five works across three hardness bands: Boker Heide 17.1 dH serves Elsen, Diebesweg 14.4 dH the city centre and Schloss Neuhaus, Aabach 7.71 dH, Hossengrund 5.86 dH and Lichtenau 5.68 dH the outer districts",
    "lat": 51.7177,
-   "lon": 8.7527
+   "lon": 8.7527,
+   "zones": [
+    {
+     "name": "Wasserwerk Boker Heide",
+     "mg_l": 305.2,
+     "area": "Elsen"
+    },
+    {
+     "name": "Wasserwerk Diebesweg",
+     "mg_l": 257.0,
+     "area": "Kernstadt, Schloß Neuhaus, Marienloh, Sennelager, Sande, Wewer"
+    },
+    {
+     "name": "Wasserwerk Aabach",
+     "mg_l": 137.6,
+     "area": "Alfen, Etteln, Schloß Hamborn, Haxterberg, Haxtergrund"
+    },
+    {
+     "name": "Wasserwerk Hossengrund",
+     "mg_l": 104.6,
+     "area": "Neuenbeken, Benhausen, Dahl"
+    },
+    {
+     "name": "Wasserwerk Lichtenau",
+     "mg_l": 101.4,
+     "area": "Dörenhagen"
+    }
+   ]
   },
   "DE/Neuss": {
    "mg_l": null,
@@ -5274,7 +5405,19 @@
    "note": "Neuss-Nord from the Broichhof works at 14.66 dH and Neuss-Sued from Rheinbogen at 15.36 dH, both hart; the parts supplied by Kreiswerke Grevenbroich are published only as the mittel band, 8.4-14 dH, and the utility lists the hardness street by street",
    "lookup_url": "https://www.stadtwerke-neuss.de/sites/default/files/downloads/pdfs/Energie-Privatkunden/Wasser/Wasserhaerte-nach-Strassen-2025.pdf",
    "lat": 51.1982,
-   "lon": 6.6916
+   "lon": 6.6916,
+   "zones": [
+    {
+     "name": "Wasserwerk Rheinbogen",
+     "mg_l": 274.1,
+     "area": "Neuss-Süd"
+    },
+    {
+     "name": "Wasserwerk Broichhof",
+     "mg_l": 261.7,
+     "area": "Neuss-Nord"
+    }
+   ]
   },
   "DE/Fürth": {
    "mg_l": null,
@@ -5288,7 +5431,19 @@
    "mechanism": "mixed",
    "note": "infra fuerth publishes a figure per pressure zone and no measurement date: the Niederdruckzone reads 14.7 dGH over Dambach, Innenstadt, Suedstadt and Weikershof, the Hochdruckzone 16.7 dGH over Atzenhof, Burgfarrnbach, Vach and nine more districts, both hart. Since 1 September 2026 a third zone is being phased in: about ten thousand residents of Bislohe, Braunsbach, Herboldshof, Mannhof, Sack, Stadeln and Steinach move to the new Knoblauchsland works, and the utility gives 14.56 dGH for that blend as a calculated figure, not a measured one, which is why several other parameters there read 'nicht berechnet'. The changeover completes in early October 2026 and the utility expects the hardness to fall from 16.39 to 11.83 dH, so this row will change.",
    "lat": 49.4886,
-   "lon": 10.9587
+   "lon": 10.9587,
+   "zones": [
+    {
+     "name": "Hochdruckzone",
+     "mg_l": 298.1,
+     "area": "Atzenhof, Burgfarrnbach, Eigenes Heim, Espan, Flexdorf, Hardhöhe, Ober- und Unterfürberg, Poppenreuth, Ronhof, Ritzmannshof, Unterfarrnbach, Vach, Kronach"
+    },
+    {
+     "name": "Niederdruckzone",
+     "mg_l": 262.4,
+     "area": "Dambach, Innenstadt, Südstadt, Weikershof"
+    }
+   ]
   },
   "DE/Bottrop": {
    "mg_l": null,
@@ -5306,7 +5461,19 @@
    ],
    "note": "the city is split by Essener Strasse, Friedrich-Ebert-Strasse and Horster Strasse: east and south run a median 8.0 dH and are weich, west and north a median 13.5 dH and are mittel; the yearly ranges behind those medians are 5.7-10.7 and 12.6-14.1 dH",
    "lat": 51.5216,
-   "lon": 6.9292
+   "lon": 6.9292,
+   "zones": [
+    {
+     "name": "Versorgungsbereich West und Nord",
+     "mg_l": 240.9,
+     "area": "westlich und nördlich von Essener Straße, Friedrich-Ebert-Straße und Horster Straße"
+    },
+    {
+     "name": "Versorgungsbereich Ost und Süd",
+     "mg_l": 142.8,
+     "area": "östlich und südlich davon"
+    }
+   ]
   },
   "DE/Remscheid": {
    "mg_l": 91.0,
@@ -5343,7 +5510,21 @@
    ],
    "note": "three supply areas fed by the Harzwasserwerke and Avacon, all weich: the northern area 1 reads 3.3 dH sampled on 10 February 2026 (https://www.vftv.de/wevg/anang1.htm), the northern area 2 reads 6.3 dH sampled on 10 December 2025, and the southern area with Osterlinde reads 3.8 dH sampled on 4 May 2026 (https://www.vftv.de/wevg/anasg.htm); the utility does not say which district belongs to which area",
    "lat": 52.1504,
-   "lon": 10.3593
+   "lon": 10.3593,
+   "zones": [
+    {
+     "name": "Nördliches Stadtgebiet 2",
+     "mg_l": 112.4
+    },
+    {
+     "name": "Südliches Stadtgebiet und Osterlinde",
+     "mg_l": 67.8
+    },
+    {
+     "name": "Nördliches Stadtgebiet 1",
+     "mg_l": 58.9
+    }
+   ]
   },
   "DE/Moers": {
    "mg_l": 235.6,
