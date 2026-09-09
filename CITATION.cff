@@ -8,9 +8,9 @@ authors:
 repository-code: "https://github.com/mayrsascha/wasserhaerte-daten"
 url: "https://aquascala.de/daten"
 license: CC-BY-4.0
-date-released: "2026-09-08"
-version: "2026.09"
-doi: 10.5281/zenodo.22666437
+date-released: "2026-09-09"
+version: "2026.09.09"
+doi: 10.5281/zenodo.22666436
 identifiers:
   - type: doi
     value: 10.5281/zenodo.22666436

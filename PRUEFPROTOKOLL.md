@@ -427,3 +427,17 @@ nicht auffindbar. Eine undatierte Einzelzahl kommt nicht in die Rangliste.
 
 Deutschland steht damit bei 80 Städten, davon 35 mit Einzelwert. Neu in der
 Rangliste der weichsten: Remscheid auf Platz 5.
+
+## 9. September 2026 — Version 2026.09.09
+
+Der Datensatz hat sich an diesem Tag geändert, ohne vollständig neu geprüft
+worden zu sein. Deshalb trennen die Dateien jetzt zwei Daten: `checked_on`
+bleibt der letzte vollständige Abgleich gegen alle Quellen, der 8. September,
+und `updated_on` nennt den Stand des Inhalts. Die Versionsnummer folgt
+`updated_on`, damit zwei Ausgaben im selben Monat unterscheidbar sind.
+
+Geändert gegenüber 2026.09: Leverkusen ohne Einzelwert, Mannheim auf die
+amtliche Zahl korrigiert, zehn Großstädte ergänzt, Fürth und Salzgitter mit
+geschärfter Quelle und Notiz, Moers um Magnesium und Natrium erweitert.
+Dreizehn Zeilen wurden dabei einzeln gegen ihre Quelle nachgeprüft, zwölf
+davon maschinell bestätigt, Mannheim von Hand.
