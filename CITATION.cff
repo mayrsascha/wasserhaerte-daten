@@ -18,6 +18,9 @@ identifiers:
   - type: doi
     value: 10.5281/zenodo.22666437
     description: "Version 2026.09"
+  - type: doi
+    value: 10.5281/zenodo.22675906
+    description: "Version 2026.09.09"
 abstract: "Trinkwasserhärte von Städten in Deutschland, Österreich, der Schweiz und Südtirol sowie Frankreich und Großbritannien, jede Zeile aus der Veröffentlichung des zuständigen Versorgers mit Quell-URL und Stand, vierteljährlich gegen die Quelle geprüft."
 keywords:
   - Wasserhärte
