@@ -1,2 +1,3 @@
 __pycache__/
 *.pyc
+.zenodo_last_attempt
