@@ -485,3 +485,44 @@ Veröffentlichungen an einem Tag sich mit dem Datum allein nicht
 unterscheiden lassen. Das Feld wurde unmittelbar nach der Zenodo-Ausgabe
 ergänzt; die dort archivierte Fassung trägt es deshalb noch nicht. Inhaltlich
 sind Archiv, Spiegel-Repo und Website identisch.
+
+## 14. September 2026 — Nachprüfung vor der Pressewelle: drei Zeilen
+
+Vor dem Versand der Presse-Hinweise wurden die drei Städte, die in den Briefen
+tragen, noch einmal gegen ihre Quellen gehalten. Eine Zeile war falsch, zwei
+haben eine Anmerkung bekommen.
+
+**Würzburg, korrigiert.** Die Spanne stand mit 25,4 bis 42,7 °dH im Datensatz,
+weil die WVV auf ihrer Würzburg-Seite vier Hochbehälter mit Analysewerten
+veröffentlicht: Zellingen, Versbach, Galgenberg, Grombühl. Der WVV-Text sagt
+aber, dass die Gewinnungsanlagen Zell und Zellingen in den zentralen
+Hochbehälter Galgenberg einspeisen; die Analyse „HB Zellingen" gehört zu einem
+Versorgungsgebiet, dessen beide Polygone im WVV-Layer
+`postgis:wa_versorgungsbereiche` bei 49,816 N / 9,868 O liegen — das ist Zell
+am Main im Landkreis, nicht das Stadtgebiet. Die Spanne lautet jetzt 38,2 bis
+42,7 °dH, `zones` führt drei Hochbehälter, der Zellinger Wert steht mit
+Erklärung in der Notiz. Im Stadtgebiet liegen damit 4,5 °dH zwischen weichstem
+und härtestem Hochbehälter, nicht 17,3.
+
+**Hildesheim, unverändert mit Anmerkung.** Die EVI nennt auf ihrer
+Trinkwasseranalyse-Seite für die Stadt und die Ortschaften „im Jahresmittel
+1,8 °dH" (Tabelle: Wasserwerk Söse I, Reinwasser 2025). Ihr Preisblatt
+Trinkwasser zum 1. Januar 2026 (Stand 16. Dezember 2025) nennt für denselben
+Harzwassermix aus Söse- und Granetalsperre „im Jahresmittel 3,2 °dH". Beide
+Aussagen stammen von der EVI. Die Zeile behält den Wert der Analyseseite, weil
+sie die Analyse ist; der Widerspruch liegt bei der Quelle und steht jetzt in
+der Notiz. Selbst mit 3,2 bliebe Hildesheim die weichste Stadt mit Einzelwert
+(Halle 4,2).
+
+**Chemnitz, unverändert mit Anmerkung.** eins energie in sachsen nennt weiter
+4,3 °dH als Mittel für das ganze Versorgungsgebiet, ausdrücklich
+„Durchschnittswerte 2024". Auf der Trinkwasseranalyse-Seite verlinkt eins
+die Jahresblätter 2025 des Vorlieferanten Zweckverband Fernwasser Südsachsen:
+Wasserwerk Einsiedel im Mittel 4,7 °dH (4,4 bis 5,3), Mischwasser
+Einsiedel/Burkersdorf 4,2 °dH (3,9 bis 4,7). Zentrum und Schloßchemnitz
+bekommen Einsiedel-Wasser, Adelsberg und Rabenstein die Mischung. Solange eins
+seine eigene Stadtzahl nicht fortschreibt, bleibt 4,3 (2024) stehen; die
+2025-Werte sind in der Notiz.
+
+Die drei Zeilen tragen `checked_on: 2026-09-14`; der Datensatz insgesamt
+bleibt bei der Prüfung vom 8. September.

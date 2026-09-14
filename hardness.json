@@ -1,8 +1,8 @@
 {
  "generated_on": "2026-09-01",
  "checked_on": "2026-09-08",
- "updated_on": "2026-09-10",
- "version": "2026.09.10",
+ "updated_on": "2026-09-14",
+ "version": "2026.09.14",
  "cities": {
   "AT/Bregenz": {
    "mg_l": 198.1,
@@ -1735,7 +1735,9 @@
     "source_url": "https://www.eins.de/_Resources/Persistent/2/b/3/b/2b3bbee476f254ae82132c8e22d95366c2c5b37c/Mischwasser%202025.pdf",
     "checked_on": "2026-09-05",
     "note": "Jahresauswertung 2025; die drei Spalten sind Maximum, Minimum und Mittelwert und liegen alle unter der Bestimmungsgrenze. Analytik durch das Labor der Südsachsen Wasser GmbH, die eins als Vorlieferant Fernwasser liefert. eins veröffentlicht daneben ein separates Blatt für das Wasserwerk Einsiedel."
-   }
+   },
+   "checked_on": "2026-09-14",
+   "fresh_note": "2026-09-14: value unchanged at 4.3 dH, which eins still states as the citywide mean ('Durchschnittswerte 2024'). The supplier's 2025 sheets linked from eins' Trinkwasseranalyse page (Zweckverband Fernwasser Südsachsen) give Wasserwerk Einsiedel mean 4.7 dH (min 4.4, max 5.3) and Mischwasser Einsiedel/Burkersdorf mean 4.2 dH (min 3.9, max 4.7); districts such as Zentrum and Schloßchemnitz get Einsiedel water, Adelsberg and Rabenstein the mix. When eins updates its own figure the row follows; until then 4.3 (2024) stands. Sheets: https://www.eins.de/_Resources/Persistent/c/c/c/a/ccca7191ee52c63ca905ccdae31016c97b8a84d5/Wasserwerk%20Einsiedel%202025.pdf and https://www.eins.de/_Resources/Persistent/2/b/3/b/2b3bbee476f254ae82132c8e22d95366c2c5b37c/Mischwasser%202025.pdf"
   },
   "DE/Cologne": {
    "mg_l": null,
@@ -2454,7 +2456,7 @@
    "band": "soft",
    "source": "EVI Energieversorgung Hildesheim",
    "source_url": "https://www.evi-hildesheim.de/evi/Produkte-fuer-Privatkunden/Wasser/Trinkwasseranalyse/",
-   "note": "Harz reservoir water; the softest city figure in this collection",
+   "note": "Harz reservoir water; the softest city figure in this collection. EVI publishes two annual means: 1.8 dH on its Trinkwasseranalyse page ('Stadt Hildesheim und die Ortschaften ... im Jahresmittel 1,8 °dH', table = Söse I Reinwasser 2025) and 3.2 dH in its Preisblatt Trinkwasser 2026 (Stand 16.12.2025, 'Harzwassermix aus Söse- und Granetalsperre ... im Jahresmittel 3,2 °dH'). This row keeps the analysis page's figure; even at 3.2 the city would stay the softest single-figure city (Halle 4.2)",
    "lat": 52.1508,
    "lon": 9.9511,
    "origin": [
@@ -2488,7 +2490,8 @@
    "ph": 9.12,
    "ph_measured_on": "2025",
    "ph_note": "Jahresmittelwert 2025 aus der Tabelle 'Trinkwasseranalyse im Jahresmittel fuer das Jahr 2025' auf der EVI-Seite (Grenzwert 6,5-9,5). Deckungsgleich mit dem Analysenblatt des Vorlieferanten Harzwasserwerke fuer WW Soese I (Reinwasser) 2025: Mittelwert 9,12, Minimum 8,98, Maximum 9,35. Der hohe pH ist fuer entsaeuertes Harzer Talsperrenwasser plausibel (Gesamthaerte 1,8 dH).",
-   "fresh_note": "Value unchanged: EVI still publishes 1,8 dH im Jahresmittel, Haertebereich 1 'weich' (= 32,1 mg/l CaCO3). The page states 'Trinkwasseranalyse im Jahresmittel fuer das Jahr 2025' and its supporting table is 'Mittel-, Minimum-, Maximumwerte der Monatsanalysen aus 2025', so measured_on moves 2026 -> 2025. Source: https://www.evi-hildesheim.de/evi/Produkte-fuer-Privatkunden/Wasser/Trinkwasseranalyse/"
+   "fresh_note": "2026-09-14: value unchanged at 1.8 dH (EVI Trinkwasseranalyse, Jahresmittel 2025, stated for the whole city). Second EVI publication found: Preisblatt Trinkwasser 01.01.2026 gives 3.2 dH as Jahresmittel for the same Harzwasser mix. Both are EVI's own statements; the discrepancy is at the source and is recorded here rather than resolved. Preisblatt: https://www.evi-hildesheim.de/evi/Produkte-fuer-Privatkunden/Wasser/Wasser-fuer-Hildesheim/20251222-Preisblatt-Trinkwasser-01012026.pdf",
+   "checked_on": "2026-09-14"
   },
   "DE/Ingolstadt": {
    "mg_l": 371.2,
@@ -4033,9 +4036,9 @@
    "source": "Würzburger Versorgungs- und Verkehrs-GmbH (WVV)",
    "source_url": "https://www.wvv.de/trinkwasser/wuerzburg/",
    "measured_on": "2026",
-   "note": "the hardest city water in this collection, from the Muschelkalk: Zellingen 25.4 dH, Versbach 38.2, Galgenberg 40.4, Grombühl 42.7",
+   "note": "the hardest city water in this collection, from the Muschelkalk; WVV publishes 2026 values per Hochbehälter: Versbach 38.2 dH, Galgenberg 40.4, Grombühl 42.7. A fourth Hochbehälter, Zellingen (25.4 dH), appears on the same WVV page but its supply area is Zell am Main outside the city (WVV supply-area layer wa_versorgungsbereiche, both HB-Zellingen polygons centred 49.816 N / 9.868 E), so it is kept out of the city range",
    "range_mg_l": [
-    453.3,
+    681.8,
     762.1
    ],
    "lat": 49.7939,
@@ -4060,7 +4063,7 @@
    "ph": 7.08,
    "ph_measured_on": "2026",
    "ph_source_url": "https://www.wvv.de/media-wvv/wasser/dokumente/analysewerte/datenblatt-analysewerte-hb-galgenberg-2026.pdf",
-   "ph_note": "HB Galgenberg, die größte der vier Versorgungszonen, 7,08; Grombühl 2 und Versbach je 7,18, Zellingen 7,12. Nicht gemittelt.",
+   "ph_note": "HB Galgenberg, die größte der drei Stadt-Versorgungszonen, 7,08; Grombühl 2 und Versbach je 7,18. Der HB Zellingen (7,12) versorgt Zell am Main, nicht das Stadtgebiet. Nicht gemittelt.",
    "zones": [
     {
      "name": "Grombühl",
@@ -4073,12 +4076,10 @@
     {
      "name": "Versbach",
      "mg_l": 681.8
-    },
-    {
-     "name": "Zellingen",
-     "mg_l": 453.3
     }
-   ]
+   ],
+   "checked_on": "2026-09-14",
+   "fresh_note": "2026-09-14: range narrowed 25.4-42.7 -> 38.2-42.7 dH. WVV's text says the Zell and Zellingen sources feed the central HB Galgenberg; the separately published 'HB Zellingen' analysis belongs to a supply area whose two polygons lie in Zell am Main (Landkreis Würzburg). Inside the city the published spread is 4.5 dH, not 17.3. Sources: https://www.wvv.de/trinkwasser/wuerzburg/ and the WVV WFS layer postgis:wa_versorgungsbereiche"
   },
   "FR/Acheres": {
    "mg_l": 369.9,
