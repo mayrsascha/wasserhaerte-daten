@@ -1095,7 +1095,11 @@
     }
    ],
    "carbonate_measured_on": "2026",
-   "carbonate_source_url": "https://www.wiener-neustadt.at/files/drive/wrn/content/service/umwelt-abfall/Wasserwerk/a4_wasserwerte_hp_2026.pdf"
+   "carbonate_source_url": "https://www.wiener-neustadt.at/files/drive/wrn/content/service/umwelt-abfall/Wasserwerk/a4_wasserwerte_hp_2026.pdf",
+   "carbonate_range_mg_l": [
+    208.8,
+    269.5
+   ]
   },
   "CH/Baden": {
    "mg_l": null,
@@ -2634,7 +2638,11 @@
     }
    ],
    "carbonate_measured_on": "2025",
-   "carbonate_source_url": "https://www.stawag.de/fileadmin/stawag/content/Dokumente/Wasser/Trinkwasseranalyse_Aachen_2024.pdf"
+   "carbonate_source_url": "https://www.stawag.de/fileadmin/stawag/content/Dokumente/Wasser/Trinkwasseranalyse_Aachen_2024.pdf",
+   "carbonate_range_mg_l": [
+    42.8,
+    107.1
+   ]
   },
   "DE/Augsburg": {
    "mg_l": 228.5,
@@ -3988,7 +3996,11 @@
     }
    ],
    "carbonate_measured_on": "2025",
-   "carbonate_source_url": "https://www.stadtwerke-duisburg.de/privatkunden/themen/trinkwasser-fuer-duisburg"
+   "carbonate_source_url": "https://www.stadtwerke-duisburg.de/privatkunden/themen/trinkwasser-fuer-duisburg",
+   "carbonate_range_mg_l": [
+    149.9,
+    232.0
+   ]
   },
   "DE/Dusseldorf": {
    "mg_l": 267.7,
@@ -7004,7 +7016,11 @@
    ],
    "carbonate_source_url": "https://evl-leverkusen.de/wp-content/uploads/2026/09/Wasseranalyse-2026-Currenta-Hitdorf.pdf",
    "carbonate_measured_on": "2026",
-   "carbonate_note": "the acid capacity 2.76 mmol/l (7.7 dH) is the Currenta works' figure; for Rheindorf and the Dhünn reservoir no carbonate hardness is published"
+   "carbonate_note": "the acid capacity 2.76 mmol/l (7.7 dH) is the Currenta works' figure; for Rheindorf and the Dhünn reservoir no carbonate hardness is published",
+   "carbonate_range_mg_l": [
+    138.0,
+    138.0
+   ]
   },
   "DE/Ludwigshafen am Rhein": {
    "mg_l": null,
@@ -9994,7 +10010,11 @@
    ],
    "carbonate_measured_on": "2025",
    "carbonate_source_url": "https://www.wasserwerke-westfalen.de/wasser/trinkwasserqualitaet/trinkwasseranalyse",
-   "carbonate_note": "the Wasserwerke Westfalen feed covers 2 of the 3 waterworks this city draws on; no carbonate hardness is published for the others"
+   "carbonate_note": "the Wasserwerke Westfalen feed covers 2 of the 3 waterworks this city draws on; no carbonate hardness is published for the others",
+   "carbonate_range_mg_l": [
+    101.7,
+    116.0
+   ]
   },
   "DE/Herne": {
    "mg_l": null,
@@ -10029,7 +10049,11 @@
    ],
    "carbonate_source_url": "https://www.wasserwerke-westfalen.de/wasser/trinkwasserqualitaet/trinkwasseranalyse",
    "carbonate_measured_on": "2025",
-   "carbonate_note": "Wasserwerk Witten 5.5 dH; for the Haltern works, which supplies Crange, Wanne and the north of the city at 11.3 dH total hardness, no carbonate hardness is published"
+   "carbonate_note": "Wasserwerk Witten 5.5 dH; for the Haltern works, which supplies Crange, Wanne and the north of the city at 11.3 dH total hardness, no carbonate hardness is published",
+   "carbonate_range_mg_l": [
+    98.2,
+    98.2
+   ]
   },
   "DE/Paderborn": {
    "mg_l": null,
