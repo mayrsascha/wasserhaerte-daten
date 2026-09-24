@@ -7464,7 +7464,7 @@
    ],
    "carbonate_measured_on": "2026",
    "carbonate_source_url": "https://trinkwasseranalyse.new.de/",
-   "carbonate_note": "each figure is the Karbonathärte the analysis prints, and each one is reproduced exactly by the acid capacity on the same sheet, 1.07 to 3.65 mol/m3 times 2.8; Rasseln is the striking one: only a quarter of its hardness is carbonate hardness, the rest is bound to chloride, sulfate and nitrate, so its water scales far less than its total hardness suggests; the values live only in the utility's address lookup, not in any PDF, which is why the automatic re-check cannot see them",
+   "carbonate_note": "each figure is the Karbonathärte the analysis prints, and each one is reproduced exactly by the acid capacity on the same sheet, 1.07 to 3.65 mol/m3 times 2.8; Rasseln is the striking one: only a quarter of its hardness is carbonate hardness, the rest is bound to chloride, sulfate and nitrate, so its water scales far less than its total hardness suggests; the values live only in the utility's address lookup, not in any PDF, which is why the automatic re-check cannot see them; checked on 25 September 2026 against the ions of the Rasseln sample of 20 January 2026 (Ca 66.4, Mg 12.2, Na 23.5, K 3.0, Cl 66.1, SO4 102.6, NO3 36.6 mg/l, HCO3 65.3): calcium and magnesium give the printed 12.1 dH exactly and the ion balance gives about 2.3 dH, so the low 3.0 is real, not a slip; in the 2023 overview Rasseln still read 5.9",
    "checked_on": "2026-09-25"
   },
   "DE/Mülheim (Ruhr)": {
