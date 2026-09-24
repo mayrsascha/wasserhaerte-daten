@@ -526,3 +526,63 @@ seine eigene Stadtzahl nicht fortschreibt, bleibt 4,3 (2024) stehen; die
 
 Die drei Zeilen tragen `checked_on: 2026-09-14`; der Datensatz insgesamt
 bleibt bei der Prüfung vom 8. September.
+
+
+## 22. bis 25. September 2026: Karbonathärte und Prüfrunde
+
+**Karbonathärte.** Für 123 der 126 Städte in Deutschland, Österreich, der
+Schweiz und Südtirol steht jetzt eine Karbonathärte im Datensatz. Die
+Reihenfolge der Quellen: der vom Versorger gedruckte Wert in °dH oder °fH;
+sonst die Säurekapazität bis pH 4,3 × 2,8 oder Hydrogencarbonat ÷ 21,8 aus
+derselben Analyse; erst dann die Ionenbilanz (alle sieben Hauptionen
+veröffentlicht, Calcium und Magnesium treffen die Gesamthärte auf 4 Prozent,
+Ergebnis höchstens 110 Prozent der Gesamthärte). Berechnete Werte stehen in
+`carbonate_derived` bzw. den Spalten `kh_berechnet_*`, nie in den Feldern für
+gedruckte Werte. Berechnet sind Baden, Kassel, Biel, Fribourg, Zug sowie die
+Innsbrucker Zonen Ölberg und Rauschbrunnen. Ohne Karbonathärte bleiben
+Koblenz (die evm veröffentlicht nur Härtebereiche), Thal (eigenes
+Seewasserwerk ohne veröffentlichte Analyse) und Sion (die Ionenbilanz der
+Zone Plaine ergäbe 64 Prozent der Gesamthärte, weil der Sulfat-Mittelwert
+sehr verschiedene Wässer mischt; das wurde bewusst verworfen).
+
+**Prüfrunde am 24. September.** 40 Städte wurden gegen ihr Dokument
+gehalten, jede mit einem Urteil von Hand. Korrigiert:
+- *Düsseldorf*: Karbonathärte 10,1 statt 5,6 °dH. Das Analyse-PDF 2026 der
+  Stadtwerke widerspricht sich selbst (Calcium 65 und Magnesium 8,6 ergeben
+  etwa 11 statt der gedruckten 15,0 °dH); die Webtabelle für den Hochbehälter
+  Hardt (Juli 2025 bis Juni 2026) geht auf und druckt Ks 3,60 mmol/l.
+- *Wiesbaden*: vier Zonen aus den ESWE-Analysen, Schierstein 13,9 statt 16,4;
+  die Versorger-Hosts sind offline, die Links zeigen auf Kopien im Internet
+  Archive.
+- *Osnabrück*: die Karte der Stadtwerke zeigt nur den Härtebereich; die
+  erweiterten Netzproben je Zone ergeben 6,5 bis 18,4 °dH.
+- *Leoben*: der Einzelwert 12,3 °dH steht in keinem aktuellen Dokument; jetzt
+  die Spanne der Quellen 5,3 bis 18,0 °dH.
+- *Riehen*: Werte der IWB-Ausgabe 2025 statt einer älteren.
+- *Hildesheim*: 1,8 bis 3,0 °dH. Die EVI zeigt auf ihrer Analyseseite nur den
+  Söse-Anteil; die Grane-Werke liegen bei 3,0, das Preisblatt nennt 3,2 für
+  die Mischung.
+- *Kiel*: die gedruckte Karbonathärte (15,5 / 16,9 / 11,4 / 16,7) statt der
+  Umrechnung aus der Säurekapazität; die Prüfberichte sind seit September
+  Scans und wurden vom gerenderten Blatt gelesen.
+- *Stuttgart*: Mittelwerte 2025 aus dem BDEW-Wasserportal.
+- *Bochum*: zwei Zonen der Stadtwerke Bochum statt eines vermuteten zweiten
+  Wasserwerks.
+- *Frankfurt am Main*: alle zwölf Zonenblätter der Mainova, darunter fünf
+  Pendelzonen, die je nach Verbrauch zwischen zwei Wässern wechseln.
+- *Trier*: Wasserwerk Kylltal mit gedruckter Karbonathärte 8,3 °dH ergänzt.
+- *St. Gallen*: Werte aus dem Qualitätsblatt der Stadtwerke statt aus dem
+  Portal; die Ionenbilanz der Werte 2025 bestätigt sie.
+- *Innsbruck* und *Dornbirn*: alle Werte jetzt aus eigenen Veröffentlichungen
+  der IKB bzw. der Stadt Dornbirn (Gemeindeblatt, Analysen 2019).
+- *Fürth*: Karbonathärte 12,8 °dH aus der amtlichen Bekanntmachung der Stadt
+  Oberasbach, deren Stadtteil Altenberg Wasser der infra fürth bezieht und die
+  deren Laborwerte veröffentlicht.
+
+**Widersprüche beim Versorger** stehen in der Anmerkung der jeweiligen Zeile:
+Pforzheim (Startseite „6 bis 9 °dH“, Hohenwart bekommt Fremdwasser mit 15),
+Mönchengladbach (Übersicht nennt nur den Bereich „mittel“), Chemnitz
+(Stadtwert 2024, Laborwerte 2025).
+
+26 Städte wurden unverändert bestätigt. Jede geprüfte Zeile trägt
+`checked_on: 2026-09-24` oder `2026-09-25`.

@@ -75,7 +75,12 @@ Version; jede Quartalsprüfung bekommt eine eigene. Details in `CITATION.cff` un
 - **`hardness.json`**: der vollständige Datensatz: mg/L CaCO₃ (die
   universelle Größe), Spannen je Versorgungszone, Quelle, Quell-URL,
   Messdatum, Anmerkungen, Koordinaten.
-- **`staedte.csv`**: dasselbe flach als Tabelle, mit °dH umgerechnet.
+- **`staedte.csv`**: dasselbe flach als Tabelle, mit °dH umgerechnet. Seit
+  Version 2026.09.25 mit der Karbonathärte als Spanne über alle Zonen
+  (`kh_min_dH`, `kh_max_dH`), getrennt davon die aus der Ionenbilanz
+  berechneten Werte (`kh_berechnet_min_dH`, `kh_berechnet_max_dH`), dazu
+  `kh_stand` und `kh_quelle_url`. Die Spalte `stand` bleibt leer, wenn der
+  Versorger kein Messjahr nennt.
 
 ## Die Extreme
 
