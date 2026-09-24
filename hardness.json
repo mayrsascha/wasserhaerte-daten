@@ -3994,9 +3994,9 @@
    "mg_l": 267.7,
    "band": "very hard",
    "source": "Stadtwerke Düsseldorf",
-   "source_url": "https://a.storyblok.com/f/274772/x/9e9ba42c93/trinkwasseranalyse-duesseldorf-2026.pdf",
-   "measured_on": "2025",
-   "note": "15.0 dH for the whole Düsseldorf supply area in both the Stadtwerke's analysis PDF and their web table (Hochbehälter Hardt, July 2025 to June 2026); their separate hardness page still says 'etwa 14,0 dH', an older figure; no per-works analyses (Am Staad, Flehe, Holthausen) are published",
+   "source_url": "https://www.swd-ag.de/privatkunden/trinkwasser/trinkwasseranalyse",
+   "measured_on": "2026",
+   "note": "15.0 dH for the whole Düsseldorf supply area in the Stadtwerke's web table (Hochbehälter Hardt, 1 July 2025 to 30 June 2026), which the analysis PDF confirms (Hochbehälter Hardt, July 2025 to June 2026); their separate hardness page still says 'etwa 14,0 dH', an older figure; no per-works analyses (Am Staad, Flehe, Holthausen) are published",
    "lat": 51.2232,
    "lon": 6.7793,
    "pfas": {
@@ -4026,7 +4026,7 @@
    "fresh_note": "Confirmed and corrected. Stadtwerke Duesseldorf's 'Trinkwasseranalyse 2026 (Stand Maerz 2026)' prints 15,0 dH twice - on the cover ('Die Wasserhaerte im gesamten Duesseldorfer Versorgungsgebiet betraegt 15 Grad deutscher Haerte') and in the Allgemeine Parameter table ('Gesamthaerte (Erdalkalisumme) °dH 15,0 / mmol/l 2,62'). 15,0 dH x 17,848 = 267,7 mg/l CaCO3, replacing the stored 249,9 (14,0 dH). The sheet's evaluation period is 'Hochbehaelter Hardt, Zeitraum: 01.01.2025-31.12.2025', so measured_on is the data year 2025 (the edition is titled 2026); this matches how Cologne, Karlsruhe and Hanover are dated in this dataset. source_url moved from https://www.swd-ag.de/pk/strom-gas-wasser/wasser/wasserhaerte/ - that page is alive but still says 'etwa 14,0 Grad deutscher Haerte', so it no longer supports the figure. CAVEAT worth carrying: the same sheet's cation rows are Calcium 65 mg/l (1,62 mmol/l) and Magnesium 8,6 mg/l (0,36 mmol/l), which sum to 1,98 mmol/l = about 11,1 dH, not the 2,62 mmol/l / 15,0 dH it prints. The utility's headline figure is taken as published, but its own sheet is internally inconsistent.",
    "carbonate_mg_l": 179.9,
    "carbonate_source_url": "https://www.swd-ag.de/privatkunden/trinkwasser/trinkwasseranalyse",
-   "carbonate_measured_on": "2025-07/2026-06",
+   "carbonate_measured_on": "2026",
    "checked_on": "2026-09-25",
    "carbonate_note": "from the acid capacity of 3.60 mmol/l in the Stadtwerke's web table for Hochbehälter Hardt (01.07.2025 to 30.06.2026), × 2.8; the 2026 PDF prints 2.00 mmol/l, but its own calcium (65) and magnesium (8.6) add up to only about 11 dH against its printed 15.0, so that sheet contradicts itself and the web table, whose ions balance, is used"
   },
