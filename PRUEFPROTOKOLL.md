@@ -586,3 +586,42 @@ Mönchengladbach (Übersicht nennt nur den Bereich „mittel“), Chemnitz
 
 26 Städte wurden unverändert bestätigt. Jede geprüfte Zeile trägt
 `checked_on: 2026-09-24` oder `2026-09-25`.
+
+## 29. September 2026: Nachprüfung vor der zweiten Pressewelle
+
+Vor jeder Pressewelle wird jede Zahl, die in einem Brief steht, noch einmal
+gegen ihr Dokument gehalten. Diesmal ergab das zwei Korrekturen:
+
+**Jena, korrigiert.** Die Zeile nannte 3,2 bis 30,2 °dH über neun Quellen und
+damit die größte Spanne des Datensatzes. Das Blatt von JenaWasser (Stand
+1. Dezember 2025) nennt aber zu jeder Quelle die Orte, die sie versorgt: Nur
+drei beliefern die Stadt Jena selbst, das Wasserwerk Burgau mit 18,6 °dH
+(Nord, Zentrum, Wenigenjena und die Ortsteile im Nordosten), das Wasserwerk
+Drackendorf mit 15,2 (Lobeda, Winzerla, Göschwitz, Burgau und der Südosten)
+und das Fernwasser aus Luisenthal mit 3,2 (West, Süd, Lichtenhain, Teil von
+Ammerbach). Die übrigen sechs, darunter Steudnitz mit 30,2 °dH, versorgen
+Gemeinden im Verbandsgebiet außerhalb der Stadt. Jena steht jetzt bei 3,2 bis
+18,6 °dH; die größte Spanne hat Erfurt. Derselbe Fehlertyp wie bei Würzburg
+am 14. September: ein Versorgungsgebiet des Stadtversorgers, das nicht zur
+Stadt gehört.
+
+**Halle (Saale), Anmerkung korrigiert, Wert unverändert.** Die Anmerkung
+nannte das Wasserwerk Beesen als Herkunft. Beesen ist seit 2007 außer Betrieb
+und wird gerade reaktiviert. Die HWS beschreibt das hallesche Wasser als
+Fernwasser aus der Rappbodetalsperre über die Ostharzleitung, aufbereitet im
+Wasserwerk Wienrode (4,1 °dH am Werksausgang); der Wert von 4,23 °dH ist das
+Jahresmittel 2025 im Netz.
+
+**Hildesheim** trägt jetzt den Mechanismus `blend`: Die Stadt trinkt eine
+Mischung aus Söse- und Granewasser und hat keine Versorgungsgebiete; die
+Seite sagt deshalb nicht mehr „hängt vom Versorgungsgebiet ab“.
+
+**Mönchengladbach:** ein verstümmelter Halbsatz in der Anmerkung wurde
+entfernt; die Werte sind unverändert.
+
+Bestätigt ohne Änderung, jeweils am Dokument: Karlsruhe 18,3 °dH, Regensburg
+16,9, Siegen 4,21 (Prüfbericht des Wasserverbands vom 21. Januar 2026; die
+SVB nennt weiter „durchschnittlich 4,5 °dH“), Osnabrück (Karte der SWO Netz
+für alle elf Gebiete „Mittel (8,4 bis 14 °dH)“, Netzproben 6,5 bis 18,4) und
+Pforzheim (die Adressabfrage der SWP meldet für die Zone Hohenwart 15 °dH,
+hart, Vollanalyse vom 28. April 2025).

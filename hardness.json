@@ -4505,7 +4505,7 @@
    "band": "moderately hard",
    "source": "Hallesche Wasser und Stadtwirtschaft (HWS)",
    "source_url": "https://hws-halle.de/produkte-dienstleistungen/trink-abwasser/trinkwasser/qualitaet",
-   "note": "from the Beesen works; water leaving the Wienrode works measures 4.1 dH; the 2025 mean analysis gives 0.75 mmol/l total hardness with 0.58 to 0.85 over the year",
+   "note": "the network annual mean 2025, 4.23 dH (0.75 mmol/l), with 0.58 to 0.85 mmol/l over the year; Halle drinks Fernwasser from the Rappbode reservoir via the Ostharzleitung, treated at the Wienrode works, 4.1 dH at the works outlet; HWS states that feed-in from the Elbaue-Südring (Torgau) plays no part in regular supply",
    "lat": 51.4816,
    "lon": 11.9795,
    "calcium_mg_l": 24.22,
@@ -6067,6 +6067,7 @@
   "DE/Hildesheim": {
    "mg_l": null,
    "band": "varies by supply zone",
+   "mechanism": "blend",
    "source": "EVI Energieversorgung Hildesheim",
    "source_url": "https://www.evi-hildesheim.de/evi/Produkte-fuer-Privatkunden/Wasser/Trinkwasseranalyse/",
    "note": "Hildesheim drinks a Harz mix from the Söse and Grane reservoirs; EVI's analysis page shows only the Söse part (Wasserwerk Söse I, annual mean 2025: 1.8 dH, carbonate 1.2), the Harzwasserwerke sheets for Grane I and II read 3.0 dH (carbonate 2.0), and EVI's price sheet of 1 January 2026 gives 3.2 dH for the mix; no sheet for the Hildesheim network itself is published, so the span covers both components",
@@ -6161,10 +6162,10 @@
    "band": "varies by supply zone",
    "source": "JenaWasser",
    "source_url": "https://www.jenawasser.de/fileadmin/inhalte/3_Trinkwasser/2025_Trinkwasserbeschaffenheit_alle_mit_Mibi.pdf",
-   "note": "nine sources, Stand 1 December 2025, from the soft Luisenthal reservoir water at 3.2 dH to the Steudnitz works at 30.2, the widest spread of any city in this dataset; carbonate hardness printed for every one of them; the utility answers by street",
+   "note": "three sources supply the city itself, per the JenaWasser sheet (Stand 1 December 2025) that names the districts each serves: Burgau 18.6 dH (north, centre and the eastern districts, most of the city), Drackendorf 15.2 (Lobeda, Winzerla, Göschwitz, Burgau and the south-east) and Fernwasser from the Luisenthal works 3.2 (West, Süd, Lichtenhain, part of Ammerbach); carbonate hardness printed for each; the other six sources on the same sheet, among them the Steudnitz works at 30.2 dH, supply villages in the JenaWasser association outside the city and were wrongly counted in an earlier version of this row; the utility answers by street",
    "range_mg_l": [
     57.1,
-    539.0
+    332.0
    ],
    "lat": 50.9288,
    "lon": 11.5899,
@@ -6198,63 +6199,28 @@
      "name": "Wasserwerk Burgau",
      "mg_l": 332.0,
      "carbonate_mg_l": 232.0,
-     "area": ""
+     "area": "Nord, Zentrum, Jenaprießnitz/Wogau, Kernberge, Kunitz/Laasan, Löbstedt, Wenigenjena, Ziegenhain, Zwätzen"
     },
     {
      "name": "Wasserwerk Drackendorf",
      "mg_l": 271.3,
      "carbonate_mg_l": 192.8,
-     "area": ""
+     "area": "Ammerbach Ort, Burgau, Drackendorf, Göschwitz, Ilmnitz, Beutenberg ohne Campus, Ringwiese, Leutra, Lobeda-Altstadt, Maua, Neulobeda, Winzerla, Wöllnitz"
     },
     {
      "name": "Fernwasser Luisenthal (Thüringer Fernwasserversorgung)",
      "mg_l": 57.1,
      "carbonate_mg_l": 58.9,
-     "area": ""
-    },
-    {
-     "name": "Wasserwerk Porstendorf",
-     "mg_l": 294.5,
-     "carbonate_mg_l": 224.9,
-     "area": ""
-    },
-    {
-     "name": "Wasserwerk Steudnitz",
-     "mg_l": 539.0,
-     "carbonate_mg_l": 296.3,
-     "area": ""
-    },
-    {
-     "name": "Wasserwerk Jenalöbnitz",
-     "mg_l": 296.3,
-     "carbonate_mg_l": 242.7,
-     "area": ""
-    },
-    {
-     "name": "Bezug Zweckverband Holzland, Tiefbrunnen Zeitzgrund",
-     "mg_l": 285.6,
-     "carbonate_mg_l": 226.7,
-     "area": ""
-    },
-    {
-     "name": "Bezug Zweckverband Holzland, Tiefbrunnen Kleinpürschitz",
-     "mg_l": 242.7,
-     "carbonate_mg_l": 210.6,
-     "area": ""
-    },
-    {
-     "name": "Bezug Zweckverband Eisenberg, Wasserwerk Ullrichsberg",
-     "mg_l": 282.0,
-     "carbonate_mg_l": 221.3,
-     "area": ""
+     "area": "Teil Ammerbachs (Ammerbacher Oberweg, oberer Coppanzer Weg), Lichtenhain, Süd ohne Ringwiese, West, Münchenroda/Remderoda"
     }
    ],
    "carbonate_range_mg_l": [
     58.9,
-    296.3
+    232.0
    ],
    "carbonate_source_url": "https://www.jenawasser.de/fileadmin/inhalte/3_Trinkwasser/2025_Trinkwasserbeschaffenheit_alle_mit_Mibi.pdf",
-   "carbonate_measured_on": "2025"
+   "carbonate_measured_on": "2025",
+   "checked_on": "2026-09-29"
   },
   "DE/Kaiserslautern": {
    "mg_l": null,
@@ -7400,7 +7366,7 @@
    "band": "varies by supply zone",
    "source": "NEW",
    "source_url": "https://trinkwasseranalyse.new.de/",
-   "note": "six waterworks feed the city and NEW's address lookup names the one behind a street, with a full analysis beside it: Rasseln 12.1 dH, Gatzweiler 12.2, Hoppbruch 12.9, Helenabrunn 13.9, Rheindahlen 14.2 and Reststrauch 14.9, sampled in the first three weeks of January 2026; NEW's overview page puts the whole city in the band 'mittel' (8.4 to 14 dH), a classification rather than a measurement; the works analyses for Rheydt (Reststrauch 14.9) and Rheindahlen (14.2) sit just above it.4 to 14 dH, which its two hardest works exceed; carbonate hardness runs from 3 dH at Rasseln to 10.2 at Reststrauch",
+   "note": "six waterworks feed the city and NEW's address lookup names the one behind a street, with a full analysis beside it: Rasseln 12.1 dH, Gatzweiler 12.2, Hoppbruch 12.9, Helenabrunn 13.9, Rheindahlen 14.2 and Reststrauch 14.9, sampled in the first three weeks of January 2026; NEW's overview page puts the whole city in the band 'mittel' (8.4 to 14 dH), a classification rather than a measurement; the works analyses for Rheydt (Reststrauch 14.9) and Rheindahlen (14.2) sit just above it; carbonate hardness runs from 3 dH at Rasseln to 10.2 at Reststrauch",
    "range_mg_l": [
     216.0,
     265.9
