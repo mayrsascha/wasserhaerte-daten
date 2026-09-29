@@ -625,3 +625,21 @@ SVB nennt weiter „durchschnittlich 4,5 °dH“), Osnabrück (Karte der SWO Net
 für alle elf Gebiete „Mittel (8,4 bis 14 °dH)“, Netzproben 6,5 bis 18,4) und
 Pforzheim (die Adressabfrage der SWP meldet für die Zone Hohenwart 15 °dH,
 hart, Vollanalyse vom 28. April 2025).
+
+**Unabhängige Nachprüfung am selben Tag.** Frische Prüfer haben jede Zahl der Briefe
+erneut am Dokument gehalten. Korrigiert:
+- *Karlsruhe*: Die Stadtwerke veröffentlichen drei Blätter für 2025 (Karlsruher
+  Wasserwerke 18,3 °dH, Wasserwerk Rheinwald 17,8, Höhenstadtteile 18,6). Die
+  Karbonathärte steht dort gedruckt als 2,71 mmol/l, also 15,2 °dH; die Zeile hatte
+  15,3 aus der Säurekapazität umgerechnet. Gedruckte Werte gehen vor.
+- *Osnabrück*: Der niedrigste Thiene-Wert 6,5 °dH stammt vom 8. August 2024, nicht
+  aus 2025; neu ist die Probe Klöcknerstraße vom 8. September 2026 mit 6,7 °dH. Die
+  18,4 °dH an der Albrechtstraße (23. April 2026) sind ein Ausreißer; von den sieben
+  erweiterten Proben aus 2026 liegen drei außerhalb von „mittel“.
+- *Pforzheim*: Die Adressabfrage der SWP zeigt für die drei Zonen mit
+  Grösseltal-Mischwasser 4,5 °dH, die verlinkte Analyse (HB Sonnenberg, 20. Januar
+  2026) 7,3; der Datensatz nutzt den Wert der Analyse.
+- Neues Feld `range_kind` für Städte mit einem Wert und einer Spanne: `time` (dasselbe
+  Netz über das Jahr: München, Halle, Hannover, St. Gallen) oder `samples`
+  (Einzelmessungen); ohne das Feld ist die Spanne räumlich.
+- Zonenbeschreibungen (`area`) sind jetzt deutsch.

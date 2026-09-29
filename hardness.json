@@ -544,7 +544,7 @@
      "name": "Repräsentative Netzprobe (VZ Lehenhof)",
      "mg_l": 121.4,
      "carbonate_mg_l": 107.1,
-     "area": "network sample, Trinkwasserinformation 10 April 2026"
+     "area": "Netzprobe, Trinkwasserinformation vom 10. April 2026"
     }
    ],
    "carbonate_source_url": "https://www.stwk.at/fileadmin/Stadtwerke/Downloads/Wasser_und_Abwasser/2026-04_STWK_Pr%C3%BCfbericht-TB-F%C3%BCrh%C3%B6lzl-Hofinger-Quelle.pdf",
@@ -1015,6 +1015,7 @@
    "carbonate_measured_on": "2026"
   },
   "AT/Wels": {
+   "range_kind": "samples",
    "mg_l": 171.3,
    "band": "hard",
    "source": "eww ag",
@@ -1464,6 +1465,7 @@
    "carbonate_source_url": "https://ewb.ch/media/docs/pdf/diverses/trinkwasseranalysen-2021-2025.pdf"
   },
   "CH/Biel": {
+   "range_kind": "samples",
    "mg_l": 117.0,
    "band": "moderately hard",
    "source": "Energie Service Biel/Bienne",
@@ -1544,6 +1546,7 @@
    }
   },
   "CH/Fribourg": {
+   "range_kind": "samples",
    "mg_l": 280.0,
    "band": "very hard",
    "source": "SINEF SA",
@@ -2227,6 +2230,7 @@
    "carbonate_note": "eaudesion.ch, oiken.ch and the three trinkwasser.ch zone sheets carry dureté totale only"
   },
   "CH/St. Gallen": {
+   "range_kind": "time",
    "mg_l": 168.0,
    "band": "hard",
    "source": "St.Galler Stadtwerke",
@@ -2322,6 +2326,7 @@
    "carbonate_note": "the 2025 information sheet carries Gesamthärte, nitrate, calcium and magnesium only; the cantonal laboratory publishes no Thal analysis with bicarbonate"
   },
   "CH/Winterthur": {
+   "range_kind": "samples",
    "mg_l": 271.0,
    "band": "very hard",
    "source": "Stadtwerk Winterthur",
@@ -2388,6 +2393,7 @@
    ]
   },
   "CH/Zug": {
+   "range_kind": "samples",
    "mg_l": 248.0,
    "band": "very hard",
    "source": "WWZ AG",
@@ -3303,7 +3309,7 @@
      "name": "Bochum ohne Langendreer und Werne",
      "mg_l": 130.3,
      "carbonate_mg_l": 96.4,
-     "area": "Essen-Horst and Witten water in changing shares",
+     "area": "Wasser aus Essen-Horst und Witten in wechselnden Anteilen",
      "source_url": "https://www.stadtwerke-bochum.de/fileadmin/Dateien/PDF/Sonstiges/Wasser/Trinkwasseranalyse_Bochum_ohne_Langendreer_und_Werne.pdf"
     },
     {
@@ -4501,6 +4507,7 @@
    "carbonate_note": "from the acid capacity Ks(4,3) 1.74 mol/m³, which is 1.74 mmol/l"
   },
   "DE/Halle (Saale)": {
+   "range_kind": "time",
    "mg_l": 75.5,
    "band": "moderately hard",
    "source": "Hallesche Wasser und Stadtwirtschaft (HWS)",
@@ -5838,6 +5845,7 @@
    }
   },
   "DE/Hanover": {
+   "range_kind": "time",
    "mg_l": 214.2,
    "band": "very hard",
    "source": "enercity",
@@ -6298,7 +6306,7 @@
    "source": "Stadtwerke Karlsruhe",
    "source_url": "https://www.stadtwerke-karlsruhe.de/wMedia/docs/service/infomaterial/produkte/Trinkwasser-Jahresmittelwerte-KA.pdf",
    "measured_on": "2025",
-   "note": "the 2025 annual means for water from the Karlsruhe works (18.3 dH); the Hoehenstadtteile drink water from the Luss reservoir sheet at 18.6 dH",
+   "note": "the Stadtwerke publish three 2025 annual-mean sheets: the Karlsruhe works 18.3 dH (the headline figure, most of the city), the Rheinwald works 17.8 and the Hoehenstadtteile, supplied from the Luss reservoir, 18.6; carbonate hardness as printed in mmol/l, 2.71, 2.68 and 2.78 (15.2, 15.0 and 15.6 dH); an earlier version of this row converted the acid capacity to 15.3 instead of using the printed value",
    "lat": 49.0094,
    "lon": 8.4044,
    "calcium_mg_l": 114.2,
@@ -6329,9 +6337,41 @@
     "checked_on": "2026-09-05",
     "note": "Jahresmittelwerte 2025, Untersuchungslabor TZW Karlsruhe. 'n.b.' = nicht bestimmbar/nicht nachweisbar, kein Zahlenwert. Die Bestimmungsgrenze wird nicht beziffert, daher loq=null. Wichtige Fußnote 3 im Original: 'Vereinzelt können bei Untersuchungen PFAS in Konzentrationen knapp über der Bestimmungsgrenze nachgewiesen werden, die beim berechneten Mittelwert nicht mehr erkennbar sind.' – das 'n.b.' ist also ein Jahresmittel, nicht die Aussage, dass nie etwas nachgewiesen wurde. Fußnote 4: Grenzwert PFAS-4 gilt ab 12.01.2028."
    },
-   "carbonate_mg_l": 273.8,
+   "carbonate_mg_l": 271.2,
    "carbonate_source_url": "https://www.stadtwerke-karlsruhe.de/wMedia/docs/service/infomaterial/produkte/Trinkwasser-Jahresmittelwerte-KA.pdf",
-   "carbonate_measured_on": "2026"
+   "carbonate_measured_on": "2026",
+   "range_mg_l": [
+    317.7,
+    332.0
+   ],
+   "carbonate_range_mg_l": [
+    268.2,
+    278.3
+   ],
+   "zones": [
+    {
+     "name": "Karlsruher Wasserwerke",
+     "mg_l": 326.6,
+     "carbonate_mg_l": 271.2,
+     "area": "",
+     "source_url": "https://www.stadtwerke-karlsruhe.de/wMedia/docs/service/infomaterial/produkte/Trinkwasser-Jahresmittelwerte-KA.pdf"
+    },
+    {
+     "name": "Wasserwerk Rheinwald",
+     "mg_l": 317.7,
+     "carbonate_mg_l": 268.2,
+     "area": "",
+     "source_url": "https://www.stadtwerke-karlsruhe.de/wMedia/docs/service/infomaterial/produkte/Trinkwasser-Jahresmittelwerte-WWRW.pdf"
+    },
+    {
+     "name": "Höhenstadtteile (Luss)",
+     "mg_l": 332.0,
+     "carbonate_mg_l": 278.3,
+     "area": "Höhenstadtteile",
+     "source_url": "https://www.stadtwerke-karlsruhe.de/wMedia/docs/service/infomaterial/produkte/Trinkwasser-Jahresmittelwerte-Hoehenstadtteile.pdf"
+    }
+   ],
+   "checked_on": "2026-09-29"
   },
   "DE/Kassel": {
    "mg_l": null,
@@ -7231,6 +7271,7 @@
    "carbonate_note": "from the acid capacity of both works"
   },
   "DE/Munich": {
+   "range_kind": "time",
    "mg_l": 282.0,
    "band": "very hard",
    "source": "Stadtwerke München",
@@ -7690,7 +7731,7 @@
    "band": "varies by supply zone",
    "source": "Stadtwerke Osnabrück",
    "source_url": "https://karten.swo-netz.de/trinkwasserhaerte/",
-   "note": "the zone map shows only the band 'Mittel (8,4 bis 14 dH)' for every zone; the extended B test reports per zone print the measured total hardness and acid capacity: Düstrup 9.5 dH, Wittefeld 7.6 to 12.2, Thiene 6.5 to 9.1 in 2025 and 18.4 at Albrechtstraße on 23 April 2026, harder than the band the utility shows; zones are at times fed by two or three works at once. The report PDFs are served over HTTP/2 only.",
+   "note": "the zone map shows only the band 'Mittel (8,4 bis 14 dH)' for every zone; the extended B test reports per zone print the measured total hardness and acid capacity: Düstrup 9.5 dH, Wittefeld 7.6 to 12.2, Thiene mostly 6.5 to 9.1 in the samples of 2024 to 2026 (Heinrichstraße 6.52 on 8 August 2024, Klöcknerstraße 6.69 on 8 September 2026) and one outlier of 18.4 at Albrechtstraße on 23 April 2026, harder than the band the utility shows; of the seven extended network samples of 2026, three fall outside the band, two soft and one hard; zones are at times fed by two or three works at once. The report PDFs are served over HTTP/2 only.",
    "range_mg_l": [
     116.4,
     328.4
@@ -7747,7 +7788,7 @@
       104.9,
       109.9
      ],
-     "area": "B samples Zum Himmelreich 23.04.2026, Jellinghausstr. 04.03.2026"
+     "area": "Proben Zum Himmelreich (23.04.2026) und Jellinghausstraße (04.03.2026)"
     },
     {
      "name": "Trinkwasserzone Wittefeld",
@@ -7759,7 +7800,7 @@
       70.0,
       99.9
      ],
-     "area": "B samples Knollstr. 23.04.2026, Widukindplatz 02.09.2026"
+     "area": "Proben Knollstraße (23.04.2026) und Widukindplatz (02.09.2026)"
     },
     {
      "name": "Trinkwasserzone Thiene",
@@ -7771,7 +7812,7 @@
       50.0,
       259.9
      ],
-     "area": "B samples 2025 (Leyer Str., Johannistorwall, Heinrichstr.) 6.5 to 9.1 dH; Albrechtstr. 23.04.2026 18.4 dH"
+     "area": "Proben 2024 bis 2026 meist 6,5 bis 9,1 °dH (Heinrichstraße 6,5 am 08.08.2024, Klöcknerstraße 6,7 am 08.09.2026); Ausreißer Albrechtstraße 18,4 °dH am 23.04.2026"
     }
    ],
    "checked_on": "2026-09-24"
@@ -7781,7 +7822,7 @@
    "band": "varies by supply zone",
    "source": "Stadtwerke Pforzheim (SWP)",
    "source_url": "https://www.stadtwerke-pforzheim.de/trinkwasser/trinkwasserqualitaet-und-preise/",
-   "note": "six different waters, each with its own full analysis: soft to medium in most of the city, 7.3 to 9.1 dH, but Hohenwart gets a Wuermtal and Bodensee blend at 15 dH and is hard; the utility's address lookup names the water for a street and links its analysis; five of the six analyses print a carbonate hardness, 6 to 7.5 dH; Hohenwart is not supplied from SWP's own works but by the Zweckverband Wasserversorgung der Gebietsgemeinden, which is why SWP's headline '6 bis 9 dH in ganz Pforzheim' does not hold there",
+   "note": "six different waters, each with its own full analysis: soft to medium in most of the city, 7.3 to 9.1 dH, but Hohenwart gets a Wuermtal and Bodensee blend at 15 dH and is hard; the utility's address lookup names the water for a street and links its analysis; five of the six analyses print a carbonate hardness, 6 to 7.5 dH; the lookup's own summary shows 4.5 dH for the three Grösseltal-blend zones while the analysis it links (HB Sonnenberg, 20 January 2026) prints 7.3, the value used here; Hohenwart is not supplied from SWP's own works but by the Zweckverband Wasserversorgung der Gebietsgemeinden, which is why SWP's headline '6 bis 9 dH in ganz Pforzheim' does not hold there",
    "range_mg_l": [
     130.3,
     267.7
@@ -8361,7 +8402,7 @@
      "name": "Wasserwerk Kylltal",
      "mg_l": 166.0,
      "carbonate_mg_l": 148.1,
-     "area": "left of the Moselle: Ehrang, Biewer, Euren, Zewen; report of 2 December 2025"
+     "area": "links der Mosel: Ehrang, Biewer, Euren, Zewen; Bericht vom 2. Dezember 2025"
     }
    ],
    "carbonate_note": "both works print \"Karbonathärte berechnet\": Irsch 4.1 dH (report of 1 December 2025), Kylltal 8.3 dH (report of 2 December 2025, https://www.swt.de/api/media/file/Bericht%20Wasserwerk%20Kylltal%2002.12.2025-1.pdf)",
@@ -8471,25 +8512,25 @@
      "name": "Taunusgewinnung (WB Klosterbruch)",
      "mg_l": 30.2,
      "carbonate_mg_l": 23.2,
-     "area": "Taunus tunnel water, sample 24 June 2025"
+     "area": "Taunusstollen-Wasser, Probe vom 24. Juni 2025"
     },
     {
      "name": "Naurod-Niedernhausen",
      "mg_l": 128.7,
      "carbonate_mg_l": 99.9,
-     "area": "sample DE Naurod, Behälter, Ablauf, 5 January 2024"
+     "area": "Probe Behälter Naurod, Ablauf, 5. Januar 2024"
     },
     {
      "name": "Wasserwerk Schierstein-Petersaue",
      "mg_l": 248.1,
      "carbonate_mg_l": 185.6,
-     "area": "sample 12 February 2025"
+     "area": "Probe vom 12. Februar 2025"
     },
     {
      "name": "Hessisches Ried (Nordenstadt)",
      "mg_l": 346.3,
      "carbonate_mg_l": 253.4,
-     "area": "sample 27 June 2025"
+     "area": "Probe vom 27. Juni 2025"
     }
    ],
    "checked_on": "2026-09-24"
@@ -9786,6 +9827,7 @@
    "checked_on": "2026-09-24"
   },
   "IT/Bressanone": {
+   "range_kind": "samples",
    "mg_l": 40.0,
    "range_mg_l": [
     30.0,
