@@ -82,6 +82,44 @@ Version; jede Quartalsprüfung bekommt eine eigene. Details in `CITATION.cff` un
   `kh_stand` und `kh_quelle_url`. Die Spalte `stand` bleibt leer, wenn der
   Versorger kein Messjahr nennt.
 
+- **`wasserhaerte.json`**: dieselben Städte als Datenfeed, ein Eintrag pro
+  Stadt, mit °dH-Werten, Postleitzahlen und dem Link zur Stadtseite. Für
+  Partner, die die Datei einbinden und bei jedem Release austauschen. Details
+  unten.
+
+### Feldnamen in `wasserhaerte.json` (schema_version 1)
+
+Feldnamen bleiben stabil: Neue Felder können dazukommen, bestehende werden
+nicht umbenannt oder entfernt, ohne `schema_version` zu erhöhen. Fehlt ein Wert
+beim Versorger, steht `null`.
+
+Kopf: `name`, `publisher`, `schema_version`, `licence`, `licence_url`,
+`version`, `updated_on`, `checked_on`, `doi` (Konzept-DOI, zeigt immer auf die
+neueste Version), `cities`.
+
+Je Stadt in `cities`:
+
+| Feld | Inhalt |
+|---|---|
+| `country`, `city`, `slug`, `state`, `district`, `municipality_key` | Land (ISO), Name, URL-Kürzel, Bundesland, Kreis, Gemeindeschlüssel |
+| `url` | Stadtseite auf aquascala.de (Quelle und Stand zum Nachprüfen) |
+| `postcodes` | Liste der Postleitzahlen der Stadt |
+| `hardness_dh`, `hardness_mg_l_caco3`, `hardness_mmol_l` | Gesamthärte, wenn der Versorger eine Zahl für die Stadt nennt |
+| `range_low_dh`, `range_high_dh` (auch `_mg_l`) | Spanne der Gesamthärte über Zonen, Wasserwerke oder das Jahr |
+| `carbonate_dh`, `carbonate_low_dh`, `carbonate_high_dh` | Karbonathärte, gedruckt oder aus Säurekapazität bzw. Hydrogencarbonat umgerechnet |
+| `carbonate_derived_low_dh`, `carbonate_derived_high_dh` | Karbonathärte aus der Ionenbilanz berechnet, getrennt gekennzeichnet |
+| `ph`, `calcium_mg_l`, `magnesium_mg_l`, `nitrate_mg_l`, `sodium_mg_l` | weitere Werte, soweit veröffentlicht |
+| `band_national`, `band_international`, `appliance_levels` | Härtebereich national und nach WHO/USGS, Gerätestufen |
+| `source`, `source_url`, `measured_on`, `checked_on` | Versorger, Quelle, Messjahr, letzte Prüfung |
+| `carbonate_source_url`, `carbonate_measured_on` | Quelle und Stand der Karbonathärte, wenn abweichend |
+| `lat`, `lon`, `licence` | Koordinaten, Lizenz |
+| `zone_count`, `zones` | Zahl und Liste der Versorgungszonen |
+
+Je Zone in `zones`: `name`, `area`, `dh` oder `range_dh`, `carbonate_dh` oder
+`carbonate_range_dh`, `carbonate_derived_dh` oder `carbonate_derived_range_dh`
+(berechnet), `measured_on`, `source_url`; dieselben Werte auch in mg/L CaCO₃
+(`mg_l`, `range_mg_l`, …).
+
 ## Die Extreme
 
 Welche Städte das härteste und das weichste Wasser haben, steht in der jährlichen
