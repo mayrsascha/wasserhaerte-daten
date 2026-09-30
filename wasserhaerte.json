@@ -4,9 +4,9 @@
   "schema_version": 1,
   "licence": "CC BY 4.0",
   "licence_url": "https://creativecommons.org/licenses/by/4.0/",
-  "version": "2026.09.29",
+  "version": "2026.09.30",
   "generated_on": "2026-09-01",
-  "updated_on": "2026-09-29",
+  "updated_on": "2026-09-30",
   "checked_on": "2026-09-29",
   "doi": "https://doi.org/10.5281/zenodo.22666436",
   "cities": [
@@ -62,6 +62,7 @@
       "carbonate_measured_on": "2025",
       "carbonate_source_url": "https://www.stawag.de/fileadmin/stawag/content/Dokumente/Wasser/Trinkwasseranalyse_Aachen_2024.pdf",
       "zone_count": 2,
+      "range_kind": "areas",
       "zones": [
         {
           "name": "Innenstadt (Grundwasser)",
@@ -139,7 +140,8 @@
       "carbonate_derived_high_dh": null,
       "carbonate_measured_on": "2025",
       "carbonate_source_url": "https://www.wasserwerke-westfalen.de/wasser/trinkwasserqualitaet/trinkwasseranalyse",
-      "zone_count": 0
+      "zone_count": 0,
+      "range_kind": null
     },
     {
       "country": "DE",
@@ -197,7 +199,8 @@
       "carbonate_derived_high_dh": null,
       "carbonate_measured_on": "2026",
       "carbonate_source_url": "https://www.sw-augsburg.de/fileadmin/content/6_pdf_Downloadcenter/2_Wasser/Qualitaet/swa_26_Trinkwasseranalyse.pdf",
-      "zone_count": 0
+      "zone_count": 0,
+      "range_kind": null
     },
     {
       "country": "CH",
@@ -243,6 +246,7 @@
       "carbonate_measured_on": null,
       "carbonate_source_url": null,
       "zone_count": 4,
+      "range_kind": "areas",
       "zones": [
         {
           "name": "Baden",
@@ -367,6 +371,7 @@
       "carbonate_measured_on": "2025",
       "carbonate_source_url": "https://www.iwb.ch/klimadreh/ratgeber/sauberes-trinkwasser/welche-bestandteile-sind-im-trinkwasser",
       "zone_count": 2,
+      "range_kind": "areas",
       "zones": [
         {
           "name": "Hard / Zentrale West",
@@ -432,7 +437,8 @@
       "carbonate_derived_high_dh": null,
       "carbonate_measured_on": "2026",
       "carbonate_source_url": "https://www.belkaw.de/trinkwasseranalyse-belkaw-2026.pdfx",
-      "zone_count": 0
+      "zone_count": 0,
+      "range_kind": null
     },
     {
       "country": "DE",
@@ -666,7 +672,8 @@
       "carbonate_derived_high_dh": null,
       "carbonate_measured_on": "2024",
       "carbonate_source_url": "https://www.bwb.de/de/analysedaten-nach-postleitzahlen.php",
-      "zone_count": 0
+      "zone_count": 0,
+      "range_kind": "areas"
     },
     {
       "country": "CH",
@@ -727,6 +734,7 @@
       "carbonate_measured_on": "2021-2025",
       "carbonate_source_url": "https://ewb.ch/media/docs/pdf/diverses/trinkwasseranalysen-2021-2025.pdf",
       "zone_count": 3,
+      "range_kind": "areas",
       "zones": [
         {
           "name": "Emmental, Reservoir Mannenberg",
@@ -797,7 +805,8 @@
       "carbonate_derived_high_dh": 5.6,
       "carbonate_measured_on": null,
       "carbonate_source_url": null,
-      "zone_count": 0
+      "zone_count": 0,
+      "range_kind": "samples"
     },
     {
       "country": "DE",
@@ -859,6 +868,7 @@
       "carbonate_measured_on": "2025",
       "carbonate_source_url": "https://www.stadtwerke-bielefeld.de/privatkunden/wasser/trinkwasser/wasserversorgung/",
       "zone_count": 15,
+      "range_kind": "areas",
       "zones": [
         {
           "name": "Wasserwerk 01",
@@ -1042,6 +1052,7 @@
       "carbonate_measured_on": "2026-Q2",
       "carbonate_source_url": "https://www.stadtwerke-bochum.de/fileadmin/Dateien/PDF/Sonstiges/Wasser/Trinkwasseranalyse_Bochum_ohne_Langendreer_und_Werne.pdf",
       "zone_count": 2,
+      "range_kind": "areas",
       "zones": [
         {
           "name": "Bochum ohne Langendreer und Werne",
@@ -1105,7 +1116,8 @@
       "carbonate_derived_high_dh": null,
       "carbonate_measured_on": "2025",
       "carbonate_source_url": "https://umwelt.provinz.bz.it/de/wasser/oeffentliche-trinkwasserleitungen",
-      "zone_count": 0
+      "zone_count": 0,
+      "range_kind": "areas"
     },
     {
       "country": "DE",
@@ -1166,6 +1178,7 @@
       "carbonate_measured_on": "2025",
       "carbonate_source_url": "https://www.stadtwerke-bonn.de/fileadmin/download-center/PDFs/Wasser/Wasseranalyse_2025.pdf",
       "zone_count": 3,
+      "range_kind": "areas",
       "zones": [
         {
           "name": "Versorgungsbereich I",
@@ -1240,6 +1253,7 @@
       "carbonate_measured_on": "2025",
       "carbonate_source_url": "https://www.rww.de/trinkwasser/wasserqualitaet/trinkwasseranalysen",
       "zone_count": 2,
+      "range_kind": "areas",
       "zones": [
         {
           "name": "Versorgungsbereich West und Nord",
@@ -1346,7 +1360,8 @@
       "carbonate_derived_high_dh": null,
       "carbonate_measured_on": "2026",
       "carbonate_source_url": "https://www.bs-energy.de/fileadmin/BSEnergy/Main_Menu/Privatkunden/Wasser/Wasseranalysen/Trinkwasser_Vollanalyse_2026.pdf",
-      "zone_count": 0
+      "zone_count": 0,
+      "range_kind": null
     },
     {
       "country": "AT",
@@ -1390,7 +1405,8 @@
       "carbonate_derived_high_dh": null,
       "carbonate_measured_on": "2026",
       "carbonate_source_url": "https://www.stadtwerke-bregenz.at/wasser-kanal-muell/wasserqualitaet",
-      "zone_count": 0
+      "zone_count": 0,
+      "range_kind": "areas"
     },
     {
       "country": "DE",
@@ -1468,6 +1484,7 @@
       "carbonate_measured_on": "2026",
       "carbonate_source_url": "https://www.swb.de/-/media/files/wasser/trinkwasser-analyse-bremen.pdf",
       "zone_count": 4,
+      "range_kind": "areas",
       "zones": [
         {
           "name": "Versorgungsbereich 1, Bremen-Nord",
@@ -1552,6 +1569,7 @@
       "carbonate_measured_on": "2026",
       "carbonate_source_url": "https://www.swb.de/-/media/files/wasser/trinkwasser-analyse-bremerhaven.pdf",
       "zone_count": 3,
+      "range_kind": "areas",
       "zones": [
         {
           "name": "Wasserwerke Langen",
@@ -1621,7 +1639,8 @@
       "carbonate_derived_high_dh": null,
       "carbonate_measured_on": "2025",
       "carbonate_source_url": "https://umwelt.provinz.bz.it/de/wasser/oeffentliche-trinkwasserleitungen",
-      "zone_count": 0
+      "zone_count": 0,
+      "range_kind": "samples"
     },
     {
       "country": "IT",
@@ -1665,7 +1684,8 @@
       "carbonate_derived_high_dh": null,
       "carbonate_measured_on": "2025",
       "carbonate_source_url": "https://umwelt.provinz.bz.it/de/wasser/oeffentliche-trinkwasserleitungen",
-      "zone_count": 0
+      "zone_count": 0,
+      "range_kind": "areas"
     },
     {
       "country": "DE",
@@ -1712,7 +1732,8 @@
       "carbonate_derived_high_dh": null,
       "carbonate_measured_on": "2025",
       "carbonate_source_url": "https://www.wasserwerke-westfalen.de/wasser/trinkwasserqualitaet/trinkwasseranalyse",
-      "zone_count": 0
+      "zone_count": 0,
+      "range_kind": null
     },
     {
       "country": "DE",
@@ -1775,6 +1796,7 @@
       "carbonate_measured_on": "2025",
       "carbonate_source_url": "https://www.eins.de/privatkunden/wasser/trinkwasseranalyse",
       "zone_count": 2,
+      "range_kind": "areas",
       "zones": [
         {
           "name": "Wasserwerk Einsiedel",
@@ -1914,7 +1936,8 @@
       "carbonate_derived_high_dh": null,
       "carbonate_measured_on": "2026",
       "carbonate_source_url": "https://web.cdn.rheinenergie.com/cms/media/documents/trinkwasseranalyse/Trinkwasseranalyse_Linksrheinisch.pdf",
-      "zone_count": 0
+      "zone_count": 0,
+      "range_kind": "areas"
     },
     {
       "country": "DE",
@@ -1968,6 +1991,7 @@
       "carbonate_measured_on": "2026",
       "carbonate_source_url": "https://lausitzer-wasser.de/de/trinkwasser/wasserqualitaet.html",
       "zone_count": 2,
+      "range_kind": "areas",
       "zones": [
         {
           "name": "Wasserwerk Cottbus-Sachsendorf",
@@ -2052,7 +2076,8 @@
       "carbonate_derived_high_dh": null,
       "carbonate_measured_on": "2025",
       "carbonate_source_url": "https://www.entega.ag/fileadmin/downloads/vertrieb/trinkwasser_darmstadt.pdf",
-      "zone_count": 0
+      "zone_count": 0,
+      "range_kind": "areas"
     },
     {
       "country": "AT",
@@ -2097,6 +2122,7 @@
       "carbonate_measured_on": "2019",
       "carbonate_source_url": "https://www.dornbirn.at/fileadmin/www.dornbirn.at/Kommunikation/Dokumente/Gemeindeblatt_2020/Gemeindeblatt-Nr-8-vom-21-02-2020.pdf",
       "zone_count": 4,
+      "range_kind": "areas",
       "zones": [
         {
           "name": "Quellen Ebnitertal (Messstelle Filteranlage Fussenegg)",
@@ -2237,6 +2263,7 @@
       "carbonate_measured_on": "2025",
       "carbonate_source_url": "https://www.wasserwerke-westfalen.de/wasser/trinkwasserqualitaet/trinkwasseranalyse",
       "zone_count": 4,
+      "range_kind": "areas",
       "zones": [
         {
           "name": "Wasserwerk Witten",
@@ -2344,6 +2371,7 @@
       "carbonate_measured_on": "2025",
       "carbonate_source_url": "https://www.sachsenenergie.de/wps/wcm/connect/energie/9c1ef089-a1fe-44b4-87bd-2e9023818c25/Analysedaten-Coschuetz-Hosterwitz-Tolkewitz.pdf?MOD=AJPERES",
       "zone_count": 6,
+      "range_kind": "areas",
       "zones": [
         {
           "name": "Wasserwerk Coschütz",
@@ -2450,6 +2478,7 @@
       "carbonate_measured_on": "2025",
       "carbonate_source_url": "https://www.stadtwerke-duisburg.de/privatkunden/themen/trinkwasser-fuer-duisburg",
       "zone_count": 4,
+      "range_kind": "areas",
       "zones": [
         {
           "name": "Versorgungsgebiet Nord",
@@ -2563,7 +2592,8 @@
       "carbonate_derived_high_dh": null,
       "carbonate_measured_on": "2026",
       "carbonate_source_url": "https://www.swd-ag.de/privatkunden/trinkwasser/trinkwasseranalyse",
-      "zone_count": 0
+      "zone_count": 0,
+      "range_kind": null
     },
     {
       "country": "DE",
@@ -2621,6 +2651,7 @@
       "carbonate_measured_on": null,
       "carbonate_source_url": "https://www.swe-energie.de/energie/home/themenwelt/erfurter-wasser",
       "zone_count": 6,
+      "range_kind": "areas",
       "zones": [
         {
           "name": "Fernwasser (Ohratalsperre)",
@@ -2717,7 +2748,8 @@
       "carbonate_derived_high_dh": null,
       "carbonate_measured_on": "2025",
       "carbonate_source_url": "https://www.estw.de/de/Energie-Wasser/Wasser/Trinkwasserqualitaet/Wasserhaerte-in-Grenzen/Wasserhaerte-in-Grenzen.html",
-      "zone_count": 0
+      "zone_count": 0,
+      "range_kind": "areas"
     },
     {
       "country": "DE",
@@ -2792,7 +2824,8 @@
       "carbonate_derived_high_dh": null,
       "carbonate_measured_on": "2026",
       "carbonate_source_url": "https://www.stadtwerke-essen.de/fileadmin/user_upload/pdf/netz/2025_00-0350_SWE.pdf",
-      "zone_count": 0
+      "zone_count": 0,
+      "range_kind": null
     },
     {
       "country": "AT",
@@ -2837,6 +2870,7 @@
       "carbonate_measured_on": "2025",
       "carbonate_source_url": "https://www.stadtwerke-feldkirch.at/fileadmin/user_upload/document/Stadtwerke_Feldkirch/Wasser/2026_Quellwasseruntersuchung_Bereich_Samina.pdf",
       "zone_count": 4,
+      "range_kind": "areas",
       "zones": [
         {
           "name": "Quellwasser Samina",
@@ -2953,6 +2987,7 @@
       "carbonate_measured_on": "2025",
       "carbonate_source_url": "https://www.mainova.de/de/wtrhrd/download/RI.pdf",
       "zone_count": 7,
+      "range_kind": "areas",
       "zones": [
         {
           "name": "Südwest (Ried)",
@@ -3157,6 +3192,7 @@
       "carbonate_measured_on": "2026",
       "carbonate_source_url": "https://www.badenova.de/privatkunden/wasser/wasserversorgung-in-freiburg",
       "zone_count": 4,
+      "range_kind": "areas",
       "zones": [
         {
           "name": "Versorgungsbereich 1",
@@ -3234,7 +3270,8 @@
       "carbonate_derived_high_dh": 15.1,
       "carbonate_measured_on": null,
       "carbonate_source_url": null,
-      "zone_count": 0
+      "zone_count": 0,
+      "range_kind": "samples"
     },
     {
       "country": "DE",
@@ -3283,6 +3320,7 @@
       "carbonate_measured_on": "2026",
       "carbonate_source_url": "https://www.oberasbach.de/fileadmin/Gemeinde/Buergerservice_und_Politik/Ver-_und_Entsorgung/20260910_Trinkwasserbeschaffenheit.pdf",
       "zone_count": 2,
+      "range_kind": "areas",
       "zones": [
         {
           "name": "Hochdruckzone",
@@ -3352,7 +3390,8 @@
       "carbonate_derived_high_dh": null,
       "carbonate_measured_on": "2025",
       "carbonate_source_url": "https://www.gelsenwasser.de/wasser/wasserhaerte/gelsenkirchen",
-      "zone_count": 0
+      "zone_count": 0,
+      "range_kind": "areas"
     },
     {
       "country": "CH",
@@ -3405,6 +3444,7 @@
       "carbonate_measured_on": "2025",
       "carbonate_source_url": "https://media.sig-ge.ch/documents/particuliers/eau/analyses_generales_eau_zone_1.pdf",
       "zone_count": 4,
+      "range_kind": "areas",
       "zones": [
         {
           "name": "Zone 1 (Seewasser)",
@@ -3499,6 +3539,7 @@
       "carbonate_measured_on": "2025",
       "carbonate_source_url": "https://www.holding-graz.at/wp-content/uploads/2026/01/Befund-Graz_2025.pdf",
       "zone_count": 2,
+      "range_kind": "areas",
       "zones": [
         {
           "name": "Stadtgebiet (RN1 Wienerstraße)",
@@ -3566,7 +3607,8 @@
       "carbonate_derived_high_dh": null,
       "carbonate_measured_on": "2025",
       "carbonate_source_url": "https://www.stadtwerke-goettingen.de/produkte/trinkwasser/trinkwasserqualitaet/",
-      "zone_count": 0
+      "zone_count": 0,
+      "range_kind": "areas"
     },
     {
       "country": "DE",
@@ -3618,6 +3660,7 @@
       "carbonate_measured_on": "2026",
       "carbonate_source_url": "https://a.storyblok.com/f/320707/x/21b19e87e2/trinkwasseranalyse-jahresmittelwerte-wasserwerk-hengstey-2025.pdf",
       "zone_count": 2,
+      "range_kind": "areas",
       "zones": [
         {
           "name": "Wasserwerk Hengstey",
@@ -3685,7 +3728,8 @@
       "carbonate_derived_high_dh": null,
       "carbonate_measured_on": "2026",
       "carbonate_source_url": "https://hws-halle.de/sixcms/media.php/236/2025_Mittelwertanalyse.pdf",
-      "zone_count": 0
+      "zone_count": 0,
+      "range_kind": "time"
     },
     {
       "country": "DE",
@@ -3830,6 +3874,7 @@
       "carbonate_measured_on": "2025",
       "carbonate_source_url": "https://www.hamburgwasser.de/wasser/detailanalysen-wasserwerke/stellingen",
       "zone_count": 16,
+      "range_kind": "areas",
       "zones": [
         {
           "name": "Wasserwerk Baursberg",
@@ -4283,6 +4328,7 @@
       "carbonate_measured_on": "2025",
       "carbonate_source_url": "https://www.wasserwerke-westfalen.de/wasser/trinkwasserqualitaet/trinkwasseranalyse",
       "zone_count": 3,
+      "range_kind": "areas",
       "zones": [
         {
           "name": "Wasserwerk Warmen",
@@ -4377,7 +4423,8 @@
       "carbonate_derived_high_dh": null,
       "carbonate_measured_on": "2025",
       "carbonate_source_url": "https://www.enercity.de/assets/cms/enercity-de/Privatkunden/Produkte/Wasser/Downloads/Qualitaet/Trinkwasseranalyse-enercity.pdf",
-      "zone_count": 0
+      "zone_count": 0,
+      "range_kind": "time"
     },
     {
       "country": "DE",
@@ -4429,6 +4476,7 @@
       "carbonate_measured_on": "2026",
       "carbonate_source_url": "https://www.swhd.de/de/Hauptnavigation/Privatkunden/Wasser/Wasseranalyse/Hartwasser-noerdlich-des-Neckars.pdf",
       "zone_count": 4,
+      "range_kind": "areas",
       "zones": [
         {
           "name": "Hartwasser nördlich des Neckars",
@@ -4576,6 +4624,7 @@
       "carbonate_measured_on": "2025",
       "carbonate_source_url": "https://www.stadtwerke-heilbronn.de/swh/wasserversorgung/wasserhaerte.php",
       "zone_count": 4,
+      "range_kind": "areas",
       "zones": [
         {
           "name": "Zone 14-18 °dH",
@@ -4674,6 +4723,7 @@
       "carbonate_measured_on": "2025",
       "carbonate_source_url": "https://www.wasserwerke-westfalen.de/wasser/trinkwasserqualitaet/trinkwasseranalyse",
       "zone_count": 2,
+      "range_kind": "areas",
       "zones": [
         {
           "name": "Wasserwerk Haltern",
@@ -4737,7 +4787,8 @@
       "carbonate_derived_high_dh": null,
       "carbonate_measured_on": "2025",
       "carbonate_source_url": "https://www.evi-hildesheim.de/evi/Produkte-fuer-Privatkunden/Wasser/Trinkwasseranalyse/",
-      "zone_count": 0
+      "zone_count": 0,
+      "range_kind": "areas"
     },
     {
       "country": "DE",
@@ -4785,7 +4836,8 @@
       "carbonate_derived_high_dh": null,
       "carbonate_measured_on": "2026",
       "carbonate_source_url": "https://www.in-kb.de/Wasser/Trinkwasser/Qualit%C3%A4t/",
-      "zone_count": 0
+      "zone_count": 0,
+      "range_kind": null
     },
     {
       "country": "AT",
@@ -4830,6 +4882,7 @@
       "carbonate_measured_on": null,
       "carbonate_source_url": "https://www.ikb.at/wasserhaerte-innsbruck",
       "zone_count": 9,
+      "range_kind": "areas",
       "zones": [
         {
           "name": "Stadt, Bergisel und Höttinger Au",
@@ -4957,7 +5010,8 @@
       "carbonate_derived_high_dh": null,
       "carbonate_measured_on": "2025",
       "carbonate_source_url": "https://www.wasserwerke-westfalen.de/wasser/trinkwasserqualitaet/trinkwasseranalyse",
-      "zone_count": 0
+      "zone_count": 0,
+      "range_kind": null
     },
     {
       "country": "DE",
@@ -5006,6 +5060,7 @@
       "carbonate_measured_on": "2025",
       "carbonate_source_url": "https://www.jenawasser.de/fileadmin/inhalte/3_Trinkwasser/2025_Trinkwasserbeschaffenheit_alle_mit_Mibi.pdf",
       "zone_count": 3,
+      "range_kind": "areas",
       "zones": [
         {
           "name": "Wasserwerk Burgau",
@@ -5080,6 +5135,7 @@
       "carbonate_measured_on": "2026",
       "carbonate_source_url": "https://www.swk-kl.de/wasser/wasserqualitaet",
       "zone_count": 3,
+      "range_kind": "areas",
       "zones": [
         {
           "name": "Wasserwerk Barbarossastraße",
@@ -5150,7 +5206,8 @@
       "carbonate_derived_high_dh": null,
       "carbonate_measured_on": "2026",
       "carbonate_source_url": "https://www.stadtwerke-kapfenberg.at/files/SWK_Layout/PDFs/Wasser/Wasserbefunde%20Brunnen%20Hafendorf-0826.pdf",
-      "zone_count": 0
+      "zone_count": 0,
+      "range_kind": "areas"
     },
     {
       "country": "DE",
@@ -5207,6 +5264,7 @@
       "carbonate_measured_on": "2026",
       "carbonate_source_url": "https://www.stadtwerke-karlsruhe.de/wMedia/docs/service/infomaterial/produkte/Trinkwasser-Jahresmittelwerte-KA.pdf",
       "zone_count": 3,
+      "range_kind": "areas",
       "zones": [
         {
           "name": "Karlsruher Wasserwerke",
@@ -5290,6 +5348,7 @@
       "carbonate_measured_on": null,
       "carbonate_source_url": null,
       "zone_count": 14,
+      "range_kind": "areas",
       "zones": [
         {
           "name": "Hochbehälter Bergfreiheit",
@@ -5464,6 +5523,7 @@
       "carbonate_measured_on": "2026",
       "carbonate_source_url": "https://www.stadtwerke-kiel.de/wasser/qualitaet",
       "zone_count": 4,
+      "range_kind": "areas",
       "zones": [
         {
           "name": "Wasserwerk Schulensee",
@@ -5546,6 +5606,7 @@
       "carbonate_measured_on": "2026",
       "carbonate_source_url": "https://www.stw.at/wp-content/uploads/2026/06/gutachten_w-202611780.pdf",
       "zone_count": 4,
+      "range_kind": "areas",
       "zones": [
         {
           "name": "Hochbehälter Spitalberg",
@@ -5630,7 +5691,8 @@
       "carbonate_derived_high_dh": null,
       "carbonate_measured_on": null,
       "carbonate_source_url": null,
-      "zone_count": 0
+      "zone_count": 0,
+      "range_kind": null
     },
     {
       "country": "DE",
@@ -5685,6 +5747,7 @@
       "carbonate_measured_on": "2025",
       "carbonate_source_url": "https://cdn.swk.de/assets/download/NGN_Trinkwasser_Analyse_2025-neu-1.pdf",
       "zone_count": 2,
+      "range_kind": "areas",
       "zones": [
         {
           "name": "Wasserwerk Gladbacher Straße",
@@ -5747,6 +5810,7 @@
       "carbonate_measured_on": "2026",
       "carbonate_source_url": "https://www.stwk.at/fileadmin/Stadtwerke/Downloads/Wasser_und_Abwasser/2026-04_STWK_Pr%C3%BCfbericht-TB-F%C3%BCrh%C3%B6lzl-Hofinger-Quelle.pdf",
       "zone_count": 3,
+      "range_kind": "areas",
       "zones": [
         {
           "name": "Tiefbrunnen Fürhölzl",
@@ -5816,7 +5880,8 @@
       "carbonate_derived_high_dh": null,
       "carbonate_measured_on": "2025",
       "carbonate_source_url": "https://umwelt.provinz.bz.it/de/wasser/oeffentliche-trinkwasserleitungen",
-      "zone_count": 0
+      "zone_count": 0,
+      "range_kind": "areas"
     },
     {
       "country": "CH",
@@ -5872,7 +5937,8 @@
       "carbonate_derived_high_dh": null,
       "carbonate_measured_on": "2025",
       "carbonate_source_url": "https://www.lausanne.ch/vie-pratique/energies-et-eau/eau/qualite/reservoir-recherche.html",
-      "zone_count": 0
+      "zone_count": 0,
+      "range_kind": "areas"
     },
     {
       "country": "DE",
@@ -5950,6 +6016,7 @@
       "carbonate_measured_on": "2025",
       "carbonate_source_url": "https://files.l.de/lde-typo3/Leipziger/Wasserwerke/Download-Center/Flyer_und_Broschueren/Wasserwerke-Jahresdurchschnittsanalyse-2025.pdf",
       "zone_count": 7,
+      "range_kind": "areas",
       "zones": [
         {
           "name": "Wasserwerk Belgershain",
@@ -6044,7 +6111,8 @@
       "carbonate_derived_high_dh": null,
       "carbonate_measured_on": "2026",
       "carbonate_source_url": "https://www.stadtwerke-leoben.at/wp-content/uploads/2026/07/wasserbericht-april-26.pdf",
-      "zone_count": 0
+      "zone_count": 0,
+      "range_kind": "areas"
     },
     {
       "country": "DE",
@@ -6094,6 +6162,7 @@
       "carbonate_measured_on": "2026",
       "carbonate_source_url": "https://evl-leverkusen.de/wp-content/uploads/2026/09/Wasseranalyse-2026-Currenta-Hitdorf.pdf",
       "zone_count": 3,
+      "range_kind": "areas",
       "zones": [
         {
           "name": "Wasserwerk der Currenta",
@@ -6162,7 +6231,8 @@
       "carbonate_derived_high_dh": null,
       "carbonate_measured_on": "2026",
       "carbonate_source_url": "https://www.linzag.at/media/dokumente/wasser_2/trinkwasseruntersuchungen/wasserguete-juli-august-2026.pdf",
-      "zone_count": 0
+      "zone_count": 0,
+      "range_kind": "areas"
     },
     {
       "country": "CH",
@@ -6212,6 +6282,7 @@
       "carbonate_measured_on": null,
       "carbonate_source_url": "https://www.ewl-luzern.ch/wasser/wasserqualitaet",
       "zone_count": 3,
+      "range_kind": "areas",
       "zones": [
         {
           "name": "Seewasser",
@@ -6287,7 +6358,8 @@
       "carbonate_derived_high_dh": null,
       "carbonate_measured_on": "2023",
       "carbonate_source_url": "https://www.twl.de/fileadmin/user_upload/twl/00_Content/01_Privatkunden/01_Meine_Energie/04_Wasser/01_Trinkwasser/230609Zj_Trinkwasseranalyse_fuer_Internet_Jahresmittel_2023.pdf",
-      "zone_count": 0
+      "zone_count": 0,
+      "range_kind": "areas"
     },
     {
       "country": "CH",
@@ -6333,6 +6405,7 @@
       "carbonate_measured_on": "2026",
       "carbonate_source_url": "https://www.cca-lab.ch/etichettatura-acqua-distribuita/",
       "zone_count": 24,
+      "range_kind": "areas",
       "zones": [
         {
           "name": "Lugano-Val Colla",
@@ -6581,7 +6654,8 @@
       "carbonate_derived_high_dh": null,
       "carbonate_measured_on": "2026",
       "carbonate_source_url": "https://a.swhl.de/f/187280/x/255b4d482c/2608-014_swl-trinkwasserqualitat-lubeck-2026_w1_bf.pdf?cv=1789999185619",
-      "zone_count": 0
+      "zone_count": 0,
+      "range_kind": "areas"
     },
     {
       "country": "DE",
@@ -6627,7 +6701,8 @@
       "carbonate_derived_high_dh": null,
       "carbonate_measured_on": "2025",
       "carbonate_source_url": "https://www.wasserwerke-westfalen.de/wasser/trinkwasserqualitaet/trinkwasseranalyse",
-      "zone_count": 0
+      "zone_count": 0,
+      "range_kind": null
     },
     {
       "country": "DE",
@@ -6684,7 +6759,8 @@
       "carbonate_derived_high_dh": null,
       "carbonate_measured_on": "2026",
       "carbonate_source_url": "https://www.sw-magdeburg.de/privatkunden/produkte/trinkwasser/qualitaet",
-      "zone_count": 0
+      "zone_count": 0,
+      "range_kind": null
     },
     {
       "country": "DE",
@@ -6738,7 +6814,8 @@
       "carbonate_derived_high_dh": null,
       "carbonate_measured_on": "2026",
       "carbonate_source_url": "https://www.mainzer-netze.de/-/media/project/mainzer-stadtwerke/websites-mainzer-netze/mainzer-netze/dateien/ordnerstruktur-clean/g_s_w_weitere-infos/wasser/trinkwasserqualitaet/w_analysewerte-trinkwasser.pdf",
-      "zone_count": 0
+      "zone_count": 0,
+      "range_kind": "areas"
     },
     {
       "country": "DE",
@@ -6796,6 +6873,7 @@
       "carbonate_measured_on": "2024",
       "carbonate_source_url": "https://www.mvv.de/fileadmin/user_upload_pk_gewk/pdf/Wasser/wasserqualitaet-kaefertal.pdf",
       "zone_count": 2,
+      "range_kind": "areas",
       "zones": [
         {
           "name": "Wasserwerk Käfertal",
@@ -6857,7 +6935,8 @@
       "carbonate_derived_high_dh": null,
       "carbonate_measured_on": "2025",
       "carbonate_source_url": "https://umwelt.provinz.bz.it/de/wasser/oeffentliche-trinkwasserleitungen",
-      "zone_count": 0
+      "zone_count": 0,
+      "range_kind": "areas"
     },
     {
       "country": "DE",
@@ -6904,7 +6983,8 @@
       "carbonate_derived_high_dh": null,
       "carbonate_measured_on": "2026",
       "carbonate_source_url": "https://www.enni.de/fileadmin/documents/1_Privatkunden/1-Energie-und-Wasser/3-Wasser/Trinkwasser/wasseranalyse-Juni-2026.pdf",
-      "zone_count": 0
+      "zone_count": 0,
+      "range_kind": null
     },
     {
       "country": "DE",
@@ -7022,7 +7102,8 @@
       "carbonate_derived_high_dh": null,
       "carbonate_measured_on": "2026",
       "carbonate_source_url": "https://www.swm.de/dam/doc/wasser/trinkwasser-analysewerte.pdf",
-      "zone_count": 0
+      "zone_count": 0,
+      "range_kind": "time"
     },
     {
       "country": "DE",
@@ -7080,6 +7161,7 @@
       "carbonate_measured_on": "2025",
       "carbonate_source_url": "https://www.stadtwerke-muenster.de/Stadtwerke/Dokumente/Trinkwasser/Trinkwasseranalytik.pdf",
       "zone_count": 4,
+      "range_kind": "areas",
       "zones": [
         {
           "name": "Wasserwerk Hohe Ward",
@@ -7157,7 +7239,8 @@
       "carbonate_derived_high_dh": null,
       "carbonate_measured_on": "2026",
       "carbonate_source_url": "https://www.moedling.at/system/web/getDocument.ashx?cts=1774000779&fileid=3647464",
-      "zone_count": 0
+      "zone_count": 0,
+      "range_kind": null
     },
     {
       "country": "DE",
@@ -7214,6 +7297,7 @@
       "carbonate_measured_on": "2026",
       "carbonate_source_url": "https://trinkwasseranalyse.new.de/",
       "zone_count": 6,
+      "range_kind": "areas",
       "zones": [
         {
           "name": "Wasserwerk Helenabrunn",
@@ -7315,7 +7399,8 @@
       "carbonate_derived_high_dh": null,
       "carbonate_measured_on": "2025",
       "carbonate_source_url": "https://www.rww.de/fileadmin/assets/pdf/twa_bot_mh_med.pdf",
-      "zone_count": 0
+      "zone_count": 0,
+      "range_kind": "areas"
     },
     {
       "country": "CH",
@@ -7359,7 +7444,8 @@
       "carbonate_derived_high_dh": null,
       "carbonate_measured_on": "2024",
       "carbonate_source_url": "https://www.viteos.ch/wp-content/uploads/2024_Oqualite_VdN.pdf",
-      "zone_count": 0
+      "zone_count": 0,
+      "range_kind": "areas"
     },
     {
       "country": "DE",
@@ -7411,6 +7497,7 @@
       "carbonate_measured_on": "2026",
       "carbonate_source_url": "https://www.stadtwerke-neuss.de/sites/default/files/downloads/pdfs/Energie-Privatkunden/Wasser/Trinkwasseranalyse-2026.pdf",
       "zone_count": 2,
+      "range_kind": "areas",
       "zones": [
         {
           "name": "Wasserwerk Rheinbogen",
@@ -7499,7 +7586,8 @@
       "carbonate_derived_high_dh": null,
       "carbonate_measured_on": "2026",
       "carbonate_source_url": "https://www.n-ergie.de/public/remotemedien/media/n_ergie/internet/privatkunden/produkte/wasser_1/neugestaltung_seite/Trinkwasser-Analysewerte.pdf",
-      "zone_count": 0
+      "zone_count": 0,
+      "range_kind": "areas"
     },
     {
       "country": "DE",
@@ -7550,7 +7638,8 @@
       "carbonate_derived_high_dh": null,
       "carbonate_measured_on": "2026",
       "carbonate_source_url": "https://www.rww.de/fileadmin/assets/pdf/trinkwasseranalyse_beek.pdf",
-      "zone_count": 0
+      "zone_count": 0,
+      "range_kind": "areas"
     },
     {
       "country": "DE",
@@ -7599,7 +7688,8 @@
       "carbonate_derived_high_dh": null,
       "carbonate_measured_on": "2026",
       "carbonate_source_url": "https://www.zwo-wasser.de/files/VG7.pdf",
-      "zone_count": 0
+      "zone_count": 0,
+      "range_kind": "areas"
     },
     {
       "country": "DE",
@@ -7652,6 +7742,7 @@
       "carbonate_measured_on": "2025",
       "carbonate_source_url": "https://www.ewe-netz.de/privatkunden/trinkwasser/ol",
       "zone_count": 3,
+      "range_kind": "areas",
       "zones": [
         {
           "name": "Wasserwerk Sandkrug",
@@ -7730,6 +7821,7 @@
       "carbonate_measured_on": "2026",
       "carbonate_source_url": "https://www.stadtwerke-osnabrueck.de/trinkwasser/wasserqualitaet/analysen/thiene",
       "zone_count": 3,
+      "range_kind": "areas",
       "zones": [
         {
           "name": "Trinkwasserzone Düstrup",
@@ -7842,6 +7934,7 @@
       "carbonate_measured_on": "2026",
       "carbonate_source_url": "https://www.stadtwerke-pb.de/app/uploads/2026/07/SWPB_Trinkwasseranalyse_02_2026_BF.pdf",
       "zone_count": 5,
+      "range_kind": "areas",
       "zones": [
         {
           "name": "Wasserwerk Boker Heide",
@@ -7934,6 +8027,7 @@
       "carbonate_measured_on": "2026",
       "carbonate_source_url": "https://www.stadtwerke-pforzheim.de/trinkwasser/trinkwasserqualitaet-und-preise/",
       "zone_count": 6,
+      "range_kind": "areas",
       "zones": [
         {
           "name": "Enzauenwasser",
@@ -8035,6 +8129,7 @@
       "carbonate_measured_on": "2025",
       "carbonate_source_url": "https://www.swp-potsdam.de/content/wasser/pdf_8/aktuelle_trinkwasseranalyse.pdf",
       "zone_count": 5,
+      "range_kind": "areas",
       "zones": [
         {
           "name": "Wasserwerk Leipziger Straße",
@@ -8124,7 +8219,8 @@
       "carbonate_derived_high_dh": null,
       "carbonate_measured_on": "2025",
       "carbonate_source_url": "https://www.gelsenwasser.de/wasser/wasserhaerte/recklinghausen",
-      "zone_count": 0
+      "zone_count": 0,
+      "range_kind": null
     },
     {
       "country": "DE",
@@ -8174,7 +8270,8 @@
       "carbonate_derived_high_dh": null,
       "carbonate_measured_on": "2026",
       "carbonate_source_url": "https://www.rewag.de/fileadmin/user_upload/Produkte_Dienstleistungen/Wasser/Herkunft_Qualitaet/Chemische_Analyse_Oktober_2025.pdf",
-      "zone_count": 0
+      "zone_count": 0,
+      "range_kind": null
     },
     {
       "country": "DE",
@@ -8224,7 +8321,8 @@
       "carbonate_derived_high_dh": null,
       "carbonate_measured_on": "2026",
       "carbonate_source_url": "https://www.ewr-remscheid.de/app/uploads/EWR_Trinkwasseranalyse_2025.pdf",
-      "zone_count": 0
+      "zone_count": 0,
+      "range_kind": null
     },
     {
       "country": "DE",
@@ -8273,7 +8371,8 @@
       "carbonate_derived_high_dh": null,
       "carbonate_measured_on": "2026",
       "carbonate_source_url": "https://www.fairenergie.de/fileadmin/user_upload/pdf/privatkunden/Trinkwasseranalyse_Bodenseewasser.pdf",
-      "zone_count": 0
+      "zone_count": 0,
+      "range_kind": "areas"
     },
     {
       "country": "CH",
@@ -8318,6 +8417,7 @@
       "carbonate_measured_on": "2025",
       "carbonate_source_url": "https://www.iwb.ch/dam/jcr:806e00b9-5595-4623-b696-28b655adf19b/2025_trinkwasserqualitaetsdaten_iwb_hardwasser.pdf",
       "zone_count": 2,
+      "range_kind": "areas",
       "zones": [
         {
           "name": "Trinkwasser Lange Erlen",
@@ -8414,7 +8514,8 @@
       "carbonate_derived_high_dh": null,
       "carbonate_measured_on": "2026",
       "carbonate_source_url": "https://www.nordwasser.de/trinkwasser/versorgung/trinkwasseranalyse-ww-rostock-1",
-      "zone_count": 0
+      "zone_count": 0,
+      "range_kind": null
     },
     {
       "country": "DE",
@@ -8473,7 +8574,8 @@
       "carbonate_derived_high_dh": null,
       "carbonate_measured_on": "2026",
       "carbonate_source_url": "https://www.saarbruecker-stadtwerke.de/media/download-5ce2a5f92c7ee",
-      "zone_count": 0
+      "zone_count": 0,
+      "range_kind": "areas"
     },
     {
       "country": "AT",
@@ -8524,6 +8626,7 @@
       "carbonate_measured_on": "2026",
       "carbonate_source_url": "https://www.salzburg-ag.at/content/dam/web18/dokumente/waerme_wasser/Wasseranalysen.pdf",
       "zone_count": 8,
+      "range_kind": "areas",
       "zones": [
         {
           "name": "Behälter Mönchsberg",
@@ -8638,6 +8741,7 @@
       "carbonate_measured_on": "2026",
       "carbonate_source_url": "https://www.vftv.de/wevg/anang1.htm",
       "zone_count": 3,
+      "range_kind": "areas",
       "zones": [
         {
           "name": "Nördliches Stadtgebiet 2",
@@ -8708,7 +8812,8 @@
       "carbonate_derived_high_dh": null,
       "carbonate_measured_on": "2026-01",
       "carbonate_source_url": "https://wvs.nrw/wp-content/uploads/2026/05/AB-Dreis-Tiefenbach-Rein-TVO23-ohne-PFAS-20260121_W25-5072-0003.pdf",
-      "zone_count": 0
+      "zone_count": 0,
+      "range_kind": null
     },
     {
       "country": "CH",
@@ -8755,6 +8860,7 @@
       "carbonate_measured_on": null,
       "carbonate_source_url": null,
       "zone_count": 3,
+      "range_kind": "areas",
       "zones": [
         {
           "name": "Sion Plaine",
@@ -8818,7 +8924,8 @@
       "carbonate_derived_high_dh": null,
       "carbonate_measured_on": "2025",
       "carbonate_source_url": "https://www.wasserwerke-westfalen.de/wasser/trinkwasserqualitaet/trinkwasseranalyse",
-      "zone_count": 0
+      "zone_count": 0,
+      "range_kind": null
     },
     {
       "country": "DE",
@@ -8870,6 +8977,7 @@
       "carbonate_measured_on": "2025",
       "carbonate_source_url": "https://solingen.de/uploads/EBW_Verbraucherinformation_Trinkwasserqualitaet_97b417b487.pdf",
       "zone_count": 4,
+      "range_kind": "areas",
       "zones": [
         {
           "name": "Wasserwerk Glüder (Sengbachtalsperre)",
@@ -8952,7 +9060,8 @@
       "carbonate_derived_high_dh": null,
       "carbonate_measured_on": "2022",
       "carbonate_source_url": "https://www.sgsw.ch/content/dam/dokument_library/sgsw-onlinewelt/downloads1/publikationen/Trinkwasserqualit%C3%A4t.pdf",
-      "zone_count": 0
+      "zone_count": 0,
+      "range_kind": "time"
     },
     {
       "country": "AT",
@@ -8997,7 +9106,8 @@
       "carbonate_derived_high_dh": null,
       "carbonate_measured_on": "2025",
       "carbonate_source_url": "https://ftp2.stadtbetriebe.at/wasser/Wasseruntersuchungsergebnisse_2025.pdf",
-      "zone_count": 0
+      "zone_count": 0,
+      "range_kind": null
     },
     {
       "country": "DE",
@@ -9076,6 +9186,7 @@
       "carbonate_measured_on": "2025",
       "carbonate_source_url": "https://api.wasserportal.info/api/public/qualitaet/trinkwasseranalyse/96b68377-3f94-44da-b57d-a51896cc9ff6",
       "zone_count": 2,
+      "range_kind": "areas",
       "zones": [
         {
           "name": "Bodenseewasser",
@@ -9137,7 +9248,8 @@
       "carbonate_derived_high_dh": null,
       "carbonate_measured_on": null,
       "carbonate_source_url": null,
-      "zone_count": 0
+      "zone_count": 0,
+      "range_kind": null
     },
     {
       "country": "DE",
@@ -9187,6 +9299,7 @@
       "carbonate_measured_on": "2026",
       "carbonate_source_url": "https://www.swt.de/api/media/file/Bericht%20Wasserwerk%20Irsch%20vom%2001.12.2025.pdf",
       "zone_count": 2,
+      "range_kind": "areas",
       "zones": [
         {
           "name": "Wasserwerk Irsch",
@@ -9253,7 +9366,8 @@
       "carbonate_derived_high_dh": null,
       "carbonate_measured_on": "2026",
       "carbonate_source_url": "https://www.swu.de/fileadmin/content/energie-wasser/wasser/SWU-Trinkwasser-Analysedaten-2026.pdf",
-      "zone_count": 0
+      "zone_count": 0,
+      "range_kind": "areas"
     },
     {
       "country": "DE",
@@ -9300,6 +9414,7 @@
       "carbonate_measured_on": "2025",
       "carbonate_source_url": "https://www.wasserwerke-westfalen.de/wasser/trinkwasserqualitaet/trinkwasseranalyse",
       "zone_count": 2,
+      "range_kind": "areas",
       "zones": [
         {
           "name": "Wasserwerk Echthausen",
@@ -9384,6 +9499,7 @@
       "carbonate_measured_on": "2026",
       "carbonate_source_url": "https://www.wien.gv.at/umwelt/trinkwasserqualitaet-aktuelle-werte",
       "zone_count": 4,
+      "range_kind": "areas",
       "zones": [
         {
           "name": "I. Hochquellenleitung",
@@ -9469,6 +9585,7 @@
       "carbonate_measured_on": "2026",
       "carbonate_source_url": "https://villach.at/getmedia/d36ffe1b-e3c9-43d6-b9c5-0015041990a7/26-02-17_EST_0003-Voll_1.pdf.aspx",
       "zone_count": 3,
+      "range_kind": "areas",
       "zones": [
         {
           "name": "Versorgungszone Villach (Unionquelle)",
@@ -9538,7 +9655,8 @@
       "carbonate_derived_high_dh": null,
       "carbonate_measured_on": "2026",
       "carbonate_source_url": "https://www.eww.at/fileadmin/user_upload/downloads/wasser/infomaterial/Agrolab-Pruefbefund-eww-Wasser.pdf",
-      "zone_count": 0
+      "zone_count": 0,
+      "range_kind": "samples"
     },
     {
       "country": "AT",
@@ -9585,6 +9703,7 @@
       "carbonate_measured_on": "2026",
       "carbonate_source_url": "https://www.wiener-neustadt.at/files/drive/wrn/content/service/umwelt-abfall/Wasserwerk/a4_wasserwerte_hp_2026.pdf",
       "zone_count": 4,
+      "range_kind": "areas",
       "zones": [
         {
           "name": "Wasserwerk Süd",
@@ -9673,6 +9792,7 @@
       "carbonate_measured_on": "2025",
       "carbonate_source_url": "https://web.archive.org/web/20251219194746id_/https://www.eswe-versorgung.de/fileadmin/user_upload/dateien/wassernetz/Analyse-Ried.pdf",
       "zone_count": 4,
+      "range_kind": "areas",
       "zones": [
         {
           "name": "Taunusgewinnung (WB Klosterbruch)",
@@ -9757,7 +9877,8 @@
       "carbonate_derived_high_dh": null,
       "carbonate_measured_on": "2025",
       "carbonate_source_url": "https://trinkwasser.ch/de/versorger/792/stadtwerk-winterthur/3438/default",
-      "zone_count": 0
+      "zone_count": 0,
+      "range_kind": "samples"
     },
     {
       "country": "DE",
@@ -9805,7 +9926,8 @@
       "carbonate_derived_high_dh": null,
       "carbonate_measured_on": "2026",
       "carbonate_source_url": "https://www.lsw.de/fileadmin/user_upload/Pr%C3%BCfbericht_Wolfsburg.pdf",
-      "zone_count": 0
+      "zone_count": 0,
+      "range_kind": null
     },
     {
       "country": "DE",
@@ -9872,7 +9994,8 @@
       "carbonate_derived_high_dh": null,
       "carbonate_measured_on": "2025",
       "carbonate_source_url": "https://www.wuppertal.de/microsite/wasserversorgung/medien/bindata/Trinkwasseranalyse-2025.pdf",
-      "zone_count": 0
+      "zone_count": 0,
+      "range_kind": "areas"
     },
     {
       "country": "DE",
@@ -9924,6 +10047,7 @@
       "carbonate_measured_on": "2026",
       "carbonate_source_url": "https://www.wvv.de/trinkwasser/wuerzburg/index.html",
       "zone_count": 3,
+      "range_kind": "areas",
       "zones": [
         {
           "name": "Grombühl",
@@ -9994,7 +10118,8 @@
       "carbonate_derived_high_dh": 13.4,
       "carbonate_measured_on": null,
       "carbonate_source_url": null,
-      "zone_count": 0
+      "zone_count": 0,
+      "range_kind": "samples"
     },
     {
       "country": "CH",
@@ -10062,6 +10187,7 @@
       "carbonate_measured_on": "2025",
       "carbonate_source_url": "https://www.stadt-zuerich.ch/content/dam/web/de/umwelt-energie/wasser/dokumente/2025_Trinkwasserqualitaet.pdf",
       "zone_count": 3,
+      "range_kind": "areas",
       "zones": [
         {
           "name": "Seewasserwerk Moos",

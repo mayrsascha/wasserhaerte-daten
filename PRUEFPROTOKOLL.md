@@ -643,3 +643,10 @@ erneut am Dokument gehalten. Korrigiert:
   Netz über das Jahr: München, Halle, Hannover, St. Gallen) oder `samples`
   (Einzelmessungen); ohne das Feld ist die Spanne räumlich.
 - Zonenbeschreibungen (`area`) sind jetzt deutsch.
+
+## 30. September 2026: Feld `range_kind` im Datenfeed
+
+`wasserhaerte.json` sagt jetzt, was eine Spanne abbildet: `areas` für Zonen oder
+Wasserwerke, `time` für dasselbe Netz über das Jahr (München, Halle, Hannover,
+St. Gallen), `samples` für Einzelmessungen (Biel, Brixen, Fribourg, Wels,
+Winterthur, Zug). Die Werte selbst sind unverändert.

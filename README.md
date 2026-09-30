@@ -106,6 +106,7 @@ Je Stadt in `cities`:
 | `postcodes` | Liste der Postleitzahlen der Stadt |
 | `hardness_dh`, `hardness_mg_l_caco3`, `hardness_mmol_l` | Gesamthärte, wenn der Versorger eine Zahl für die Stadt nennt |
 | `range_low_dh`, `range_high_dh` (auch `_mg_l`) | Spanne der Gesamthärte über Zonen, Wasserwerke oder das Jahr |
+| `range_kind` | was die Spanne abbildet: `areas` (Zonen oder Wasserwerke), `time` (dasselbe Netz über das Jahr), `samples` (Einzelmessungen); `null` ohne Spanne |
 | `carbonate_dh`, `carbonate_low_dh`, `carbonate_high_dh` | Karbonathärte, gedruckt oder aus Säurekapazität bzw. Hydrogencarbonat umgerechnet |
 | `carbonate_derived_low_dh`, `carbonate_derived_high_dh` | Karbonathärte aus der Ionenbilanz berechnet, getrennt gekennzeichnet |
 | `ph`, `calcium_mg_l`, `magnesium_mg_l`, `nitrate_mg_l`, `sodium_mg_l` | weitere Werte, soweit veröffentlicht |
