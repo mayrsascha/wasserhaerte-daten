@@ -44,7 +44,11 @@ def main():
         mg, rng = r.get("mg_l"), r.get("range_mg_l")
         ref = mg or (rng and (rng[0] + rng[1]) / 2)
         ca, mgn = r.get("calcium_mg_l"), r.get("magnesium_mg_l")
-        if (ca is None) != (mgn is None):
+        # A span counts as present: Cologne prints Ca 88 and 106 in its two
+        # sheets but Mg 14 in both, so Mg is one figure beside a Ca span.
+        has_ca = ca is not None or r.get("calcium_range_mg_l") is not None
+        has_mg = mgn is not None or r.get("magnesium_range_mg_l") is not None
+        if has_ca != has_mg:
             problems.append(f"{k}: calcium without magnesium or vice versa")
         if ca and mgn and mg:
             calc = (ca / 40.078 + mgn / 24.305) * MMOL

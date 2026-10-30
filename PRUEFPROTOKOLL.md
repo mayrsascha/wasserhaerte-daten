@@ -650,3 +650,48 @@ erneut am Dokument gehalten. Korrigiert:
 Wasserwerke, `time` für dasselbe Netz über das Jahr (München, Halle, Hannover,
 St. Gallen), `samples` für Einzelmessungen (Biel, Brixen, Fribourg, Wels,
 Winterthur, Zug). Die Werte selbst sind unverändert.
+
+## 30. Oktober 2026: Version 2026.10.30, Mineralien und Faktencheck
+
+**Neu: Nitrat, Calcium und Magnesium.** Nitrat steht jetzt für 188 der 195 Städte
+(bisher 99), Calcium und Magnesium für 178 (bisher 89), wo der Versorger sie je
+Wasserwerk oder Zone druckt auch je Zone. Calcium und Magnesium werden nur
+übernommen, wenn sie die gespeicherte Gesamthärte auf 4 % reproduzieren
+((Ca/40,08 + Mg/24,305) × 5,608). Werte mit „<“ werden nicht gespeichert. Jede Zone
+nennt ihr Dokument in `ions_source_url`; reicht eine Spanne über mehrere Dokumente,
+stehen sie in `ions_source_urls`.
+
+**Härte geändert:**
+- *Wien*: Analysen vom August 2026, I. Hochquellenleitung 10,0 °dH (bisher 9,7),
+  Lobau 15,0 (15,2), Moosbrunn 16,8 (17,4).
+- *Bielefeld*: die elf Zonen mit Prüfbericht Oktober/November 2025 tragen dessen
+  gedruckte Gesamthärte statt der älteren Liste auf der Werksseite (z. B. WW 03
+  8,99 statt 12,3 °dH, WW 14 14,5 statt 15,7).
+- *Mülheim an der Ruhr, Oberhausen*: die bisherigen 5,7/8,0/10,7 °dH waren
+  Niedrigstwert, Median und Höchstwert eines Werks; jetzt zwei Versorgungsgebiete
+  mit dem gedruckten Median (Mülheim 8,0 und 8,6, Oberhausen 8,0 und 13,5).
+- *Salzgitter*: Nördliches Stadtgebiet 2 nach der Probe vom 11. August 2026
+  5,4 °dH (6,3 vom 10. Dezember 2025).
+- *Duisburg*: alle vier Gebiete nach dem Jahresmittel der letzten vier Quartale bis
+  2026/2 (Nord 12 °dH statt 11, das war das Quartalsmittel); Karbonathärte, Calcium,
+  Magnesium und Nitrat ebenfalls als Jahresmittel, daneben Min und Max wie gedruckt.
+  Vorher waren Jahres- und Quartalswerte gemischt.
+
+**Faktencheck vor der Veröffentlichung.** Alle rund 860 seit Version 2026.09.30 neuen
+Werte wurden am Dokument nachgelesen. Korrigiert:
+- *Darmstadt*: Calcium 102,2 mg/l (gedrucktes Jahresmittel) statt 101,8.
+- *Mainz*: in der deutschen Notiz waren die Werke vertauscht; richtig ist Hof
+  Schönau 25,1 °dH, Eich 19,3, Petersaue 12,6.
+- *Osnabrück*: Nitrat jetzt über alle Berichte 2026 je Zone (Düstrup 12 bis 20 mg/l,
+  Wittefeld 4,3 bis 13, Thiene 4,8 bis 24), nicht nur über die erweiterten; Calcium
+  und Magnesium stehen nur in den erweiterten Berichten und kommen aus denen von 2026
+  (Thiene Calcium 40,3 bis 117, Magnesium 4,5 bis 8,7).
+- *Fürth*: die dritte Zone Knoblauchsland ist nicht aufgenommen; infra nennt dafür
+  nur „voraussichtlich 11,83 °dH“, keine Messung.
+
+Nicht erreichbar außerhalb Deutschlands: Die Dokumente von ESWE Wiesbaden und den
+Stadtwerken Trier antworten nur auf deutsche Adressen. Sie wurden über Kopien im
+Internet Archive nachgelesen (Probenahmen 2025); alle Werte stimmten.
+
+Lausanne: die Spannen für Calcium (45 bis 69), Magnesium (6,0 bis 8,7) und Nitrat
+(2,1 bis 8,0) sind die Spannen der Jahresmittel („moy“) über die 24 Reservoirs.

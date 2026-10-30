@@ -1,8 +1,8 @@
 {
  "generated_on": "2026-09-01",
  "checked_on": "2026-09-29",
- "updated_on": "2026-09-30",
- "version": "2026.09.30",
+ "updated_on": "2026-10-30",
+ "version": "2026.10.30",
  "cities": {
   "AT/Bregenz": {
    "mg_l": 198.1,
@@ -17,8 +17,6 @@
    ],
    "lat": 47.5031,
    "lon": 9.7471,
-   "calcium_mg_l": 65.0,
-   "magnesium_mg_l": 8.8,
    "ph": 7.6,
    "origin": [
     "spring",
@@ -37,7 +35,21 @@
     "note": "Second pass, still nothing. The Wasserqualität page prints a full parameter table per source (Grundwasser Mehrerauer Wald, Quellwasser Bregenz Fluh) with nitrate, pesticides, Ca, Cl, SO4, Mg, K, Na, Karbonat- and Gesamthärte and pH, and no PFAS row. Routes tried: the utility site and its sitemap (no analysis PDFs at all); a third-party drinking-water database (carries no PFAS for any Anlage); the Land Vorarlberg PFAS portal at https://vorarlberg.at/-/pfas and its 'Karte Trinkwasser PFAS Monitoring' (Stand 15.04.2026), which is an image-only map of 178 sampling points banded 0-25 / 26-50 / 51-75 / 76-100 / >100 ng/l and names no installation, so it cannot yield a Bregenz value; web search for a Bregenz Trinkwasserbefund PDF. The Vorarlberg Umweltinstitut does report 'PFAS Summe' in its Befunde (Feldkirch publishes its four), so a Bregenz figure exists but is not published."
    },
    "carbonate_measured_on": "2026",
-   "carbonate_source_url": "https://www.stadtwerke-bregenz.at/wasser-kanal-muell/wasserqualitaet"
+   "carbonate_source_url": "https://www.stadtwerke-bregenz.at/wasser-kanal-muell/wasserqualitaet",
+   "nitrate_range_mg_l": [
+    2.3,
+    3.4
+   ],
+   "calcium_range_mg_l": [
+    65.0,
+    81.0
+   ],
+   "magnesium_range_mg_l": [
+    8.8,
+    11.0
+   ],
+   "ions_source_url": "https://www.stadtwerke-bregenz.at/wasser-kanal-muell/wasserqualitaet",
+   "ions_measured_on": "2026-03-30"
   },
   "AT/Dornbirn": {
    "mg_l": null,
@@ -75,7 +87,21 @@
       139.2,
       158.8
      ],
-     "area": "Stadtgebiet"
+     "area": "Stadtgebiet",
+     "nitrate_range_mg_l": [
+      2.2,
+      2.4
+     ],
+     "calcium_range_mg_l": [
+      52.0,
+      60.0
+     ],
+     "magnesium_range_mg_l": [
+      4.5,
+      5.5
+     ],
+     "ions_source_url": "https://www.dornbirn.at/fileadmin/www.dornbirn.at/Kommunikation/Dokumente/Gemeindeblatt_2020/Gemeindeblatt-Nr-8-vom-21-02-2020.pdf",
+     "ions_measured_on": "2019"
     },
     {
      "name": "Grundwasserpumpwerk Mäder",
@@ -87,7 +113,21 @@
       167.8,
       183.8
      ],
-     "area": ""
+     "area": "",
+     "nitrate_range_mg_l": [
+      2.8,
+      2.9
+     ],
+     "calcium_range_mg_l": [
+      65.0,
+      70.0
+     ],
+     "magnesium_range_mg_l": [
+      14.0,
+      15.0
+     ],
+     "ions_source_url": "https://www.dornbirn.at/fileadmin/www.dornbirn.at/Kommunikation/Dokumente/Gemeindeblatt_2020/Gemeindeblatt-Nr-8-vom-21-02-2020.pdf",
+     "ions_measured_on": "2019"
     },
     {
      "name": "Pumpwerk Klien",
@@ -99,13 +139,32 @@
       217.7,
       219.5
      ],
-     "area": ""
+     "area": "",
+     "nitrate_range_mg_l": [
+      5.5,
+      6.6
+     ],
+     "calcium_range_mg_l": [
+      77.0,
+      80.0
+     ],
+     "magnesium_range_mg_l": [
+      12.0,
+      13.0
+     ],
+     "ions_source_url": "https://www.dornbirn.at/fileadmin/www.dornbirn.at/Kommunikation/Dokumente/Gemeindeblatt_2020/Gemeindeblatt-Nr-8-vom-21-02-2020.pdf",
+     "ions_measured_on": "2019"
     },
     {
      "name": "Quellen Watzenegg",
      "mg_l": 201.7,
      "carbonate_mg_l": 189.2,
-     "area": "Ortsteil Watzenegg"
+     "area": "Ortsteil Watzenegg",
+     "nitrate_mg_l": 3.9,
+     "calcium_mg_l": 57.0,
+     "magnesium_mg_l": 14.0,
+     "ions_source_url": "https://www.dornbirn.at/fileadmin/www.dornbirn.at/Kommunikation/Dokumente/Gemeindeblatt_2020/Gemeindeblatt-Nr-8-vom-21-02-2020.pdf",
+     "ions_measured_on": "2019"
     }
    ],
    "carbonate_range_mg_l": [
@@ -162,25 +221,45 @@
      "name": "Quellwasser Samina",
      "mg_l": 164.2,
      "carbonate_mg_l": 137.4,
-     "area": "Probenahme 15.09.2025"
+     "area": "Probenahme 15.09.2025",
+     "nitrate_mg_l": 2.7,
+     "calcium_mg_l": 39.0,
+     "magnesium_mg_l": 16.0,
+     "ions_source_url": "https://www.stadtwerke-feldkirch.at/fileadmin/user_upload/document/Stadtwerke_Feldkirch/Wasser/2026_Quellwasseruntersuchung_Bereich_Samina.pdf",
+     "ions_measured_on": "2025-09-15"
     },
     {
      "name": "Quellwasser Tisis",
      "mg_l": 278.4,
      "carbonate_mg_l": 232.0,
-     "area": "Probenahme 15.09.2025"
+     "area": "Probenahme 15.09.2025",
+     "nitrate_mg_l": 2.2,
+     "calcium_mg_l": 62.0,
+     "magnesium_mg_l": 30.0,
+     "ions_source_url": "https://www.stadtwerke-feldkirch.at/fileadmin/user_upload/document/Stadtwerke_Feldkirch/Wasser/2026_Quellwasseruntersuchungen_Bereich_Tisis.pdf",
+     "ions_measured_on": "2025-09-15"
     },
     {
      "name": "Grundwasser Horizontalfilterbrunnen Frastanz",
      "mg_l": 301.6,
      "carbonate_mg_l": 257.0,
-     "area": "Probenahme 15.09.2025"
+     "area": "Probenahme 15.09.2025",
+     "nitrate_mg_l": 8.6,
+     "calcium_mg_l": 81.0,
+     "magnesium_mg_l": 24.0,
+     "ions_source_url": "https://www.stadtwerke-feldkirch.at/fileadmin/user_upload/document/Stadtwerke_Feldkirch/Wasser/2026_Quellwasseruntersuchung_Bereich_Samina.pdf",
+     "ions_measured_on": "2025-09-15"
     },
     {
      "name": "Grundwasser Brunnen Felsenau",
      "mg_l": 303.4,
      "carbonate_mg_l": 237.4,
-     "area": "Probenahme 15.09.2025"
+     "area": "Probenahme 15.09.2025",
+     "nitrate_mg_l": 6.1,
+     "calcium_mg_l": 80.0,
+     "magnesium_mg_l": 25.0,
+     "ions_source_url": "https://www.stadtwerke-feldkirch.at/fileadmin/user_upload/document/Stadtwerke_Feldkirch/Wasser/2026_Grundwasseruntersuchungen_Brunnen_Felsenau.pdf",
+     "ions_measured_on": "2025-09-15"
     }
    ],
    "carbonate_range_mg_l": [
@@ -224,13 +303,21 @@
      "name": "Stadtgebiet (RN1 Wienerstraße)",
      "mg_l": 289.1,
      "carbonate_mg_l": 212.4,
-     "area": "Prüfbericht vom 04.06.2025"
+     "area": "Prüfbericht vom 04.06.2025",
+     "nitrate_mg_l": 6.6,
+     "calcium_mg_l": 80.8,
+     "magnesium_mg_l": 21.1,
+     "ions_source_url": "https://www.holding-graz.at/wp-content/uploads/2026/01/Befund-Graz_2025.pdf"
     },
     {
      "name": "Süden (RN33 Übergabestation TLO)",
      "mg_l": 328.4,
      "carbonate_mg_l": 257.0,
-     "area": "Prüfbericht vom 11.02.2025; bei Zuschaltung des Wasserwerks Feldkirchen bis 22 °dH"
+     "area": "Prüfbericht vom 11.02.2025; bei Zuschaltung des Wasserwerks Feldkirchen bis 22 °dH",
+     "nitrate_mg_l": 22.9,
+     "calcium_mg_l": 98.6,
+     "magnesium_mg_l": 20.1,
+     "ions_source_url": "https://www.holding-graz.at/wp-content/uploads/2025/03/Befund-Graz-Sued-2025.pdf"
     }
    ],
    "carbonate_range_mg_l": [
@@ -284,43 +371,78 @@
      "name": "Stadt, Bergisel und Höttinger Au",
      "mg_l": 122.6,
      "area": "Untersuchung 2024",
-     "carbonate_mg_l": 91.0
+     "carbonate_mg_l": 91.0,
+     "nitrate_mg_l": 1.7,
+     "calcium_mg_l": 34.6,
+     "magnesium_mg_l": 8.8,
+     "ions_source_url": "https://www.ikb.at/fileadmin/user_upload/Dokumente/Wasser/IKB_Wasser_Parameter-Versorgungszonen.pdf",
+     "ions_measured_on": "2024"
     },
     {
      "name": "Oberes Hötting",
      "mg_l": 133.9,
      "area": "Untersuchung 2024",
-     "carbonate_mg_l": 94.6
+     "carbonate_mg_l": 94.6,
+     "nitrate_mg_l": 1.73,
+     "calcium_mg_l": 38.1,
+     "magnesium_mg_l": 9.43,
+     "ions_source_url": "https://www.ikb.at/fileadmin/user_upload/Dokumente/Wasser/IKB_Wasser_Parameter-Versorgungszonen.pdf",
+     "ions_measured_on": "2024"
     },
     {
      "name": "Oberes Hötting, Härtestufe 3 (Rauschbrunnenquelle)",
      "mg_l": 324.8,
      "area": "Untersuchung 2024",
-     "carbonate_derived_mg_l": 116.0
+     "carbonate_derived_mg_l": 116.0,
+     "nitrate_mg_l": 4.62,
+     "calcium_mg_l": 99.7,
+     "magnesium_mg_l": 18.5,
+     "ions_source_url": "https://www.ikb.at/fileadmin/user_upload/Dokumente/Wasser/IKB_Wasser_Parameter-Versorgungszonen.pdf",
+     "ions_measured_on": "2024"
     },
     {
      "name": "Arzl",
      "mg_l": 144.4,
      "area": "Untersuchung 2024",
-     "carbonate_mg_l": 99.9
+     "carbonate_mg_l": 99.9,
+     "nitrate_mg_l": 1.7,
+     "calcium_mg_l": 40.7,
+     "magnesium_mg_l": 10.4,
+     "ions_source_url": "https://www.ikb.at/fileadmin/user_upload/Dokumente/Wasser/IKB_Wasser_Parameter-Versorgungszonen.pdf",
+     "ions_measured_on": "2024"
     },
     {
      "name": "Ölberg",
      "mg_l": 299.8,
      "area": "Untersuchung 2024",
-     "carbonate_derived_mg_l": 258.8
+     "carbonate_derived_mg_l": 258.8,
+     "nitrate_mg_l": 6.5,
+     "calcium_mg_l": 82.7,
+     "magnesium_mg_l": 22.8,
+     "ions_source_url": "https://www.ikb.at/fileadmin/user_upload/Dokumente/Wasser/IKB_Wasser_Parameter-Versorgungszonen.pdf",
+     "ions_measured_on": "2024"
     },
     {
      "name": "Hungerburg",
      "mg_l": 143.0,
      "area": "Untersuchung 2024",
-     "carbonate_mg_l": 99.9
+     "carbonate_mg_l": 99.9,
+     "nitrate_mg_l": 1.75,
+     "calcium_mg_l": 40.3,
+     "magnesium_mg_l": 10.3,
+     "ions_source_url": "https://www.ikb.at/fileadmin/user_upload/Dokumente/Wasser/IKB_Wasser_Parameter-Versorgungszonen.pdf",
+     "ions_measured_on": "2024"
     },
     {
      "name": "Mentlberg",
      "mg_l": 278.4,
      "area": "Untersuchung 2024",
-     "carbonate_mg_l": 244.5
+     "carbonate_mg_l": 244.5,
+     "nitrate_mg_l": 17.1,
+     "calcium_mg_l": 63.9,
+     "magnesium_mg_l": 29.0,
+     "ions_source_url": "https://www.ikb.at/fileadmin/user_upload/Dokumente/Wasser/IKB_Wasser_Parameter-Versorgungszonen.pdf",
+     "ions_measured_on": "2024"
     },
     {
      "name": "Igls, Zenzenhof, Römerstraße und Vill",
@@ -329,13 +451,23 @@
      "carbonate_range_mg_l": [
       53.5,
       91.0
-     ]
+     ],
+     "nitrate_mg_l": 2.77,
+     "calcium_mg_l": 27.5,
+     "magnesium_mg_l": 5.63,
+     "ions_source_url": "https://www.ikb.at/fileadmin/user_upload/Dokumente/Wasser/IKB_Wasser_Parameter-Versorgungszonen.pdf",
+     "ions_measured_on": "2024"
     },
     {
      "name": "Amras und Aldrans",
      "mg_l": 27.3,
      "area": "Untersuchung 2024",
-     "carbonate_mg_l": 16.1
+     "carbonate_mg_l": 16.1,
+     "nitrate_mg_l": 1.53,
+     "calcium_mg_l": 8.84,
+     "magnesium_mg_l": 1.27,
+     "ions_source_url": "https://www.ikb.at/fileadmin/user_upload/Dokumente/Wasser/IKB_Wasser_Parameter-Versorgungszonen.pdf",
+     "ions_measured_on": "2024"
     }
    ],
    "carbonate_checked_on": "2026-09-25",
@@ -420,7 +552,25 @@
    "fresh_note": "Die alte Quelle trug die Zahl gar nicht. wasser.html nennt die Brunnen Hafendorf und Schoergendorf und die ZWHS, aber keinen Haertegrad - das Wort 'Haerte' kommt auf der Seite nicht vor, und auch die Wayback-Snapshots von 2022 und 2023 enthalten es nicht. Die eingetragenen '14-16 dH' sind auf keiner Seite des Versorgers belegt. Ersetzt durch die eigenen Befunde des Versorgers, die auf wasser.html verlinkt sind: Hafendorf, Pruefbericht 261665/04 vom 13.08.2026, Gesamthaerte 15,5 dH (Carbonathaerte 13,8, pH 7,3); Schoergendorf, Pruefbericht 261665/02 vom gleichen Tag, 11,5 dH (Carbonathaerte 9,0, pH 7,6). mg_l ist Hafendorf, range die beiden veroeffentlichten Brunnen - keine gemittelte Zahl mehr. Die Blaetter drucken das Berichts-, nicht das Probenahmedatum, daher measured_on 2026-08. zwhs.at veroeffentlicht keine Haerte fuer den Kapfenberger Anteil (die Analyseseite ist eine leere JS-Huelle).",
    "carbonate_mg_l": 246.3,
    "carbonate_source_url": "https://www.stadtwerke-kapfenberg.at/files/SWK_Layout/PDFs/Wasser/Wasserbefunde%20Brunnen%20Hafendorf-0826.pdf",
-   "carbonate_measured_on": "2026"
+   "carbonate_measured_on": "2026",
+   "nitrate_range_mg_l": [
+    5.0,
+    10.2
+   ],
+   "calcium_range_mg_l": [
+    61.0,
+    84.9
+   ],
+   "magnesium_range_mg_l": [
+    12.8,
+    17.8
+   ],
+   "ions_source_url": "https://www.stadtwerke-kapfenberg.at/files/SWK_Layout/PDFs/Wasser/Wasserbefunde%20Brunnen%20Sch%C3%B6rgendorf-0926.pdf",
+   "ions_measured_on": "2026-08-13",
+   "ions_source_urls": [
+    "https://www.stadtwerke-kapfenberg.at/files/SWK_Layout/PDFs/Wasser/Wasserbefunde%20Brunnen%20Sch%C3%B6rgendorf-0926.pdf",
+    "https://www.stadtwerke-kapfenberg.at/files/SWK_Layout/PDFs/Wasser/Wasserbefunde%20Brunnen%20Hafendorf0926.pdf"
+   ]
   },
   "AT/Klagenfurt": {
    "mg_l": null,
@@ -462,25 +612,45 @@
      "name": "Hochbehälter Spitalberg",
      "mg_l": 267.7,
      "carbonate_mg_l": 207.0,
-     "area": "Untersuchungszeugnis des ILV Kärnten 2026"
+     "area": "Untersuchungszeugnis des ILV Kärnten 2026",
+     "nitrate_mg_l": 15.9,
+     "calcium_mg_l": 80.0,
+     "magnesium_mg_l": 14.9,
+     "ions_source_url": "https://www.stw.at/wp-content/uploads/2026/06/gutachten_w-202611780.pdf",
+     "ions_measured_on": "2026-04"
     },
     {
      "name": "Pumpanlage Straschitz II",
      "mg_l": 303.4,
      "carbonate_mg_l": 285.6,
-     "area": "Untersuchungszeugnis des ILV Kärnten 2026"
+     "area": "Untersuchungszeugnis des ILV Kärnten 2026",
+     "nitrate_mg_l": 10.6,
+     "calcium_mg_l": 89.0,
+     "magnesium_mg_l": 21.1,
+     "ions_source_url": "https://www.stw.at/wp-content/uploads/2026/06/gutachten_w-202610138.pdf",
+     "ions_measured_on": "2026-04"
     },
     {
      "name": "Pumpanlage Zwirnawald",
      "mg_l": 321.3,
      "carbonate_mg_l": 267.7,
-     "area": "Untersuchungszeugnis des ILV Kärnten 2026"
+     "area": "Untersuchungszeugnis des ILV Kärnten 2026",
+     "nitrate_mg_l": 12.4,
+     "calcium_mg_l": 94.0,
+     "magnesium_mg_l": 21.0,
+     "ions_source_url": "https://www.stw.at/wp-content/uploads/2026/06/gutachten_w-202611781.pdf",
+     "ions_measured_on": "2026-04"
     },
     {
      "name": "Übernahme Wasserschiene Krappfeld",
      "mg_l": 246.3,
      "carbonate_mg_l": 192.8,
-     "area": "Untersuchungszeugnis des ILV Kärnten 2026"
+     "area": "Untersuchungszeugnis des ILV Kärnten 2026",
+     "nitrate_mg_l": 17.3,
+     "calcium_mg_l": 77.0,
+     "magnesium_mg_l": 13.4,
+     "ions_source_url": "https://www.stw.at/wp-content/uploads/2026/06/gutachten_w-202612105.pdf",
+     "ions_measured_on": "2026-04"
     }
    ],
    "carbonate_range_mg_l": [
@@ -503,7 +673,6 @@
    ],
    "lat": 47.5833,
    "lon": 12.1667,
-   "nitrate_mg_l": 3.3,
    "ph": 7.8,
    "origin": [
     "spring"
@@ -532,19 +701,32 @@
      "name": "Tiefbrunnen Fürhölzl",
      "mg_l": 160.6,
      "carbonate_mg_l": 144.6,
-     "area": "Prüfbericht vom 17.03.2026"
+     "area": "Prüfbericht vom 17.03.2026",
+     "nitrate_mg_l": 3.6,
+     "calcium_mg_l": 42.2,
+     "magnesium_mg_l": 13.2,
+     "ions_measured_on": "2026-03-17"
     },
     {
      "name": "Hofinger Quelle",
      "mg_l": 117.8,
      "carbonate_mg_l": 101.7,
-     "area": "Prüfbericht vom 17.03.2026"
+     "area": "Prüfbericht vom 17.03.2026",
+     "nitrate_mg_l": 3.7,
+     "calcium_mg_l": 34.9,
+     "magnesium_mg_l": 7.6,
+     "ions_measured_on": "2026-03-17"
     },
     {
      "name": "Repräsentative Netzprobe (VZ Lehenhof)",
      "mg_l": 121.4,
      "carbonate_mg_l": 107.1,
-     "area": "Netzprobe, Trinkwasserinformation vom 10. April 2026"
+     "area": "Netzprobe, Trinkwasserinformation vom 10. April 2026",
+     "nitrate_mg_l": 3.7,
+     "calcium_mg_l": 36.3,
+     "magnesium_mg_l": 7.5,
+     "ions_source_url": "https://www.stwk.at/fileadmin/Stadtwerke/Downloads/Wasser_und_Abwasser/2026-04-10_Trinkwasserinformation_Repr%C3%A4sentative_Netzprobe.pdf",
+     "ions_measured_on": "2026-03-17"
     }
    ],
    "carbonate_source_url": "https://www.stwk.at/fileadmin/Stadtwerke/Downloads/Wasser_und_Abwasser/2026-04_STWK_Pr%C3%BCfbericht-TB-F%C3%BCrh%C3%B6lzl-Hofinger-Quelle.pdf",
@@ -594,7 +776,21 @@
    "carbonate_source_url": "https://www.stadtwerke-leoben.at/wp-content/uploads/2026/07/wasserbericht-april-26.pdf",
    "carbonate_measured_on": "2026",
    "carbonate_note": "the AGES inspection of 10 March 2026 prints a carbonate hardness for every sampling point, 4.0 dH at the Karrenbach and Müllerleiten reservoirs up to 13.8 at Nennersdorf; an earlier customer sheet gave one city figure of 12.3 dH and no carbonate hardness",
-   "checked_on": "2026-09-24"
+   "checked_on": "2026-09-24",
+   "nitrate_range_mg_l": [
+    3.4,
+    7.9
+   ],
+   "calcium_range_mg_l": [
+    28.3,
+    110.0
+   ],
+   "magnesium_range_mg_l": [
+    5.9,
+    22.8
+   ],
+   "ions_source_url": "https://www.stadtwerke-leoben.at/wp-content/uploads/2026/07/wasserbericht-april-26.pdf",
+   "ions_measured_on": "2026-04"
   },
   "AT/Linz": {
    "mg_l": null,
@@ -628,7 +824,21 @@
    ],
    "carbonate_measured_on": "2026",
    "carbonate_source_url": "https://www.linzag.at/media/dokumente/wasser_2/trinkwasseruntersuchungen/wasserguete-juli-august-2026.pdf",
-   "carbonate_note": "printed per supply zone: 16.0, 15.8, 17.1, 11.9, 16.7, 11.7, 11.8, 11.9, 13.8, 13.8, 15.4 dH"
+   "carbonate_note": "printed per supply zone: 16.0, 15.8, 17.1, 11.9, 16.7, 11.7, 11.8, 11.9, 13.8, 13.8, 15.4 dH",
+   "nitrate_range_mg_l": [
+    8.0,
+    20.5
+   ],
+   "calcium_range_mg_l": [
+    68.0,
+    97.7
+   ],
+   "magnesium_range_mg_l": [
+    14.9,
+    24.1
+   ],
+   "ions_source_url": "https://www.linzag.at/media/dokumente/wasser_2/trinkwasseruntersuchungen/wasserguete-juli-august-2026.pdf",
+   "ions_measured_on": "2026-08"
   },
   "AT/Mödling": {
    "mg_l": 340.9,
@@ -658,7 +868,11 @@
    "fresh_note": "19,0 -> 19,1 dH und Quelle auf den Befund selbst gesetzt. Die Seite Wasserqualitaet_und_Wasserpreis lebt und schreibt weiter 'Die Gesamthaerte des Wassers liegt bei 19 Grad deutscher Haerte' und 'Nitratgehalt ... 15 mg/l', ist aber gerundete Prosa ohne Datum. Darunter haengt als Inline-Link ohne '.pdf' im Pfad das Blatt 'Trinkwasserdaten Maerz 2026' (getDocument.ashx?cts=1774000779&fileid=3647464), 'AKTUELLE TRINKWASSERDATEN' nach § 3 UIG: Gesamtproben vom 03.03.2026, beispielhaft die Probenahme im Rathaus (Niederzone), Gesamthaerte 19,1 dH, Carbonathaerte 14,4 dH, Nitrat 15,0 mg/l, pH 7,6, Calcium 89,8, Magnesium 28,2 mg/l, Gutachten der AGES. Nitrat unveraendert. Dieselbe URL steht bereits in ph_source_url, die Form ist also im Datensatz etabliert; die Vorgaengerausgabe 'Trinkwasserdaten Oktober 2025' (fileid=3541426) haengt daneben. Die Seite verweigert direkt ueber ihren eigenen Anhaengen die Herausgabe von Untersuchungsergebnissen ohne persoenlichen Kontakt - das ist der Grund, warum zwei frueher Durchgaenge hier nichts fanden.",
    "carbonate_mg_l": 257.0,
    "carbonate_source_url": "https://www.moedling.at/system/web/getDocument.ashx?cts=1774000779&fileid=3647464",
-   "carbonate_measured_on": "2026"
+   "carbonate_measured_on": "2026",
+   "calcium_mg_l": 89.8,
+   "magnesium_mg_l": 28.2,
+   "ions_source_url": "https://www.moedling.at/system/web/getDocument.ashx?cts=1774000779&fileid=3647464",
+   "ions_measured_on": "2026-03-03"
   },
   "AT/Salzburg": {
    "mg_l": null,
@@ -707,49 +921,83 @@
      "name": "Behälter Mönchsberg",
      "mg_l": 182.0,
      "carbonate_mg_l": 170.4,
-     "area": "siehe Härteplan des Versorgers"
+     "area": "siehe Härteplan des Versorgers",
+     "nitrate_mg_l": 5.46,
+     "calcium_mg_l": 52.8,
+     "magnesium_mg_l": 13.8,
+     "ions_source_url": "https://www.salzburg-ag.at/content/dam/web18/dokumente/waerme_wasser/Wasseranalysen.pdf",
+     "ions_measured_on": "2026-09-29"
     },
     {
      "name": "Behälter Kapuzinerberg",
      "mg_l": 178.5,
      "carbonate_mg_l": 162.9,
-     "area": "siehe Härteplan des Versorgers"
+     "area": "siehe Härteplan des Versorgers",
+     "nitrate_mg_l": 4.31,
+     "calcium_mg_l": 57.4,
+     "magnesium_mg_l": 8.78,
+     "ions_source_url": "https://www.salzburg-ag.at/content/dam/web18/dokumente/waerme_wasser/Wasseranalysen.pdf",
+     "ions_measured_on": "2026-09-29"
     },
     {
      "name": "Fürstenbrunn Glanegg",
      "mg_l": 167.8,
      "carbonate_mg_l": 160.4,
-     "area": "siehe Härteplan des Versorgers"
+     "area": "siehe Härteplan des Versorgers",
+     "nitrate_mg_l": 5.81,
+     "ions_source_url": "https://www.salzburg-ag.at/content/dam/web18/dokumente/waerme_wasser/Wasseranalysen.pdf",
+     "ions_measured_on": "2026-09-29"
     },
     {
      "name": "Itzling",
      "mg_l": 242.7,
      "carbonate_mg_l": 229.4,
-     "area": "siehe Härteplan des Versorgers"
+     "area": "siehe Härteplan des Versorgers",
+     "nitrate_mg_l": 6.27,
+     "calcium_mg_l": 78.7,
+     "magnesium_mg_l": 13.5,
+     "ions_source_url": "https://www.salzburg-ag.at/content/dam/web18/dokumente/waerme_wasser/Wasseranalysen.pdf",
+     "ions_measured_on": "2026-09-29"
     },
     {
      "name": "Glasenbach",
      "mg_l": 196.3,
      "carbonate_mg_l": 182.9,
-     "area": "siehe Härteplan des Versorgers"
+     "area": "siehe Härteplan des Versorgers",
+     "nitrate_mg_l": 3.8,
+     "ions_source_url": "https://www.salzburg-ag.at/content/dam/web18/dokumente/waerme_wasser/Wasseranalysen.pdf",
+     "ions_measured_on": "2026-09-29"
     },
     {
      "name": "Parsch",
      "mg_l": 205.3,
      "carbonate_mg_l": 192.9,
-     "area": "siehe Härteplan des Versorgers"
+     "area": "siehe Härteplan des Versorgers",
+     "nitrate_mg_l": 4.74,
+     "calcium_mg_l": 56.7,
+     "magnesium_mg_l": 16.7,
+     "ions_source_url": "https://www.salzburg-ag.at/content/dam/web18/dokumente/waerme_wasser/Wasseranalysen.pdf",
+     "ions_measured_on": "2026-09-29"
     },
     {
      "name": "Gnigl",
      "mg_l": 210.6,
      "carbonate_mg_l": 199.9,
-     "area": "siehe Härteplan des Versorgers"
+     "area": "siehe Härteplan des Versorgers",
+     "nitrate_mg_l": 4.37,
+     "ions_source_url": "https://www.salzburg-ag.at/content/dam/web18/dokumente/waerme_wasser/Wasseranalysen.pdf",
+     "ions_measured_on": "2026-09-29"
     },
     {
      "name": "Langwied",
      "mg_l": 321.3,
      "carbonate_mg_l": 306.3,
-     "area": "siehe Härteplan des Versorgers"
+     "area": "siehe Härteplan des Versorgers",
+     "nitrate_mg_l": 8.13,
+     "calcium_mg_l": 102.0,
+     "magnesium_mg_l": 18.6,
+     "ions_source_url": "https://www.salzburg-ag.at/content/dam/web18/dokumente/waerme_wasser/Wasseranalysen.pdf",
+     "ions_measured_on": "2026-09-29"
     }
    ],
    "carbonate_range_mg_l": [
@@ -787,7 +1035,12 @@
    "carbonate_mg_l": 267.7,
    "carbonate_measured_on": "2025",
    "carbonate_source_url": "https://ftp2.stadtbetriebe.at/wasser/Wasseruntersuchungsergebnisse_2025.pdf",
-   "checked_on": "2026-09-24"
+   "checked_on": "2026-09-24",
+   "nitrate_mg_l": 22.6,
+   "calcium_mg_l": 81.8,
+   "magnesium_mg_l": 25.4,
+   "ions_source_url": "https://ftp2.stadtbetriebe.at/wasser/Wasseruntersuchungsergebnisse_2025.pdf",
+   "ions_measured_on": "2025-05-28"
   },
   "AT/Vienna": {
    "mg_l": null,
@@ -826,38 +1079,58 @@
     "checked_on": "2026-09-05",
     "note": "Volluntersuchung Grundwasserwerk Lobau, Probeentnahme 30.04.2026, Bericht MA 39 - 26-03297 vom 11.06.2026. Der Summenwert wird nur im Fliesstext genannt; die Parametertabelle verweist auf einen eigenen Befund ('PFAS lt. TWV - siehe eigener Befund', Unterauftrag AGES), daher keine gedruckte Bestimmungsgrenze und loq null. Das GWW Lobau ist nur eine von mehreren Wiener Wasserquellen. Fuer die I. und II. Hochquellenleitung und das Grundwasserwerk Moosbrunn schreibt die Stadt Wien auf wien.gv.at/umwelt/trinkwasser-pfas nur qualitativ: 'Die PFAS-Summe im Wiener Trinkwasser ist nahezu an allen Mess-Stellen nicht nachweisbar' - ohne Zahl und ohne BG. Zonen nicht gemittelt."
    },
-   "ph": 7.7,
-   "ph_measured_on": "2026-04",
+   "ph": 7.9,
+   "ph_measured_on": "2026-08",
    "ph_source_url": "https://www.wien.gv.at/umwelt/trinkwasserqualitaet-aktuelle-werte",
-   "ph_note": "I. Hochquellenleitung, analysis of 27.4.2026 - the widest-coverage supply, feeding most of the city. Wiener Wasser publishes four separately: I. HQL 7,7 and II. HQL 7,8 (both 27.4.2026), Wasserwerk Lobau 7,5 (30.4.2026) and Wasserwerk Moosbrunn 7,5 (29.4.2026). Not averaged.",
+   "ph_note": "I. Hochquellenleitung, analysis of 3.8.2026 - the widest-coverage supply, feeding most of the city. Wiener Wasser publishes four separately: I. HQL 7,9 and II. HQL 8,1 (both 3.8.2026), Wasserwerk Lobau 7,6 (6.8.2026) and Wasserwerk Moosbrunn 7,7 (5.8.2026). Not averaged.",
    "zones": [
     {
      "name": "I. Hochquellenleitung",
-     "mg_l": 173.1,
-     "carbonate_mg_l": 153.5,
-     "measured_on": "2026-04-27",
-     "area": "zusammen mit der II. Hochquellenleitung der größte Teil der Stadt"
+     "mg_l": 178.5,
+     "carbonate_mg_l": 162.4,
+     "measured_on": "2026-08-03",
+     "area": "zusammen mit der II. Hochquellenleitung der größte Teil der Stadt",
+     "nitrate_mg_l": 5.4,
+     "calcium_mg_l": 50.0,
+     "magnesium_mg_l": 13.0,
+     "ions_source_url": "https://www.wien.gv.at/pdf/ma31/hq1-volluntersuchung.pdf",
+     "ions_measured_on": "2026-09"
     },
     {
      "name": "II. Hochquellenleitung",
      "mg_l": 114.2,
      "carbonate_mg_l": 114.2,
-     "measured_on": "2026-04-27",
-     "area": "zusammen mit der I. Hochquellenleitung der größte Teil der Stadt"
+     "measured_on": "2026-08-03",
+     "area": "zusammen mit der I. Hochquellenleitung der größte Teil der Stadt",
+     "nitrate_mg_l": 2.9,
+     "calcium_mg_l": 36.0,
+     "magnesium_mg_l": 5.9,
+     "ions_source_url": "https://www.wien.gv.at/pdf/ma31/hq2-volluntersuchung.pdf",
+     "ions_measured_on": "2026-09"
     },
     {
      "name": "Wasserwerk Lobau",
-     "mg_l": 271.3,
+     "mg_l": 267.7,
      "carbonate_mg_l": 242.7,
-     "measured_on": "2026-04-30",
-     "area": "Einspeisung bei Bedarf, vor allem in den Bezirken 2, 3, 11, 20, 21 und 22"
+     "measured_on": "2026-08-06",
+     "area": "Einspeisung bei Bedarf, vor allem in den Bezirken 2, 3, 11, 20, 21 und 22",
+     "nitrate_mg_l": 2.7,
+     "calcium_mg_l": 76.0,
+     "magnesium_mg_l": 19.0,
+     "ions_source_url": "https://www.wien.gv.at/pdf/ma31/lobau-volluntersuchung.pdf",
+     "ions_measured_on": "2026-09"
     },
     {
      "name": "Wasserwerk Moosbrunn",
-     "mg_l": 310.6,
-     "carbonate_mg_l": 233.8,
-     "measured_on": "2026-04-29",
-     "area": "Einspeisung bei Bedarf, vor allem in den Bezirken 2, 3, 11, 20, 21 und 22"
+     "mg_l": 299.8,
+     "carbonate_mg_l": 226.7,
+     "measured_on": "2026-08-05",
+     "area": "Einspeisung bei Bedarf, vor allem in den Bezirken 2, 3, 11, 20, 21 und 22",
+     "nitrate_mg_l": 13.0,
+     "calcium_mg_l": 82.0,
+     "magnesium_mg_l": 23.0,
+     "ions_source_url": "https://www.wien.gv.at/pdf/ma31/unterlaa-volluntersuchung.pdf",
+     "ions_measured_on": "2026-09"
     }
    ],
    "districts": {
@@ -992,19 +1265,31 @@
      "name": "Versorgungszone Villach (Unionquelle)",
      "mg_l": 180.3,
      "carbonate_mg_l": 174.9,
-     "area": "AGES-Volluntersuchung 2026"
+     "area": "AGES-Volluntersuchung 2026",
+     "calcium_mg_l": 53.0,
+     "magnesium_mg_l": 11.5,
+     "ions_measured_on": "2026"
     },
     {
      "name": "Versorgungszone Landskron (Brunnen Urlaken)",
      "mg_l": 267.7,
      "carbonate_mg_l": 232.0,
-     "area": "AGES-Volluntersuchung 2026"
+     "area": "AGES-Volluntersuchung 2026",
+     "nitrate_mg_l": 8.0,
+     "calcium_mg_l": 79.0,
+     "magnesium_mg_l": 17.4,
+     "ions_measured_on": "2026",
+     "ions_source_url": "https://villach.at/getmedia/d6d8c57b-0ebe-404b-bbee-dd11b3b927e7/26-02-17_EST_0022-Voll_1.pdf.aspx"
     },
     {
      "name": "Versorgungszone Mittewald ob Villach (Barbaraquelle)",
      "mg_l": 230.2,
      "carbonate_mg_l": 214.2,
-     "area": "AGES-Volluntersuchung 2026"
+     "area": "AGES-Volluntersuchung 2026",
+     "calcium_mg_l": 58.0,
+     "magnesium_mg_l": 20.7,
+     "ions_measured_on": "2026",
+     "ions_source_url": "https://villach.at/getmedia/e519636a-1b5c-4a75-910d-61ae6ee1db6f/26-05-18_EST_0082-Voll.pdf.aspx"
     }
    ],
    "carbonate_range_mg_l": [
@@ -1045,7 +1330,21 @@
    ],
    "carbonate_source_url": "https://www.eww.at/fileadmin/user_upload/downloads/wasser/infomaterial/Agrolab-Pruefbefund-eww-Wasser.pdf",
    "carbonate_measured_on": "2026",
-   "checked_on": "2026-09-24"
+   "checked_on": "2026-09-24",
+   "nitrate_range_mg_l": [
+    6.33,
+    6.59
+   ],
+   "calcium_range_mg_l": [
+    49.8,
+    50.7
+   ],
+   "magnesium_range_mg_l": [
+    11.3,
+    11.5
+   ],
+   "ions_source_url": "https://www.eww.at/fileadmin/user_upload/downloads/wasser/infomaterial/Agrolab-Pruefbefund-eww-Wasser.pdf",
+   "ions_measured_on": "2026-07-03"
   },
   "AT/Wiener Neustadt": {
    "mg_l": null,
@@ -1076,22 +1375,42 @@
     {
      "name": "Wasserwerk Süd",
      "mg_l": 258.8,
-     "carbonate_mg_l": 208.8
+     "carbonate_mg_l": 208.8,
+     "nitrate_mg_l": 15.6,
+     "calcium_mg_l": 76.0,
+     "magnesium_mg_l": 16.7,
+     "ions_source_url": "https://www.wiener-neustadt.at/files/drive/wrn/content/service/umwelt-abfall/Wasserwerk/a4_wasserwerte_hp_2026.pdf",
+     "ions_measured_on": "2025"
     },
     {
      "name": "Wasserwerk West",
      "mg_l": 365.9,
-     "carbonate_mg_l": 246.3
+     "carbonate_mg_l": 246.3,
+     "nitrate_mg_l": 28.5,
+     "calcium_mg_l": 100.5,
+     "magnesium_mg_l": 27.6,
+     "ions_source_url": "https://www.wiener-neustadt.at/files/drive/wrn/content/service/umwelt-abfall/Wasserwerk/a4_wasserwerte_hp_2026.pdf",
+     "ions_measured_on": "2025"
     },
     {
      "name": "Wasserwerk Ost",
      "mg_l": 292.7,
-     "carbonate_mg_l": 214.2
+     "carbonate_mg_l": 214.2,
+     "nitrate_mg_l": 16.0,
+     "calcium_mg_l": 80.5,
+     "magnesium_mg_l": 22.1,
+     "ions_source_url": "https://www.wiener-neustadt.at/files/drive/wrn/content/service/umwelt-abfall/Wasserwerk/a4_wasserwerte_hp_2026.pdf",
+     "ions_measured_on": "2025"
     },
     {
      "name": "Wasserwerk Heideansiedlung",
      "mg_l": 315.9,
-     "carbonate_mg_l": 269.5
+     "carbonate_mg_l": 269.5,
+     "nitrate_mg_l": 17.0,
+     "calcium_mg_l": 82.3,
+     "magnesium_mg_l": 27.0,
+     "ions_source_url": "https://www.wiener-neustadt.at/files/drive/wrn/content/service/umwelt-abfall/Wasserwerk/a4_wasserwerte_hp_2026.pdf",
+     "ions_measured_on": "2025"
     }
    ],
    "carbonate_measured_on": "2026",
@@ -1367,13 +1686,41 @@
      "name": "Hard / Zentrale West",
      "mg_l": 181.0,
      "carbonate_mg_l": 150.0,
-     "area": "Grundwasseranreicherung aus dem Rhein"
+     "area": "Grundwasseranreicherung aus dem Rhein",
+     "nitrate_range_mg_l": [
+      5.2,
+      8.1
+     ],
+     "calcium_range_mg_l": [
+      53.8,
+      66.6
+     ],
+     "magnesium_range_mg_l": [
+      7.3,
+      9.3
+     ],
+     "ions_source_url": "https://www.iwb.ch/dam/jcr:806e00b9-5595-4623-b696-28b655adf19b/2025_trinkwasserqualitaetsdaten_iwb_hardwasser.pdf",
+     "ions_measured_on": "2025"
     },
     {
      "name": "Lange Erlen",
      "mg_l": 173.0,
      "carbonate_mg_l": 151.0,
-     "area": "Grundwasseranreicherung über Waldböden"
+     "area": "Grundwasseranreicherung über Waldböden",
+     "nitrate_range_mg_l": [
+      6.1,
+      9.2
+     ],
+     "calcium_range_mg_l": [
+      49.6,
+      62.4
+     ],
+     "magnesium_range_mg_l": [
+      6.8,
+      8.2
+     ],
+     "ions_source_url": "https://www.iwb.ch/dam/jcr:806e00b9-5595-4623-b696-28b655adf19b/2025_trinkwasserqualitaetsdaten_iwb_hardwasser.pdf",
+     "ions_measured_on": "2025"
     }
    ],
    "carbonate_range_mg_l": [
@@ -1443,13 +1790,23 @@
      "name": "Emmental, Reservoir Mannenberg",
      "mg_l": 206.0,
      "carbonate_mg_l": 200.0,
-     "area": "Grundwasser aus dem Emmental"
+     "area": "Grundwasser aus dem Emmental",
+     "nitrate_mg_l": 4.9,
+     "calcium_mg_l": 74.27,
+     "magnesium_mg_l": 5.34,
+     "ions_source_url": "https://ewb.ch/media/docs/pdf/diverses/trinkwasseranalysen-2021-2025.pdf",
+     "ions_measured_on": "2021–2025"
     },
     {
      "name": "Aaretal, Reservoir Gurten",
      "mg_l": 209.0,
      "carbonate_mg_l": 174.0,
-     "area": "Grundwasser aus dem Aaretal"
+     "area": "Grundwasser aus dem Aaretal",
+     "nitrate_mg_l": 6.2,
+     "calcium_mg_l": 68.92,
+     "magnesium_mg_l": 8.98,
+     "ions_source_url": "https://ewb.ch/media/docs/pdf/diverses/trinkwasseranalysen-2021-2025.pdf",
+     "ions_measured_on": "2021–2025"
     },
     {
      "name": "Könizberg",
@@ -1643,8 +2000,6 @@
    "origin": [
     "lake"
    ],
-   "calcium_mg_l": 43.9,
-   "magnesium_mg_l": 5.9,
    "sodium_mg_l": 9.4,
    "sources_named": [
     "Lac Léman",
@@ -1668,25 +2023,45 @@
      "name": "Zone 1 (Seewasser)",
      "mg_l": 135.4,
      "carbonate_mg_l": 94.1,
-     "area": "Seewasser; versorgt nach Angaben des Versorgers den Stadtkern"
+     "area": "Seewasser; versorgt nach Angaben des Versorgers den Stadtkern",
+     "nitrate_mg_l": 2.48,
+     "ions_source_url": "https://media.sig-ge.ch/documents/particuliers/eau/analyses_generales_eau_zone_1.pdf",
+     "ions_measured_on": "2025",
+     "calcium_mg_l": 44.6,
+     "magnesium_mg_l": 5.9
     },
     {
      "name": "Zone 2, Messstelle 3081",
      "mg_l": 224.4,
      "carbonate_mg_l": 214.3,
-     "area": "Grundwasser"
+     "area": "Grundwasser",
+     "nitrate_mg_l": 6.52,
+     "calcium_mg_l": 78.0,
+     "magnesium_mg_l": 7.2,
+     "ions_source_url": "https://media.sig-ge.ch/documents/particuliers/eau/analyses_generales_eau_zone_2.pdf",
+     "ions_measured_on": "2025"
     },
     {
      "name": "Zone 3",
      "mg_l": 200.4,
      "carbonate_mg_l": 151.9,
-     "area": "Grundwasser"
+     "area": "Grundwasser",
+     "nitrate_mg_l": 2.98,
+     "calcium_mg_l": 61.0,
+     "magnesium_mg_l": 11.7,
+     "ions_source_url": "https://media.sig-ge.ch/documents/particuliers/eau/analyses_generales_eau_zone_3.pdf",
+     "ions_measured_on": "2025"
     },
     {
      "name": "Zone 4",
      "mg_l": 212.3,
      "carbonate_mg_l": 163.0,
-     "area": "Grundwasser"
+     "area": "Grundwasser",
+     "nitrate_mg_l": 5.19,
+     "calcium_mg_l": 66.4,
+     "magnesium_mg_l": 11.3,
+     "ions_source_url": "https://media.sig-ge.ch/documents/particuliers/eau/analyses_generales_eau_zone_4.pdf",
+     "ions_measured_on": "2025"
     }
    ],
    "carbonate_range_mg_l": [
@@ -1771,7 +2146,20 @@
    "carbonate_measured_on": "2025",
    "carbonate_source_url": "https://www.lausanne.ch/vie-pratique/energies-et-eau/eau/qualite/reservoir-recherche.html",
    "carbonate_note": "published per reservoir as dureté carbonatée, 9.9 to 19.3 f across the 22 departure points; the utility answers by address",
-   "checked_on": "2026-09-24"
+   "checked_on": "2026-09-24",
+   "nitrate_range_mg_l": [
+    2.1,
+    8.0
+   ],
+   "calcium_range_mg_l": [
+    45.0,
+    69.0
+   ],
+   "magnesium_range_mg_l": [
+    6.0,
+    8.7
+   ],
+   "ions_source_url": "https://www.lausanne.ch/.binaryData/website/path/lausanne/vie-pratique/energies-et-eau/eau/qualite/reservoir-recherche/contentAutogenerated/autogeneratedContainer/col2/0/en-relationList/0/websitedownload/Résultats physico-chimiques 2025.2026-04-20-11-49-03.pdf"
   },
   "CH/Lucerne": {
    "mg_l": null,
@@ -1831,19 +2219,31 @@
      "name": "Seewasser",
      "mg_l": 117.0,
      "carbonate_mg_l": 104.0,
-     "area": "Vierwaldstättersee"
+     "area": "Vierwaldstättersee",
+     "nitrate_mg_l": 2.7,
+     "calcium_mg_l": 41.0,
+     "magnesium_mg_l": 3.7,
+     "ions_source_url": "https://www.ewl-luzern.ch/wasser/wasserqualitaet"
     },
     {
      "name": "Quellwasser",
      "mg_l": 147.0,
      "carbonate_mg_l": 138.0,
-     "area": "Quellen"
+     "area": "Quellen",
+     "nitrate_mg_l": 3.6,
+     "calcium_mg_l": 53.0,
+     "magnesium_mg_l": 3.7,
+     "ions_source_url": "https://www.ewl-luzern.ch/wasser/wasserqualitaet"
     },
     {
      "name": "Grundwasser",
      "mg_l": 277.0,
      "carbonate_mg_l": 267.0,
-     "area": "Grundwasser"
+     "area": "Grundwasser",
+     "nitrate_mg_l": 9.0,
+     "calcium_mg_l": 96.0,
+     "magnesium_mg_l": 8.9,
+     "ions_source_url": "https://www.ewl-luzern.ch/wasser/wasserqualitaet"
     }
    ],
    "carbonate_range_mg_l": [
@@ -1865,7 +2265,6 @@
    ],
    "lat": 46.0101,
    "lon": 8.96,
-   "nitrate_mg_l": 4.8,
    "sodium_mg_l": 4.2,
    "ph": 7.9,
    "origin": [
@@ -1891,145 +2290,257 @@
      "name": "Lugano-Val Colla",
      "mg_l": 50.0,
      "carbonate_mg_l": 49.1,
-     "area": "Etikett 2026: 5,0 °fH, Hydrogencarbonat 60 mg/l"
+     "area": "Etikett 2026: 5,0 °fH, Hydrogencarbonat 60 mg/l",
+     "nitrate_mg_l": 3.1,
+     "ions_measured_on": "2026",
+     "ions_source_url": "https://www.cca-lab.ch/wp-content/uploads/2026/06/22.-Etichettatura-Val-Colla-1.pdf"
     },
     {
      "name": "Lugano-Besso",
      "mg_l": 56.0,
      "carbonate_mg_l": 54.9,
-     "area": "Etikett 2026: 5,6 °fH, Hydrogencarbonat 67 mg/l"
+     "area": "Etikett 2026: 5,6 °fH, Hydrogencarbonat 67 mg/l",
+     "nitrate_mg_l": 4.4,
+     "calcium_mg_l": 16.0,
+     "magnesium_mg_l": 4.1,
+     "ions_measured_on": "2026",
+     "ions_source_url": "https://www.cca-lab.ch/wp-content/uploads/2026/05/03.-Etichettatura-Besso.pdf"
     },
     {
      "name": "Lugano-Molino Nuovo",
      "mg_l": 68.0,
      "carbonate_mg_l": 67.1,
-     "area": "Etikett 2026: 6,8 °fH, Hydrogencarbonat 82 mg/l"
+     "area": "Etikett 2026: 6,8 °fH, Hydrogencarbonat 82 mg/l",
+     "nitrate_mg_l": 4.0,
+     "ions_measured_on": "2026",
+     "ions_source_url": "https://www.cca-lab.ch/wp-content/uploads/2026/06/17.-Etichettatura-Molino-Nuovo-1.pdf"
     },
     {
      "name": "Lugano-Massagno",
      "mg_l": 70.0,
      "carbonate_mg_l": 72.0,
-     "area": "Etikett 2026: 7,0 °fH, Hydrogencarbonat 88 mg/l"
+     "area": "Etikett 2026: 7,0 °fH, Hydrogencarbonat 88 mg/l",
+     "nitrate_mg_l": 4.5,
+     "calcium_mg_l": 20.0,
+     "magnesium_mg_l": 5.0,
+     "ions_measured_on": "2026",
+     "ions_source_url": "https://www.cca-lab.ch/wp-content/uploads/2026/06/25.-Etichettatura-Massagno-1.pdf"
     },
     {
      "name": "Lugano-Loreto",
      "mg_l": 77.0,
      "carbonate_mg_l": 74.5,
-     "area": "Etikett 2026: 7,7 °fH, Hydrogencarbonat 91 mg/l"
+     "area": "Etikett 2026: 7,7 °fH, Hydrogencarbonat 91 mg/l",
+     "nitrate_mg_l": 4.6,
+     "calcium_mg_l": 21.0,
+     "magnesium_mg_l": 6.1,
+     "ions_measured_on": "2026",
+     "ions_source_url": "https://www.cca-lab.ch/wp-content/uploads/2026/06/16.-Etichettatura-Loreto-1.pdf"
     },
     {
      "name": "Lugano-Carona",
      "mg_l": 100.0,
      "carbonate_mg_l": 96.6,
-     "area": "Etikett 2026: 10,0 °fH, Hydrogencarbonat 118 mg/l"
+     "area": "Etikett 2026: 10,0 °fH, Hydrogencarbonat 118 mg/l",
+     "nitrate_mg_l": 3.9,
+     "calcium_mg_l": 27.0,
+     "magnesium_mg_l": 8.2,
+     "ions_measured_on": "2026",
+     "ions_source_url": "https://www.cca-lab.ch/wp-content/uploads/2026/05/09.-Etichettatura-Carona.pdf"
     },
     {
      "name": "Lugano-Barbengo",
      "mg_l": 100.0,
      "carbonate_mg_l": 104.8,
-     "area": "Etikett 2026: 10 °fH, Hydrogencarbonat 128 mg/l"
+     "area": "Etikett 2026: 10 °fH, Hydrogencarbonat 128 mg/l",
+     "nitrate_mg_l": 5.0,
+     "ions_measured_on": "2026",
+     "ions_source_url": "https://www.cca-lab.ch/wp-content/uploads/2026/05/02.-Etichettatura-Barbengo.pdf"
     },
     {
      "name": "Lugano-Centro",
      "mg_l": 110.0,
      "carbonate_mg_l": 95.8,
-     "area": "Etikett 2026: 11 °fH, Hydrogencarbonat 117 mg/l"
+     "area": "Etikett 2026: 11 °fH, Hydrogencarbonat 117 mg/l",
+     "nitrate_mg_l": 4.3,
+     "calcium_mg_l": 28.0,
+     "magnesium_mg_l": 9.0,
+     "ions_measured_on": "2026",
+     "ions_source_url": "https://www.cca-lab.ch/wp-content/uploads/2026/06/12.-Etichettatura-Centro-1.pdf"
     },
     {
      "name": "Lugano-Carabbia",
      "mg_l": 110.0,
      "carbonate_mg_l": 99.1,
-     "area": "Etikett 2026: 11 °fH, Hydrogencarbonat 121 mg/l"
+     "area": "Etikett 2026: 11 °fH, Hydrogencarbonat 121 mg/l",
+     "nitrate_mg_l": 4.7,
+     "calcium_mg_l": 29.0,
+     "magnesium_mg_l": 8.5,
+     "ions_measured_on": "2026",
+     "ions_source_url": "https://www.cca-lab.ch/wp-content/uploads/2026/05/08.-Etichettatura-Carabbia.pdf"
     },
     {
      "name": "Lugano-Pambio Noranco",
      "mg_l": 110.0,
      "carbonate_mg_l": 95.8,
-     "area": "Etikett 2026: 11 °fH, Hydrogencarbonat 117 mg/l"
+     "area": "Etikett 2026: 11 °fH, Hydrogencarbonat 117 mg/l",
+     "nitrate_mg_l": 4.3,
+     "calcium_mg_l": 28.0,
+     "magnesium_mg_l": 9.0,
+     "ions_measured_on": "2026",
+     "ions_source_url": "https://www.cca-lab.ch/wp-content/uploads/2026/06/18.-Etichettatura-Pambio-Noranco-1.pdf"
     },
     {
      "name": "Lugano-Aldesago",
      "mg_l": 110.0,
      "carbonate_mg_l": 104.8,
-     "area": "Etikett 2026: 11 °fH, Hydrogencarbonat 128 mg/l"
+     "area": "Etikett 2026: 11 °fH, Hydrogencarbonat 128 mg/l",
+     "nitrate_mg_l": 3.5,
+     "calcium_mg_l": 31.0,
+     "magnesium_mg_l": 8.6,
+     "ions_measured_on": "2026",
+     "ions_source_url": "https://www.cca-lab.ch/wp-content/uploads/2026/05/01.-Etichettatura-Aldesago.pdf"
     },
     {
      "name": "Lugano-Viganello",
      "mg_l": 120.0,
      "carbonate_mg_l": 116.3,
-     "area": "Etikett 2026: 12 °fH, Hydrogencarbonat 142 mg/l"
+     "area": "Etikett 2026: 12 °fH, Hydrogencarbonat 142 mg/l",
+     "nitrate_mg_l": 5.8,
+     "calcium_mg_l": 34.0,
+     "magnesium_mg_l": 8.8,
+     "ions_measured_on": "2026",
+     "ions_source_url": "https://www.cca-lab.ch/wp-content/uploads/2026/06/23.-Etichettatura-Viganello-1.pdf"
     },
     {
      "name": "Lugano-Cassarate",
      "mg_l": 120.0,
      "carbonate_mg_l": 114.6,
-     "area": "Etikett 2026: 12 °fH, Hydrogencarbonat 140 mg/l"
+     "area": "Etikett 2026: 12 °fH, Hydrogencarbonat 140 mg/l",
+     "nitrate_mg_l": 2.8,
+     "calcium_mg_l": 34.0,
+     "magnesium_mg_l": 9.0,
+     "ions_measured_on": "2026",
+     "ions_source_url": "https://www.cca-lab.ch/wp-content/uploads/2026/06/10.-Etichettatura-Cassarate-1.pdf"
     },
     {
      "name": "Lugano-Brè",
      "mg_l": 120.0,
      "carbonate_mg_l": 110.5,
-     "area": "Etikett 2026: 12 °fH, Hydrogencarbonat 135 mg/l"
+     "area": "Etikett 2026: 12 °fH, Hydrogencarbonat 135 mg/l",
+     "nitrate_mg_l": 3.6,
+     "calcium_mg_l": 33.0,
+     "magnesium_mg_l": 8.9,
+     "ions_measured_on": "2026",
+     "ions_source_url": "https://www.cca-lab.ch/wp-content/uploads/2026/05/04.-Etichettatura-Bre.pdf"
     },
     {
      "name": "Lugano-Castagnola",
      "mg_l": 120.0,
      "carbonate_mg_l": 113.8,
-     "area": "Etikett 2026: 12 °fH, Hydrogencarbonat 139 mg/l"
+     "area": "Etikett 2026: 12 °fH, Hydrogencarbonat 139 mg/l",
+     "nitrate_mg_l": 4.3,
+     "calcium_mg_l": 35.0,
+     "magnesium_mg_l": 8.6,
+     "ions_measured_on": "2026",
+     "ions_source_url": "https://www.cca-lab.ch/wp-content/uploads/2026/06/11.-Etichettatura-Castagnola-1.pdf"
     },
     {
      "name": "Lugano-Gandria",
      "mg_l": 120.0,
      "carbonate_mg_l": 108.9,
-     "area": "Etikett 2026: 12 °fH, Hydrogencarbonat 133 mg/l"
+     "area": "Etikett 2026: 12 °fH, Hydrogencarbonat 133 mg/l",
+     "nitrate_mg_l": 3.3,
+     "calcium_mg_l": 32.0,
+     "magnesium_mg_l": 9.0,
+     "ions_measured_on": "2026",
+     "ions_source_url": "https://www.cca-lab.ch/wp-content/uploads/2026/06/15.-Etichettatura-Gandria-1.pdf"
     },
     {
      "name": "Lugano-Sonvico",
      "mg_l": 130.0,
      "carbonate_mg_l": 115.4,
-     "area": "Etikett 2026: 13 °fH, Hydrogencarbonat 141 mg/l"
+     "area": "Etikett 2026: 13 °fH, Hydrogencarbonat 141 mg/l",
+     "nitrate_mg_l": 5.9,
+     "calcium_mg_l": 29.0,
+     "magnesium_mg_l": 14.0,
+     "ions_measured_on": "2026",
+     "ions_source_url": "https://www.cca-lab.ch/wp-content/uploads/2026/06/21.-Etichettatura-Sonvico-1.pdf"
     },
     {
      "name": "Lugano-Pregassona",
      "mg_l": 140.0,
      "carbonate_mg_l": 132.6,
-     "area": "Etikett 2026: 14 °fH, Hydrogencarbonat 162 mg/l"
+     "area": "Etikett 2026: 14 °fH, Hydrogencarbonat 162 mg/l",
+     "nitrate_mg_l": 3.5,
+     "ions_measured_on": "2026",
+     "ions_source_url": "https://www.cca-lab.ch/wp-content/uploads/2026/06/20.-Etichettatura-Pregassona-1.pdf"
     },
     {
      "name": "Lugano-Caprino",
      "mg_l": 150.0,
      "carbonate_mg_l": 143.3,
-     "area": "Etikett 2026: 15 °fH, Hydrogencarbonat 175 mg/l"
+     "area": "Etikett 2026: 15 °fH, Hydrogencarbonat 175 mg/l",
+     "nitrate_mg_l": 5.7,
+     "calcium_mg_l": 53.0,
+     "magnesium_mg_l": 3.8,
+     "ions_measured_on": "2026",
+     "ions_source_url": "https://www.cca-lab.ch/wp-content/uploads/2026/05/07.-Etichettatura-Caprino.pdf"
     },
     {
      "name": "Lugano-Davesco-Soragno",
      "mg_l": 160.0,
      "carbonate_mg_l": 142.5,
-     "area": "Etikett 2026: 16 °fH, Hydrogencarbonat 174 mg/l"
+     "area": "Etikett 2026: 16 °fH, Hydrogencarbonat 174 mg/l",
+     "nitrate_mg_l": 5.2,
+     "calcium_mg_l": 37.0,
+     "magnesium_mg_l": 15.0,
+     "ions_measured_on": "2026",
+     "ions_source_url": "https://www.cca-lab.ch/wp-content/uploads/2026/06/14.-Etichettatura-Davesco-Soragno-1.pdf"
     },
     {
      "name": "Lugano-Villa Luganese",
      "mg_l": 170.0,
      "carbonate_mg_l": 167.8,
-     "area": "Etikett 2026: 17 °fH, Hydrogencarbonat 205 mg/l"
+     "area": "Etikett 2026: 17 °fH, Hydrogencarbonat 205 mg/l",
+     "nitrate_mg_l": 4.3,
+     "calcium_mg_l": 35.0,
+     "magnesium_mg_l": 20.0,
+     "ions_measured_on": "2026",
+     "ions_source_url": "https://www.cca-lab.ch/wp-content/uploads/2026/06/24.-Etichettatura-Villa-Luganese-1.pdf"
     },
     {
      "name": "Lugano-Pazzallo",
      "mg_l": 180.0,
      "carbonate_mg_l": 150.6,
-     "area": "Etikett 2026: 18 °fH, Hydrogencarbonat 184 mg/l"
+     "area": "Etikett 2026: 18 °fH, Hydrogencarbonat 184 mg/l",
+     "nitrate_mg_l": 5.1,
+     "calcium_mg_l": 40.0,
+     "magnesium_mg_l": 19.0,
+     "ions_measured_on": "2026",
+     "ions_source_url": "https://www.cca-lab.ch/wp-content/uploads/2026/06/19.-Etichettatura-Pazzallo-1.pdf"
     },
     {
      "name": "Lugano-Cadro",
      "mg_l": 190.0,
      "carbonate_mg_l": 177.7,
-     "area": "Etikett 2026: 19 °fH, Hydrogencarbonat 217 mg/l"
+     "area": "Etikett 2026: 19 °fH, Hydrogencarbonat 217 mg/l",
+     "nitrate_mg_l": 5.1,
+     "calcium_mg_l": 43.0,
+     "magnesium_mg_l": 19.0,
+     "ions_measured_on": "2026",
+     "ions_source_url": "https://www.cca-lab.ch/wp-content/uploads/2026/05/06.-Etichettatura-Cadro.pdf"
     },
     {
      "name": "Lugano-Cureggia",
      "mg_l": 190.0,
      "carbonate_mg_l": 163.7,
-     "area": "Etikett 2026: 19 °fH, Hydrogencarbonat 200 mg/l"
+     "area": "Etikett 2026: 19 °fH, Hydrogencarbonat 200 mg/l",
+     "nitrate_mg_l": 7.5,
+     "calcium_mg_l": 49.0,
+     "magnesium_mg_l": 16.0,
+     "ions_measured_on": "2026",
+     "ions_source_url": "https://www.cca-lab.ch/wp-content/uploads/2026/06/13.-Etichettatura-Cureggia-1.pdf"
     }
    ],
    "carbonate_range_mg_l": [
@@ -2166,7 +2677,21 @@
       133.0,
       166.0
      ],
-     "area": "Basel network"
+     "area": "Basel network",
+     "nitrate_range_mg_l": [
+      6.1,
+      9.2
+     ],
+     "calcium_range_mg_l": [
+      49.6,
+      62.4
+     ],
+     "magnesium_range_mg_l": [
+      6.8,
+      8.2
+     ],
+     "ions_source_url": "https://www.iwb.ch/dam/jcr:806e00b9-5595-4623-b696-28b655adf19b/2025_trinkwasserqualitaetsdaten_iwb_hardwasser.pdf",
+     "ions_measured_on": "2025"
     },
     {
      "name": "Trinkwasser Hard",
@@ -2178,7 +2703,21 @@
       139.0,
       159.0
      ],
-     "area": "Basel network"
+     "area": "Basel network",
+     "nitrate_range_mg_l": [
+      5.2,
+      8.1
+     ],
+     "calcium_range_mg_l": [
+      53.8,
+      66.6
+     ],
+     "magnesium_range_mg_l": [
+      7.3,
+      9.3
+     ],
+     "ions_source_url": "https://www.iwb.ch/dam/jcr:806e00b9-5595-4623-b696-28b655adf19b/2025_trinkwasserqualitaetsdaten_iwb_hardwasser.pdf",
+     "ions_measured_on": "2025"
     }
    ],
    "checked_on": "2026-09-24"
@@ -2555,7 +3094,21 @@
       126.0,
       182.0
      ],
-     "area": "Seewasser"
+     "area": "Seewasser",
+     "nitrate_range_mg_l": [
+      2.9,
+      5.8
+     ],
+     "calcium_range_mg_l": [
+      47.3,
+      61.2
+     ],
+     "magnesium_range_mg_l": [
+      5.5,
+      10.5
+     ],
+     "ions_source_url": "https://www.stadt-zuerich.ch/content/dam/web/de/umwelt-energie/wasser/dokumente/2025_Trinkwasserqualitaet.pdf",
+     "ions_measured_on": "2025"
     },
     {
      "name": "Seewasserwerk Lengg",
@@ -2567,7 +3120,21 @@
       132.0,
       146.0
      ],
-     "area": "Seewasser"
+     "area": "Seewasser",
+     "nitrate_range_mg_l": [
+      3.0,
+      3.4
+     ],
+     "calcium_range_mg_l": [
+      46.1,
+      48.0
+     ],
+     "magnesium_range_mg_l": [
+      5.3,
+      6.2
+     ],
+     "ions_source_url": "https://www.stadt-zuerich.ch/content/dam/web/de/umwelt-energie/wasser/dokumente/2025_Trinkwasserqualitaet.pdf",
+     "ions_measured_on": "2025"
     },
     {
      "name": "Grundwasserwerk Hardhof",
@@ -2579,7 +3146,21 @@
       133.0,
       150.0
      ],
-     "area": "Grundwasser"
+     "area": "Grundwasser",
+     "nitrate_range_mg_l": [
+      2.6,
+      3.4
+     ],
+     "calcium_range_mg_l": [
+      47.9,
+      52.5
+     ],
+     "magnesium_range_mg_l": [
+      7.1,
+      8.5
+     ],
+     "ions_source_url": "https://www.stadt-zuerich.ch/content/dam/web/de/umwelt-energie/wasser/dokumente/2025_Trinkwasserqualitaet.pdf",
+     "ions_measured_on": "2025"
     }
    ]
   },
@@ -2633,13 +3214,41 @@
       80.3,
       107.1
      ],
-     "area": "Härtebereich 2, mittel; der Versorger nennt hier nur eine Spanne, keinen Messwert"
+     "area": "Härtebereich 2, mittel; der Versorger nennt hier nur eine Spanne, keinen Messwert",
+     "nitrate_range_mg_l": [
+      5.0,
+      10.0
+     ],
+     "calcium_range_mg_l": [
+      35.0,
+      70.0
+     ],
+     "magnesium_range_mg_l": [
+      8.0,
+      14.0
+     ],
+     "ions_source_url": "https://www.stawag.de/fileadmin/stawag/content/Dokumente/Wasser/Trinkwasseranalyse_Aachen_2024.pdf",
+     "ions_measured_on": "2024"
     },
     {
      "name": "Außenbezirke (Talsperrenwasser, Aufbereitung Roetgen)",
      "mg_l": 66.0,
      "carbonate_mg_l": 42.8,
-     "area": "Härtebereich 1, weich; Jahresmittel 2025 aus Roetgen, 3,4 bis 4,0 °dH"
+     "area": "Härtebereich 1, weich; Jahresmittel 2025 aus Roetgen, 3,4 bis 4,0 °dH",
+     "nitrate_range_mg_l": [
+      5.0,
+      10.0
+     ],
+     "calcium_range_mg_l": [
+      20.0,
+      35.0
+     ],
+     "magnesium_range_mg_l": [
+      2.0,
+      8.0
+     ],
+     "ions_source_url": "https://www.stawag.de/fileadmin/stawag/content/Dokumente/Wasser/Trinkwasseranalyse_Aachen_2024.pdf",
+     "ions_measured_on": "2024"
     }
    ],
    "carbonate_measured_on": "2025",
@@ -2680,7 +3289,9 @@
    "ph_note": "Einzelwert aus der Trinkwasseranalyse der Stadtwerke Augsburg Wasser GmbH, Block Indikatorparameter, Zeile 'pH-Wert' (Grenzwertspalte daneben: 'groesser gleich 6,5 und kleiner gleich 9,5'). Stand der Analysen: November 2025. Die Wertespalte ist laut Fussnote 1 der Mittelwert der Analysenergebnisse von vier Messstellen im Versorgungsgebiet (Grundschule Goeggingen, Kindergarten Baerenkeller, Polizei Lechhausen, Betriebshof Haunstetten). Keine Spanne veroeffentlicht. Hinweis: dasselbe Blatt gibt die Gesamthaerte mit 12,8 Grad dH an, also nicht identisch mit der im Datensatz vermerkten Spanne 13,5-13,9 aus der Webseite.",
    "carbonate_mg_l": 208.0,
    "carbonate_source_url": "https://www.sw-augsburg.de/fileadmin/content/6_pdf_Downloadcenter/2_Wasser/Qualitaet/swa_26_Trinkwasseranalyse.pdf",
-   "carbonate_measured_on": "2026"
+   "carbonate_measured_on": "2026",
+   "calcium_mg_l": 63.2,
+   "magnesium_mg_l": 18.9
   },
   "DE/Berlin": {
    "band": "varies by supply zone",
@@ -3140,16 +3751,30 @@
     ]
    },
    "carbonate_measured_on": "2024",
-   "carbonate_source_url": "https://www.bwb.de/de/analysedaten-nach-postleitzahlen.php"
+   "carbonate_source_url": "https://www.bwb.de/de/analysedaten-nach-postleitzahlen.php",
+   "nitrate_range_mg_l": [
+    1.09,
+    4.38
+   ],
+   "calcium_range_mg_l": [
+    93.0,
+    143.0
+   ],
+   "magnesium_range_mg_l": [
+    8.2,
+    15.3
+   ],
+   "ions_source_url": "https://www.bwb.de/de/assets/downloads/analysewerte-wasserwerke.pdf",
+   "ions_measured_on": "2025"
   },
   "DE/Bielefeld": {
    "mg_l": null,
    "band": "varies by supply zone",
    "source": "Stadtwerke Bielefeld",
    "source_url": "https://www.stadtwerke-bielefeld.de/privatkunden/wasser/trinkwasser/wasserversorgung/",
-   "note": "fifteen waterworks from 4.3 dH at the softest (WW 05 Nordfassung) to 17.1 dH at the hardest (WW 59 / TB 09); the utility lists each with its figure and links its lab report, and every one of those reports prints a carbonate hardness as well, 3.9 to 15 dH",
+   "note": "fifteen waterworks from 4.7 dH at the softest (WW 05 Nordfassung) to 17.1 dH at the hardest (WW 59 / TB 09); the figures are those of the lab report the utility links for each works, sampled in October and November 2025 (WW 10, 53 and 59: sheets of 2022), while the utility's own list still prints older figures for several works, 8.3 dH for WW 01/16 where the report measured 6.6; every one of those reports prints a carbonate hardness as well, 3.9 to 15 dH",
    "range_mg_l": [
-    76.7,
+    83.4,
     305.2
    ],
    "lat": 52.0333,
@@ -3169,93 +3794,168 @@
    "zones": [
     {
      "name": "Wasserwerk 01",
-     "mg_l": 148.1,
+     "mg_l": 117.6,
      "carbonate_mg_l": 87.5,
-     "area": "Sennestadt"
+     "area": "Sennestadt",
+     "nitrate_mg_l": 11.9,
+     "ions_source_url": "https://www.stadtwerke-bielefeld.de/fileadmin/Inhalte/01_Privatkunden/Trinkwasser/2025-12631_WW01_WW16_PN_16.10.25_geschwaerzt.pdf",
+     "ions_measured_on": "2025-10-16",
+     "calcium_mg_l": 44.9,
+     "magnesium_mg_l": 1.3
     },
     {
      "name": "Wasserwerk 16",
-     "mg_l": 148.1,
+     "mg_l": 117.6,
      "carbonate_mg_l": 87.5,
-     "area": "Sennestadt"
+     "area": "Sennestadt",
+     "nitrate_mg_l": 11.9,
+     "calcium_mg_l": 44.9,
+     "magnesium_mg_l": 1.3,
+     "ions_source_url": "https://www.stadtwerke-bielefeld.de/fileadmin/Inhalte/01_Privatkunden/Trinkwasser/2025-12631_WW01_WW16_PN_16.10.25_geschwaerzt.pdf",
+     "ions_measured_on": "2025-10-16"
     },
     {
      "name": "Wasserwerk 02",
-     "mg_l": 176.7,
+     "mg_l": 180.3,
      "carbonate_mg_l": 139.2,
-     "area": "Sennestadt/West"
+     "area": "Sennestadt/West",
+     "nitrate_mg_l": 24.1,
+     "calcium_mg_l": 67.5,
+     "magnesium_mg_l": 2.8,
+     "ions_source_url": "https://www.stadtwerke-bielefeld.de/fileadmin/Inhalte/01_Privatkunden/Trinkwasser/2025-12632_WW02_PN_16.10.25_geschwaerzt.pdf",
+     "ions_measured_on": "2025-10-16"
     },
     {
      "name": "Wasserwerk 03",
-     "mg_l": 219.5,
+     "mg_l": 160.5,
      "carbonate_mg_l": 141.0,
-     "area": "Windelsbleiche"
+     "area": "Windelsbleiche",
+     "nitrate_mg_l": 14.0,
+     "ions_source_url": "https://www.stadtwerke-bielefeld.de/fileadmin/Inhalte/01_Privatkunden/Trinkwasser/2025-13498_WW03_PN_29.10.25025_geschwaerzt.pdf",
+     "ions_measured_on": "2025-10-29",
+     "calcium_mg_l": 62.6,
+     "magnesium_mg_l": 1.0
     },
     {
      "name": "Wasserwerk 05 Nordfassung",
-     "mg_l": 76.7,
+     "mg_l": 83.4,
      "carbonate_mg_l": 69.6,
-     "area": "Schloß Holte-Stukenbrock"
+     "area": "Schloß Holte-Stukenbrock",
+     "nitrate_mg_l": 8.2,
+     "ions_source_url": "https://www.stadtwerke-bielefeld.de/fileadmin/Inhalte/01_Privatkunden/Trinkwasser/2025-12611_WW05_PN_15.10.25_geschwaerzt.pdf",
+     "ions_measured_on": "2025-10-15",
+     "calcium_mg_l": 31.4,
+     "magnesium_mg_l": 1.2
     },
     {
      "name": "Wasserwerk 12 Mittelfassung",
-     "mg_l": 85.7,
+     "mg_l": 104.2,
      "carbonate_mg_l": 89.2,
-     "area": "Schloß Holte-Stukenbrock"
+     "area": "Schloß Holte-Stukenbrock",
+     "nitrate_mg_l": 11.3,
+     "ions_source_url": "https://www.stadtwerke-bielefeld.de/fileadmin/Inhalte/01_Privatkunden/Trinkwasser/2025-12908_WW12_PN_23.10.25_geschwaerzt.pdf",
+     "ions_measured_on": "2025-10-23",
+     "calcium_mg_l": 40.7,
+     "magnesium_mg_l": 0.6
     },
     {
      "name": "Wasserwerk 13 Südfassung",
-     "mg_l": 101.7,
+     "mg_l": 102.4,
      "carbonate_mg_l": 89.2,
-     "area": "Hövelhof"
+     "area": "Hövelhof",
+     "nitrate_mg_l": 5.4,
+     "calcium_mg_l": 39.7,
+     "magnesium_mg_l": 0.8,
+     "ions_source_url": "https://www.stadtwerke-bielefeld.de/fileadmin/Inhalte/01_Privatkunden/Trinkwasser/2025-12910_WW13_PN_23.10.25_geschwaerzt.pdf",
+     "ions_measured_on": "2025-10-23"
     },
     {
      "name": "Wasserwerk 06 Furlbach",
-     "mg_l": 214.2,
+     "mg_l": 217.7,
      "carbonate_mg_l": 178.5,
-     "area": "Schloß Holte-Stukenbrock"
+     "area": "Schloß Holte-Stukenbrock",
+     "nitrate_mg_l": 12.9,
+     "calcium_mg_l": 84.5,
+     "magnesium_mg_l": 1.5,
+     "ions_source_url": "https://www.stadtwerke-bielefeld.de/fileadmin/Inhalte/01_Privatkunden/Trinkwasser/2025-13070_WW06_PN_29.10.25025_geschwaerzt.pdf",
+     "ions_measured_on": "2025-10-29"
     },
     {
      "name": "Wasserwerk 10",
      "mg_l": 269.5,
      "carbonate_mg_l": 232.0,
-     "area": "Brackwede-Windfang"
+     "area": "Brackwede-Windfang",
+     "nitrate_mg_l": 18.0,
+     "calcium_mg_l": 104.0,
+     "magnesium_mg_l": 2.3,
+     "ions_source_url": "https://www.stadtwerke-bielefeld.de/fileadmin/Inhalte/01_Privatkunden/Trinkwasser/Ergebnisse_Wasserwerke_2023_UEberarbeitung_Windfang_Brackwede.pdf",
+     "ions_measured_on": "2025"
     },
     {
      "name": "Wasserwerk 14 (Horibrunnen)",
-     "mg_l": 280.2,
+     "mg_l": 258.8,
      "carbonate_mg_l": 196.3,
-     "area": "Bielefeld-Ummeln"
+     "area": "Bielefeld-Ummeln",
+     "nitrate_mg_l": 10.7,
+     "ions_source_url": "https://www.stadtwerke-bielefeld.de/fileadmin/Inhalte/01_Privatkunden/Trinkwasser/2025-13501_WW14_PN_06.11.2025_geschwaerzt.pdf",
+     "ions_measured_on": "2020-11-06",
+     "calcium_mg_l": 92.5,
+     "magnesium_mg_l": 6.6
     },
     {
      "name": "Wasserwerk 18",
-     "mg_l": 98.2,
+     "mg_l": 90.7,
      "carbonate_mg_l": 69.6,
-     "area": "Lipperreihe"
+     "area": "Lipperreihe",
+     "nitrate_mg_l": 8.1,
+     "ions_source_url": "https://www.stadtwerke-bielefeld.de/fileadmin/Inhalte/01_Privatkunden/Trinkwasser/2025-12911_WW18_PN_23.10.25_geschwaerzt.pdf",
+     "ions_measured_on": "2025-10-23",
+     "calcium_mg_l": 34.3,
+     "magnesium_mg_l": 1.2
     },
     {
      "name": "Wasserwerk 53 (TB 03)",
      "mg_l": 303.4,
      "carbonate_mg_l": 267.7,
-     "area": "Hövelhof"
+     "area": "Hövelhof",
+     "nitrate_mg_l": 9.7,
+     "calcium_mg_l": 117.0,
+     "magnesium_mg_l": 2.5,
+     "ions_source_url": "https://www.stadtwerke-bielefeld.de/fileadmin/Inhalte/01_Privatkunden/Trinkwasser/Ergebnisse_Wasserwerke_2023_UEberarbeitung_Hoevelhof.pdf",
+     "ions_measured_on": "2025"
     },
     {
      "name": "Wasserwerk 55 (TB 05)",
-     "mg_l": 257.0,
+     "mg_l": 242.7,
      "carbonate_mg_l": 214.2,
-     "area": "Augustdorf"
+     "area": "Augustdorf",
+     "nitrate_mg_l": 13.9,
+     "ions_source_url": "https://www.stadtwerke-bielefeld.de/fileadmin/Inhalte/01_Privatkunden/Trinkwasser/2025-12610_WW55_PN_15.10.25_geschwaerzt.pdf",
+     "ions_measured_on": "2025-10-15",
+     "calcium_mg_l": 95.5,
+     "magnesium_mg_l": 1.1
     },
     {
      "name": "Wasserwerk 56 (TB 06)",
-     "mg_l": 249.9,
+     "mg_l": 255.2,
      "carbonate_mg_l": 214.2,
-     "area": "Schloß Holte-Stukenbrock"
+     "area": "Schloß Holte-Stukenbrock",
+     "nitrate_mg_l": 13.4,
+     "calcium_mg_l": 99.5,
+     "magnesium_mg_l": 1.4,
+     "ions_source_url": "https://www.stadtwerke-bielefeld.de/fileadmin/Inhalte/01_Privatkunden/Trinkwasser/2025-12609_WW56_PN_15.10.25_geschwaerzt.pdf",
+     "ions_measured_on": "2025-10-15"
     },
     {
      "name": "Wasserwerk 59 (TB 09)",
      "mg_l": 305.2,
      "carbonate_mg_l": 267.7,
-     "area": "Schloß Holte-Stukenbrock"
+     "area": "Schloß Holte-Stukenbrock",
+     "nitrate_mg_l": 1.4,
+     "calcium_mg_l": 115.0,
+     "magnesium_mg_l": 4.4,
+     "ions_source_url": "https://www.stadtwerke-bielefeld.de/fileadmin/Inhalte/01_Privatkunden/Trinkwasser/Ergebnisse_Wasserwerke_2023_UEberarbeitung_Schloss-Holte-Stukenbrock2.pdf",
+     "ions_measured_on": "2025"
     }
    ],
    "carbonate_range_mg_l": [
@@ -3342,7 +4042,6 @@
     83.9,
     110.7
    ],
-   "nitrate_mg_l": 9.0,
    "sodium_mg_l": 9.8,
    "origin": [
     "reservoir"
@@ -3366,19 +4065,34 @@
      "name": "Versorgungsbereich I",
      "mg_l": 83.9,
      "carbonate_mg_l": 48.2,
-     "area": "Stadtteil Holzlar"
+     "area": "Stadtteil Holzlar",
+     "nitrate_mg_l": 10.0,
+     "calcium_mg_l": 25.3,
+     "magnesium_mg_l": 5.2,
+     "ions_source_url": "https://www.stadtwerke-bonn.de/fileadmin/download-center/PDFs/Wasser/Wasseranalyse_2025.pdf",
+     "ions_measured_on": "2025"
     },
     {
      "name": "Versorgungsbereich II",
      "mg_l": 110.7,
      "carbonate_mg_l": 69.6,
-     "area": "Beuel, Bonn und Bad Godesberg"
+     "area": "Beuel, Bonn und Bad Godesberg",
+     "nitrate_mg_l": 16.0,
+     "calcium_mg_l": 33.4,
+     "magnesium_mg_l": 6.7,
+     "ions_source_url": "https://www.stadtwerke-bonn.de/fileadmin/download-center/PDFs/Wasser/Wasseranalyse_2025.pdf",
+     "ions_measured_on": "2025"
     },
     {
      "name": "Versorgungsbereich III",
      "mg_l": 96.4,
      "carbonate_mg_l": 57.1,
-     "area": "Hardtberg, Röttgen, Ückesdorf, Venusberg, Ippendorf, Lessenich/Meßdorf"
+     "area": "Hardtberg, Röttgen, Ückesdorf, Venusberg, Ippendorf, Lessenich/Meßdorf",
+     "nitrate_mg_l": 13.0,
+     "calcium_mg_l": 29.2,
+     "magnesium_mg_l": 5.8,
+     "ions_source_url": "https://www.stadtwerke-bonn.de/fileadmin/download-center/PDFs/Wasser/Wasseranalyse_2025.pdf",
+     "ions_measured_on": "2025"
     }
    ],
    "carbonate_range_mg_l": [
@@ -3463,25 +4177,45 @@
      "name": "Versorgungsbereich 1, Bremen-Nord",
      "mg_l": 133.9,
      "carbonate_mg_l": 75.0,
-     "area": "Blumenthal, Vegesack, Lesum, Burglesum und Nachbarstadtteile"
+     "area": "Blumenthal, Vegesack, Lesum, Burglesum und Nachbarstadtteile",
+     "nitrate_mg_l": 3.6,
+     "calcium_mg_l": 46.0,
+     "magnesium_mg_l": 4.9,
+     "ions_source_url": "https://www.swb.de/-/media/files/wasser/trinkwasser-analyse-bremen.pdf",
+     "ions_measured_on": "2026-01"
     },
     {
      "name": "Versorgungsbereich 2, Bremen-Stadt",
      "mg_l": 112.4,
      "carbonate_mg_l": 87.5,
-     "area": "Altstadt, Neustadt, Findorff und der Großteil der Stadt"
+     "area": "Altstadt, Neustadt, Findorff und der Großteil der Stadt",
+     "nitrate_mg_l": 3.0,
+     "calcium_mg_l": 39.0,
+     "magnesium_mg_l": 4.1,
+     "ions_source_url": "https://www.swb.de/-/media/files/wasser/trinkwasser-analyse-bremen.pdf",
+     "ions_measured_on": "2026-01"
     },
     {
      "name": "Versorgungsbereich 3, Mahndorf",
      "mg_l": 142.8,
      "carbonate_mg_l": 82.1,
-     "area": "Hemelingen, Vahr, Horn-Lehe, Oberneuland, Borgfeld"
+     "area": "Hemelingen, Vahr, Horn-Lehe, Oberneuland, Borgfeld",
+     "nitrate_mg_l": 1.5,
+     "calcium_mg_l": 49.0,
+     "magnesium_mg_l": 5.2,
+     "ions_source_url": "https://www.swb.de/-/media/files/wasser/trinkwasser-analyse-bremen.pdf",
+     "ions_measured_on": "2026-01"
     },
     {
      "name": "Versorgungsbereich 4, Tenever",
      "mg_l": 240.9,
      "carbonate_mg_l": 194.5,
-     "area": "Osterholz und Tenever"
+     "area": "Osterholz und Tenever",
+     "nitrate_mg_l": 0.7,
+     "calcium_mg_l": 87.0,
+     "magnesium_mg_l": 5.6,
+     "ions_source_url": "https://www.swb.de/-/media/files/wasser/trinkwasser-analyse-bremen.pdf",
+     "ions_measured_on": "2026-01"
     }
    ],
    "range_mg_l": [
@@ -3538,19 +4272,32 @@
      "name": "Wasserwerke Langen",
      "mg_l": 160.6,
      "carbonate_mg_l": 119.6,
-     "area": "nördlich der Geeste"
+     "area": "nördlich der Geeste",
+     "nitrate_mg_l": 0.8,
+     "calcium_mg_l": 58.0,
+     "magnesium_mg_l": 4.0,
+     "ions_source_url": "https://www.swb.de/-/media/files/wasser/trinkwasser-analyse-bremerhaven.pdf",
+     "ions_measured_on": "2026-01"
     },
     {
      "name": "Wasserwerk Leherheide",
      "mg_l": 203.5,
      "carbonate_mg_l": 180.3,
-     "area": "nördlich der Geeste"
+     "area": "nördlich der Geeste",
+     "calcium_mg_l": 74.0,
+     "magnesium_mg_l": 4.8,
+     "ions_source_url": "https://www.swb.de/-/media/files/wasser/trinkwasser-analyse-bremerhaven.pdf",
+     "ions_measured_on": "2026-01"
     },
     {
      "name": "Wasserwerk Bexhövede",
      "mg_l": 169.6,
      "carbonate_mg_l": 144.6,
-     "area": "südlich der Geeste"
+     "area": "südlich der Geeste",
+     "calcium_mg_l": 60.0,
+     "magnesium_mg_l": 5.1,
+     "ions_source_url": "https://www.swb.de/-/media/files/wasser/trinkwasser-analyse-bremerhaven.pdf",
+     "ions_measured_on": "2026-01"
     }
    ],
    "carbonate_range_mg_l": [
@@ -3608,7 +4355,12 @@
       33.9,
       57.1
      ],
-     "area": "Einsiedel, Zentrum und Schloßchemnitz"
+     "area": "Einsiedel, Zentrum und Schloßchemnitz",
+     "nitrate_mg_l": 12.0,
+     "calcium_mg_l": 25.4,
+     "magnesium_mg_l": 5.16,
+     "ions_source_url": "https://www.eins.de/_Resources/Persistent/c/c/c/a/ccca7191ee52c63ca905ccdae31016c97b8a84d5/Wasserwerk%20Einsiedel%202025.pdf",
+     "ions_measured_on": "2025"
     },
     {
      "name": "Mischwasser aus den Wasserwerken Burkersdorf und Einsiedel",
@@ -3622,7 +4374,12 @@
       35.7,
       60.7
      ],
-     "area": "übrige Stadtteile, zum Beispiel Adelsberg und Rabenstein"
+     "area": "übrige Stadtteile, zum Beispiel Adelsberg und Rabenstein",
+     "nitrate_mg_l": 6.7,
+     "calcium_mg_l": 24.2,
+     "magnesium_mg_l": 3.61,
+     "ions_source_url": "https://www.eins.de/_Resources/Persistent/2/b/3/b/2b3bbee476f254ae82132c8e22d95366c2c5b37c/Mischwasser%202025.pdf",
+     "ions_measured_on": "2025"
     }
    ],
    "range_mg_l": [
@@ -3651,7 +4408,6 @@
    ],
    "lat": 50.9333,
    "lon": 6.95,
-   "nitrate_mg_l": 22.0,
    "sodium_mg_l": 35.0,
    "carbonate_mg_l": 230.2,
    "sources_named": [
@@ -3681,7 +4437,22 @@
    "ph": 7.3,
    "ph_note": "Linksrheinisch, the widest-coverage zone and the one the 18.1 dH hardness figure comes from: annual mean of the 2025 data, measured at 19.7 degrees C, published in the Ausgabe 2026 sheet. Rechtsrheinisch (Wasserwerke Hoehenhaus and Zuendorf) reads 7.33 at 19.9 degrees C in its own sheet, https://web.cdn.rheinenergie.com/cms/media/documents/trinkwasseranalyse/Trinkwasseranalyse_Koln-rechtsrheinisch-2020.pdf. Not averaged.",
    "carbonate_source_url": "https://web.cdn.rheinenergie.com/cms/media/documents/trinkwasseranalyse/Trinkwasseranalyse_Linksrheinisch.pdf",
-   "carbonate_measured_on": "2026"
+   "carbonate_measured_on": "2026",
+   "nitrate_range_mg_l": [
+    20.0,
+    22.0
+   ],
+   "calcium_range_mg_l": [
+    88.0,
+    106.0
+   ],
+   "magnesium_mg_l": 14.0,
+   "ions_measured_on": "2025",
+   "ions_source_url": "https://web.cdn.rheinenergie.com/cms/media/documents/trinkwasseranalyse/Trinkwasseranalyse_Koln-rechtsrheinisch-2020.pdf",
+   "ions_source_urls": [
+    "https://web.cdn.rheinenergie.com/cms/media/documents/trinkwasseranalyse/Trinkwasseranalyse_Koln-rechtsrheinisch-2020.pdf",
+    "https://web.cdn.rheinenergie.com/cms/media/documents/trinkwasseranalyse/Trinkwasseranalyse_Linksrheinisch.pdf"
+   ]
   },
   "DE/Cottbus": {
    "mg_l": null,
@@ -3754,7 +4525,7 @@
    ],
    "lat": 49.8717,
    "lon": 8.6503,
-   "calcium_mg_l": 101.8,
+   "calcium_mg_l": 102.2,
    "magnesium_mg_l": 17.6,
    "measured_on": "2025",
    "pfas": {
@@ -3788,7 +4559,13 @@
    "carbonate_measured_on": "2025",
    "carbonate_source_url": "https://www.entega.ag/fileadmin/downloads/vertrieb/trinkwasser_darmstadt.pdf",
    "carbonate_note": "printed as Karbonathärte in the utility's own units, 2.1 to 2.3 mol/m3 and 11.9 to 12.3 dH; the acid capacity of 4.3 to 4.6 mol/m3 and the hydrogencarbonate of 259 to 280 mg/L on the same sheet both reproduce it",
-   "checked_on": "2026-09-24"
+   "checked_on": "2026-09-24",
+   "nitrate_range_mg_l": [
+    10.8,
+    22.7
+   ],
+   "ions_source_url": "https://www.entega.ag/fileadmin/downloads/vertrieb/trinkwasser_darmstadt.pdf",
+   "ions_measured_on": "2026"
   },
   "DE/Dortmund": {
    "mg_l": null,
@@ -3833,25 +4610,45 @@
      "name": "Wasserwerk Witten",
      "mg_l": 130.3,
      "carbonate_mg_l": 98.2,
-     "area": "wechselnd; der Versorger ordnet kein Wasserwerk einem Stadtteil fest zu"
+     "area": "wechselnd; der Versorger ordnet kein Wasserwerk einem Stadtteil fest zu",
+     "nitrate_mg_l": 10.7,
+     "calcium_mg_l": 41.0,
+     "magnesium_mg_l": 6.8,
+     "ions_source_url": "https://www.gelsenwasser.de/fileadmin/twa/downloads/www/trinkwasseranalyse_witten_01.pdf",
+     "ions_measured_on": "2025"
     },
     {
      "name": "Wasserwerk Halingen",
      "mg_l": 139.2,
      "carbonate_mg_l": 116.0,
-     "area": "wechselnd; der Versorger ordnet kein Wasserwerk einem Stadtteil fest zu"
+     "area": "wechselnd; der Versorger ordnet kein Wasserwerk einem Stadtteil fest zu",
+     "nitrate_mg_l": 10.7,
+     "calcium_mg_l": 46.25,
+     "magnesium_mg_l": 5.9,
+     "ions_source_url": "https://www.wasserwerke-westfalen.de/wasser/trinkwasserqualitaet/trinkwasseranalyse#/dortmund/wasserwerk-halingen",
+     "ions_measured_on": "2025"
     },
     {
      "name": "Wasserwerk Westhofen 1",
      "mg_l": 144.6,
      "carbonate_mg_l": 110.7,
-     "area": "wechselnd; der Versorger ordnet kein Wasserwerk einem Stadtteil fest zu"
+     "area": "wechselnd; der Versorger ordnet kein Wasserwerk einem Stadtteil fest zu",
+     "nitrate_mg_l": 11.2,
+     "calcium_mg_l": 47.25,
+     "magnesium_mg_l": 6.4,
+     "ions_source_url": "https://www.wasserwerke-westfalen.de/wasser/trinkwasserqualitaet/trinkwasseranalyse#/dortmund/wasserwerk-westhofen-1",
+     "ions_measured_on": "2025"
     },
     {
      "name": "Wasserwerk Hengsen",
      "mg_l": 146.4,
      "carbonate_mg_l": 110.7,
-     "area": "wechselnd; der Versorger ordnet kein Wasserwerk einem Stadtteil fest zu"
+     "area": "wechselnd; der Versorger ordnet kein Wasserwerk einem Stadtteil fest zu",
+     "nitrate_mg_l": 12.1,
+     "calcium_mg_l": 48.75,
+     "magnesium_mg_l": 6.2,
+     "ions_source_url": "https://www.wasserwerke-westfalen.de/wasser/trinkwasserqualitaet/trinkwasseranalyse#/dortmund/wasserwerk-hengsen",
+     "ions_measured_on": "2025"
     }
    ],
    "carbonate_range_mg_l": [
@@ -3901,32 +4698,60 @@
     {
      "name": "Wasserwerk Coschütz",
      "carbonate_mg_l": 66.0,
-     "area": "Härtebereich weich"
+     "area": "Härtebereich weich",
+     "nitrate_mg_l": 11.0,
+     "calcium_mg_l": 37.1,
+     "magnesium_mg_l": 2.74,
+     "ions_source_url": "https://www.sachsenenergie.de/wps/wcm/connect/energie/9c1ef089-a1fe-44b4-87bd-2e9023818c25/Analysedaten-Coschuetz-Hosterwitz-Tolkewitz.pdf?MOD=AJPERES",
+     "ions_measured_on": "2025"
     },
     {
      "name": "Wasserwerk Tolkewitz",
      "carbonate_mg_l": 116.0,
-     "area": "Härtebereich mittelhart"
+     "area": "Härtebereich mittelhart",
+     "nitrate_mg_l": 11.9,
+     "calcium_mg_l": 63.4,
+     "magnesium_mg_l": 14.0,
+     "ions_source_url": "https://www.sachsenenergie.de/wps/wcm/connect/energie/9c1ef089-a1fe-44b4-87bd-2e9023818c25/Analysedaten-Coschuetz-Hosterwitz-Tolkewitz.pdf?MOD=AJPERES",
+     "ions_measured_on": "2025"
     },
     {
      "name": "Wasserwerk Hosterwitz",
      "carbonate_mg_l": 82.1,
-     "area": "Härtebereich mittelhart"
+     "area": "Härtebereich mittelhart",
+     "nitrate_mg_l": 11.1,
+     "calcium_mg_l": 49.9,
+     "magnesium_mg_l": 11.1,
+     "ions_source_url": "https://www.sachsenenergie.de/wps/wcm/connect/energie/9c1ef089-a1fe-44b4-87bd-2e9023818c25/Analysedaten-Coschuetz-Hosterwitz-Tolkewitz.pdf?MOD=AJPERES",
+     "ions_measured_on": "2025"
     },
     {
      "name": "Wasserwerk Marsdorf",
      "carbonate_mg_l": 55.3,
-     "area": "Medianwerte 2024, Stand Februar 2026"
+     "area": "Medianwerte 2024, Stand Februar 2026",
+     "nitrate_mg_l": 1.1,
+     "calcium_mg_l": 45.0,
+     "magnesium_mg_l": 6.39,
+     "ions_source_url": "https://www.sachsenenergie.de/wps/wcm/connect/energie/31535958-3de7-4429-ae28-9967d3d59b14/Analysedaten-Marsdorf-Schoenborn-Weixdorf.pdf?MOD=AJPERES",
+     "ions_measured_on": "2024"
     },
     {
      "name": "Schönborn",
      "carbonate_mg_l": 51.8,
-     "area": "Medianwerte 2024, Stand Februar 2026"
+     "area": "Medianwerte 2024, Stand Februar 2026",
+     "nitrate_mg_l": 1.0,
+     "ions_source_url": "https://www.sachsenenergie.de/wps/wcm/connect/energie/31535958-3de7-4429-ae28-9967d3d59b14/Analysedaten-Marsdorf-Schoenborn-Weixdorf.pdf?MOD=AJPERES",
+     "ions_measured_on": "2024"
     },
     {
      "name": "Weixdorf-Nord (Zur alten Ziegelei)",
      "carbonate_mg_l": 58.9,
-     "area": "Medianwerte 2024, Stand Februar 2026"
+     "area": "Medianwerte 2024, Stand Februar 2026",
+     "nitrate_mg_l": 1.3,
+     "calcium_mg_l": 45.0,
+     "magnesium_mg_l": 6.69,
+     "ions_source_url": "https://www.sachsenenergie.de/wps/wcm/connect/energie/31535958-3de7-4429-ae28-9967d3d59b14/Analysedaten-Marsdorf-Schoenborn-Weixdorf.pdf?MOD=AJPERES",
+     "ions_measured_on": "2024"
     }
    ],
    "carbonate_range_mg_l": [
@@ -3944,7 +4769,7 @@
    "source": "Stadtwerke Duisburg",
    "source_url": "https://www.stadtwerke-duisburg.de/privatkunden/themen/trinkwasser-fuer-duisburg",
    "measured_on": "2025",
-   "note": "four supply areas with their own analysis: Nord 11 dH, Homberg 12, Baerl 13, Süd 18, each an annual mean; carbonate hardness 8.4 to 13 dH",
+   "note": "four supply areas with their own analysis: Nord 12 dH, Homberg 12, Baerl 13, Süd 18, each the annual mean of the last four quarters to 2026-Q2; carbonate hardness 8.5 to 13 dH as annual means; the sheets also print min and max, shown beside each mean",
    "range_mg_l": [
     178.5,
     357.0
@@ -3977,33 +4802,101 @@
    "zones": [
     {
      "name": "Versorgungsgebiet Nord",
-     "mg_l": 196.3,
-     "carbonate_mg_l": 149.9,
-     "area": "Jahresmittel 11 °dH, 10 bis 14 °dH im Jahr"
+     "mg_l": 214.2,
+     "carbonate_mg_l": 151.7,
+     "area": "Jahresmittel 12 °dH, 10 bis 19 °dH im Jahr",
+     "nitrate_mg_l": 12.0,
+     "calcium_mg_l": 74.0,
+     "magnesium_mg_l": 5.3,
+     "ions_source_url": "https://www.stadtwerke-duisburg.de/fileadmin/user_upload/Veroeffentlichungen/Trinkwasseranalyse_Nord.pdf",
+     "ions_measured_on": "annual mean of the last four quarters to 2026-Q2, with min and max",
+     "calcium_range_mg_l": [
+      62.0,
+      113.0
+     ],
+     "magnesium_range_mg_l": [
+      4.2,
+      12.0
+     ],
+     "nitrate_range_mg_l": [
+      9.4,
+      25.0
+     ]
     },
     {
      "name": "Versorgungsgebiet Süd",
      "mg_l": 321.3,
      "carbonate_mg_l": 232.0,
-     "area": "Jahresmittel 18 °dH, 16 bis 20 °dH im Jahr"
+     "area": "Jahresmittel 18 °dH, 16 bis 20 °dH im Jahr",
+     "nitrate_mg_l": 17.0,
+     "calcium_mg_l": 109.0,
+     "magnesium_mg_l": 12.0,
+     "ions_source_url": "https://www.stadtwerke-duisburg.de/fileadmin/user_upload/Veroeffentlichungen/Trinkwasseranalyse_Sued.pdf",
+     "ions_measured_on": "annual mean of the last four quarters to 2026-Q2, with min and max",
+     "calcium_range_mg_l": [
+      100.0,
+      123.0
+     ],
+     "magnesium_range_mg_l": [
+      9.7,
+      15.0
+     ],
+     "nitrate_range_mg_l": [
+      14.0,
+      19.0
+     ]
     },
     {
      "name": "Versorgungsgebiet Homberg",
      "mg_l": 214.2,
-     "carbonate_mg_l": 153.5,
-     "area": "Jahresmittel 12 °dH, 11 bis 13 °dH im Jahr"
+     "carbonate_mg_l": 151.7,
+     "area": "Jahresmittel 12 °dH, 11 bis 13 °dH im Jahr",
+     "nitrate_mg_l": 11.0,
+     "calcium_mg_l": 73.0,
+     "magnesium_mg_l": 6.2,
+     "ions_source_url": "https://www.stadtwerke-duisburg.de/fileadmin/user_upload/Veroeffentlichungen/Trinkwasseranalyse_Homberg.pdf",
+     "ions_measured_on": "annual mean of the last four quarters to 2026-Q2, with min and max",
+     "calcium_range_mg_l": [
+      70.0,
+      79.0
+     ],
+     "magnesium_range_mg_l": [
+      4.8,
+      9.5
+     ],
+     "nitrate_range_mg_l": [
+      8.2,
+      13.0
+     ]
     },
     {
      "name": "Versorgungsgebiet Baerl",
      "mg_l": 232.0,
-     "carbonate_mg_l": 160.6,
-     "area": "Jahresmittel 13 °dH, 12 bis 14 °dH im Jahr"
+     "carbonate_mg_l": 157.1,
+     "area": "Jahresmittel 13 °dH, 12 bis 14 °dH im Jahr",
+     "nitrate_mg_l": 9.6,
+     "calcium_mg_l": 74.0,
+     "magnesium_mg_l": 11.0,
+     "ions_source_url": "https://www.stadtwerke-duisburg.de/fileadmin/user_upload/Veroeffentlichungen/Trinkwasseranalyse_Baerl.pdf",
+     "ions_measured_on": "annual mean of the last four quarters to 2026-Q2, with min and max",
+     "calcium_range_mg_l": [
+      71.0,
+      83.0
+     ],
+     "magnesium_range_mg_l": [
+      8.2,
+      14.0
+     ],
+     "nitrate_range_mg_l": [
+      7.3,
+      12.0
+     ]
     }
    ],
    "carbonate_measured_on": "2025",
    "carbonate_source_url": "https://www.stadtwerke-duisburg.de/privatkunden/themen/trinkwasser-fuer-duisburg",
    "carbonate_range_mg_l": [
-    149.9,
+    151.7,
     232.0
    ]
   },
@@ -4045,7 +4938,10 @@
    "carbonate_source_url": "https://www.swd-ag.de/privatkunden/trinkwasser/trinkwasseranalyse",
    "carbonate_measured_on": "2026",
    "checked_on": "2026-09-25",
-   "carbonate_note": "from the acid capacity of 3.60 mmol/l in the Stadtwerke's web table for Hochbehälter Hardt (01.07.2025 to 30.06.2026), × 2.8; the 2026 PDF prints 2.00 mmol/l, but its own calcium (65) and magnesium (8.6) add up to only about 11 dH against its printed 15.0, so that sheet contradicts itself and the web table, whose ions balance, is used"
+   "carbonate_note": "from the acid capacity of 3.60 mmol/l in the Stadtwerke's web table for Hochbehälter Hardt (01.07.2025 to 30.06.2026), × 2.8; the 2026 PDF prints 2.00 mmol/l, but its own calcium (65) and magnesium (8.6) add up to only about 11 dH against its printed 15.0, so that sheet contradicts itself and the web table, whose ions balance, is used",
+   "nitrate_mg_l": 13.1,
+   "ions_source_url": "https://cdn.swd-ag.de/f/274772/x/9e9ba42c93/trinkwasseranalyse-duesseldorf-2026.pdf",
+   "ions_measured_on": "2025"
   },
   "DE/Erfurt": {
    "mg_l": null,
@@ -4150,7 +5046,20 @@
    ],
    "carbonate_measured_on": "2025",
    "carbonate_source_url": "https://www.estw.de/de/Energie-Wasser/Wasser/Trinkwasserqualitaet/Wasserhaerte-in-Grenzen/Wasserhaerte-in-Grenzen.html",
-   "carbonate_note": "six supply columns on the 2025 analysis sheet with acid capacities of 3.26 to 4.74 mmol/l, so 9.1 to 13.3 dH; the column headings were not read reliably enough to name the works"
+   "carbonate_note": "six supply columns on the 2025 analysis sheet with acid capacities of 3.26 to 4.74 mmol/l, so 9.1 to 13.3 dH; the column headings were not read reliably enough to name the works",
+   "nitrate_range_mg_l": [
+    2.0,
+    14.0
+   ],
+   "calcium_range_mg_l": [
+    38.0,
+    68.0
+   ],
+   "magnesium_range_mg_l": [
+    15.5,
+    27.2
+   ],
+   "ions_source_url": "https://www.estw.de/de/Energie-Wasser/Wasser/Trinkwasserqualitaet/Analysenblatt-ESTW-2025-001.pdf"
   },
   "DE/Essen": {
    "mg_l": 137.4,
@@ -4244,7 +5153,20 @@
       258.8
      ],
      "area": "65929-65936: Höchst, Nied, Griesheim, Sossenheim, Zeilsheim, Sindlingen",
-     "source_url": "https://www.mainova.de/de/wtrhrd/download/RI.pdf"
+     "source_url": "https://www.mainova.de/de/wtrhrd/download/RI.pdf",
+     "nitrate_range_mg_l": [
+      1.0,
+      2.0
+     ],
+     "calcium_range_mg_l": [
+      106.0,
+      111.0
+     ],
+     "magnesium_range_mg_l": [
+      17.2,
+      18.0
+     ],
+     "ions_measured_on": "2025"
     },
     {
      "name": "Süd (Ried/Hinkelstein)",
@@ -4257,7 +5179,20 @@
       196.3
      ],
      "area": "60529, 60549: Schwanheim, Goldstein, Flughafen",
-     "source_url": "https://www.mainova.de/de/wtrhrd/download/RH.pdf"
+     "source_url": "https://www.mainova.de/de/wtrhrd/download/RH.pdf",
+     "nitrate_range_mg_l": [
+      6.9,
+      10.6
+     ],
+     "calcium_range_mg_l": [
+      76.8,
+      86.6
+     ],
+     "magnesium_range_mg_l": [
+      17.2,
+      19.2
+     ],
+     "ions_measured_on": "2025"
     },
     {
      "name": "Sachsenhausen Berg- und Talzone, Oberrad",
@@ -4270,7 +5205,20 @@
       167.8
      ],
      "area": "60528, 60594-60599",
-     "source_url": "https://www.mainova.de/de/wtrhrd/download/SR.pdf"
+     "source_url": "https://www.mainova.de/de/wtrhrd/download/SR.pdf",
+     "nitrate_range_mg_l": [
+      6.5,
+      9.3
+     ],
+     "calcium_range_mg_l": [
+      70.5,
+      77.8
+     ],
+     "magnesium_range_mg_l": [
+      14.3,
+      16.4
+     ],
+     "ions_measured_on": "2025"
     },
     {
      "name": "Nordwest (WB Praunheim)",
@@ -4283,7 +5231,20 @@
       198.1
      ],
      "area": "60488, 60439, 60431",
-     "source_url": "https://www.mainova.de/de/wtrhrd/download/PR.pdf"
+     "source_url": "https://www.mainova.de/de/wtrhrd/download/PR.pdf",
+     "nitrate_range_mg_l": [
+      15.0,
+      19.4
+     ],
+     "calcium_range_mg_l": [
+      42.1,
+      71.1
+     ],
+     "magnesium_range_mg_l": [
+      20.4,
+      23.0
+     ],
+     "ions_measured_on": "2025"
     },
     {
      "name": "Nord (OVAG)",
@@ -4296,7 +5257,20 @@
       183.8
      ],
      "area": "60433-60439",
-     "source_url": "https://www.mainova.de/de/wtrhrd/download/OV.pdf"
+     "source_url": "https://www.mainova.de/de/wtrhrd/download/OV.pdf",
+     "nitrate_range_mg_l": [
+      13.9,
+      17.6
+     ],
+     "calcium_range_mg_l": [
+      36.7,
+      43.0
+     ],
+     "magnesium_range_mg_l": [
+      21.0,
+      25.5
+     ],
+     "ions_measured_on": "2025"
     },
     {
      "name": "Nieder-Erlenbach",
@@ -4309,7 +5283,20 @@
       171.3
      ],
      "area": "60437",
-     "source_url": "https://www.mainova.de/de/wtrhrd/download/ER.pdf"
+     "source_url": "https://www.mainova.de/de/wtrhrd/download/ER.pdf",
+     "nitrate_range_mg_l": [
+      10.5,
+      13.7
+     ],
+     "calcium_range_mg_l": [
+      64.0,
+      71.1
+     ],
+     "magnesium_range_mg_l": [
+      12.2,
+      12.9
+     ],
+     "ions_measured_on": "2025"
     },
     {
      "name": "Ost (Spessart/Vogelsberg)",
@@ -4322,7 +5309,20 @@
       75.0
      ],
      "area": "60386, 60388",
-     "source_url": "https://www.mainova.de/de/wtrhrd/download/SV.pdf"
+     "source_url": "https://www.mainova.de/de/wtrhrd/download/SV.pdf",
+     "nitrate_range_mg_l": [
+      7.66,
+      8.37
+     ],
+     "calcium_range_mg_l": [
+      18.7,
+      22.6
+     ],
+     "magnesium_range_mg_l": [
+      5.8,
+      8.2
+     ],
+     "ions_measured_on": "2025"
     }
    ],
    "carbonate_source_url": "https://www.mainova.de/de/wtrhrd/download/RI.pdf",
@@ -4381,25 +5381,44 @@
      "name": "Versorgungsbereich 1",
      "mg_l": 92.8,
      "carbonate_mg_l": 80.3,
-     "area": "der Versorger benennt die Bereiche nur durchnummeriert; welcher eine Adresse versorgt, beantwortet seine Adressabfrage"
+     "area": "der Versorger benennt die Bereiche nur durchnummeriert; welcher eine Adresse versorgt, beantwortet seine Adressabfrage",
+     "nitrate_mg_l": 11.3,
+     "calcium_mg_l": 30.8,
+     "magnesium_mg_l": 3.8,
+     "ions_measured_on": "2026-03"
     },
     {
      "name": "Versorgungsbereich 2",
      "mg_l": 75.0,
      "carbonate_mg_l": 67.8,
-     "area": "der Versorger benennt die Bereiche nur durchnummeriert; welcher eine Adresse versorgt, beantwortet seine Adressabfrage"
+     "area": "der Versorger benennt die Bereiche nur durchnummeriert; welcher eine Adresse versorgt, beantwortet seine Adressabfrage",
+     "nitrate_mg_l": 3.6,
+     "calcium_mg_l": 26.9,
+     "magnesium_mg_l": 1.8,
+     "ions_measured_on": "2026-03",
+     "ions_source_url": "https://api.wasserportal.info/api/public/qualitaet/trinkwasseranalyse/dd5da786-0178-4408-9ecf-7b254357b703"
     },
     {
      "name": "Versorgungsbereich 3",
      "mg_l": 41.1,
      "carbonate_mg_l": 42.8,
-     "area": "der Versorger benennt die Bereiche nur durchnummeriert; welcher eine Adresse versorgt, beantwortet seine Adressabfrage"
+     "area": "der Versorger benennt die Bereiche nur durchnummeriert; welcher eine Adresse versorgt, beantwortet seine Adressabfrage",
+     "nitrate_mg_l": 4.1,
+     "calcium_mg_l": 14.4,
+     "magnesium_mg_l": 1.2,
+     "ions_measured_on": "2026-03",
+     "ions_source_url": "https://api.wasserportal.info/api/public/qualitaet/trinkwasseranalyse/d40c5f8d-6e50-4725-af1c-f5ccd974259e"
     },
     {
      "name": "Versorgungsbereich 4",
      "mg_l": 232.0,
      "carbonate_mg_l": 176.7,
-     "area": "der Versorger benennt die Bereiche nur durchnummeriert; welcher eine Adresse versorgt, beantwortet seine Adressabfrage"
+     "area": "der Versorger benennt die Bereiche nur durchnummeriert; welcher eine Adresse versorgt, beantwortet seine Adressabfrage",
+     "nitrate_mg_l": 23.1,
+     "calcium_mg_l": 80.6,
+     "magnesium_mg_l": 7.4,
+     "ions_measured_on": "2026-03",
+     "ions_source_url": "https://api.wasserportal.info/api/public/qualitaet/trinkwasseranalyse/15bb33cd-0c78-4984-ae75-6143cbc00c2f"
     }
    ],
    "carbonate_range_mg_l": [
@@ -4610,7 +5629,12 @@
       144.6,
       149.9
      ],
-     "area": "Härtebereich hart; Jahresmittel 2025, 14,4 bis 15,2 °dH"
+     "area": "Härtebereich hart; Jahresmittel 2025, 14,4 bis 15,2 °dH",
+     "nitrate_mg_l": 2.8,
+     "calcium_mg_l": 92.0,
+     "magnesium_mg_l": 8.0,
+     "ions_source_url": "https://www.hamburgwasser.de/fileadmin/Redakteur/Wasserwerke/Download/wasseranalyse-baursberg.pdf",
+     "ions_measured_on": "2025"
     },
     {
      "name": "Wasserwerk Bergedorf",
@@ -4625,7 +5649,12 @@
       167.8,
       178.5
      ],
-     "area": "Härtebereich mittel; Jahresmittel 2025, 8,8 bis 9,6 °dH"
+     "area": "Härtebereich mittel; Jahresmittel 2025, 8,8 bis 9,6 °dH",
+     "nitrate_mg_l": 1.6,
+     "calcium_mg_l": 56.0,
+     "magnesium_mg_l": 7.0,
+     "ions_source_url": "https://www.hamburgwasser.de/fileadmin/Redakteur/Wasserwerke/Download/wasseranalyse-bergedorf.pdf",
+     "ions_measured_on": "2025"
     },
     {
      "name": "Wasserwerk Bostelbek",
@@ -4640,7 +5669,11 @@
       103.5,
       107.1
      ],
-     "area": "Härtebereich weich; Jahresmittel 2025, 7,2 bis 8,8 °dH"
+     "area": "Härtebereich weich; Jahresmittel 2025, 7,2 bis 8,8 °dH",
+     "calcium_mg_l": 51.0,
+     "magnesium_mg_l": 3.0,
+     "ions_source_url": "https://www.hamburgwasser.de/fileadmin/Redakteur/Wasserwerke/Download/wasseranalyse-bostelbek.pdf",
+     "ions_measured_on": "2025"
     },
     {
      "name": "Wasserwerk Glinde",
@@ -4655,7 +5688,12 @@
       121.4,
       146.4
      ],
-     "area": "Härtebereich mittel; Jahresmittel 2025, 9,3 bis 10,9 °dH"
+     "area": "Härtebereich mittel; Jahresmittel 2025, 9,3 bis 10,9 °dH",
+     "nitrate_mg_l": 0.6,
+     "calcium_mg_l": 62.0,
+     "magnesium_mg_l": 6.0,
+     "ions_source_url": "https://www.hamburgwasser.de/fileadmin/Redakteur/Wasserwerke/Download/wasseranalyse-glinde.pdf",
+     "ions_measured_on": "2025"
     },
     {
      "name": "Wasserwerk Großensee",
@@ -4670,7 +5708,12 @@
       114.2,
       135.6
      ],
-     "area": "Härtebereich weich; Jahresmittel 2025, 6,8 bis 7,6 °dH"
+     "area": "Härtebereich weich; Jahresmittel 2025, 6,8 bis 7,6 °dH",
+     "nitrate_mg_l": 0.7,
+     "calcium_mg_l": 46.0,
+     "magnesium_mg_l": 4.0,
+     "ions_source_url": "https://www.hamburgwasser.de/fileadmin/Redakteur/Wasserwerke/Download/wasseranalyse-grossensee.pdf",
+     "ions_measured_on": "2025"
     },
     {
      "name": "Wasserwerk Großhansdorf",
@@ -4685,7 +5728,12 @@
       185.6,
       198.1
      ],
-     "area": "Härtebereich mittel; Jahresmittel 2025, 11,9 bis 13,4 °dH"
+     "area": "Härtebereich mittel; Jahresmittel 2025, 11,9 bis 13,4 °dH",
+     "nitrate_mg_l": 1.8,
+     "calcium_mg_l": 79.0,
+     "magnesium_mg_l": 7.0,
+     "ions_source_url": "https://www.hamburgwasser.de/fileadmin/Redakteur/Wasserwerke/Download/wasseranalyse-grosshansdorf.pdf",
+     "ions_measured_on": "2025"
     },
     {
      "name": "Wasserwerk Haseldorfer Marsch",
@@ -4700,7 +5748,12 @@
       114.2,
       132.1
      ],
-     "area": "Härtebereich mittel; Jahresmittel 2025, 9,7 bis 11,0 °dH"
+     "area": "Härtebereich mittel; Jahresmittel 2025, 9,7 bis 11,0 °dH",
+     "nitrate_mg_l": 10.2,
+     "calcium_mg_l": 57.0,
+     "magnesium_mg_l": 10.0,
+     "ions_source_url": "https://www.hamburgwasser.de/fileadmin/Redakteur/Wasserwerke/Download/wasseranalyse-haseldorfer-marsch.pdf",
+     "ions_measured_on": "2025"
     },
     {
      "name": "Wasserwerk Langenhorn",
@@ -4715,7 +5768,12 @@
       214.2,
       239.2
      ],
-     "area": "Härtebereich mittel; Jahresmittel 2025, 10,1 bis 10,6 °dH"
+     "area": "Härtebereich mittel; Jahresmittel 2025, 10,1 bis 10,6 °dH",
+     "nitrate_mg_l": 1.1,
+     "calcium_mg_l": 55.0,
+     "magnesium_mg_l": 12.0,
+     "ions_source_url": "https://www.hamburgwasser.de/fileadmin/Redakteur/Wasserwerke/Download/wasseranalyse-langenhorn.pdf",
+     "ions_measured_on": "2025"
     },
     {
      "name": "Wasserwerk Lohbrügge",
@@ -4730,7 +5788,12 @@
       183.8,
       199.9
      ],
-     "area": "Härtebereich mittel; Jahresmittel 2025, 8,8 bis 12,3 °dH"
+     "area": "Härtebereich mittel; Jahresmittel 2025, 8,8 bis 12,3 °dH",
+     "nitrate_mg_l": 2.2,
+     "calcium_mg_l": 62.0,
+     "magnesium_mg_l": 10.0,
+     "ions_source_url": "https://www.hamburgwasser.de/fileadmin/Redakteur/Wasserwerke/Download/wasseranalyse-lohbruegge.pdf",
+     "ions_measured_on": "2025"
     },
     {
      "name": "Wasserwerk Neugraben",
@@ -4745,7 +5808,12 @@
       80.3,
       96.4
      ],
-     "area": "Härtebereich weich; Jahresmittel 2025, 5,1 bis 5,7 °dH"
+     "area": "Härtebereich weich; Jahresmittel 2025, 5,1 bis 5,7 °dH",
+     "nitrate_mg_l": 0.3,
+     "calcium_mg_l": 34.0,
+     "magnesium_mg_l": 3.0,
+     "ions_source_url": "https://www.hamburgwasser.de/fileadmin/Redakteur/Wasserwerke/Download/wasseranalyse-neugraben.pdf",
+     "ions_measured_on": "2025"
     },
     {
      "name": "Wasserwerk Nordheide",
@@ -4760,7 +5828,11 @@
       91.0,
       103.5
      ],
-     "area": "Härtebereich weich; Jahresmittel 2025, 5,6 bis 6,1 °dH"
+     "area": "Härtebereich weich; Jahresmittel 2025, 5,6 bis 6,1 °dH",
+     "calcium_mg_l": 38.0,
+     "magnesium_mg_l": 3.0,
+     "ions_source_url": "https://www.hamburgwasser.de/fileadmin/Redakteur/Wasserwerke/Download/wasseranalyse-nordheide.pdf",
+     "ions_measured_on": "2025"
     },
     {
      "name": "Hauptpumpwerk Rothenburgsort",
@@ -4775,7 +5847,12 @@
       149.9,
       171.3
      ],
-     "area": "Härtebereich mittel; Jahresmittel 2025, 10,6 bis 12,9 °dH"
+     "area": "Härtebereich mittel; Jahresmittel 2025, 10,6 bis 12,9 °dH",
+     "nitrate_mg_l": 1.5,
+     "calcium_mg_l": 72.0,
+     "magnesium_mg_l": 7.0,
+     "ions_source_url": "https://www.hamburgwasser.de/fileadmin/Redakteur/Wasserwerke/Download/wasseranalyse-rothenburgsort.pdf",
+     "ions_measured_on": "2025"
     },
     {
      "name": "Wasserwerk Schnelsen",
@@ -4790,7 +5867,12 @@
       173.1,
       183.8
      ],
-     "area": "Härtebereich mittel; Jahresmittel 2025, 13,7 bis 14,2 °dH"
+     "area": "Härtebereich mittel; Jahresmittel 2025, 13,7 bis 14,2 °dH",
+     "nitrate_mg_l": 1.0,
+     "calcium_mg_l": 85.0,
+     "magnesium_mg_l": 9.0,
+     "ions_source_url": "https://www.hamburgwasser.de/fileadmin/Redakteur/Wasserwerke/Download/wasseranalyse-schnelsen.pdf",
+     "ions_measured_on": "2025"
     },
     {
      "name": "Wasserwerk Stellingen",
@@ -4805,7 +5887,12 @@
       155.3,
       167.8
      ],
-     "area": "Härtebereich hart; Jahresmittel 2025, 15,0 bis 18,3 °dH"
+     "area": "Härtebereich hart; Jahresmittel 2025, 15,0 bis 18,3 °dH",
+     "nitrate_mg_l": 0.9,
+     "calcium_mg_l": 110.0,
+     "magnesium_mg_l": 9.0,
+     "ions_source_url": "https://www.hamburgwasser.de/fileadmin/Redakteur/Wasserwerke/Download/wasseranalyse-stellingen.pdf",
+     "ions_measured_on": "2025"
     },
     {
      "name": "Wasserwerk Süderelbmarsch",
@@ -4820,7 +5907,12 @@
       92.8,
       108.9
      ],
-     "area": "Härtebereich weich; Jahresmittel 2025, 6,3 bis 7,6 °dH"
+     "area": "Härtebereich weich; Jahresmittel 2025, 6,3 bis 7,6 °dH",
+     "nitrate_mg_l": 0.6,
+     "calcium_mg_l": 42.0,
+     "magnesium_mg_l": 4.0,
+     "ions_source_url": "https://www.hamburgwasser.de/fileadmin/Redakteur/Wasserwerke/Download/wasseranalyse-suederelbmarsch.pdf",
+     "ions_measured_on": "2025"
     },
     {
      "name": "Wasserwerk Walddörfer",
@@ -4835,7 +5927,12 @@
       155.3,
       173.1
      ],
-     "area": "Härtebereich mittel; Jahresmittel 2025, 8,4 bis 9,0 °dH"
+     "area": "Härtebereich mittel; Jahresmittel 2025, 8,4 bis 9,0 °dH",
+     "nitrate_mg_l": 1.3,
+     "calcium_mg_l": 53.0,
+     "magnesium_mg_l": 6.0,
+     "ions_source_url": "https://www.hamburgwasser.de/fileadmin/Redakteur/Wasserwerke/Download/wasseranalyse-walddoerfer.pdf",
+     "ions_measured_on": "2025"
     }
    ],
    "carbonate_range_mg_l": [
@@ -5877,7 +6974,10 @@
    ],
    "carbonate_source_url": "https://www.enercity.de/assets/cms/enercity-de/Privatkunden/Produkte/Wasser/Downloads/Qualitaet/Trinkwasseranalyse-enercity.pdf",
    "carbonate_measured_on": "2025",
-   "checked_on": "2026-09-24"
+   "checked_on": "2026-09-24",
+   "nitrate_mg_l": 2.2,
+   "ions_source_url": "https://www.enercity.de/assets/cms/enercity-de/Privatkunden/Produkte/Wasser/Downloads/Qualitaet/Trinkwasseranalyse-enercity.pdf",
+   "ions_measured_on": "2025"
   },
   "DE/Heidelberg": {
    "mg_l": null,
@@ -5936,7 +7036,19 @@
       244.9,
       324.8
      ],
-     "area": "Wasserwerke Rauschen, Entensee und Schwetzinger Hardt; laut Straßenverzeichnis des Versorgers die Ebene von Neuenheim und Handschuhsheim"
+     "area": "Wasserwerke Rauschen, Entensee und Schwetzinger Hardt; laut Straßenverzeichnis des Versorgers die Ebene von Neuenheim und Handschuhsheim",
+     "nitrate_range_mg_l": [
+      1.0,
+      21.0
+     ],
+     "calcium_range_mg_l": [
+      97.0,
+      120.0
+     ],
+     "magnesium_range_mg_l": [
+      16.0,
+      19.0
+     ]
     },
     {
      "name": "Hartwasser südlich des Neckars",
@@ -5950,7 +7062,19 @@
       244.9,
       294.8
      ],
-     "area": "Wasserwerke Rauschen, Schwetzinger Hardt und Neckargruppe; laut Straßenverzeichnis Bergheim, Weststadt, Bahnstadt, Wieblingen, Pfaffengrund, Kirchheim, Rohrbach, Boxberg, Emmertsgrund"
+     "area": "Wasserwerke Rauschen, Schwetzinger Hardt und Neckargruppe; laut Straßenverzeichnis Bergheim, Weststadt, Bahnstadt, Wieblingen, Pfaffengrund, Kirchheim, Rohrbach, Boxberg, Emmertsgrund",
+     "nitrate_range_mg_l": [
+      1.0,
+      23.0
+     ],
+     "calcium_range_mg_l": [
+      97.0,
+      120.0
+     ],
+     "magnesium_range_mg_l": [
+      16.0,
+      19.0
+     ]
     },
     {
      "name": "Weichwasser nördlich des Neckars",
@@ -5964,7 +7088,19 @@
       24.0,
       95.0
      ],
-     "area": "Handschuhsheimer und Ziegelhäuser Quellen und Wasserwerk Schlierbach; laut Straßenverzeichnis die Hanglagen von Neuenheim und Handschuhsheim, Ziegelhausen, Peterstal"
+     "area": "Handschuhsheimer und Ziegelhäuser Quellen und Wasserwerk Schlierbach; laut Straßenverzeichnis die Hanglagen von Neuenheim und Handschuhsheim, Ziegelhausen, Peterstal",
+     "nitrate_range_mg_l": [
+      4.0,
+      12.0
+     ],
+     "calcium_range_mg_l": [
+      15.0,
+      38.0
+     ],
+     "magnesium_range_mg_l": [
+      2.0,
+      5.6
+     ]
     },
     {
      "name": "Weichwasser südlich des Neckars",
@@ -5978,7 +7114,19 @@
       70.0,
       95.0
      ],
-     "area": "Wasserwerk Schlierbach; laut Straßenverzeichnis Altstadt, Schlierbach, Königstuhl, Kohlhof"
+     "area": "Wasserwerk Schlierbach; laut Straßenverzeichnis Altstadt, Schlierbach, Königstuhl, Kohlhof",
+     "nitrate_range_mg_l": [
+      4.0,
+      5.0
+     ],
+     "calcium_range_mg_l": [
+      26.0,
+      38.0
+     ],
+     "magnesium_range_mg_l": [
+      5.0,
+      6.9
+     ]
     }
    ],
    "carbonate_range_mg_l": [
@@ -6042,25 +7190,54 @@
      "carbonate_range_mg_l": [
       189.2,
       205.3
-     ]
+     ],
+     "nitrate_range_mg_l": [
+      13.0,
+      19.0
+     ],
+     "calcium_range_mg_l": [
+      82.0,
+      90.0
+     ],
+     "magnesium_range_mg_l": [
+      17.0,
+      20.0
+     ],
+     "ions_source_url": "https://www.stadtwerke-heilbronn.de/wAssets/docs/wasserversorgung/HN-14-18-dH-Mittelwerte-2025.pdf",
+     "ions_measured_on": "2025"
     },
     {
      "name": "Zone 14 °dH",
      "area": "benannt nach 14 °dH, gemessen 13,6",
      "mg_l": 242.7,
-     "carbonate_mg_l": 174.9
+     "carbonate_mg_l": 174.9,
+     "nitrate_mg_l": 12.0,
+     "calcium_mg_l": 73.0,
+     "magnesium_mg_l": 15.0,
+     "ions_source_url": "https://www.stadtwerke-heilbronn.de/wAssets/docs/wasserversorgung/HN-14-dH-Mittelwerte-2025.pdf",
+     "ions_measured_on": "2025"
     },
     {
      "name": "Zone 10 °dH",
      "area": "benannt nach 10 °dH, gemessen 9,2",
      "mg_l": 164.2,
-     "carbonate_mg_l": 130.3
+     "carbonate_mg_l": 130.3,
+     "nitrate_mg_l": 6.0,
+     "calcium_mg_l": 52.0,
+     "magnesium_mg_l": 8.0,
+     "ions_source_url": "https://www.stadtwerke-heilbronn.de/wAssets/docs/wasserversorgung/HN-10-dH-Mittelwerte-2025.pdf",
+     "ions_measured_on": "2025"
     },
     {
      "name": "Zone 9 °dH",
      "area": "benannt nach 9 °dH, gemessen 9,0",
      "mg_l": 160.6,
-     "carbonate_mg_l": 130.3
+     "carbonate_mg_l": 130.3,
+     "nitrate_mg_l": 6.0,
+     "calcium_mg_l": 51.0,
+     "magnesium_mg_l": 9.0,
+     "ions_source_url": "https://www.stadtwerke-heilbronn.de/wAssets/docs/wasserversorgung/HN-9-dH-Mittelwerte-2025.pdf",
+     "ions_measured_on": "2025"
     }
    ],
    "carbonate_range_mg_l": [
@@ -6123,7 +7300,26 @@
     35.7
    ],
    "carbonate_measured_on": "2025",
-   "carbonate_source_url": "https://www.evi-hildesheim.de/evi/Produkte-fuer-Privatkunden/Wasser/Trinkwasseranalyse/"
+   "carbonate_source_url": "https://www.evi-hildesheim.de/evi/Produkte-fuer-Privatkunden/Wasser/Trinkwasseranalyse/",
+   "nitrate_range_mg_l": [
+    7.4,
+    7.6
+   ],
+   "calcium_range_mg_l": [
+    9.8,
+    16.9
+   ],
+   "magnesium_range_mg_l": [
+    2.1,
+    2.9
+   ],
+   "ions_source_url": "https://www.evi-hildesheim.de/evi/Produkte-fuer-Privatkunden/Wasser/Trinkwasseranalyse/Trinkwasseranalyse/4-WW-Soese-Reinwasser-I-2025.pdf",
+   "ions_measured_on": "2025",
+   "ions_source_urls": [
+    "https://www.evi-hildesheim.de/evi/Produkte-fuer-Privatkunden/Wasser/Trinkwasseranalyse/Trinkwasseranalyse/4-WW-Soese-Reinwasser-I-2025.pdf",
+    "https://www.harzwasserwerke.de/wp-content/uploads/2026/02/WW-Grane-I-Reinwasser-2025.pdf",
+    "https://www.harzwasserwerke.de/wp-content/uploads/2026/02/WW-Grane-II-Reinwasser-2025.pdf"
+   ]
   },
   "DE/Ingolstadt": {
    "mg_l": 371.2,
@@ -6207,19 +7403,33 @@
      "name": "Wasserwerk Burgau",
      "mg_l": 332.0,
      "carbonate_mg_l": 232.0,
-     "area": "Nord, Zentrum, Jenaprießnitz/Wogau, Kernberge, Kunitz/Laasan, Löbstedt, Wenigenjena, Ziegenhain, Zwätzen"
+     "area": "Nord, Zentrum, Jenaprießnitz/Wogau, Kernberge, Kunitz/Laasan, Löbstedt, Wenigenjena, Ziegenhain, Zwätzen",
+     "nitrate_mg_l": 7.0,
+     "calcium_mg_l": 85.0,
+     "magnesium_mg_l": 29.0,
+     "ions_source_url": "https://www.jenawasser.de/fileadmin/inhalte/3_Trinkwasser/2025_Trinkwasserbeschaffenheit_alle_mit_Mibi.pdf",
+     "ions_measured_on": "2025-12"
     },
     {
      "name": "Wasserwerk Drackendorf",
      "mg_l": 271.3,
      "carbonate_mg_l": 192.8,
-     "area": "Ammerbach Ort, Burgau, Drackendorf, Göschwitz, Ilmnitz, Beutenberg ohne Campus, Ringwiese, Leutra, Lobeda-Altstadt, Maua, Neulobeda, Winzerla, Wöllnitz"
+     "area": "Ammerbach Ort, Burgau, Drackendorf, Göschwitz, Ilmnitz, Beutenberg ohne Campus, Ringwiese, Leutra, Lobeda-Altstadt, Maua, Neulobeda, Winzerla, Wöllnitz",
+     "nitrate_mg_l": 13.2,
+     "calcium_mg_l": 69.0,
+     "magnesium_mg_l": 24.0,
+     "ions_source_url": "https://www.jenawasser.de/fileadmin/inhalte/3_Trinkwasser/2025_Trinkwasserbeschaffenheit_alle_mit_Mibi.pdf",
+     "ions_measured_on": "2025-12"
     },
     {
      "name": "Fernwasser Luisenthal (Thüringer Fernwasserversorgung)",
      "mg_l": 57.1,
      "carbonate_mg_l": 58.9,
-     "area": "Teil Ammerbachs (Ammerbacher Oberweg, oberer Coppanzer Weg), Lichtenhain, Süd ohne Ringwiese, West, Münchenroda/Remderoda"
+     "area": "Teil Ammerbachs (Ammerbacher Oberweg, oberer Coppanzer Weg), Lichtenhain, Süd ohne Ringwiese, West, Münchenroda/Remderoda",
+     "nitrate_mg_l": 5.0,
+     "calcium_mg_l": 19.0,
+     "ions_source_url": "https://www.jenawasser.de/fileadmin/inhalte/3_Trinkwasser/2025_Trinkwasserbeschaffenheit_alle_mit_Mibi.pdf",
+     "ions_measured_on": "2025-12"
     }
    ],
    "carbonate_range_mg_l": [
@@ -6277,19 +7487,33 @@
      "name": "Wasserwerk Barbarossastraße",
      "mg_l": 98.2,
      "carbonate_mg_l": 83.9,
-     "area": "Stadtgebiet Kaiserslautern"
+     "area": "Stadtgebiet Kaiserslautern",
+     "nitrate_mg_l": 4.8,
+     "calcium_mg_l": 37.0,
+     "magnesium_mg_l": 1.5,
+     "ions_measured_on": "2026-01-20"
     },
     {
      "name": "Wasserwerk Rote Hohl",
      "mg_l": 96.4,
      "carbonate_mg_l": 85.7,
-     "area": "Dansenberg und Umgebung"
+     "area": "Dansenberg und Umgebung",
+     "nitrate_mg_l": 5.0,
+     "calcium_mg_l": 36.0,
+     "magnesium_mg_l": 1.5,
+     "ions_measured_on": "2026-01-20",
+     "ions_source_url": "https://www.swk-kl.de/_Resources/Persistent/b/0/7/5/b075abe0eaea208ef29349364a3592a873cb777d/SWKVersorgung_Trinkwasseranalyse-WasserwerkRoteHohl_14-01-26.pdf"
     },
     {
      "name": "Wasserwerk Mölschbach",
      "mg_l": 73.2,
      "carbonate_mg_l": 67.8,
-     "area": "Mölschbach"
+     "area": "Mölschbach",
+     "nitrate_mg_l": 1.5,
+     "calcium_mg_l": 28.0,
+     "magnesium_mg_l": 0.7,
+     "ions_measured_on": "2026-01-20",
+     "ions_source_url": "https://www.swk-kl.de/_Resources/Persistent/7/c/e/c/7cecf471c0df35a5b2a28071ac7c6deff3c622f8/SWKVersorgung_Trinkwasseranalyse-WasserwerkM%C3%B6lschbach_14-01-2026.pdf"
     }
    ],
    "carbonate_range_mg_l": [
@@ -6412,85 +7636,155 @@
      "name": "Hochbehälter Bergfreiheit",
      "mg_l": 267.7,
      "area": "welche Straßen dieser Behälter versorgt, zeigt die Abfrage des Versorgers",
-     "carbonate_derived_mg_l": 187.4
+     "carbonate_derived_mg_l": 187.4,
+     "nitrate_mg_l": 18.0,
+     "calcium_mg_l": 75.4,
+     "magnesium_mg_l": 19.4,
+     "ions_source_url": "https://kasselwasser.de/wht/pdf/beh_1.pdf",
+     "ions_measured_on": "2026"
     },
     {
      "name": "Hochbehälter Bergstraße",
      "mg_l": 194.5,
      "area": "welche Straßen dieser Behälter versorgt, zeigt die Abfrage des Versorgers",
-     "carbonate_derived_mg_l": 133.9
+     "carbonate_derived_mg_l": 133.9,
+     "nitrate_mg_l": 8.0,
+     "calcium_mg_l": 41.2,
+     "magnesium_mg_l": 22.2,
+     "ions_source_url": "https://kasselwasser.de/wht/pdf/beh_2.pdf",
+     "ions_measured_on": "2026"
     },
     {
      "name": "Hochbehälter Blauer See",
      "mg_l": 267.7,
      "area": "welche Straßen dieser Behälter versorgt, zeigt die Abfrage des Versorgers",
-     "carbonate_derived_mg_l": 187.4
+     "carbonate_derived_mg_l": 187.4,
+     "nitrate_mg_l": 18.0,
+     "calcium_mg_l": 75.4,
+     "magnesium_mg_l": 19.4,
+     "ions_source_url": "https://kasselwasser.de/wht/pdf/beh_3.pdf",
+     "ions_measured_on": "2026"
     },
     {
      "name": "Hochbehälter Dönche",
      "mg_l": 214.2,
      "area": "welche Straßen dieser Behälter versorgt, zeigt die Abfrage des Versorgers",
-     "carbonate_derived_mg_l": 151.7
+     "carbonate_derived_mg_l": 151.7,
+     "nitrate_mg_l": 6.2,
+     "calcium_mg_l": 54.5,
+     "magnesium_mg_l": 19.0,
+     "ions_source_url": "https://kasselwasser.de/wht/pdf/beh_4.pdf",
+     "ions_measured_on": "2026"
     },
     {
      "name": "Hochbehälter Hasenhecke",
      "mg_l": 219.5,
      "area": "welche Straßen dieser Behälter versorgt, zeigt die Abfrage des Versorgers",
-     "carbonate_derived_mg_l": 142.8
+     "carbonate_derived_mg_l": 142.8,
+     "nitrate_mg_l": 19.0,
+     "calcium_mg_l": 56.4,
+     "magnesium_mg_l": 19.4,
+     "ions_source_url": "https://kasselwasser.de/wht/pdf/beh_5.pdf",
+     "ions_measured_on": "2026"
     },
     {
      "name": "Hochbehälter Hessenschanze",
      "mg_l": 91.0,
      "area": "welche Straßen dieser Behälter versorgt, zeigt die Abfrage des Versorgers",
-     "carbonate_derived_mg_l": 71.4
+     "carbonate_derived_mg_l": 71.4,
+     "nitrate_mg_l": 7.4,
+     "calcium_mg_l": 16.5,
+     "magnesium_mg_l": 12.4,
+     "ions_source_url": "https://kasselwasser.de/wht/pdf/beh_6.pdf",
+     "ions_measured_on": "2026"
     },
     {
      "name": "Hochbehälter Hunrod",
      "mg_l": 194.5,
      "area": "welche Straßen dieser Behälter versorgt, zeigt die Abfrage des Versorgers",
-     "carbonate_derived_mg_l": 133.9
+     "carbonate_derived_mg_l": 133.9,
+     "nitrate_mg_l": 8.0,
+     "calcium_mg_l": 41.2,
+     "magnesium_mg_l": 22.2,
+     "ions_source_url": "https://kasselwasser.de/wht/pdf/beh_7.pdf",
+     "ions_measured_on": "2026"
     },
     {
      "name": "Hochbehälter Jungfernkopf",
      "mg_l": 149.9,
      "area": "welche Straßen dieser Behälter versorgt, zeigt die Abfrage des Versorgers",
-     "carbonate_derived_mg_l": 107.1
+     "carbonate_derived_mg_l": 107.1,
+     "nitrate_mg_l": 12.0,
+     "calcium_mg_l": 42.1,
+     "magnesium_mg_l": 10.7,
+     "ions_source_url": "https://kasselwasser.de/wht/pdf/beh_8.pdf",
+     "ions_measured_on": "2026"
     },
     {
      "name": "Hochbehälter Krähhahn",
      "mg_l": 194.5,
      "area": "welche Straßen dieser Behälter versorgt, zeigt die Abfrage des Versorgers",
-     "carbonate_derived_mg_l": 133.9
+     "carbonate_derived_mg_l": 133.9,
+     "nitrate_mg_l": 8.0,
+     "calcium_mg_l": 41.2,
+     "magnesium_mg_l": 22.2,
+     "ions_source_url": "https://kasselwasser.de/wht/pdf/beh_9.pdf",
+     "ions_measured_on": "2026"
     },
     {
      "name": "Hochbehälter Kratzenberg",
      "mg_l": 158.8,
      "area": "welche Straßen dieser Behälter versorgt, zeigt die Abfrage des Versorgers",
-     "carbonate_derived_mg_l": 89.2
+     "carbonate_derived_mg_l": 89.2,
+     "nitrate_mg_l": 12.0,
+     "calcium_mg_l": 45.1,
+     "magnesium_mg_l": 11.5,
+     "ions_source_url": "https://kasselwasser.de/wht/pdf/beh_10.pdf",
+     "ions_measured_on": "2026"
     },
     {
      "name": "Hochbehälter Kuhberg",
      "mg_l": 194.5,
      "area": "welche Straßen dieser Behälter versorgt, zeigt die Abfrage des Versorgers",
-     "carbonate_derived_mg_l": 133.9
+     "carbonate_derived_mg_l": 133.9,
+     "nitrate_mg_l": 8.0,
+     "calcium_mg_l": 41.2,
+     "magnesium_mg_l": 22.2,
+     "ions_source_url": "https://kasselwasser.de/wht/pdf/beh_11.pdf",
+     "ions_measured_on": "2026"
     },
     {
      "name": "Hochbehälter Lindenberg",
      "mg_l": 196.3,
      "area": "welche Straßen dieser Behälter versorgt, zeigt die Abfrage des Versorgers",
-     "carbonate_derived_mg_l": 142.8
+     "carbonate_derived_mg_l": 142.8,
+     "nitrate_mg_l": 15.0,
+     "calcium_mg_l": 58.49,
+     "magnesium_mg_l": 12.04,
+     "ions_source_url": "https://kasselwasser.de/wht/pdf/beh_12.pdf",
+     "ions_measured_on": "2026"
     },
     {
      "name": "Hochbehälter Lindenkopf",
      "mg_l": 196.3,
      "area": "welche Straßen dieser Behälter versorgt, zeigt die Abfrage des Versorgers",
-     "carbonate_derived_mg_l": 142.8
+     "carbonate_derived_mg_l": 142.8,
+     "nitrate_mg_l": 15.0,
+     "calcium_mg_l": 58.5,
+     "magnesium_mg_l": 12.0,
+     "ions_source_url": "https://kasselwasser.de/wht/pdf/beh_13.pdf",
+     "ions_measured_on": "2026"
     },
     {
      "name": "Hochbehälter Osterberg",
      "mg_l": 267.7,
      "area": "welche Straßen dieser Behälter versorgt, zeigt die Abfrage des Versorgers",
-     "carbonate_derived_mg_l": 187.4
+     "carbonate_derived_mg_l": 187.4,
+     "nitrate_mg_l": 18.0,
+     "calcium_mg_l": 75.39,
+     "magnesium_mg_l": 19.38,
+     "ions_source_url": "https://kasselwasser.de/wht/pdf/beh_14.pdf",
+     "ions_measured_on": "2026"
     }
    ],
    "carbonate_note": "KASSELWASSER prints no carbonate hardness, no acid capacity and no hydrogencarbonate, but each reservoir's analysis lists all seven major ions, so the figure is derived from the ion balance and shown as derived, with every input and its PDF on the page; calcium and magnesium reproduce the printed total hardness to within a tenth of a degree in all fourteen",
@@ -6762,25 +8056,45 @@
      "name": "Wasserwerk Schulensee",
      "mg_l": 280.2,
      "carbonate_mg_l": 276.6,
-     "area": "hart"
+     "area": "hart",
+     "nitrate_mg_l": 2.43,
+     "calcium_mg_l": 94.6,
+     "magnesium_mg_l": 10.8,
+     "ions_source_url": "https://www.stadtwerke-kiel.de/fileadmin/user_upload/Medien/Dokumente/Produkte/Wasser/analyse-trinkwasser-ww-schulensee.pdf",
+     "ions_measured_on": "2026-01-19"
     },
     {
      "name": "Wasserwerk Schwentinental",
      "mg_l": 321.3,
      "carbonate_mg_l": 301.6,
-     "area": "hart"
+     "area": "hart",
+     "nitrate_mg_l": 1.77,
+     "calcium_mg_l": 110.0,
+     "magnesium_mg_l": 11.6,
+     "ions_source_url": "https://www.stadtwerke-kiel.de/fileadmin/user_upload/Medien/Dokumente/Produkte/Wasser/analyse-trinkwasser-ww-schwentinental.pdf",
+     "ions_measured_on": "2026-01-19"
     },
     {
      "name": "Wasserwerk Pries",
      "mg_l": 203.5,
      "carbonate_mg_l": 203.5,
-     "area": "mittel; Holtenau, Pries, Friedrichsort, Schilksee, Altenholz"
+     "area": "mittel; Holtenau, Pries, Friedrichsort, Schilksee, Altenholz",
+     "nitrate_mg_l": 1.29,
+     "calcium_mg_l": 64.4,
+     "magnesium_mg_l": 10.2,
+     "ions_source_url": "https://www.stadtwerke-kiel.de/fileadmin/user_upload/Medien/Dokumente/Produkte/Wasser/analyse-trinkwasser-ww-pries.pdf",
+     "ions_measured_on": "2026-01-19"
     },
     {
      "name": "Wasserwerk Wik",
      "mg_l": 342.7,
      "carbonate_mg_l": 298.1,
-     "area": "hart"
+     "area": "hart",
+     "nitrate_mg_l": 2.13,
+     "calcium_mg_l": 110.0,
+     "magnesium_mg_l": 16.4,
+     "ions_source_url": "https://www.stadtwerke-kiel.de/fileadmin/user_upload/Medien/Dokumente/Produkte/Wasser/analyse-trinkwasser-ww-wik.pdf",
+     "ions_measured_on": "2026-01-19"
     }
    ],
    "carbonate_range_mg_l": [
@@ -6866,13 +8180,23 @@
      "name": "Wasserwerk Gladbacher Straße",
      "mg_l": 242.9,
      "carbonate_mg_l": 127.4,
-     "area": "westliches Stadtgebiet und Hüls"
+     "area": "westliches Stadtgebiet und Hüls",
+     "nitrate_mg_l": 8.2,
+     "calcium_mg_l": 66.7,
+     "magnesium_mg_l": 18.2,
+     "ions_source_url": "https://cdn.swk.de/assets/download/NGN_Trinkwasser_Analyse_2025-neu-1.pdf",
+     "ions_measured_on": "2025"
     },
     {
      "name": "Wasserwerk In der Elt",
      "mg_l": 220.9,
      "carbonate_mg_l": 108.9,
-     "area": "östliche Stadtteile"
+     "area": "östliche Stadtteile",
+     "nitrate_mg_l": 35.1,
+     "calcium_mg_l": 67.0,
+     "magnesium_mg_l": 12.7,
+     "ions_source_url": "https://cdn.swk.de/assets/download/NGN_Trinkwasser_Analyse_2025-neu-1.pdf",
+     "ions_measured_on": "2025"
     }
    ]
   },
@@ -6923,37 +8247,73 @@
     {
      "name": "Wasserwerk Belgershain",
      "mg_l": 312.3,
-     "carbonate_mg_l": 53.5
+     "carbonate_mg_l": 53.5,
+     "calcium_mg_l": 109.0,
+     "magnesium_mg_l": 10.0,
+     "ions_source_url": "https://files.l.de/lde-typo3/Leipziger/Wasserwerke/Download-Center/Flyer_und_Broschueren/Wasserwerke-Jahresdurchschnittsanalyse-2025.pdf",
+     "ions_measured_on": "2025"
     },
     {
      "name": "Wasserwerk Naunhof 1",
      "mg_l": 303.4,
-     "carbonate_mg_l": 72.0
+     "carbonate_mg_l": 72.0,
+     "nitrate_mg_l": 23.0,
+     "calcium_mg_l": 89.0,
+     "magnesium_mg_l": 20.0,
+     "ions_source_url": "https://files.l.de/lde-typo3/Leipziger/Wasserwerke/Download-Center/Flyer_und_Broschueren/Wasserwerke-Jahresdurchschnittsanalyse-2025.pdf",
+     "ions_measured_on": "2025"
     },
     {
      "name": "Wasserwerk Naunhof 2",
      "mg_l": 298.1,
-     "carbonate_mg_l": 78.0
+     "carbonate_mg_l": 78.0,
+     "nitrate_mg_l": 12.0,
+     "calcium_mg_l": 95.0,
+     "magnesium_mg_l": 15.0,
+     "ions_source_url": "https://files.l.de/lde-typo3/Leipziger/Wasserwerke/Download-Center/Flyer_und_Broschueren/Wasserwerke-Jahresdurchschnittsanalyse-2025.pdf",
+     "ions_measured_on": "2025"
     },
     {
      "name": "Wasserwerk Probstheida",
      "mg_l": 273.1,
-     "carbonate_mg_l": 72.5
+     "carbonate_mg_l": 72.5,
+     "nitrate_mg_l": 15.0,
+     "calcium_mg_l": 84.0,
+     "magnesium_mg_l": 16.0,
+     "ions_source_url": "https://files.l.de/lde-typo3/Leipziger/Wasserwerke/Download-Center/Flyer_und_Broschueren/Wasserwerke-Jahresdurchschnittsanalyse-2025.pdf",
+     "ions_measured_on": "2025"
     },
     {
      "name": "Fernwasser Elbaue-Ostharz",
      "mg_l": 230.2,
-     "carbonate_mg_l": 85.0
+     "carbonate_mg_l": 85.0,
+     "calcium_mg_l": 74.0,
+     "magnesium_mg_l": 11.0,
+     "ions_source_url": "https://files.l.de/lde-typo3/Leipziger/Wasserwerke/Download-Center/Flyer_und_Broschueren/Wasserwerke-Jahresdurchschnittsanalyse-2025.pdf",
+     "ions_measured_on": "2025",
+     "nitrate_mg_l": 1.5,
+     "nitrate_source_url": "https://feo.de/cms/wp-content/uploads/2026/09/FEO_26-021_Trinkwasserbericht-2025_web.pdf",
+     "nitrate_note": "the Leipzig sheet prints '<1,9' for this water; the supplier FEO's own 2025 report prints an annual mean of 1,5 for Wasserwerk Torgau-Ost"
     },
     {
      "name": "Wasserwerk Canitz",
      "mg_l": 212.4,
-     "carbonate_mg_l": 68.0
+     "carbonate_mg_l": 68.0,
+     "nitrate_mg_l": 16.0,
+     "calcium_mg_l": 63.0,
+     "magnesium_mg_l": 13.0,
+     "ions_source_url": "https://files.l.de/lde-typo3/Leipziger/Wasserwerke/Download-Center/Flyer_und_Broschueren/Wasserwerke-Jahresdurchschnittsanalyse-2025.pdf",
+     "ions_measured_on": "2025"
     },
     {
      "name": "Wasserwerk Thallwitz",
      "mg_l": 142.8,
-     "carbonate_mg_l": 64.5
+     "carbonate_mg_l": 64.5,
+     "nitrate_mg_l": 5.0,
+     "calcium_mg_l": 41.0,
+     "magnesium_mg_l": 10.0,
+     "ions_source_url": "https://files.l.de/lde-typo3/Leipziger/Wasserwerke/Download-Center/Flyer_und_Broschueren/Wasserwerke-Jahresdurchschnittsanalyse-2025.pdf",
+     "ions_measured_on": "2025"
     }
    ],
    "carbonate_range_mg_l": [
@@ -7074,7 +8434,18 @@
     258.8
    ],
    "carbonate_source_url": "https://www.twl.de/fileadmin/user_upload/twl/00_Content/01_Privatkunden/01_Meine_Energie/04_Wasser/01_Trinkwasser/230609Zj_Trinkwasseranalyse_fuer_Internet_Jahresmittel_2023.pdf",
-   "carbonate_measured_on": "2023"
+   "carbonate_measured_on": "2023",
+   "nitrate_mg_l": 2.0,
+   "calcium_range_mg_l": [
+    58.0,
+    80.0
+   ],
+   "magnesium_range_mg_l": [
+    7.7,
+    9.8
+   ],
+   "ions_source_url": "https://www.twl.de/fileadmin/user_upload/twl/00_Content/01_Privatkunden/01_Meine_Energie/04_Wasser/Trinkwasseranalyse_Januar_2026_f%C3%BCr_Homepage_TWL.pdf",
+   "ions_measured_on": "2026-01"
   },
   "DE/Lübeck": {
    "mg_l": null,
@@ -7116,7 +8487,16 @@
     267.7
    ],
    "carbonate_source_url": "https://a.swhl.de/f/187280/x/255b4d482c/2608-014_swl-trinkwasserqualitat-lubeck-2026_w1_bf.pdf?cv=1789999185619",
-   "carbonate_measured_on": "2026"
+   "carbonate_measured_on": "2026",
+   "calcium_range_mg_l": [
+    75.0,
+    110.0
+   ],
+   "magnesium_range_mg_l": [
+    6.0,
+    10.6
+   ],
+   "ions_measured_on": "2026-08"
   },
   "DE/Magdeburg": {
    "mg_l": 255.2,
@@ -7166,7 +8546,7 @@
    "band": "varies by supply zone",
    "source": "Mainzer Netze",
    "source_url": "https://www.mainzer-netze.de/-/media/project/mainzer-stadtwerke/websites-mainzer-netze/mainzer-netze/dateien/ordnerstruktur-clean/g_s_w_weitere-infos/wasser/trinkwasserqualitaet/w_analysewerte-trinkwasser.pdf",
-   "note": "three waterworks: Hof Schönau at 12.6 dH, Eich at 19.3 dH and Petersaue at 25.1 dH; which one supplies a street decides the figure",
+   "note": "three waterworks: Hof Schönau at 25.1 dH, Eich at 19.3 dH and Petersaue at 12.6 dH; which one supplies a street decides the figure",
    "range_mg_l": [
     224.9,
     448.0
@@ -7204,7 +8584,21 @@
    ],
    "carbonate_source_url": "https://www.mainzer-netze.de/-/media/project/mainzer-stadtwerke/websites-mainzer-netze/mainzer-netze/dateien/ordnerstruktur-clean/g_s_w_weitere-infos/wasser/trinkwasserqualitaet/w_analysewerte-trinkwasser.pdf",
    "carbonate_measured_on": "2026",
-   "carbonate_note": "three supply columns: 25.1 dH total with 12.7 carbonate, 12.6 with 9.6, 19.3 with 14.4; the sheet names the columns only in a header we could not read reliably"
+   "carbonate_note": "three supply columns: 25.1 dH total with 12.7 carbonate, 12.6 with 9.6, 19.3 with 14.4; the sheet names the columns only in a header we could not read reliably",
+   "nitrate_range_mg_l": [
+    1.8,
+    3.7
+   ],
+   "calcium_range_mg_l": [
+    71.0,
+    150.0
+   ],
+   "magnesium_range_mg_l": [
+    12.0,
+    18.0
+   ],
+   "ions_source_url": "https://www.mainzer-netze.de/-/media/project/mainzer-stadtwerke/websites-mainzer-netze/mainzer-netze/dateien/ordnerstruktur-clean/g_s_w_weitere-infos/wasser/trinkwasserqualitaet/w_analysewerte-trinkwasser.pdf",
+   "ions_measured_on": "2025"
   },
   "DE/Mannheim": {
    "mg_l": null,
@@ -7219,7 +8613,6 @@
    ],
    "lat": 49.4891,
    "lon": 8.4669,
-   "nitrate_mg_l": 16.0,
    "origin": [
     "groundwater"
    ],
@@ -7253,13 +8646,23 @@
      "name": "Wasserwerk Käfertal",
      "mg_l": 373.0,
      "carbonate_mg_l": 297.3,
-     "area": "Grundwasser"
+     "area": "Grundwasser",
+     "nitrate_mg_l": 1.5,
+     "calcium_mg_l": 123.0,
+     "magnesium_mg_l": 19.0,
+     "ions_source_url": "https://www.mvv.de/fileadmin/user_upload_pk_gewk/pdf/Wasser/wasserqualitaet-kaefertal.pdf",
+     "ions_measured_on": "2026-08-03"
     },
     {
      "name": "Wasserwerk Rheinau",
      "mg_l": 351.6,
      "carbonate_mg_l": 270.9,
-     "area": "Grundwasser"
+     "area": "Grundwasser",
+     "nitrate_mg_l": 21.0,
+     "calcium_mg_l": 107.0,
+     "magnesium_mg_l": 21.0,
+     "ions_source_url": "https://www.mvv.de/fileadmin/user_upload_pk_gewk/pdf/Wasser/wasserqualitaet-rheinau.pdf",
+     "ions_measured_on": "2026-08-03"
     }
    ],
    "carbonate_range_mg_l": [
@@ -7378,25 +8781,45 @@
      "name": "Wasserwerk Hohe Ward",
      "mg_l": 223.1,
      "carbonate_mg_l": 174.9,
-     "area": "Grundwasser aus der Hohen Ward"
+     "area": "Grundwasser aus der Hohen Ward",
+     "nitrate_mg_l": 5.33,
+     "calcium_mg_l": 79.2,
+     "magnesium_mg_l": 6.0,
+     "ions_source_url": "https://www.stadtwerke-muenster.de/Stadtwerke/Dokumente/Trinkwasser/Trinkwasseranalytik.pdf",
+     "ions_measured_on": "2025"
     },
     {
      "name": "Wasserwerk Vennheide",
      "mg_l": 301.6,
      "carbonate_mg_l": 224.9,
-     "area": "Grundwasser, härtestes Wasser im Netz"
+     "area": "Grundwasser, härtestes Wasser im Netz",
+     "nitrate_mg_l": 9.56,
+     "calcium_mg_l": 104.9,
+     "magnesium_mg_l": 9.4,
+     "ions_source_url": "https://www.stadtwerke-muenster.de/Stadtwerke/Dokumente/Trinkwasser/Trinkwasseranalytik.pdf",
+     "ions_measured_on": "2025"
     },
     {
      "name": "Wasserwerk Hornheide",
      "mg_l": 269.5,
      "carbonate_mg_l": 217.9,
-     "area": "Grundwasser, seit 2026 mit Enthärtung"
+     "area": "Grundwasser, seit 2026 mit Enthärtung",
+     "nitrate_mg_l": 5.12,
+     "calcium_mg_l": 97.1,
+     "magnesium_mg_l": 6.3,
+     "ions_source_url": "https://www.stadtwerke-muenster.de/Stadtwerke/Dokumente/Trinkwasser/Trinkwasseranalytik.pdf",
+     "ions_measured_on": "2025"
     },
     {
      "name": "Bezug von der Gelsenwasser AG",
      "mg_l": 196.3,
      "carbonate_mg_l": 151.4,
-     "area": "zugekauftes Wasser, weichster Anteil im Netz"
+     "area": "zugekauftes Wasser, weichster Anteil im Netz",
+     "nitrate_mg_l": 11.42,
+     "calcium_mg_l": 71.2,
+     "magnesium_mg_l": 4.5,
+     "ions_source_url": "https://www.stadtwerke-muenster.de/Stadtwerke/Dokumente/Trinkwasser/Trinkwasseranalytik.pdf",
+     "ions_measured_on": "2025"
     }
    ],
    "carbonate_note": "the analysis is published as a PDF whose text layer is empty, so the figures were read from the rendered page at 140 dpi; the automatic re-check cannot read this document",
@@ -7447,37 +8870,63 @@
      "name": "Wasserwerk Helenabrunn",
      "mg_l": 248.1,
      "carbonate_mg_l": 130.3,
-     "area": "Norden und Osten der Stadt"
+     "area": "Norden und Osten der Stadt",
+     "nitrate_mg_l": 18.4,
+     "calcium_mg_l": 77.9,
+     "magnesium_mg_l": 12.8,
+     "ions_measured_on": "2026-01",
+     "ions_source_url": "https://trinkwasseranalyse.new.de/"
     },
     {
      "name": "Wasserwerk Rasseln",
      "mg_l": 216.0,
      "carbonate_mg_l": 53.5,
-     "area": "Mönchengladbach-Nord, Stadtmitte, Hardt und Venn"
+     "area": "Mönchengladbach-Nord, Stadtmitte, Hardt und Venn",
+     "nitrate_mg_l": 36.6,
+     "calcium_mg_l": 66.4,
+     "magnesium_mg_l": 12.2,
+     "ions_measured_on": "2026-01",
+     "ions_source_url": "https://trinkwasseranalyse.new.de/"
     },
     {
      "name": "Wasserwerk Rheindahlen",
      "mg_l": 253.4,
      "carbonate_mg_l": 126.7,
-     "area": "Rheindahlen und der Südwesten"
+     "area": "Rheindahlen und der Südwesten",
+     "nitrate_mg_l": 18.9,
+     "calcium_mg_l": 80.7,
+     "magnesium_mg_l": 12.3,
+     "ions_measured_on": "2026-01",
+     "ions_source_url": "https://trinkwasseranalyse.new.de/"
     },
     {
      "name": "Wasserwerk Gatzweiler",
      "mg_l": 217.7,
      "carbonate_mg_l": 124.9,
-     "area": "Westen von Wickrath"
+     "area": "Westen von Wickrath",
+     "nitrate_mg_l": 22.2,
+     "calcium_mg_l": 69.4,
+     "magnesium_mg_l": 10.6,
+     "ions_measured_on": "2026-01",
+     "ions_source_url": "https://trinkwasseranalyse.new.de/"
     },
     {
      "name": "Wasserwerk Reststrauch",
      "mg_l": 265.9,
      "carbonate_mg_l": 182.0,
-     "area": "Rheydt, Odenkirchen und der Süden"
+     "area": "Rheydt, Odenkirchen und der Süden",
+     "nitrate_mg_l": 5.6,
+     "calcium_mg_l": 85.1,
+     "magnesium_mg_l": 13.0,
+     "ions_measured_on": "2026-01",
+     "ions_source_url": "https://trinkwasseranalyse.new.de/"
     },
     {
      "name": "Wasserwerk Hoppbruch",
      "mg_l": 230.2,
      "carbonate_mg_l": 130.3,
-     "area": "Giesenkirchen, Schelsen und der äußerste Osten"
+     "area": "Giesenkirchen, Schelsen und der äußerste Osten",
+     "ions_measured_on": "2026-01"
     }
    ],
    "carbonate_range_mg_l": [
@@ -7495,10 +8944,10 @@
    "source": "RWW Rheinisch-Westfälische Wasserwerksgesellschaft",
    "source_url": "https://www.rww.de/fileadmin/assets/pdf/twa_bot_mh_med.pdf",
    "measured_on": "2025",
-   "note": "one figure per supply area: 5.7, 8.0 and 10.7 dH",
+   "note": "RWW prints a 2025 median per supply area: 8.0 dH for Mülheim without Mintard (single values 5.7 to 10.7) and 8.6 dH for Mintard (6.7 to 10.2)",
    "range_mg_l": [
-    101.7,
-    191.0
+    142.8,
+    153.5
    ],
    "lat": 51.4322,
    "lon": 6.8797,
@@ -7524,7 +8973,35 @@
    ],
    "carbonate_source_url": "https://www.rww.de/fileadmin/assets/pdf/twa_bot_mh_med.pdf",
    "carbonate_measured_on": "2025",
-   "carbonate_note": "from the acid capacity, median 2.60 mmol/l with 1.68 to 3.34 over the year, Wasserwerke Mülheim-Styrum-Ost und -West"
+   "carbonate_note": "from the acid capacity, median 2.60 mmol/l with 1.68 to 3.34 over the year, Wasserwerke Mülheim-Styrum-Ost und -West",
+   "zones": [
+    {
+     "name": "Mülheim ohne Mintard (Wasserwerke Styrum-Ost und -West)",
+     "mg_l": 142.8,
+     "range_mg_l": [
+      101.7,
+      191.0
+     ],
+     "source_url": "https://www.rww.de/fileadmin/assets/pdf/twa_bot_mh_med.pdf",
+     "nitrate_mg_l": 8.7,
+     "calcium_mg_l": 43.6,
+     "magnesium_mg_l": 8.3,
+     "ions_measured_on": "2025"
+    },
+    {
+     "name": "Mintard (Wasserwerk Styrum-Ost)",
+     "mg_l": 153.5,
+     "range_mg_l": [
+      119.6,
+      182.0
+     ],
+     "source_url": "https://www.rww.de/fileadmin/assets/pdf/twa_mh-mintard_med.pdf",
+     "nitrate_mg_l": 9.5,
+     "calcium_mg_l": 47.9,
+     "magnesium_mg_l": 8.4,
+     "ions_measured_on": "2025"
+    }
+   ]
   },
   "DE/Nuremberg": {
    "mg_l": null,
@@ -7588,8 +9065,8 @@
    "measured_on": "2025",
    "note": "two zones split along the A42: the south drinks Mülheim-Styrum water at a median of 8.0 dH (soft), the north Dorsten-Holsterhausen water at 13.5 dH (medium)",
    "range_mg_l": [
-    101.7,
-    251.7
+    142.8,
+    240.9
    ],
    "lat": 51.4781,
    "lon": 6.8625,
@@ -7611,7 +9088,35 @@
    "fresh_note": "Werte und Zonenschnitt unveraendert: die Ortsauswahl von RWW fuehrt 'Oberhausen (suedlich A42/westl. A516/A3)' weiter auf das Blatt der Wasserwerke Muelheim-Styrum (Median 8,0 dH, Spanne 5,7-10,7 = 101,7-191,0 mg/l CaCO3) und 'Oberhausen (noerdl. A42/oestl. A516/A3)' auf das Werk Dorsten-Holsterhausen (Median 13,5 dH, Spanne 12,6-14,1 = 224,9-251,7 mg/l); beide Blaetter sind 'Trinkwasserdaten 2025'. Geaendert die Quelle: /trinkwasser/wasserqualitaet enthaelt keinen Haertewert mehr, das Adress-Analysewerkzeug ist ausser Betrieb; verlinkt ist jetzt die Analysenseite mit der Ortsauswahl, weil Oberhausen zwei Blaetter braucht und die Zuordnung nur dort steht.",
    "carbonate_mg_l": 192.8,
    "carbonate_source_url": "https://www.rww.de/fileadmin/assets/pdf/trinkwasseranalyse_beek.pdf",
-   "carbonate_measured_on": "2026"
+   "carbonate_measured_on": "2026",
+   "zones": [
+    {
+     "name": "Nördlich der A42 und östlich der A516/A3 (Wasserwerk Dorsten-Holsterhausen)",
+     "mg_l": 240.9,
+     "range_mg_l": [
+      224.9,
+      251.7
+     ],
+     "source_url": "https://www.rww.de/fileadmin/assets/pdf/twa_whh_dor_gla_bot_ob_med.pdf",
+     "nitrate_mg_l": 9.6,
+     "calcium_mg_l": 89.5,
+     "magnesium_mg_l": 4.1,
+     "ions_measured_on": "2025"
+    },
+    {
+     "name": "Südlich der A42, oder nördlich und westlich der A516/A3 (Wasserwerke Mülheim-Styrum)",
+     "mg_l": 142.8,
+     "range_mg_l": [
+      101.7,
+      191.0
+     ],
+     "source_url": "https://www.rww.de/fileadmin/assets/pdf/twa_bot_mh_med.pdf",
+     "nitrate_mg_l": 8.7,
+     "calcium_mg_l": 43.6,
+     "magnesium_mg_l": 8.3,
+     "ions_measured_on": "2025"
+    }
+   ]
   },
   "DE/Offenbach": {
    "mg_l": null,
@@ -7659,7 +9164,21 @@
    ],
    "carbonate_source_url": "https://www.zwo-wasser.de/files/VG7.pdf",
    "carbonate_measured_on": "2026",
-   "carbonate_note": "printed as Karbonathärte 5,534 to 6,208 °dKH for Versorgungsgebiet 7"
+   "carbonate_note": "printed as Karbonathärte 5,534 to 6,208 °dKH for Versorgungsgebiet 7",
+   "nitrate_range_mg_l": [
+    13.1,
+    27.8
+   ],
+   "calcium_range_mg_l": [
+    55.9,
+    57.9
+   ],
+   "magnesium_range_mg_l": [
+    11.2,
+    21.8
+   ],
+   "ions_source_url": "https://www.zwo-wasser.de/files/VG7.pdf",
+   "ions_measured_on": "2026-Q2"
   },
   "DE/Oldenburg": {
    "mg_l": null,
@@ -7703,19 +9222,31 @@
      "name": "Wasserwerk Sandkrug",
      "mg_l": 117.8,
      "carbonate_mg_l": 87.5,
-     "area": "Grundwasser aus dem Wasserschutzgebiet Sandkrug, das weichste Wasser im Netz"
+     "area": "Grundwasser aus dem Wasserschutzgebiet Sandkrug, das weichste Wasser im Netz",
+     "nitrate_mg_l": 1.1,
+     "calcium_mg_l": 41.0,
+     "magnesium_mg_l": 3.8,
+     "ions_measured_on": "2025",
+     "ions_source_url": "https://www.ewe-netz.de/-/media/ewe-netz/downloads/trinkwasser/trinkwasser_umfassende_analyse_sandkrug.pdf"
     },
     {
      "name": "Wasserwerk Donnerschwee",
      "mg_l": 210.6,
      "carbonate_mg_l": 116.0,
-     "area": "Stadtgebiet Oldenburg"
+     "area": "Stadtgebiet Oldenburg",
+     "nitrate_mg_l": 11.0,
+     "ions_measured_on": "2025",
+     "ions_source_url": "https://www.ewe-netz.de/-/media/ewe-netz/downloads/trinkwasser/trinkwasser_umfassende_analyse_ol_donnerschwee.pdf"
     },
     {
      "name": "Wasserwerk Alexanderfeld",
      "mg_l": 214.2,
      "carbonate_mg_l": 137.4,
-     "area": "Stadtgebiet Oldenburg"
+     "area": "Stadtgebiet Oldenburg",
+     "nitrate_mg_l": 4.4,
+     "calcium_mg_l": 73.0,
+     "magnesium_mg_l": 7.7,
+     "ions_measured_on": "2025"
     }
    ],
    "carbonate_range_mg_l": [
@@ -7788,7 +9319,21 @@
       104.9,
       109.9
      ],
-     "area": "Proben Zum Himmelreich (23.04.2026) und Jellinghausstraße (04.03.2026)"
+     "area": "Proben Zum Himmelreich (23.04.2026) und Jellinghausstraße (04.03.2026)",
+     "nitrate_range_mg_l": [
+      12.0,
+      20.0
+     ],
+     "calcium_range_mg_l": [
+      43.1,
+      43.7
+     ],
+     "magnesium_range_mg_l": [
+      14.9,
+      15.2
+     ],
+     "ions_source_url": "https://www.stadtwerke-osnabrueck.de/trinkwasser/wasserqualitaet/analysen/duestrup",
+     "ions_measured_on": "2026 (nitrate: all 12 reports 2026-01-26 to 2026-10-06; Ca, Mg: extended reports 2026-03-04, 2026-04-23)"
     },
     {
      "name": "Trinkwasserzone Wittefeld",
@@ -7800,7 +9345,21 @@
       70.0,
       99.9
      ],
-     "area": "Proben Knollstraße (23.04.2026) und Widukindplatz (02.09.2026)"
+     "area": "Proben Knollstraße (23.04.2026) und Widukindplatz (02.09.2026)",
+     "nitrate_range_mg_l": [
+      4.3,
+      13.0
+     ],
+     "calcium_range_mg_l": [
+      46.7,
+      65.7
+     ],
+     "magnesium_range_mg_l": [
+      4.8,
+      13.1
+     ],
+     "ions_source_url": "https://www.stadtwerke-osnabrueck.de/trinkwasser/wasserqualitaet/analysen/wittefeld",
+     "ions_measured_on": "2026 (nitrate: all 16 reports 2026-01-26 to 2026-10-06; Ca, Mg: extended reports 2026-04-23, 2026-09-02, 2026-09-08)"
     },
     {
      "name": "Trinkwasserzone Thiene",
@@ -7812,7 +9371,21 @@
       50.0,
       259.9
      ],
-     "area": "Proben 2024 bis 2026 meist 6,5 bis 9,1 °dH (Heinrichstraße 6,5 am 08.08.2024, Klöcknerstraße 6,7 am 08.09.2026); Ausreißer Albrechtstraße 18,4 °dH am 23.04.2026"
+     "area": "Proben 2024 bis 2026 meist 6,5 bis 9,1 °dH (Heinrichstraße 6,5 am 08.08.2024, Klöcknerstraße 6,7 am 08.09.2026); Ausreißer Albrechtstraße 18,4 °dH am 23.04.2026",
+     "nitrate_range_mg_l": [
+      4.8,
+      24.0
+     ],
+     "calcium_range_mg_l": [
+      40.3,
+      117.0
+     ],
+     "magnesium_range_mg_l": [
+      4.5,
+      8.7
+     ],
+     "ions_source_url": "https://www.stadtwerke-osnabrueck.de/trinkwasser/wasserqualitaet/analysen/thiene",
+     "ions_measured_on": "2026 (nitrate: all 17 reports 2026-01-27 to 2026-10-06; Ca, Mg: extended reports 2026-04-23, 2026-09-08, 2026-09-09)"
     }
    ],
    "checked_on": "2026-09-24"
@@ -7856,37 +9429,67 @@
      "name": "Enzauenwasser",
      "mg_l": 162.4,
      "carbonate_mg_l": 116.0,
-     "area": "1., 2. und 3. Hochzone Nord, Tiefzone Mitte, Tiefzone Ost"
+     "area": "1., 2. und 3. Hochzone Nord, Tiefzone Mitte, Tiefzone Ost",
+     "nitrate_mg_l": 11.9,
+     "calcium_mg_l": 43.1,
+     "magnesium_mg_l": 13.3,
+     "ions_measured_on": "2026",
+     "ions_source_url": "https://gis.stadtwerke-pforzheim.de/cosvegaauskunft/_projekte/swp/dokumentenverwaltung/trinkwasser-vollanalyse/(Trinkwasser-Vollanalyse)_(Enzauenwasser)_(2026-02-23).pdf"
     },
     {
      "name": "Bodenseewasser",
      "mg_l": 157.1,
      "carbonate_mg_l": 126.7,
-     "area": "Hochzonen Süd und Südwest, 2. Hochzone Nordwest, Würm, Eutingen, Mäuerach"
+     "area": "Hochzonen Süd und Südwest, 2. Hochzone Nordwest, Würm, Eutingen, Mäuerach",
+     "nitrate_mg_l": 3.5,
+     "calcium_mg_l": 50.5,
+     "magnesium_mg_l": 7.9,
+     "ions_measured_on": "2026",
+     "ions_source_url": "https://gis.stadtwerke-pforzheim.de/cosvegaauskunft/_projekte/swp/dokumentenverwaltung/trinkwasser-vollanalyse/(Trinkwasser-Vollanalyse)_(Bodenseewasser)_(2026-02-23).pdf"
     },
     {
      "name": "Nagoldtalwasser",
      "mg_l": 144.6,
      "carbonate_mg_l": 133.9,
-     "area": "Büchenbronn"
+     "area": "Büchenbronn",
+     "nitrate_mg_l": 9.7,
+     "calcium_mg_l": 46.4,
+     "magnesium_mg_l": 7.0,
+     "ions_measured_on": "2026",
+     "ions_source_url": "https://gis.stadtwerke-pforzheim.de/cosvegaauskunft/_projekte/swp/dokumentenverwaltung/trinkwasser-vollanalyse/(Trinkwasser-Vollanalyse)_(Nagoldtalwasser)_(2026-02-27).pdf"
     },
     {
      "name": "Huchenfeld",
      "mg_l": 141.0,
      "carbonate_mg_l": 124.9,
-     "area": "Huchenfeld"
+     "area": "Huchenfeld",
+     "nitrate_mg_l": 10.2,
+     "calcium_mg_l": 45.1,
+     "magnesium_mg_l": 6.9,
+     "ions_measured_on": "2026",
+     "ions_source_url": "https://gis.stadtwerke-pforzheim.de/cosvegaauskunft/_projekte/swp/dokumentenverwaltung/trinkwasser-vollanalyse/(Trinkwasser-Vollanalyse)_(Huchenfeld)_(2026-02-27).pdf"
     },
     {
      "name": "Mischwasser Grösseltal/Bodensee",
      "mg_l": 130.3,
      "carbonate_mg_l": 107.1,
-     "area": "1. Hochzone Südwest und Nordwest, Tiefzone West"
+     "area": "1. Hochzone Südwest und Nordwest, Tiefzone West",
+     "nitrate_mg_l": 4.3,
+     "calcium_mg_l": 41.6,
+     "magnesium_mg_l": 6.6,
+     "ions_measured_on": "2026",
+     "ions_source_url": "https://gis.stadtwerke-pforzheim.de/cosvegaauskunft/_projekte/swp/dokumentenverwaltung/trinkwasser-vollanalyse/(Trinkwasser-Vollanalyse)_(Mischwasser-Groesseltal_Bodenseewasser)_(2026-02-23).pdf"
     },
     {
      "name": "Mischwasser Würmtal/Bodensee",
      "mg_l": 267.7,
      "carbonate_mg_l": 217.7,
-     "area": "Hohenwart"
+     "area": "Hohenwart",
+     "nitrate_mg_l": 14.0,
+     "calcium_mg_l": 73.0,
+     "magnesium_mg_l": 21.0,
+     "ions_source_url": "https://gis.stadtwerke-pforzheim.de/cosvegaauskunft/_projekte/swp/dokumentenverwaltung/trinkwasser-vollanalyse/(Trinkwasser-Vollanalyse)_(Mischwasser-Wuermtal_-Bodenseewasser)_(2025-04-28).pdf",
+     "ions_measured_on": "2025-04-07"
     }
    ],
    "carbonate_range_mg_l": [
@@ -7944,31 +9547,53 @@
      "name": "Wasserwerk Leipziger Straße",
      "mg_l": 251.7,
      "carbonate_mg_l": 182.0,
-     "area": ""
+     "area": "",
+     "nitrate_mg_l": 1.6,
+     "calcium_mg_l": 90.0,
+     "magnesium_mg_l": 8.5,
+     "ions_source_url": "https://www.swp-potsdam.de/content/wasser/pdf_8/aktuelle_trinkwasseranalyse.pdf",
+     "ions_measured_on": "2025-07"
     },
     {
      "name": "Wasserwerk Wildpark",
      "mg_l": 365.9,
      "carbonate_mg_l": 240.9,
-     "area": ""
+     "area": "",
+     "nitrate_mg_l": 1.8,
+     "calcium_mg_l": 125.0,
+     "magnesium_mg_l": 12.0,
+     "ions_source_url": "https://www.swp-potsdam.de/content/wasser/pdf_8/aktuelle_trinkwasseranalyse.pdf",
+     "ions_measured_on": "2025-07"
     },
     {
      "name": "Wasserwerk Nedlitz",
      "mg_l": 339.1,
      "carbonate_mg_l": 191.0,
-     "area": ""
+     "area": "",
+     "nitrate_mg_l": 3.3,
+     "ions_source_url": "https://www.swp-potsdam.de/content/wasser/pdf_8/aktuelle_trinkwasseranalyse.pdf",
+     "ions_measured_on": "2025-07"
     },
     {
      "name": "Wasserwerk Rehbrücke",
      "mg_l": 312.3,
      "carbonate_mg_l": 191.0,
-     "area": ""
+     "area": "",
+     "nitrate_mg_l": 2.5,
+     "calcium_mg_l": 110.0,
+     "magnesium_mg_l": 9.7,
+     "ions_source_url": "https://www.swp-potsdam.de/content/wasser/pdf_8/aktuelle_trinkwasseranalyse.pdf",
+     "ions_measured_on": "2025-07"
     },
     {
      "name": "Wasserwerk Ferch",
      "mg_l": 189.2,
      "carbonate_mg_l": 123.2,
-     "area": ""
+     "area": "",
+     "calcium_mg_l": 65.0,
+     "magnesium_mg_l": 6.0,
+     "ions_source_url": "https://www.swp-potsdam.de/content/wasser/pdf_8/aktuelle_trinkwasseranalyse.pdf",
+     "ions_measured_on": "2025-07"
     }
    ],
    "carbonate_range_mg_l": [
@@ -8105,7 +9730,27 @@
    "carbonate_mg_l": 129.9,
    "carbonate_source_url": "https://www.fairenergie.de/fileadmin/user_upload/pdf/privatkunden/Trinkwasseranalyse_Bodenseewasser.pdf",
    "carbonate_measured_on": "2026",
-   "carbonate_note": "from the acid capacity 2.6 mmol/l on the Bodenseewasser sheet, whose total hardness is 9.11 dH; the span up to 18.8 dH is the local groundwater"
+   "carbonate_note": "from the acid capacity 2.6 mmol/l on the Bodenseewasser sheet, whose total hardness is 9.11 dH; the span up to 18.8 dH is the local groundwater",
+   "nitrate_range_mg_l": [
+    3.9,
+    17.0
+   ],
+   "calcium_range_mg_l": [
+    51.0,
+    123.0
+   ],
+   "magnesium_range_mg_l": [
+    5.1,
+    8.5
+   ],
+   "ions_source_url": "https://www.fairenergie.de/fileadmin/user_upload/pdf/privatkunden/Trinkwasseranalyse_Bodenseewasser.pdf",
+   "ions_measured_on": "2026",
+   "ions_source_urls": [
+    "https://www.fairenergie.de/fileadmin/user_upload/pdf/privatkunden/Trinkwasseranalyse_Bodenseewasser.pdf",
+    "https://www.fairenergie.de/fileadmin/user_upload/pdf/privatkunden/Trinkwasseranalyse_Honauer_Quellwasser_RT.pdf",
+    "https://www.fairenergie.de/fileadmin/user_upload/pdf/privatkunden/Trinkwasseranalyse_Wiesaztalwasser_Brunnen_Bruehl.pdf",
+    "https://www.fairenergie.de/fileadmin/user_upload/pdf/privatkunden/Trinkwasseranalyse_Wiesaztal_Quellwasser.pdf"
+   ]
   },
   "DE/Rostock": {
    "mg_l": 253.9,
@@ -8182,7 +9827,19 @@
    "carbonate_source_url": "https://www.saarbruecker-stadtwerke.de/media/download-5ce2a5f92c7ee",
    "carbonate_measured_on": "2026",
    "carbonate_note": "four columns, three works and a Hochbehälter: 14.0 dH total with 11.4 carbonate, 4.8 with 2.4, 7.5 with 8.2, 4.9 with 2.6; the works' names stand in a header we could not read reliably",
-   "checked_on": "2026-09-24"
+   "checked_on": "2026-09-24",
+   "nitrate_range_mg_l": [
+    1.3,
+    9.6
+   ],
+   "calcium_range_mg_l": [
+    22.4,
+    53.6
+   ],
+   "magnesium_range_mg_l": [
+    5.2,
+    28.0
+   ]
   },
   "DE/Siegen": {
    "mg_l": 75.1,
@@ -8215,7 +9872,12 @@
    "carbonate_mg_l": 61.0,
    "carbonate_source_url": "https://wvs.nrw/wp-content/uploads/2026/05/AB-Dreis-Tiefenbach-Rein-TVO23-ohne-PFAS-20260121_W25-5072-0003.pdf",
    "carbonate_measured_on": "2026-01",
-   "checked_on": "2026-09-24"
+   "checked_on": "2026-09-24",
+   "nitrate_mg_l": 6.5,
+   "calcium_mg_l": 23.0,
+   "magnesium_mg_l": 4.3,
+   "ions_source_url": "https://wvs.nrw/wp-content/uploads/2026/05/AB-Dreis-Tiefenbach-Rein-TVO23-ohne-PFAS-20260121_W25-5072-0003.pdf",
+   "ions_measured_on": "2026-01-21"
   },
   "DE/Solingen": {
    "mg_l": null,
@@ -8270,24 +9932,41 @@
      "name": "Wasserwerk Glüder (Sengbachtalsperre)",
      "mg_l": 99.9,
      "carbonate_mg_l": 73.2,
-     "area": "speist das Ringleitungssystem, aus dem ganz Solingen außer Burg und Höhrath versorgt wird"
+     "area": "speist das Ringleitungssystem, aus dem ganz Solingen außer Burg und Höhrath versorgt wird",
+     "nitrate_mg_l": 10.3,
+     "calcium_mg_l": 32.0,
+     "magnesium_mg_l": 4.6,
+     "ions_measured_on": "2025"
     },
     {
      "name": "Wasserwerk Dabringhausen (Große Dhünn-Talsperre)",
      "mg_l": 94.6,
      "carbonate_mg_l": 75.0,
-     "area": "speist über den Bergischen Trinkwasserverbund in dasselbe Ringleitungssystem ein"
+     "area": "speist über den Bergischen Trinkwasserverbund in dasselbe Ringleitungssystem ein",
+     "nitrate_mg_l": 8.2,
+     "calcium_mg_l": 32.0,
+     "magnesium_mg_l": 3.6,
+     "ions_measured_on": "2025"
     },
     {
      "name": "Wasserwerk Schürholz (Große Dhünn-Talsperre)",
      "mg_l": 83.9,
      "carbonate_mg_l": 64.3,
-     "area": "Burg und Höhrath, über den Wasserversorgungsverband Rhein-Wupper"
+     "area": "Burg und Höhrath, über den Wasserversorgungsverband Rhein-Wupper",
+     "nitrate_mg_l": 8.2,
+     "calcium_mg_l": 28.0,
+     "magnesium_mg_l": 3.6,
+     "ions_measured_on": "2025"
     },
     {
      "name": "Wasserwerk Baumberg",
      "mg_l": 196.3,
-     "area": "Ohligs, Merscheid und Aufderhöhe: dauerhaft eine kleine Spülmenge, voll bei Wartung oder niedrigem Talsperrenstand; nur auf der Aufbereitungsseite der Stadtwerke veröffentlicht, ohne Karbonathärte"
+     "area": "Ohligs, Merscheid und Aufderhöhe: dauerhaft eine kleine Spülmenge, voll bei Wartung oder niedrigem Talsperrenstand; nur auf der Aufbereitungsseite der Stadtwerke veröffentlicht, ohne Karbonathärte",
+     "nitrate_mg_l": 15.5,
+     "calcium_mg_l": 61.2,
+     "magnesium_mg_l": 10.3,
+     "ions_source_url": "https://stadtwerke-hilden.de/uploads/Trinkwasser_Analysewerte_2025.pdf",
+     "ions_measured_on": "2025"
     }
    ],
    "checked_on": "2026-09-24"
@@ -8330,13 +10009,23 @@
      "name": "Bodenseewasser",
      "mg_l": 162.4,
      "carbonate_mg_l": 127.4,
-     "area": "Süden, Westen und ein Teil des Nordens"
+     "area": "Süden, Westen und ein Teil des Nordens",
+     "nitrate_mg_l": 3.9,
+     "calcium_mg_l": 51.0,
+     "magnesium_mg_l": 8.6,
+     "ions_measured_on": "2025",
+     "ions_source_url": "https://api.wasserportal.info/api/public/qualitaet/trinkwasseranalyse/96b68377-3f94-44da-b57d-a51896cc9ff6"
     },
     {
      "name": "Landeswasser",
      "mg_l": 237.4,
      "carbonate_mg_l": 182.9,
-     "area": "übriger Norden, Mitte und Osten"
+     "area": "übriger Norden, Mitte und Osten",
+     "nitrate_mg_l": 22.0,
+     "calcium_mg_l": 77.0,
+     "magnesium_mg_l": 11.0,
+     "ions_measured_on": "2025",
+     "ions_source_url": "https://api.wasserportal.info/api/public/qualitaet/trinkwasseranalyse/a2984df2-f742-46ba-9b0b-17283251fd97"
     }
    ],
    "carbonate_range_mg_l": [
@@ -8396,13 +10085,21 @@
      "name": "Wasserwerk Irsch",
      "mg_l": 83.9,
      "carbonate_mg_l": 73.2,
-     "area": "Bericht vom 01.12.2025; für die übrigen Werke der Stadt ist keine Karbonathärte veröffentlicht"
+     "area": "Bericht vom 01.12.2025; für die übrigen Werke der Stadt ist keine Karbonathärte veröffentlicht",
+     "nitrate_mg_l": 3.7,
+     "calcium_mg_l": 28.9,
+     "magnesium_mg_l": 2.9,
+     "ions_source_url": "https://www.swt.de/api/media/file/Bericht%20Wasserwerk%20Irsch%20vom%2001.12.2025.pdf",
+     "ions_measured_on": "2025-12-01"
     },
     {
      "name": "Wasserwerk Kylltal",
      "mg_l": 166.0,
      "carbonate_mg_l": 148.1,
-     "area": "links der Mosel: Ehrang, Biewer, Euren, Zewen; Bericht vom 2. Dezember 2025"
+     "area": "links der Mosel: Ehrang, Biewer, Euren, Zewen; Bericht vom 2. Dezember 2025",
+     "nitrate_mg_l": 7.0,
+     "ions_source_url": "https://www.swt.de/api/media/file/Bericht%20Wasserwerk%20Kylltal%2013.10.2025.pdf",
+     "ions_measured_on": "2025-10-13"
     }
    ],
    "carbonate_note": "both works print \"Karbonathärte berechnet\": Irsch 4.1 dH (report of 1 December 2025), Kylltal 8.3 dH (report of 2 December 2025, https://www.swt.de/api/media/file/Bericht%20Wasserwerk%20Kylltal%2002.12.2025-1.pdf)",
@@ -8457,7 +10154,21 @@
    ],
    "carbonate_measured_on": "2026",
    "carbonate_source_url": "https://www.swu.de/fileadmin/content/energie-wasser/wasser/SWU-Trinkwasser-Analysedaten-2026.pdf",
-   "carbonate_note": "printed per column: 13.9 dH total with 12.4 carbonate (Ulm), 13.4 with 10.2 (Neu-Ulm), 15.7 with 14.1 (Lehr), 13.4 with 10.4"
+   "carbonate_note": "printed per column: 13.9 dH total with 12.4 carbonate (Ulm), 13.4 with 10.2 (Neu-Ulm), 15.7 with 14.1 (Lehr), 13.4 with 10.4",
+   "nitrate_range_mg_l": [
+    8.4,
+    31.5
+   ],
+   "calcium_range_mg_l": [
+    76.0,
+    87.0
+   ],
+   "magnesium_range_mg_l": [
+    5.3,
+    18.0
+   ],
+   "ions_source_url": "https://www.swu.de/fileadmin/content/energie-wasser/wasser/SWU-Trinkwasser-Analysedaten-2026.pdf",
+   "ions_measured_on": "2025"
   },
   "DE/Wiesbaden": {
    "mg_l": null,
@@ -8512,25 +10223,45 @@
      "name": "Taunusgewinnung (WB Klosterbruch)",
      "mg_l": 30.2,
      "carbonate_mg_l": 23.2,
-     "area": "Taunusstollen-Wasser, Probe vom 24. Juni 2025"
+     "area": "Taunusstollen-Wasser, Probe vom 24. Juni 2025",
+     "nitrate_mg_l": 5.6,
+     "calcium_mg_l": 6.93,
+     "magnesium_mg_l": 3.13,
+     "ions_source_url": "https://www.eswe-versorgung.de/fileadmin/user_upload/dateien/wassernetz/Analyse-Taunus.pdf",
+     "ions_measured_on": "2025-06-24"
     },
     {
      "name": "Naurod-Niedernhausen",
      "mg_l": 128.7,
      "carbonate_mg_l": 99.9,
-     "area": "Probe Behälter Naurod, Ablauf, 5. Januar 2024"
+     "area": "Probe Behälter Naurod, Ablauf, 5. Januar 2024",
+     "nitrate_mg_l": 11.3,
+     "calcium_mg_l": 29.6,
+     "magnesium_mg_l": 13.3,
+     "ions_source_url": "https://web.archive.org/web/20240717222407/https://www.eswe-versorgung.de/fileadmin/user_upload/dateien/wassernetz/Analyse-Naurod-Niedernhausen.pdf",
+     "ions_measured_on": "2024-01-05"
     },
     {
      "name": "Wasserwerk Schierstein-Petersaue",
      "mg_l": 248.1,
      "carbonate_mg_l": 185.6,
-     "area": "Probe vom 12. Februar 2025"
+     "area": "Probe vom 12. Februar 2025",
+     "nitrate_mg_l": 5.2,
+     "calcium_mg_l": 78.7,
+     "magnesium_mg_l": 12.7,
+     "ions_source_url": "https://www.eswe-versorgung.de/fileadmin/user_upload/dateien/wassernetz/Analyse-Schierstein-Petersaue.pdf",
+     "ions_measured_on": "2025-02-12"
     },
     {
      "name": "Hessisches Ried (Nordenstadt)",
      "mg_l": 346.3,
      "carbonate_mg_l": 253.4,
-     "area": "Probe vom 27. Juni 2025"
+     "area": "Probe vom 27. Juni 2025",
+     "nitrate_mg_l": 1.7,
+     "calcium_mg_l": 109.0,
+     "magnesium_mg_l": 18.1,
+     "ions_source_url": "https://www.eswe-versorgung.de/fileadmin/user_upload/dateien/wassernetz/Analyse-Ried.pdf",
+     "ions_measured_on": "2025-06-27"
     }
    ],
    "checked_on": "2026-09-24"
@@ -8631,7 +10362,21 @@
    ],
    "carbonate_measured_on": "2025",
    "carbonate_source_url": "https://www.wuppertal.de/microsite/wasserversorgung/medien/bindata/Trinkwasseranalyse-2025.pdf",
-   "carbonate_note": "printed per works: Kerspe-Talsperre 11.3 dH total with 6.1 carbonate, the two soft works 5.1 with 4.1 and 5.5 with 4.6"
+   "carbonate_note": "printed per works: Kerspe-Talsperre 11.3 dH total with 6.1 carbonate, the two soft works 5.1 with 4.1 and 5.5 with 4.6",
+   "nitrate_range_mg_l": [
+    7.1,
+    22.0
+   ],
+   "calcium_range_mg_l": [
+    31.0,
+    62.0
+   ],
+   "magnesium_range_mg_l": [
+    3.1,
+    12.0
+   ],
+   "ions_source_url": "https://www.wuppertal.de/microsite/wasserversorgung/medien/bindata/Trinkwasseranalyse-2025.pdf",
+   "ions_measured_on": "2025"
   },
   "DE/Würzburg": {
    "mg_l": null,
@@ -8672,19 +10417,34 @@
      "name": "Grombühl",
      "mg_l": 762.1,
      "carbonate_mg_l": 314.1,
-     "area": "Lengfeld, Versbach, Grombühl, Frauenland, Unter- und Oberdürrbach"
+     "area": "Lengfeld, Versbach, Grombühl, Frauenland, Unter- und Oberdürrbach",
+     "nitrate_mg_l": 26.3,
+     "calcium_mg_l": 225.0,
+     "magnesium_mg_l": 49.0,
+     "ions_source_url": "https://www.wvv.de/media-wvv/wasser/dokumente/analysewerte/datenblatt-analysewerte-hb-grombuehl-2026.pdf",
+     "ions_measured_on": "2026"
     },
     {
      "name": "Galgenberg",
      "mg_l": 721.1,
      "carbonate_mg_l": 321.3,
-     "area": "Hochbehälter Galgenberg"
+     "area": "Hochbehälter Galgenberg",
+     "nitrate_mg_l": 31.4,
+     "calcium_mg_l": 220.0,
+     "magnesium_mg_l": 41.8,
+     "ions_source_url": "https://www.wvv.de/media-wvv/wasser/dokumente/analysewerte/datenblatt-analysewerte-hb-galgenberg-2026.pdf",
+     "ions_measured_on": "2026"
     },
     {
      "name": "Versbach",
      "mg_l": 681.8,
      "carbonate_mg_l": 326.6,
-     "area": "Hochbehälter Versbach"
+     "area": "Hochbehälter Versbach",
+     "nitrate_mg_l": 33.0,
+     "calcium_mg_l": 200.0,
+     "magnesium_mg_l": 44.4,
+     "ions_source_url": "https://www.wvv.de/media-wvv/wasser/dokumente/analysewerte/datenblatt-analysewerte-hb-versbach-2026.pdf",
+     "ions_measured_on": "2026"
     }
    ],
    "checked_on": "2026-09-14",
@@ -9581,7 +11341,12 @@
    "lon": -2.0981,
    "carbonate_published": false,
    "carbonate_checked_on": "2026-09-24",
-   "carbonate_note": "Scottish Water publishes a water register per regulatory zone (colour, pH, sulphate, sodium, nitrate, metals, microbiology and more) and a separate hardness table from calcium and magnesium, but no alkalinity, carbonate hardness or bicarbonate in either; checked on the Mannofield South register for 2025, and every zone register uses the same template"
+   "carbonate_note": "Scottish Water publishes a water register per regulatory zone (colour, pH, sulphate, sodium, nitrate, metals, microbiology and more) and a separate hardness table from calcium and magnesium, but no alkalinity, carbonate hardness or bicarbonate in either; checked on the Mannofield South register for 2025, and every zone register uses the same template",
+   "nitrate_mg_l": 1.69,
+   "calcium_mg_l": 8.41,
+   "magnesium_mg_l": 1.38,
+   "ions_source_url": "https://www.scottishwater.co.uk/-/media/scottishwater/water-quality/data/137/202512/water-202501-mannofield-south-calendar-year.pdf",
+   "ions_measured_on": "2024 (Ca, Mg), 2025 (nitrate)"
   },
   "GB/Belfast": {
    "mg_l": 157.7,
@@ -9598,7 +11363,12 @@
    "lon": -5.9254,
    "carbonate_published": false,
    "carbonate_checked_on": "2026-09-24",
-   "carbonate_note": "NI Water's zone report for Belfast Oldpark, 2025, explains that 'KH is carbonate, or temporary hardness' but gives no value for it: its parameter table lists calcium hardness, sodium, sulphate, chloride and the regulatory set, with no alkalinity or bicarbonate"
+   "carbonate_note": "NI Water's zone report for Belfast Oldpark, 2025, explains that 'KH is carbonate, or temporary hardness' but gives no value for it: its parameter table lists calcium hardness, sodium, sulphate, chloride and the regulatory set, with no alkalinity or bicarbonate",
+   "nitrate_mg_l": 3.467,
+   "calcium_mg_l": 48.1,
+   "magnesium_mg_l": 9.0,
+   "ions_source_url": "https://www.niwater.com/siteFiles/resources/pdf/waterquality/2025_ZS0107.pdf",
+   "ions_measured_on": "2025"
   },
   "GB/Bristol": {
    "mg_l": 205.0,
@@ -9617,7 +11387,11 @@
    "carbonate_measured_on": "2025",
    "carbonate_source_url": "https://www.bristolwater.co.uk/home/account-and-services/water-quality-checker",
    "lookup_url": "https://www.bristolwater.co.uk/home/account-and-services/water-quality-checker",
-   "carbonate_note": "Bristol Water prints the alkalinity in both units, 155 mg/L CaCO3 and 189 mg/L HCO3, and the two agree: 189 divided by 21.8 is 8.7 dH, which is 155 mg/L CaCO3; British utilities call this alkalinity rather than carbonate hardness, but it is the same measurement"
+   "carbonate_note": "Bristol Water prints the alkalinity in both units, 155 mg/L CaCO3 and 189 mg/L HCO3, and the two agree: 189 divided by 21.8 is 8.7 dH, which is 155 mg/L CaCO3; British utilities call this alkalinity rather than carbonate hardness, but it is the same measurement",
+   "nitrate_mg_l": 11.0,
+   "calcium_mg_l": 67.0,
+   "magnesium_mg_l": 9.3,
+   "ions_source_url": "https://www.bristolwater.co.uk/_hcms/api/getWQHubdbDataInfo?q=BS1%205TR"
   },
   "GB/Cambridge": {
    "mg_l": 334.6,
@@ -9665,7 +11439,12 @@
    "lon": -3.1965,
    "carbonate_published": false,
    "carbonate_checked_on": "2026-09-24",
-   "carbonate_note": "Scottish Water publishes a water register per regulatory zone (colour, pH, sulphate, sodium, nitrate, metals, microbiology and more) and a separate hardness table from calcium and magnesium, but no alkalinity, carbonate hardness or bicarbonate in either; checked on the Mannofield South register for 2025, and every zone register uses the same template"
+   "carbonate_note": "Scottish Water publishes a water register per regulatory zone (colour, pH, sulphate, sodium, nitrate, metals, microbiology and more) and a separate hardness table from calcium and magnesium, but no alkalinity, carbonate hardness or bicarbonate in either; checked on the Mannofield South register for 2025, and every zone register uses the same template",
+   "nitrate_mg_l": 1.57,
+   "calcium_mg_l": 10.36,
+   "magnesium_mg_l": 1.36,
+   "ions_source_url": "https://www.scottishwater.co.uk/-/media/scottishwater/water-quality/data/137/202512/water-202501-glencorse-b-calendar-year.pdf",
+   "ions_measured_on": "2024 (Ca, Mg), 2025 (nitrate)"
   },
   "GB/Glasgow": {
    "mg_l": 15.7,
@@ -9682,7 +11461,12 @@
    "lon": -4.2576,
    "carbonate_published": false,
    "carbonate_checked_on": "2026-09-24",
-   "carbonate_note": "Scottish Water publishes a water register per regulatory zone (colour, pH, sulphate, sodium, nitrate, metals, microbiology and more) and a separate hardness table from calcium and magnesium, but no alkalinity, carbonate hardness or bicarbonate in either; checked on the Mannofield South register for 2025, and every zone register uses the same template"
+   "carbonate_note": "Scottish Water publishes a water register per regulatory zone (colour, pH, sulphate, sodium, nitrate, metals, microbiology and more) and a separate hardness table from calcium and magnesium, but no alkalinity, carbonate hardness or bicarbonate in either; checked on the Mannofield South register for 2025, and every zone register uses the same template",
+   "nitrate_mg_l": 0.65,
+   "calcium_mg_l": 5.31,
+   "magnesium_mg_l": 0.6,
+   "ions_source_url": "https://www.scottishwater.co.uk/-/media/scottishwater/water-quality/data/137/202512/water-202501-milngavie-m3-calendar-year.pdf",
+   "ions_measured_on": "2024 (Ca, Mg), 2025 (nitrate)"
   },
   "GB/Kingston upon Hull": {
    "mg_l": 370.6,
@@ -9779,7 +11563,13 @@
    ],
    "carbonate_measured_on": "2025",
    "carbonate_source_url": "https://umwelt.provinz.bz.it/de/wasser/oeffentliche-trinkwasserleitungen",
-   "carbonate_note": "the provincial agency measures alkalinity as HCO3 alongside the hardness in its sample table; the 7 samples of 2025 that carry it for this network read 101 to 159 mg/L HCO3, that is 8.3 to 13.0 French degrees of carbonate hardness; the table is the same document the total hardness comes from"
+   "carbonate_note": "the provincial agency measures alkalinity as HCO3 alongside the hardness in its sample table; the 7 samples of 2025 that carry it for this network read 101 to 159 mg/L HCO3, that is 8.3 to 13.0 French degrees of carbonate hardness; the table is the same document the total hardness comes from",
+   "nitrate_range_mg_l": [
+    4.4,
+    4.5
+   ],
+   "ions_source_url": "https://www.seab.bz.it/sites/default/files/2025-04/analisi_acqua_2024_costa_di_sotto.pdf",
+   "ions_measured_on": "2024"
   },
   "IT/Merano": {
    "range_mg_l": [
@@ -9824,7 +11614,12 @@
    "carbonate_measured_on": "2025",
    "carbonate_source_url": "https://umwelt.provinz.bz.it/de/wasser/oeffentliche-trinkwasserleitungen",
    "carbonate_note": "the provincial agency measures alkalinity as HCO3 alongside the hardness in its sample table; the 5 samples of 2025 that carry it for this network read 28 to 105 mg/L HCO3, that is 2.3 to 8.6 French degrees of carbonate hardness; the table is the same document the total hardness comes from",
-   "checked_on": "2026-09-24"
+   "checked_on": "2026-09-24",
+   "nitrate_range_mg_l": [
+    2.0,
+    6.0
+   ],
+   "ions_source_url": "https://assets-eu-01.kc-usercontent.com:443/71daab00-137f-01d0-946b-d82e951fb8f4/234f93cd-5590-4b42-ad82-2aa3a9597474/03-TabErgebnisse-Wasseranalysen-risultati-analisi-2025-2016.xlsx"
   },
   "IT/Bressanone": {
    "range_kind": "samples",
@@ -9906,7 +11701,12 @@
    "carbonate_measured_on": "2025",
    "carbonate_source_url": "https://umwelt.provinz.bz.it/de/wasser/oeffentliche-trinkwasserleitungen",
    "carbonate_note": "the provincial agency measures alkalinity as HCO3 alongside the hardness in its sample table; the 2 samples of 2025 that carry it for this network read 59 to 100 mg/L HCO3, that is 4.8 to 8.2 French degrees of carbonate hardness; the table is the same document the total hardness comes from",
-   "checked_on": "2026-09-24"
+   "checked_on": "2026-09-24",
+   "nitrate_range_mg_l": [
+    1.0,
+    2.0
+   ],
+   "ions_source_url": "https://assets-eu-01.kc-usercontent.com:443/71daab00-137f-01d0-946b-d82e951fb8f4/234f93cd-5590-4b42-ad82-2aa3a9597474/03-TabErgebnisse-Wasseranalysen-risultati-analisi-2025-2016.xlsx"
   },
   "IT/Laives": {
    "range_mg_l": [
@@ -9924,7 +11724,6 @@
     "spring",
     "groundwater"
    ],
-   "nitrate_mg_l": 7.0,
    "sodium_mg_l": 11.0,
    "ph": 7.9,
    "pfas": {
@@ -9945,7 +11744,12 @@
    "carbonate_measured_on": "2025",
    "carbonate_source_url": "https://umwelt.provinz.bz.it/de/wasser/oeffentliche-trinkwasserleitungen",
    "carbonate_note": "the provincial agency measures alkalinity as HCO3 alongside the hardness in its sample table; the 5 samples of 2025 that carry it for this network read 131 to 195 mg/L HCO3, that is 10.7 to 16.0 French degrees of carbonate hardness; the table is the same document the total hardness comes from",
-   "checked_on": "2026-09-24"
+   "checked_on": "2026-09-24",
+   "nitrate_range_mg_l": [
+    3.0,
+    7.0
+   ],
+   "ions_source_url": "https://assets-eu-01.kc-usercontent.com:443/71daab00-137f-01d0-946b-d82e951fb8f4/234f93cd-5590-4b42-ad82-2aa3a9597474/03-TabErgebnisse-Wasseranalysen-risultati-analisi-2025-2016.xlsx"
   },
   "DE/Hagen": {
    "mg_l": null,
@@ -9968,11 +11772,20 @@
    "zones": [
     {
      "name": "Wasserwerk Hengstey",
-     "mg_l": 128.5
+     "mg_l": 128.5,
+     "nitrate_mg_l": 9.9,
+     "calcium_mg_l": 40.5,
+     "magnesium_mg_l": 6.4,
+     "ions_source_url": "https://a.storyblok.com/f/320707/x/21b19e87e2/trinkwasseranalyse-jahresmittelwerte-wasserwerk-hengstey-2025.pdf",
+     "ions_measured_on": "2025"
     },
     {
      "name": "Wasserwerk Hasper Talsperre",
-     "mg_l": 75.0
+     "mg_l": 75.0,
+     "nitrate_mg_l": 9.1,
+     "magnesium_mg_l": 3.6,
+     "ions_source_url": "https://a.storyblok.com/f/320707/x/1dd571504f/trinkwasseranalyse-jahresmittelwerte-wasserwerk-haspertalsperre-2025.pdf",
+     "ions_measured_on": "2025"
     }
    ],
    "carbonate_mg_l": 108.9,
@@ -10000,19 +11813,34 @@
     {
      "name": "Wasserwerk Warmen",
      "mg_l": 148.1,
-     "area": "das übrige Stadtgebiet"
+     "area": "das übrige Stadtgebiet",
+     "nitrate_mg_l": 9.8,
+     "calcium_mg_l": 50.0,
+     "magnesium_mg_l": 5.4,
+     "ions_source_url": "https://www.stadtwerke-hamm.de/fileadmin/user-storage/EWV/Wasser/Jahrestrinkwasseranalyse_2025.pdf",
+     "ions_measured_on": "2025"
     },
     {
      "name": "Wasserwerk Halingen",
      "mg_l": 139.2,
      "area": "Bockum-Hövel, Bockumer Berg",
-     "carbonate_mg_l": 116.0
+     "carbonate_mg_l": 116.0,
+     "nitrate_mg_l": 10.7,
+     "calcium_mg_l": 46.0,
+     "magnesium_mg_l": 5.9,
+     "ions_source_url": "https://www.stadtwerke-hamm.de/fileadmin/user-storage/EWV/Wasser/Jahrestrinkwasseranalyse_2025.pdf",
+     "ions_measured_on": "2025"
     },
     {
      "name": "Wasserwerk Echthausen",
      "mg_l": 128.5,
      "area": "Uentrop",
-     "carbonate_mg_l": 101.7
+     "carbonate_mg_l": 101.7,
+     "nitrate_mg_l": 9.7,
+     "calcium_mg_l": 42.0,
+     "magnesium_mg_l": 5.7,
+     "ions_source_url": "https://www.stadtwerke-hamm.de/fileadmin/user-storage/EWV/Wasser/Jahrestrinkwasseranalyse_2025.pdf",
+     "ions_measured_on": "2025"
     }
    ],
    "carbonate_measured_on": "2025",
@@ -10045,13 +11873,22 @@
     {
      "name": "Wasserwerk Haltern",
      "mg_l": 201.7,
-     "area": "Crange, Unser Fritz, Wanne, Bickern, Baukau, Horsthausen, Holsterhausen, Eickel, Röhlinghausen"
+     "area": "Crange, Unser Fritz, Wanne, Bickern, Baukau, Horsthausen, Holsterhausen, Eickel, Röhlinghausen",
+     "nitrate_mg_l": 11.6,
+     "calcium_mg_l": 73.0,
+     "magnesium_mg_l": 4.8,
+     "ions_measured_on": "2025"
     },
     {
      "name": "Wasserwerk Witten",
      "mg_l": 130.3,
      "area": "der größte Teil der Stadt",
-     "carbonate_mg_l": 98.2
+     "carbonate_mg_l": 98.2,
+     "nitrate_mg_l": 10.7,
+     "calcium_mg_l": 41.0,
+     "magnesium_mg_l": 6.8,
+     "ions_measured_on": "2025",
+     "ions_source_url": "https://www.stadtwerke-herne.de/I.Privatkunden/04-Wasser/Trinkwasseranalyse%20Witten_2025.pdf"
     }
    ],
    "carbonate_source_url": "https://www.wasserwerke-westfalen.de/wasser/trinkwasserqualitaet/trinkwasseranalyse",
@@ -10081,31 +11918,56 @@
      "name": "Wasserwerk Boker Heide",
      "mg_l": 305.2,
      "area": "Elsen",
-     "carbonate_mg_l": 242.7
+     "carbonate_mg_l": 242.7,
+     "nitrate_mg_l": 13.0,
+     "calcium_mg_l": 117.0,
+     "magnesium_mg_l": 3.24,
+     "ions_source_url": "https://www.stadtwerke-pb.de/app/uploads/2026/07/SWPB_Trinkwasseranalyse_02_2026_BF.pdf",
+     "ions_measured_on": "2025"
     },
     {
      "name": "Wasserwerk Diebesweg",
      "mg_l": 257.0,
      "area": "Kernstadt, Schloß Neuhaus, Marienloh, Sennelager, Sande, Wewer",
-     "carbonate_mg_l": 221.3
+     "carbonate_mg_l": 221.3,
+     "nitrate_mg_l": 12.0,
+     "calcium_mg_l": 98.9,
+     "magnesium_mg_l": 2.51,
+     "ions_source_url": "https://www.stadtwerke-pb.de/app/uploads/2026/07/SWPB_Trinkwasseranalyse_02_2026_BF.pdf",
+     "ions_measured_on": "2025"
     },
     {
      "name": "Wasserwerk Aabach",
      "mg_l": 137.6,
      "area": "Alfen, Etteln, Schloß Hamborn, Haxterberg, Haxtergrund",
-     "carbonate_mg_l": 109.4
+     "carbonate_mg_l": 109.4,
+     "nitrate_mg_l": 6.9,
+     "calcium_mg_l": 47.7,
+     "magnesium_mg_l": 4.64,
+     "ions_source_url": "https://www.stadtwerke-pb.de/app/uploads/2026/07/SWPB_Trinkwasseranalyse_02_2026_BF.pdf",
+     "ions_measured_on": "2025"
     },
     {
      "name": "Wasserwerk Hossengrund",
      "mg_l": 104.6,
      "area": "Neuenbeken, Benhausen, Dahl",
-     "carbonate_mg_l": 81.4
+     "carbonate_mg_l": 81.4,
+     "nitrate_mg_l": 16.0,
+     "calcium_mg_l": 31.7,
+     "magnesium_mg_l": 6.19,
+     "ions_source_url": "https://www.stadtwerke-pb.de/app/uploads/2026/07/SWPB_Trinkwasseranalyse_02_2026_BF.pdf",
+     "ions_measured_on": "2025"
     },
     {
      "name": "Wasserwerk Lichtenau",
      "mg_l": 101.4,
      "area": "Dörenhagen",
-     "carbonate_mg_l": 65.5
+     "carbonate_mg_l": 65.5,
+     "nitrate_mg_l": 19.0,
+     "calcium_mg_l": 37.1,
+     "magnesium_mg_l": 2.11,
+     "ions_source_url": "https://www.stadtwerke-pb.de/app/uploads/2026/07/SWPB_Trinkwasseranalyse_02_2026_BF.pdf",
+     "ions_measured_on": "2025"
     }
    ],
    "carbonate_range_mg_l": [
@@ -10139,13 +12001,23 @@
      "name": "Wasserwerk Rheinbogen",
      "mg_l": 274.1,
      "area": "Neuss-Süd",
-     "carbonate_mg_l": 191.2
+     "carbonate_mg_l": 191.2,
+     "nitrate_mg_l": 13.56,
+     "calcium_mg_l": 90.0,
+     "magnesium_mg_l": 11.92,
+     "ions_source_url": "https://www.stadtwerke-neuss.de/sites/default/files/downloads/pdfs/Energie-Privatkunden/Wasser/Trinkwasseranalyse-2026.pdf",
+     "ions_measured_on": "2026"
     },
     {
      "name": "Wasserwerk Broichhof",
      "mg_l": 261.7,
      "area": "Neuss-Nord",
-     "carbonate_mg_l": 235.8
+     "carbonate_mg_l": 235.8,
+     "nitrate_mg_l": 34.83,
+     "calcium_mg_l": 76.0,
+     "magnesium_mg_l": 17.35,
+     "ions_source_url": "https://www.stadtwerke-neuss.de/sites/default/files/downloads/pdfs/Energie-Privatkunden/Wasser/Trinkwasseranalyse-2026.pdf",
+     "ions_measured_on": "2026"
     }
    ],
    "carbonate_range_mg_l": [
@@ -10173,12 +12045,20 @@
     {
      "name": "Hochdruckzone",
      "mg_l": 298.1,
-     "area": "Atzenhof, Burgfarrnbach, Eigenes Heim, Espan, Flexdorf, Hardhöhe, Ober- und Unterfürberg, Poppenreuth, Ronhof, Ritzmannshof, Unterfarrnbach, Vach, Kronach"
+     "area": "Atzenhof, Burgfarrnbach, Eigenes Heim, Espan, Flexdorf, Hardhöhe, Ober- und Unterfürberg, Poppenreuth, Ronhof, Ritzmannshof, Unterfarrnbach, Vach, Kronach",
+     "nitrate_mg_l": 19.0,
+     "calcium_mg_l": 77.0,
+     "magnesium_mg_l": 25.0,
+     "ions_source_url": "https://www.infra-fuerth.de/privatkunden/produkte/trinkwasser/wasser-qualitaet"
     },
     {
      "name": "Niederdruckzone",
      "mg_l": 262.4,
-     "area": "Dambach, Innenstadt, Südstadt, Weikershof"
+     "area": "Dambach, Innenstadt, Südstadt, Weikershof",
+     "nitrate_mg_l": 7.9,
+     "calcium_mg_l": 74.0,
+     "magnesium_mg_l": 19.0,
+     "ions_source_url": "https://www.infra-fuerth.de/privatkunden/produkte/trinkwasser/wasser-qualitaet"
     }
    ],
    "carbonate_published": true,
@@ -10218,7 +12098,12 @@
      "carbonate_range_mg_l": [
       146.4,
       166.0
-     ]
+     ],
+     "nitrate_mg_l": 9.6,
+     "calcium_mg_l": 89.5,
+     "magnesium_mg_l": 4.1,
+     "ions_source_url": "https://www.rww.de/fileadmin/assets/pdf/twa_whh_dor_gla_bot_ob_med.pdf",
+     "ions_measured_on": "2025"
     },
     {
      "name": "Versorgungsbereich Ost und Süd",
@@ -10232,7 +12117,12 @@
      "carbonate_range_mg_l": [
       83.9,
       167.8
-     ]
+     ],
+     "nitrate_mg_l": 8.7,
+     "calcium_mg_l": 43.6,
+     "magnesium_mg_l": 8.3,
+     "ions_source_url": "https://www.rww.de/fileadmin/assets/pdf/twa_bot_mh_med.pdf",
+     "ions_measured_on": "2025"
     }
    ],
    "carbonate_range_mg_l": [
@@ -10271,36 +12161,52 @@
    "measured_on": "2026",
    "range_mg_l": [
     58.9,
-    112.4
+    96.4
    ],
    "mechanism": "fixed",
    "origin": [
     "reservoir",
     "groundwater"
    ],
-   "note": "three supply areas fed by the Harzwasserwerke and Avacon, all weich: the northern area 1 reads 3.3 dH sampled on 10 February 2026 (https://www.vftv.de/wevg/anang1.htm), the northern area 2 reads 6.3 dH sampled on 10 December 2025, and the southern area with Osterlinde reads 3.8 dH sampled on 4 May 2026 (https://www.vftv.de/wevg/anasg.htm); the utility does not say which district belongs to which area; each of the three sheets prints a carbonate hardness in degrees as well, 1.9, 3.3 and 2.0 dH",
+   "note": "three supply areas fed by the Harzwasserwerke and Avacon, all weich: the northern area 1 reads 3.3 dH sampled on 10 February 2026 (https://www.vftv.de/wevg/anang1.htm), the northern area 2 reads 5.4 dH sampled on 11 August 2026 (6.3 dH on 10 December 2025), and the southern area with Osterlinde reads 3.8 dH sampled on 4 May 2026 (https://www.vftv.de/wevg/anasg.htm); the utility does not say which district belongs to which area; each of the three sheets prints a carbonate hardness in degrees as well, 1.9, 2.9 (3.3 in December 2025) and 2.0 dH",
    "lat": 52.1504,
    "lon": 10.3593,
    "zones": [
     {
      "name": "Nördliches Stadtgebiet 2",
-     "mg_l": 112.4,
-     "carbonate_mg_l": 58.9
+     "mg_l": 96.4,
+     "carbonate_mg_l": 51.8,
+     "nitrate_mg_l": 6.0,
+     "calcium_mg_l": 30.7,
+     "magnesium_mg_l": 4.6,
+     "ions_source_url": "https://www.vftv.de/wevg/anang2.htm",
+     "ions_measured_on": "2026-08-11",
+     "measured_on": "2026-08-11"
     },
     {
      "name": "Südliches Stadtgebiet und Osterlinde",
      "mg_l": 67.8,
-     "carbonate_mg_l": 35.7
+     "carbonate_mg_l": 35.7,
+     "nitrate_mg_l": 6.1,
+     "calcium_mg_l": 21.2,
+     "magnesium_mg_l": 3.7,
+     "ions_source_url": "https://www.vftv.de/wevg/anasg.htm",
+     "ions_measured_on": "2026-05-04"
     },
     {
      "name": "Nördliches Stadtgebiet 1",
      "mg_l": 58.9,
-     "carbonate_mg_l": 33.9
+     "carbonate_mg_l": 33.9,
+     "nitrate_mg_l": 5.7,
+     "calcium_mg_l": 19.6,
+     "magnesium_mg_l": 2.4,
+     "ions_source_url": "https://www.vftv.de/wevg/anang1.htm",
+     "ions_measured_on": "2026-02-10"
     }
    ],
    "carbonate_range_mg_l": [
     33.9,
-    58.9
+    51.8
    ],
    "carbonate_measured_on": "2026",
    "carbonate_source_url": "https://www.vftv.de/wevg/anang1.htm",
@@ -10364,7 +12270,11 @@
    "carbonate_mg_l": 101.7,
    "carbonate_measured_on": "2025",
    "carbonate_source_url": "https://www.wasserwerke-westfalen.de/wasser/trinkwasserqualitaet/trinkwasseranalyse",
-   "checked_on": "2026-09-24"
+   "checked_on": "2026-09-24",
+   "nitrate_mg_l": 9.7,
+   "calcium_mg_l": 42.0,
+   "magnesium_mg_l": 5.7,
+   "ions_source_url": "https://www.gelsenwasser.de/fileadmin/twa/downloads/www/trinkwasseranalyse_echthausen.pdf"
   },
   "DE/Castrop-Rauxel": {
    "source": "Wasserwerke Westfalen",
@@ -10381,7 +12291,11 @@
    "carbonate_mg_l": 98.2,
    "carbonate_measured_on": "2025",
    "carbonate_source_url": "https://www.wasserwerke-westfalen.de/wasser/trinkwasserqualitaet/trinkwasseranalyse",
-   "checked_on": "2026-09-24"
+   "checked_on": "2026-09-24",
+   "nitrate_mg_l": 10.7,
+   "calcium_mg_l": 41.0,
+   "magnesium_mg_l": 6.8,
+   "ions_source_url": "https://www.wasserwerke-westfalen.de/wasser/trinkwasserqualitaet/trinkwasseranalyse#/castrop-rauxel/wasserwerk-witten"
   },
   "DE/Iserlohn": {
    "source": "Wasserwerke Westfalen",
@@ -10398,7 +12312,11 @@
    "carbonate_mg_l": 110.7,
    "carbonate_measured_on": "2025",
    "carbonate_source_url": "https://www.wasserwerke-westfalen.de/wasser/trinkwasserqualitaet/trinkwasseranalyse",
-   "checked_on": "2026-09-24"
+   "checked_on": "2026-09-24",
+   "nitrate_mg_l": 12.1,
+   "calcium_mg_l": 48.75,
+   "magnesium_mg_l": 6.2,
+   "ions_source_url": "https://www.wasserwerke-westfalen.de/wasser/trinkwasserqualitaet/trinkwasseranalyse#/iserlohn/wasserwerk-hengsen"
   },
   "DE/Lünen": {
    "source": "Wasserwerke Westfalen",
@@ -10415,7 +12333,11 @@
    "carbonate_mg_l": 116.0,
    "carbonate_measured_on": "2025",
    "carbonate_source_url": "https://www.wasserwerke-westfalen.de/wasser/trinkwasserqualitaet/trinkwasseranalyse",
-   "checked_on": "2026-09-24"
+   "checked_on": "2026-09-24",
+   "nitrate_mg_l": 10.7,
+   "calcium_mg_l": 46.25,
+   "magnesium_mg_l": 5.9,
+   "ions_source_url": "https://www.wasserwerke-westfalen.de/wasser/trinkwasserqualitaet/trinkwasseranalyse#/luenen/wasserwerk-halingen"
   },
   "DE/Soest": {
    "source": "Wasserwerke Westfalen",
@@ -10432,7 +12354,11 @@
    "carbonate_mg_l": 101.7,
    "carbonate_measured_on": "2025",
    "carbonate_source_url": "https://www.wasserwerke-westfalen.de/wasser/trinkwasserqualitaet/trinkwasseranalyse",
-   "checked_on": "2026-09-24"
+   "checked_on": "2026-09-24",
+   "nitrate_mg_l": 9.7,
+   "calcium_mg_l": 42.0,
+   "magnesium_mg_l": 5.7,
+   "ions_source_url": "https://www.wasserwerke-westfalen.de/wasser/trinkwasserqualitaet/trinkwasseranalyse#/soest/wasserwerk-echthausen"
   },
   "DE/Unna": {
    "band": "varies by supply zone",
@@ -10451,13 +12377,23 @@
      "name": "Wasserwerk Echthausen",
      "mg_l": 128.5,
      "carbonate_mg_l": 101.7,
-     "area": "wechselnd; der Versorger ordnet kein Wasserwerk einem Stadtteil fest zu"
+     "area": "wechselnd; der Versorger ordnet kein Wasserwerk einem Stadtteil fest zu",
+     "nitrate_mg_l": 9.7,
+     "calcium_mg_l": 42.0,
+     "magnesium_mg_l": 5.7,
+     "ions_source_url": "https://www.gelsenwasser.de/fileadmin/twa/downloads/www/trinkwasseranalyse_echthausen.pdf",
+     "ions_measured_on": "2025"
     },
     {
      "name": "Wasserwerk Halingen",
      "mg_l": 139.2,
      "carbonate_mg_l": 116.0,
-     "area": "wechselnd; der Versorger ordnet kein Wasserwerk einem Stadtteil fest zu"
+     "area": "wechselnd; der Versorger ordnet kein Wasserwerk einem Stadtteil fest zu",
+     "nitrate_mg_l": 10.7,
+     "calcium_mg_l": 46.25,
+     "magnesium_mg_l": 5.9,
+     "ions_source_url": "https://www.wasserwerke-westfalen.de/wasser/trinkwasserqualitaet/trinkwasseranalyse#/unna/wasserwerk-halingen",
+     "ions_measured_on": "2025"
     }
    ],
    "range_mg_l": [
