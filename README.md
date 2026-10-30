@@ -63,8 +63,8 @@ Was Werkzeuge tun und was ich tue, damit man den Datensatz einordnen kann:
 
 ## Zitieren
 
-Mayr, Sascha (2026): Wasserhärte nach Stadt: offener Datensatz. Version 2026.09.
-Zenodo. https://doi.org/10.5281/zenodo.22666437
+Mayr, Sascha (2026): Wasserhärte nach Stadt: offener Datensatz. Version 2026.10.30.
+Zenodo. https://doi.org/10.5281/zenodo.23813432
 
 Der Konzept-DOI https://doi.org/10.5281/zenodo.22666436 zeigt immer auf die neueste
 Version; jede Quartalsprüfung bekommt eine eigene. Details in `CITATION.cff` und auf
@@ -110,6 +110,7 @@ Je Stadt in `cities`:
 | `carbonate_dh`, `carbonate_low_dh`, `carbonate_high_dh` | Karbonathärte, gedruckt oder aus Säurekapazität bzw. Hydrogencarbonat umgerechnet |
 | `carbonate_derived_low_dh`, `carbonate_derived_high_dh` | Karbonathärte aus der Ionenbilanz berechnet, getrennt gekennzeichnet |
 | `ph`, `calcium_mg_l`, `magnesium_mg_l`, `nitrate_mg_l`, `sodium_mg_l` | weitere Werte, soweit veröffentlicht |
+| `nitrate_low_mg_l`, `nitrate_high_mg_l`, `calcium_low_mg_l`, `calcium_high_mg_l`, `magnesium_low_mg_l`, `magnesium_high_mg_l` | seit Version 2026.10.30: Spanne über alle Zonen bzw. Wasserwerke, wie gedruckt; bei einem Einzelwert sind beide gleich, sonst ist das Feld ohne `_low`/`_high` `null` |
 | `band_national`, `band_international`, `appliance_levels` | Härtebereich national und nach WHO/USGS, Gerätestufen |
 | `source`, `source_url`, `measured_on`, `checked_on` | Versorger, Quelle, Messjahr, letzte Prüfung |
 | `carbonate_source_url`, `carbonate_measured_on` | Quelle und Stand der Karbonathärte, wenn abweichend |
