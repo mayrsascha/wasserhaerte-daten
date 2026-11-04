@@ -1,8 +1,8 @@
 {
  "generated_on": "2026-09-01",
  "checked_on": "2026-09-29",
- "updated_on": "2026-10-30",
- "version": "2026.10.30",
+ "updated_on": "2026-11-04",
+ "version": "2026.11.04",
  "cities": {
   "AT/Bregenz": {
    "mg_l": 198.1,
@@ -10175,11 +10175,11 @@
    "band": "varies by supply zone",
    "source": "Wasserversorgungsbetriebe der Landeshauptstadt Wiesbaden (WLW)",
    "source_url": "https://web.archive.org/web/2024/https://www.wlw-wiesbaden.de/wasser/wasserhaerte",
-   "measured_on": "2025",
-   "note": "four sources spanning almost the whole scale, from the ESWE/WLW analyses per source: Taunus 1.69 dH, Naurod-Niedernhausen 7.21 (reservoir outlet, January 2024; the 2025 edition samples the Kellerskopf tunnel instead, 4.15), Schierstein-Petersaue 13.9 (was 16.4 in the 2024 edition), Hessisches Ried 19.4; eswe-versorgung.de and wlw-wiesbaden.de are unreachable, so the links point at Internet Archive copies of the utility PDFs (Taunus and Ried are text-as-outlines and were read from the rendered page 5); the WLW street lookup is offline",
+   "measured_on": "2026",
+   "note": "six waters spanning almost the whole scale, from the ESWE analyses of 2026: Taunus water at WB Klosterbruch 1.67 dH, Kellerskopf tunnel 3.61, Naurod-Niedernhausen 7.75, Schierstein works 17.1, Petersaue (fed into the Schierstein works) 13.3, Hessisches Ried 19.0; the 2025 sheet printed one combined Schierstein-Petersaue figure of 13.9. eswe-versorgung.de answers only from German addresses; the WLW street lookup is offline",
    "range_mg_l": [
-    30.2,
-    346.3
+    29.8,
+    339.1
    ],
    "lat": 50.0825,
    "lon": 8.24,
@@ -10208,63 +10208,85 @@
     "checked_on": "2026-09-06",
     "note": "Neu gefunden im zweiten Durchgang; im ersten Durchgang UNRESOLVED (Hosts nicht erreichbar). Vorbehalt zur Bezugsquelle: eswe-versorgung.de und wlw-wiesbaden.de (beide 91.26.201.182) waren auch am 06.09.2026 aus dieser Umgebung nicht erreichbar — vier Hostvarianten, HTTP/1.1, Browser-UA und r.jina.ai liefen alle in Timeout. Der Wert stammt daher aus dem web.archive.org-Snapshot der Originaldatei (web/20251219194746id_/…/Analyse-Ried.pdf), also einer byte-identischen Kopie der WLW-Publikation, nicht aus einer Drittquelle; dass genau diese vier Zonen-PDFs aktuell verlinkt sind, ist über den Archivstand der Seite trinkwasserqualitaet.html vom 10.05.2026 bestätigt. Das PDF ist ein Scan ohne Textebene und wurde mit pdftoppm gerendert und bei 450 dpi visuell ausgelesen. Probe: DE Nordenstadt, Behälter, Ablauf; Probenahme 27.06.2025 06:05 durch Hessenwasser; Analysen-Nr. 202518115. PFAS-20 ist als blanke 0,007 ohne '<' gedruckt, also eine Messung. PFAS-4 ist 'n.b.' = nicht bestimmbar, Gehalt kleiner als die Bestimmungsgrenze — als Nichtnachweis erfasst; eine BG für die SUMME ist nirgends gedruckt (loq null), der Nichtnachweis ist dadurch nur begrenzt interpretierbar. Ableitbar, aber nicht als BG ausgewiesen: in der Einzelstofftabelle (Anlage 2 Teil I, Zeile 13) steht jeder nicht nachgewiesene Einzelstoff als < 0,001 µg/l, die effektive BG je Kongener liegt also bei 1 ng/l; die Summen sind nur aus den Stoffen über BG gebildet (Ried: PFHxA 0,006 + PFBS 0,001 = 0,007). Zonenspreizung, nicht gemittelt — Wiesbaden ist ein echter Mehrzonenfall: Hessisches Ried (rund 40 %) PFAS-20 0,007 µg/l; WW Schierstein/Petersaue (rund 30 %, Probe 12.02.2025) 0,006; Naurod/Niedernhausen (WW Kellerskopfstollen, Probe 27.06.2025) 0,005; Taunusgewinnung (WB Klosterbruch, Probe 24.06.2025) n.b., dort alle 20 Einzelstoffe < 0,001 µg/l. PFAS-4 ist in allen vier Zonen n.b."
    },
-   "ph": 7.45,
-   "ph_measured_on": "2025-06",
+   "ph": 7.44,
+   "ph_measured_on": "2026-06",
    "ph_source_url": "https://www.eswe-versorgung.de/fileadmin/user_upload/dateien/wassernetz/Analyse-Ried.pdf",
-   "ph_note": "Angegeben ist das Hessische Ried, mit rund 40 % der größte Einzelanteil (7,45); Taunusstollen 7,76–7,82, Schierstein 7,74. Nicht gemittelt. Die Hosts eswe-versorgung.de und wlw-wiesbaden.de waren aus dieser Umgebung nicht erreichbar; das PDF wurde über web.archive.org als byte-identische Kopie der WLW-Veröffentlichung gelesen.",
+   "ph_note": "Angegeben ist das Hessische Ried, mit rund 40 % der größte Einzelanteil (7,44, Probe vom 26. Juni 2026); WB Klosterbruch 7,93, Kellerskopfstollen 8,11, Schierstein 7,54, Petersaue 7,79. Nicht gemittelt.",
    "carbonate_range_mg_l": [
     23.2,
     253.4
    ],
-   "carbonate_measured_on": "2025",
-   "carbonate_source_url": "https://web.archive.org/web/20251219194746id_/https://www.eswe-versorgung.de/fileadmin/user_upload/dateien/wassernetz/Analyse-Ried.pdf",
+   "carbonate_measured_on": "2026",
+   "carbonate_source_url": "https://www.eswe-versorgung.de/fileadmin/user_upload/dateien/wassernetz/Analyse-Ried.pdf",
    "zones": [
     {
      "name": "Taunusgewinnung (WB Klosterbruch)",
-     "mg_l": 30.2,
+     "mg_l": 29.8,
      "carbonate_mg_l": 23.2,
-     "area": "Taunusstollen-Wasser, Probe vom 24. Juni 2025",
-     "nitrate_mg_l": 5.6,
-     "calcium_mg_l": 6.93,
-     "magnesium_mg_l": 3.13,
+     "area": "Probe WB Klosterbruch, Ablauf, 6. Juli 2026",
+     "nitrate_mg_l": 5.3,
+     "calcium_mg_l": 6.86,
+     "magnesium_mg_l": 3.09,
      "ions_source_url": "https://www.eswe-versorgung.de/fileadmin/user_upload/dateien/wassernetz/Analyse-Taunus.pdf",
-     "ions_measured_on": "2025-06-24"
+     "ions_measured_on": "2026-07-06"
+    },
+    {
+     "name": "Taunus (Wasserwerk Kellerskopfstollen)",
+     "mg_l": 64.4,
+     "carbonate_mg_l": 50.0,
+     "area": "Probe Fall-Leitung WB Fichten, 25. Juni 2026",
+     "nitrate_mg_l": 8.4,
+     "calcium_mg_l": 18.9,
+     "magnesium_mg_l": 4.19,
+     "ions_source_url": "https://www.eswe-versorgung.de/fileadmin/user_upload/dateien/wassernetz/Analyse-Taunus.pdf",
+     "ions_measured_on": "2026-06-25"
     },
     {
      "name": "Naurod-Niedernhausen",
-     "mg_l": 128.7,
-     "carbonate_mg_l": 99.9,
-     "area": "Probe Behälter Naurod, Ablauf, 5. Januar 2024",
-     "nitrate_mg_l": 11.3,
-     "calcium_mg_l": 29.6,
-     "magnesium_mg_l": 13.3,
-     "ions_source_url": "https://web.archive.org/web/20240717222407/https://www.eswe-versorgung.de/fileadmin/user_upload/dateien/wassernetz/Analyse-Naurod-Niedernhausen.pdf",
-     "ions_measured_on": "2024-01-05"
+     "mg_l": 138.3,
+     "carbonate_mg_l": 108.9,
+     "area": "Probe Behälter Naurod, Ablauf, 26. Juni 2026",
+     "nitrate_mg_l": 11.0,
+     "calcium_mg_l": 34.8,
+     "magnesium_mg_l": 12.5,
+     "ions_source_url": "https://www.eswe-versorgung.de/fileadmin/user_upload/dateien/wassernetz/Analyse-Naurod-Niedernhausen.pdf",
+     "ions_measured_on": "2026-06-26"
     },
     {
-     "name": "Wasserwerk Schierstein-Petersaue",
-     "mg_l": 248.1,
-     "carbonate_mg_l": 185.6,
-     "area": "Probe vom 12. Februar 2025",
-     "nitrate_mg_l": 5.2,
-     "calcium_mg_l": 78.7,
-     "magnesium_mg_l": 12.7,
+     "name": "Wasserwerk Schierstein",
+     "mg_l": 305.2,
+     "carbonate_mg_l": 235.6,
+     "area": "Probe Wasserwerk Schierstein, 24. Juni 2026",
+     "nitrate_mg_l": 4.1,
+     "calcium_mg_l": 93.5,
+     "magnesium_mg_l": 17.4,
      "ions_source_url": "https://www.eswe-versorgung.de/fileadmin/user_upload/dateien/wassernetz/Analyse-Schierstein-Petersaue.pdf",
-     "ions_measured_on": "2025-02-12"
+     "ions_measured_on": "2026-06-24"
+    },
+    {
+     "name": "Wasserwerk Petersaue",
+     "mg_l": 237.4,
+     "carbonate_mg_l": 180.3,
+     "area": "Probe Zulauf aus der Petersaue im Wasserwerk Schierstein, 14. Januar 2026",
+     "nitrate_mg_l": 4.2,
+     "calcium_mg_l": 74.2,
+     "magnesium_mg_l": 12.5,
+     "ions_source_url": "https://www.eswe-versorgung.de/fileadmin/user_upload/dateien/wassernetz/Analyse-Schierstein-Petersaue.pdf",
+     "ions_measured_on": "2026-01-14"
     },
     {
      "name": "Hessisches Ried (Nordenstadt)",
-     "mg_l": 346.3,
+     "mg_l": 339.1,
      "carbonate_mg_l": 253.4,
-     "area": "Probe vom 27. Juni 2025",
-     "nitrate_mg_l": 1.7,
-     "calcium_mg_l": 109.0,
-     "magnesium_mg_l": 18.1,
+     "area": "Probe Behälter Nordenstadt, Ablauf, 26. Juni 2026",
+     "nitrate_mg_l": 1.8,
+     "calcium_mg_l": 106.0,
+     "magnesium_mg_l": 18.2,
      "ions_source_url": "https://www.eswe-versorgung.de/fileadmin/user_upload/dateien/wassernetz/Analyse-Ried.pdf",
-     "ions_measured_on": "2025-06-27"
+     "ions_measured_on": "2026-06-26"
     }
    ],
-   "checked_on": "2026-09-24"
+   "checked_on": "2026-11-04"
   },
   "DE/Wolfsburg": {
    "mg_l": 141.0,

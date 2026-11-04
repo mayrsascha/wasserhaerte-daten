@@ -8,8 +8,8 @@ authors:
 repository-code: "https://github.com/mayrsascha/wasserhaerte-daten"
 url: "https://aquascala.de/daten"
 license: CC-BY-4.0
-date-released: "2026-10-30"
-version: "2026.10.30"
+date-released: "2026-11-04"
+version: "2026.11.04"
 doi: 10.5281/zenodo.22666436
 identifiers:
   - type: doi
@@ -42,6 +42,9 @@ identifiers:
   - type: doi
     value: 10.5281/zenodo.23813432
     description: "Version 2026.10.30"
+  - type: doi
+    value: 10.5281/zenodo.23955188
+    description: "Version 2026.11.04"
 abstract: "Trinkwasserhärte von Städten in Deutschland, Österreich, der Schweiz und Südtirol sowie Frankreich und Großbritannien, jede Zeile aus der Veröffentlichung des zuständigen Versorgers mit Quell-URL und Stand, vierteljährlich gegen die Quelle geprüft."
 keywords:
   - Wasserhärte

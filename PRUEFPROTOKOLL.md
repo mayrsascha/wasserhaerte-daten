@@ -695,3 +695,20 @@ Internet Archive nachgelesen (Probenahmen 2025); alle Werte stimmten.
 
 Lausanne: die Spannen für Calcium (45 bis 69), Magnesium (6,0 bis 8,7) und Nitrat
 (2,1 bis 8,0) sind die Spannen der Jahresmittel („moy“) über die 24 Reservoirs.
+
+## 4. November 2026: Version 2026.11.04, Wiesbaden nach den Analysen 2026
+
+ESWE hat neue Analyseblätter veröffentlicht (Proben vom 14. Januar bis 6. Juli 2026),
+direkt vom Versorger gelesen. Das Blatt „Schierstein-Petersaue“ trennt jetzt die beiden
+Werke, das Taunus-Blatt enthält zwei Proben. Wiesbaden hat damit sechs Zonen statt vier:
+- Taunusgewinnung (WB Klosterbruch) 1,67 °dH (bisher 1,69), Probe 6. Juli 2026
+- Taunus (Wasserwerk Kellerskopfstollen) 3,61 °dH, neu, Probe 25. Juni 2026
+- Naurod-Niedernhausen 7,75 °dH (bisher 7,21 vom Januar 2024), Probe 26. Juni 2026
+- Wasserwerk Schierstein 17,1 °dH, Probe 24. Juni 2026
+- Wasserwerk Petersaue 13,3 °dH, Probe 14. Januar 2026 (2025 gemeinsam 13,9)
+- Hessisches Ried (Nordenstadt) 19,0 °dH (bisher 19,4), Probe 26. Juni 2026
+
+Calcium, Magnesium und Nitrat je Zone aus denselben Blättern; Calcium und Magnesium
+reproduzieren die gedruckte Härte in allen sechs Zonen. Die Quelllinks zeigen wieder auf
+die PDFs von ESWE statt auf Archivkopien. Spanne der Stadt jetzt 1,67 bis 19,0 °dH.
+Alle anderen Städte sind unverändert gegenüber Version 2026.10.30.

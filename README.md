@@ -63,8 +63,8 @@ Was Werkzeuge tun und was ich tue, damit man den Datensatz einordnen kann:
 
 ## Zitieren
 
-Mayr, Sascha (2026): Wasserhärte nach Stadt: offener Datensatz. Version 2026.10.30.
-Zenodo. https://doi.org/10.5281/zenodo.23813432
+Mayr, Sascha (2026): Wasserhärte nach Stadt: offener Datensatz. Version 2026.11.04.
+Zenodo. https://doi.org/10.5281/zenodo.23955188
 
 Der Konzept-DOI https://doi.org/10.5281/zenodo.22666436 zeigt immer auf die neueste
 Version; jede Quartalsprüfung bekommt eine eigene. Details in `CITATION.cff` und auf
